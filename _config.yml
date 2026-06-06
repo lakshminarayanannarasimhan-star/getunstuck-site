@@ -54,7 +54,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: broadsheet    # Newspaper grey, classic editorial
 # unstuck_theme: manuscript    # Aged parchment, sepia, scholarly
 # unstuck_theme: blueprint     # Dark blue, white text, technical
-# unstuck_theme: noir          # Near-black, sepia accent, cinematic
+unstuck_theme: noir          # Near-black, sepia accent, cinematic
 #
 # ── NATURE THEMES ──────────────────────────────────────────────────
 #
@@ -80,7 +80,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: feast         # Deep forest green accent
 # unstuck_theme: ocean_breeze  # Bold red accent
 # unstuck_theme: pumpkin_spice # Pumpkin orange accent
-unstuck_theme: evergreen     # Deep green accent
+# unstuck_theme: evergreen     # Deep green accent
 
 typography: executive   # executive | compact | spacious
 
