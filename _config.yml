@@ -38,7 +38,7 @@ unstuck_theme: dojo            # Warm paper, ochre gradient       · DEFAULT
 # ── LIGHT THEMES ───────────────────────────────────────────────────
 #
 # unstuck_theme: ivory         # Warm white, barely-there surfaces
-# unstuck_theme: linen         # Warm cream, terracotta, editorial
+unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
 # unstuck_theme: cloud         # Cool white, soft lavender accent
 #
@@ -73,7 +73,7 @@ unstuck_theme: dojo            # Warm paper, ochre gradient       · DEFAULT
 # unstuck_theme: cyan          # Cyan accent
 # unstuck_theme: violet        # Violet accent
 # unstuck_theme: oasis         # Muted purple accent
-unstuck_theme: berry         # Berry accent
+# unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
 # unstuck_theme: summer_sunset # Deep rose accent
 # unstuck_theme: adventure     # Dark teal accent
