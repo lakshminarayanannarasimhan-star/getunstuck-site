@@ -7,7 +7,7 @@
 # BASIC SITE INFO
 # -------------------------
 
-title: Get Unstuck
+title: GET UNSTUCK
 tagline: "You were never broken. You were stuck."
 description: "A practitioner library for leaders. Free drills, free workbook. No email gate."
 author: Lakshmi Narayanan
@@ -18,7 +18,7 @@ author: Lakshmi Narayanan
 # Options: dojo (default) | midnight | slate | mono
 # Change one line — every page follows.
 
-unstuck_theme: dojo
+unstuck_theme: emerald
 
 typography: executive   # executive | compact | spacious
 

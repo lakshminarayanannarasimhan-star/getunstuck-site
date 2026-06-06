@@ -2,173 +2,212 @@
 layout: default
 title: Home
 permalink: /
-description: "A practitioner library for leaders. Free drills, free workbook. No email gate."
+description: "Leadership practitioner, author, and writer. 25 years building systems, teams, and strategy. GET UNSTUCK Leadership Handbooks."
 ---
 
-<!-- ═══════════════════════════════════════
-     HERO — split 55/45
-═══════════════════════════════════════ -->
-<section class="hero">
+<!-- ═══════════════════════════════
+     LEAN HERO
+═══════════════════════════════ -->
+<section class="hero-lean">
   <div class="hero-split">
 
-    <!-- LEFT -->
     <div class="hero-left">
-      <div class="eyebrow reveal d1">Leadership Handbook #1 &nbsp;·&nbsp; The Invisible Backlog</div>
-      <h1 class="hero-title reveal d2">Most books make you feel better for a week.</h1>
-      <p class="hero-sub reveal d3">This is a practitioner library for leaders — a place to practise, not just to read. The drills are free. The workbook is free. There is no email to hand over. Welcome to the dojo.</p>
+      <div class="eyebrow reveal d1">Leadership · Writing · Practice</div>
+      <h1 class="hero-title reveal d2">25 years of building what others theorise about.</h1>
+      <p class="hero-sub reveal d3">Author. Leadership systems practitioner. Writing on what actually holds — in books, articles, and practice.</p>
       <div class="hero-actions reveal d4">
-        <a class="btn-primary" href="/start-here/">Start Here</a>
-        <a class="btn-secondary" href="/drills/">Go to the Drills</a>
+        <a class="btn-primary" href="/books/">The Library</a>
+        <a class="btn-secondary" href="/about/">About Lakshmi</a>
       </div>
+    </div>
 
-      <!-- Stat strip -->
-      <div class="stat-strip reveal d5">
+    <div class="hero-right reveal d4">
+      <div class="stat-strip-4">
         <div class="stat">
-          <div class="stat-num">8</div>
-          <div class="stat-label">Week Practice</div>
+          <div class="stat-num">25</div>
+          <div class="stat-label">Years in Practice</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">11</div>
+          <div class="stat-label">Books in Progress</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">2</div>
+          <div class="stat-label">Article Series</div>
         </div>
         <div class="stat">
           <div class="stat-num">Free</div>
           <div class="stat-label">Drills &amp; Workbook</div>
         </div>
-        <div class="stat">
-          <div class="stat-num">6</div>
-          <div class="stat-label">Handbooks in Series</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- RIGHT -->
-    <div class="hero-right reveal d3">
-      <div class="hero-panel">
-        <div class="panel-label">The tagline</div>
-        <h3>You were never broken.<br>You were stuck.</h3>
-        <p>Most problems that look like a capability problem are actually a system problem. The Invisible Backlog names the system — and gives you the practice to clear it.</p>
-        <a class="panel-link" href="/the-invisible-backlog/">About Handbook #1</a>
-      </div>
-
-      <!-- 8-week flow -->
-      <div class="flow-wrapper" style="margin-top:1.4rem;">
-        <div class="flow">
-          <div class="flow-card active">See</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Measure</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Sort</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Eliminate</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Act</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Prevent</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Systemise</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Integrate</div>
-        </div>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     MAP — 4-column grid
-═══════════════════════════════════════ -->
-<section class="section-wide">
-  <div class="section-label">The map</div>
-  <h2>Everything here, on one page.</h2>
-  <div class="map-grid">
-    <a class="map-card" href="/start-here/">
-      <div class="num">01</div>
-      <h3>Start Here</h3>
-      <p>Orientation — what this is, how to use it, where to begin.</p>
-      <span class="status">Live</span>
-    </a>
-    <a class="map-card" href="/the-invisible-backlog/">
-      <div class="num">02</div>
-      <h3>The Invisible Backlog</h3>
-      <p>Handbook #1 — about the book, a sample, where to find it.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/drills/">
-      <div class="num">03</div>
-      <h3>The Drills</h3>
-      <p>The full 8-week practice. Free, no gate, no email.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/workbook/">
-      <div class="num">04</div>
-      <h3>The Workbook</h3>
-      <p>Every drill in one free PDF. Print it, share it, pass it on.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/stories/">
-      <div class="num">05</div>
-      <h3>What Became Possible</h3>
-      <p>Reader stories, unedited. Optional to read, optional to share.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/the-series/">
-      <div class="num">06</div>
-      <h3>The Series</h3>
-      <p>Six handbooks: Self → Position → Strategy → Team → Organisation → Ecosystem.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/writing/">
-      <div class="num">07</div>
-      <h3>Writing</h3>
-      <p>Articles and thinking on leadership, systems, and practice.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/about/">
-      <div class="num">08</div>
-      <h3>About</h3>
-      <p>The philosophy, the commitments, the person behind it.</p>
-      <span class="status">In progress</span>
-    </a>
-  </div>
-</section>
+<!-- ═══════════════════════════════
+     DASHBOARD
+═══════════════════════════════ -->
+<div class="dashboard-grid">
 
-<!-- ═══════════════════════════════════════
-     PROMISE — full-bleed ink band
-═══════════════════════════════════════ -->
-<div class="section-ink">
-  <div class="bleed-inner">
-    <div class="section-label">The promise</div>
-    <p class="pull-quote">The difference is practice. <em>This one will change how you operate for the rest of your life.</em></p>
+  <!-- ── BOOKS (large, 3 cols) ── -->
+  <div class="dash-card dash-area-books">
+    <div class="dash-card-label">
+      Books
+      <span class="badge">11 in Progress</span>
+    </div>
+    <h2>A growing library for leadership practitioners.</h2>
+    <p>Two series, built incrementally. Each book installs one shift in how a leader sees, decides, and acts. The practice materials — drills and workbook — are free, always.</p>
+
+    <div class="dash-books-unified">
+      <div class="unified-track">
+        <div class="unified-stat">
+          <div class="stat-num">11</div>
+          <div class="stat-label">Books planned</div>
+        </div>
+        <div class="unified-stat">
+          <div class="stat-num">1</div>
+          <div class="stat-label">Published</div>
+        </div>
+        <div class="unified-stat">
+          <div class="stat-num">10</div>
+          <div class="stat-label">In development</div>
+        </div>
+        <div class="unified-stat">
+          <div class="stat-num">Free</div>
+          <div class="stat-label">Practice materials</div>
+        </div>
+      </div>
+      <div class="unified-progress">
+        <div class="progress-label">
+          <span>Library progress</span><span>1 of 11 published</span>
+        </div>
+        <div class="progress-bar" style="height:6px;">
+          <div class="progress" style="width:9%"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dash-card-footer">
+      <div style="display:flex;gap:.5rem;flex-wrap:wrap;">
+        <a class="btn-primary" href="/books/">Browse the Library</a>
+        <a class="btn-secondary" href="/drills/">Free Drills</a>
+        <a class="btn-secondary" href="/workbook/">Free Workbook</a>
+      </div>
+      <a class="card-link" href="/stories/">Reader stories</a>
+    </div>
   </div>
+
+  <!-- ── LINKEDIN CAROUSEL (1 col) ── -->
+  <div class="dash-card dash-area-consulting" style="padding:0;overflow:hidden;">
+    <div style="padding:1.6rem 1.8rem 1rem;">
+      <div class="dash-card-label">
+        LinkedIn
+        <a href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener" class="badge" style="text-decoration:none;">Follow →</a>
+      </div>
+      <h3 style="font-size:1.05rem;">From the feed.</h3>
+    </div>
+
+    {% assign li_images = site.static_files | where_exp: "f", "f.path contains '/assets/img/linkedin/'" | sort: "name" | reverse %}
+
+    {% if li_images.size > 0 %}
+    <div class="li-carousel" id="liCarousel">
+      <div class="li-track" id="liTrack">
+        {% for img in li_images %}
+        <div class="li-slide">
+          <img src="{{ img.path | relative_url }}" alt="LinkedIn post {{ forloop.index }}" loading="lazy">
+        </div>
+        {% endfor %}
+      </div>
+      <button class="li-btn li-prev" id="liPrev" aria-label="Previous">&#8592;</button>
+      <button class="li-btn li-next" id="liNext" aria-label="Next">&#8594;</button>
+      <div class="li-dots" id="liDots">
+        {% for img in li_images %}
+        <button class="li-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
+        {% endfor %}
+      </div>
+    </div>
+    {% else %}
+    <div style="padding:1.5rem 1.8rem 1.8rem;">
+      <div class="carousel-empty">
+        <div class="carousel-empty-icon">&#128248;</div>
+        <p>Drop your LinkedIn post images into<br><code>assets/img/linkedin/</code><br>They will appear here automatically.</p>
+        <p style="margin-top:.6rem;font-size:.8rem;color:var(--faint);">Supported: JPG, PNG, WEBP<br>Name files by date for correct order<br>e.g. <code>2026-06-13.jpg</code></p>
+      </div>
+    </div>
+    {% endif %}
+
+    <div style="padding:.8rem 1.8rem 1.4rem;border-top:1px solid var(--border);margin-top:auto;">
+      <a class="card-link" href="/personal-branding/linkedin/">All LinkedIn posts</a>
+    </div>
+  </div>
+
+  <!-- ── PUBLICATIONS (2 cols) ── -->
+  <div class="dash-card dash-area-pubs">
+    <div class="dash-card-label">
+      Publications
+      <span class="badge">2 Active Series</span>
+    </div>
+    <h3>Writing worth reading slowly.</h3>
+    <p>Articles on leadership systems, strategy, and the gap between execution and indispensability.</p>
+
+    <div class="pub-series">
+      <div class="pub-series-item">
+        <div class="ps-label">Series A</div>
+        <div class="ps-title">Leadership Operating System</div>
+        <div class="ps-meta">4 articles · Jul–Oct 2026</div>
+      </div>
+      <div class="pub-series-item">
+        <div class="ps-label">Series B</div>
+        <div class="ps-title">Beyond Execution</div>
+        <div class="ps-meta">6 articles · In progress</div>
+      </div>
+    </div>
+
+    <div class="dash-card-footer">
+      <a class="card-link" href="/publications/">All publications</a>
+      <a class="btn-secondary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">LinkedIn →</a>
+    </div>
+  </div>
+
+  <!-- ── PERSONAL BRAND (1 col) ── -->
+  <div class="dash-card dash-area-brand">
+    <div class="dash-card-label">Personal Brand</div>
+    <h3>Presence that earns the right seat.</h3>
+    <p>Positioning built on genuine expertise. The long game, done deliberately.</p>
+    <div class="area-tags" style="margin-top:.8rem;">
+      <span class="area-tag">Positioning</span>
+      <span class="area-tag">LinkedIn</span>
+      <span class="area-tag">Thought Leadership</span>
+    </div>
+    <div class="dash-card-footer">
+      <a class="card-link" href="/personal-branding/">Brand work</a>
+    </div>
+  </div>
+
+  <!-- ── ABOUT (1 col) ── -->
+  <div class="dash-card dash-area-about">
+    <div class="dash-card-label">About</div>
+    <h3>Lakshmi Narayanan</h3>
+    <p>Leadership systems practitioner. 25 years inside one of India's largest organisations. Chennai.</p>
+    <ul class="open-to-list">
+      <li>Leadership programme partnerships</li>
+      <li>Writing and speaking</li>
+      <li>Senior industry opportunities</li>
+    </ul>
+    <div class="dash-card-footer">
+      <a class="card-link" href="/about/">Full story</a>
+    </div>
+  </div>
+
 </div>
 
-<!-- ═══════════════════════════════════════
-     HOW THIS WORKS — sidebar layout
-═══════════════════════════════════════ -->
-<section class="section-wide">
-  <div class="layout-sidebar">
-    <div>
-      <div class="section-label">How this works</div>
-      <h2>A library built on radical generosity.</h2>
-      <div class="prose" style="margin-top:1.2rem;">
-        <p>You read a chapter. You do the drill. You notice what changes. The book is the paid object — but the practice itself is free and always will be. Every drill lives here, openly, so that what something costs never stops anyone.</p>
-        <p>If you have someone you would mentor through this, hold them in mind as you read. If you don't, the path is complete on its own. Nothing here asks you to hurry, sign up, or prove anything.</p>
-      </div>
-      <div class="hero-actions" style="margin-top:1.8rem;">
-        <a class="btn-primary" href="/drills/">Start the Practice</a>
-        <a class="btn-secondary" href="/the-series/">See the Full Series</a>
-      </div>
-    </div>
-    <aside>
-      <div class="hero-panel">
-        <div class="panel-label">The commitments</div>
-        <ul style="list-style:none;display:flex;flex-direction:column;gap:.8rem;margin-top:.5rem;">
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Drills free — always</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Workbook free — always</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;No email gate, ever</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;One book donated per 50 sold</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Dignity first in every copy</li>
-        </ul>
-        <a class="panel-link" href="/about/">Read the philosophy</a>
-      </div>
-    </aside>
+<!-- ═══════════════════════════════
+     THROUGH-LINE
+═══════════════════════════════ -->
+<div class="section-ink" style="margin-top:2rem;">
+  <div class="bleed-inner">
+    <div class="section-label">The through-line</div>
+    <p class="pull-quote">Tools change. <em>Systems endure.</em> Every book, article, and engagement is built on that one idea.</p>
   </div>
-</section>
+</div>
