@@ -1,4 +1,5 @@
 (function () {
+
   function initCarousel() {
     var carousel = document.getElementById('liCarousel');
     var track    = document.getElementById('liTrack');
@@ -6,82 +7,106 @@
     var next     = document.getElementById('liNext');
     var dotsEl   = document.getElementById('liDots');
 
-    if (!track) return;
+    if (!carousel || !track) return;
 
     var slides  = track.querySelectorAll('.li-slide');
     var dots    = dotsEl ? dotsEl.querySelectorAll('.li-dot') : [];
     var total   = slides.length;
     var current = 0;
     var timer;
+    var ready   = false;
 
-    if (total <= 1) return; // nothing to carousel
+    if (total < 1) return;
 
-    // Force each slide to exactly the carousel width
     function setSizes() {
-      var w = carousel.offsetWidth;
-      track.style.width = (w * total) + 'px';
+      var w = carousel.getBoundingClientRect().width;
+      if (!w) return false;           // not painted yet
+      track.style.width     = (w * total) + 'px';
+      track.style.transform = 'translateX(-' + (current * w) + 'px)';
       slides.forEach(function (s) {
-        s.style.width = w + 'px';
+        s.style.width      = w + 'px';
         s.style.flexShrink = '0';
       });
+      return true;
     }
 
     function goTo(n) {
       current = (n + total) % total;
-      var w = carousel.offsetWidth;
+      var w = carousel.getBoundingClientRect().width;
       track.style.transform = 'translateX(-' + (current * w) + 'px)';
       dots.forEach(function (d, i) {
         d.classList.toggle('active', i === current);
       });
     }
 
-    function autoPlay() {
-      timer = setInterval(function () { goTo(current + 1); }, 4000);
+    function startAuto() {
+      clearInterval(timer);
+      if (total > 1) timer = setInterval(function () { goTo(current + 1); }, 4000);
     }
 
     function stopAuto() { clearInterval(timer); }
 
-    // Recalculate on resize
-    window.addEventListener('resize', function () {
-      setSizes();
-      goTo(current);
-    });
+    function activate() {
+      if (ready) return;
+      if (!setSizes()) return;
+      ready = true;
 
-    setSizes();
-    goTo(0);
+      if (prev) prev.addEventListener('click', function () { stopAuto(); goTo(current - 1); startAuto(); });
+      if (next) next.addEventListener('click', function () { stopAuto(); goTo(current + 1); startAuto(); });
 
-    if (prev) prev.addEventListener('click', function () { stopAuto(); goTo(current - 1); autoPlay(); });
-    if (next) next.addEventListener('click', function () { stopAuto(); goTo(current + 1); autoPlay(); });
-
-    dots.forEach(function (d) {
-      d.addEventListener('click', function () {
-        stopAuto();
-        goTo(parseInt(d.dataset.index, 10));
-        autoPlay();
+      dots.forEach(function (d) {
+        d.addEventListener('click', function () {
+          stopAuto();
+          goTo(parseInt(d.dataset.index, 10));
+          startAuto();
+        });
       });
-    });
 
-    // Touch swipe
-    var startX = 0;
-    track.addEventListener('touchstart', function (e) {
-      startX = e.touches[0].clientX;
-    }, { passive: true });
-    track.addEventListener('touchend', function (e) {
-      var diff = startX - e.changedTouches[0].clientX;
-      if (Math.abs(diff) > 40) {
-        stopAuto();
-        goTo(current + (diff > 0 ? 1 : -1));
-        autoPlay();
-      }
-    }, { passive: true });
+      // Touch / swipe
+      var startX = 0;
+      track.addEventListener('touchstart', function (e) {
+        startX = e.touches[0].clientX;
+      }, { passive: true });
+      track.addEventListener('touchend', function (e) {
+        var diff = startX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 40) { stopAuto(); goTo(current + (diff > 0 ? 1 : -1)); startAuto(); }
+      }, { passive: true });
 
-    autoPlay();
+      window.addEventListener('resize', function () { setSizes(); goTo(current); });
+
+      startAuto();
+    }
+
+    // Primary: ResizeObserver fires as soon as element has a real width
+    if (window.ResizeObserver) {
+      var ro = new ResizeObserver(function (entries) {
+        if (entries[0].contentRect.width > 0) {
+          activate();
+          if (ready) ro.disconnect();
+        }
+      });
+      ro.observe(carousel);
+    }
+
+    // Fallback: try after load + next frame + 100ms grace period
+    function tryActivate() {
+      requestAnimationFrame(function () {
+        setTimeout(activate, 100);
+      });
+    }
+
+    if (document.readyState === 'complete') {
+      tryActivate();
+    } else {
+      window.addEventListener('load', tryActivate);
+    }
   }
 
-  // Wait for full page load so image dimensions are known
-  if (document.readyState === 'complete') {
-    initCarousel();
+  // Kick off after DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCarousel);
   } else {
-    window.addEventListener('load', initCarousel);
+    initCarousel();
   }
+
 }());
