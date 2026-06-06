@@ -44,7 +44,7 @@ author: Lakshmi Narayanan
 #
 # ── BOLD / VIVID THEMES ────────────────────────────────────────────
 #
-unstuck_theme: saffron       # Deep burnt orange, firelike warmth
+# unstuck_theme: saffron       # Deep burnt orange, firelike warmth
 # unstuck_theme: cobalt        # Bright blue surfaces, white text
 # unstuck_theme: jade          # Deep teal, gold accent
 # unstuck_theme: crimson       # Deep red base, cream text
@@ -58,7 +58,7 @@ unstuck_theme: saffron       # Deep burnt orange, firelike warmth
 #
 # ── NATURE THEMES ──────────────────────────────────────────────────
 #
-# unstuck_theme: ocean         # Deep sea blue-green, foam white
+unstuck_theme: ocean         # Deep sea blue-green, foam white
 # unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
 # unstuck_theme: arctic        # Ice white, steel blue, cold and clean
