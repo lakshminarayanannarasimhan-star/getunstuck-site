@@ -403,12 +403,12 @@ h1, h2, h3, h4 {
   padding: clamp(3rem, 8vw, 6rem) 0 clamp(2rem, 5vw, 4rem);
 }
 
-/* Split: 55% left text / 45% right panel */
+/* Split: 62% left text / 38% right panel */
 .hero-split {
   display: grid;
-  grid-template-columns: 55fr 45fr;
-  gap: clamp(2.5rem, 6vw, 6rem);
-  align-items: center;
+  grid-template-columns: 62fr 38fr;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  align-items: start;
 }
 @media (max-width: 860px) { .hero-split { grid-template-columns: 1fr; } }
 
@@ -424,8 +424,8 @@ h1, h2, h3, h4 {
 .hero-title {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
-  font-size: clamp(2.8rem, 5.5vw, 5rem);
-  line-height: 1.03;
+  font-size: clamp(2.2rem, 3.6vw, 3.6rem);
+  line-height: 1.08;
   letter-spacing: -0.02em;
 }
 

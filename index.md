@@ -5,23 +5,18 @@ permalink: /
 description: "A practitioner library for leaders. Free drills, free workbook. No email gate."
 ---
 
-<!-- ═══════════════════════════════════════
-     HERO — split 55/45
-═══════════════════════════════════════ -->
+<!-- HERO -->
 <section class="hero">
   <div class="hero-split">
 
-    <!-- LEFT -->
     <div class="hero-left">
-      <div class="eyebrow reveal d1">Leadership Handbook #1 &nbsp;·&nbsp; The Invisible Backlog</div>
+      <div class="eyebrow reveal d1">Leadership Handbook #1 · The Invisible Backlog</div>
       <h1 class="hero-title reveal d2">Most books make you feel better for a week.</h1>
       <p class="hero-sub reveal d3">This is a practitioner library for leaders — a place to practise, not just to read. The drills are free. The workbook is free. There is no email to hand over. Welcome to the dojo.</p>
       <div class="hero-actions reveal d4">
         <a class="btn-primary" href="/start-here/">Start Here</a>
         <a class="btn-secondary" href="/drills/">Go to the Drills</a>
       </div>
-
-      <!-- Stat strip -->
       <div class="stat-strip reveal d5">
         <div class="stat">
           <div class="stat-num">8</div>
@@ -38,7 +33,6 @@ description: "A practitioner library for leaders. Free drills, free workbook. No
       </div>
     </div>
 
-    <!-- RIGHT -->
     <div class="hero-right reveal d3">
       <div class="hero-panel">
         <div class="panel-label">The tagline</div>
@@ -46,35 +40,38 @@ description: "A practitioner library for leaders. Free drills, free workbook. No
         <p>Most problems that look like a capability problem are actually a system problem. The Invisible Backlog names the system — and gives you the practice to clear it.</p>
         <a class="panel-link" href="/the-invisible-backlog/">About Handbook #1</a>
       </div>
-
-      <!-- 8-week flow -->
-      <div class="flow-wrapper" style="margin-top:1.4rem;">
-        <div class="flow">
-          <div class="flow-card active">See</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Measure</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Sort</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Eliminate</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Act</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Prevent</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Systemise</div>
-          <div class="flow-arrow">→</div>
-          <div class="flow-card">Integrate</div>
-        </div>
-      </div>
     </div>
 
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     MAP — 4-column grid
-═══════════════════════════════════════ -->
+<!-- 8-WEEK ARC — full width strip -->
+<div class="section-accent">
+  <div class="bleed-inner">
+    <div class="section-label" style="margin-bottom:.8rem;">The 8-week arc</div>
+    <div class="flow-wrapper">
+      <div class="flow">
+        <div class="flow-card active">Week 1 · See</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-card">Week 2 · Measure</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-card">Week 3 · Sort</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-card">Week 4 · Eliminate</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-card">Week 5 · Act</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-card">Week 6 · Prevent</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-card">Week 7 · Systemise</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-card">Week 8 · Integrate</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MAP -->
 <section class="section-wide">
   <div class="section-label">The map</div>
   <h2>Everything here, on one page.</h2>
@@ -130,9 +127,7 @@ description: "A practitioner library for leaders. Free drills, free workbook. No
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     PROMISE — full-bleed ink band
-═══════════════════════════════════════ -->
+<!-- PROMISE — full-bleed ink -->
 <div class="section-ink">
   <div class="bleed-inner">
     <div class="section-label">The promise</div>
@@ -140,9 +135,7 @@ description: "A practitioner library for leaders. Free drills, free workbook. No
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════
-     HOW THIS WORKS — sidebar layout
-═══════════════════════════════════════ -->
+<!-- HOW THIS WORKS -->
 <section class="section-wide">
   <div class="layout-sidebar">
     <div>
