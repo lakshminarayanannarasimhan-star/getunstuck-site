@@ -7,7 +7,7 @@
 # BASIC SITE INFO
 # -------------------------
 
-title: GET UNSTUCK
+title: Get Unstuck
 tagline: "You were never broken. You were stuck."
 description: "A practitioner library for leaders. Free drills, free workbook. No email gate."
 author: Lakshmi Narayanan
@@ -15,10 +15,72 @@ author: Lakshmi Narayanan
 # -------------------------
 # THEME
 # -------------------------
-# Options: dojo (default) | midnight | slate | mono
 # Change one line — every page follows.
-
-unstuck_theme: slate
+# Uncomment the theme you want, comment out the rest.
+#
+# ── SIGNATURE THEMES (full surface + gradient system) ──────────────
+#
+# unstuck_theme: dojo            # Warm paper, ochre gradient       · DEFAULT
+# unstuck_theme: midnight      # Deep dark, indigo glow
+# unstuck_theme: forest        # Deep green, earthy, grounded
+# unstuck_theme: sunset        # Warm amber to rose, editorial
+# unstuck_theme: slate         # Cool white, steel blue, executive
+# unstuck_theme: mono          # Stripped back, pure black/white
+#
+# ── DARK THEMES ────────────────────────────────────────────────────
+#
+unstuck_theme: obsidian      # Pure black, electric blue accent
+# unstuck_theme: navy          # Deep navy, gold accent
+# unstuck_theme: plum          # Deep purple-black, rose accent
+# unstuck_theme: charcoal      # Dark grey, cyan accent
+# unstuck_theme: midnight      # Deep dark, indigo glow (see above)
+#
+# ── LIGHT THEMES ───────────────────────────────────────────────────
+#
+# unstuck_theme: ivory         # Warm white, barely-there surfaces
+# unstuck_theme: linen         # Warm cream, terracotta, editorial
+# unstuck_theme: chalk         # Bright white, graphite, zero colour
+# unstuck_theme: cloud         # Cool white, soft lavender accent
+#
+# ── BOLD / VIVID THEMES ────────────────────────────────────────────
+#
+# unstuck_theme: saffron       # Deep burnt orange, firelike warmth
+# unstuck_theme: cobalt        # Bright blue surfaces, white text
+# unstuck_theme: jade          # Deep teal, gold accent
+# unstuck_theme: crimson       # Deep red base, cream text
+#
+# ── EDITORIAL / PRINT THEMES ───────────────────────────────────────
+#
+# unstuck_theme: broadsheet    # Newspaper grey, classic editorial
+# unstuck_theme: manuscript    # Aged parchment, sepia, scholarly
+# unstuck_theme: blueprint     # Dark blue, white text, technical
+# unstuck_theme: noir          # Near-black, sepia accent, cinematic
+#
+# ── NATURE THEMES ──────────────────────────────────────────────────
+#
+# unstuck_theme: ocean         # Deep sea blue-green, foam white
+# unstuck_theme: sand          # Warm beige, sun-bleached minimal
+# unstuck_theme: ember         # Dark brown, glowing amber, firelight
+# unstuck_theme: arctic        # Ice white, steel blue, cold and clean
+#
+# ── ACCENT-SWAP THEMES (dojo base + colour accent) ─────────────────
+# These inherit the warm paper surface — only the accent colour changes.
+#
+# unstuck_theme: indigo        # Indigo accent
+# unstuck_theme: emerald       # Emerald accent
+# unstuck_theme: amber         # Amber accent
+# unstuck_theme: rose          # Rose accent
+# unstuck_theme: cyan          # Cyan accent
+# unstuck_theme: violet        # Violet accent
+# unstuck_theme: oasis         # Muted purple accent
+# unstuck_theme: berry         # Berry accent
+# unstuck_theme: delight       # Bright red accent
+# unstuck_theme: summer_sunset # Deep rose accent
+# unstuck_theme: adventure     # Dark teal accent
+# unstuck_theme: feast         # Deep forest green accent
+# unstuck_theme: ocean_breeze  # Bold red accent
+# unstuck_theme: pumpkin_spice # Pumpkin orange accent
+# unstuck_theme: evergreen     # Deep green accent
 
 typography: executive   # executive | compact | spacious
 
