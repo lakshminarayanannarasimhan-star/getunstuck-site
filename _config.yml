@@ -61,7 +61,7 @@ unstuck_theme: dojo            # Warm paper, ochre gradient       · DEFAULT
 # unstuck_theme: ocean         # Deep sea blue-green, foam white
 # unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
-unstuck_theme: arctic        # Ice white, steel blue, cold and clean
+# unstuck_theme: arctic        # Ice white, steel blue, cold and clean
 #
 # ── ACCENT-SWAP THEMES (dojo base + colour accent) ─────────────────
 # These inherit the warm paper surface — only the accent colour changes.
@@ -72,7 +72,7 @@ unstuck_theme: arctic        # Ice white, steel blue, cold and clean
 # unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
 # unstuck_theme: violet        # Violet accent
-# unstuck_theme: oasis         # Muted purple accent
+unstuck_theme: oasis         # Muted purple accent
 # unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
 # unstuck_theme: summer_sunset # Deep rose accent
