@@ -18,7 +18,7 @@ author: Lakshmi Narayanan
 # Options: dojo (default) | midnight | slate | mono
 # Change one line — every page follows.
 
-unstuck_theme: sunset
+unstuck_theme: slate
 
 typography: executive   # executive | compact | spacious
 
