@@ -182,15 +182,64 @@ h1, h2, h3, h4 {
    ========================================= */
 
 .container {
-  max-width: 1100px;
+  max-width: 1320px;
   margin: 0 auto;
-  padding: 0 clamp(1.2rem, 4vw, 2.5rem);
+  padding: 0 clamp(1.5rem, 4vw, 3.5rem);
 }
+
+/* Full-bleed wrapper — edge to edge background, content still contained */
+.bleed {
+  width: 100%;
+  padding-left: clamp(1.5rem, 4vw, 3.5rem);
+  padding-right: clamp(1.5rem, 4vw, 3.5rem);
+}
+.bleed-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* Narrow reading column */
+.col-prose  { max-width: 680px; }
+.col-wide   { max-width: 900px; }
+
+/* Two-column content + aside (e.g. article + related) */
+.layout-sidebar {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: clamp(2rem, 4vw, 4rem);
+  align-items: start;
+}
+@media (max-width: 900px) { .layout-sidebar { grid-template-columns: 1fr; } }
+
+/* Three-column even split */
+.col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+@media (max-width: 900px) { .col-3 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 580px) { .col-3 { grid-template-columns: 1fr; } }
 
 .section-wide {
   padding: clamp(2.5rem, 5vw, var(--spacing-section)) 0;
   border-top: 1px solid var(--border);
 }
+
+/* Full-bleed coloured band */
+.section-accent {
+  padding: clamp(2.5rem, 5vw, var(--spacing-section)) clamp(1.5rem, 4vw, 3.5rem);
+  background: var(--bg-deep);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.section-ink {
+  padding: clamp(2.5rem, 5vw, var(--spacing-section)) clamp(1.5rem, 4vw, 3.5rem);
+  background: var(--text);
+  color: var(--bg);
+}
+.section-ink h2, .section-ink p, .section-ink .pull-quote { color: var(--bg); }
+.section-ink .pull-quote em { color: var(--primary-soft); }
+.section-ink .section-label  { color: var(--primary-soft); opacity: 0.8; }
 
 .section-label {
   font-family: 'DM Mono', monospace;
@@ -216,9 +265,9 @@ h1, h2, h3, h4 {
 }
 
 .header-inner {
-  max-width: 1100px;
+  max-width: 1320px;
   margin: 0 auto;
-  padding: 0 clamp(1.2rem, 4vw, 2.5rem);
+  padding: 0 clamp(1.5rem, 4vw, 3.5rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -354,13 +403,14 @@ h1, h2, h3, h4 {
   padding: clamp(3rem, 8vw, 6rem) 0 clamp(2rem, 5vw, 4rem);
 }
 
+/* Split: 55% left text / 45% right panel */
 .hero-split {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(2rem, 5vw, 4rem);
-  align-items: start;
+  grid-template-columns: 55fr 45fr;
+  gap: clamp(2.5rem, 6vw, 6rem);
+  align-items: center;
 }
-@media (max-width: 768px) { .hero-split { grid-template-columns: 1fr; } }
+@media (max-width: 860px) { .hero-split { grid-template-columns: 1fr; } }
 
 .eyebrow {
   font-family: 'DM Mono', monospace;
@@ -374,17 +424,17 @@ h1, h2, h3, h4 {
 .hero-title {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
-  font-size: clamp(2.4rem, 6vw, 4.2rem);
-  line-height: 1.05;
+  font-size: clamp(2.8rem, 5.5vw, 5rem);
+  line-height: 1.03;
   letter-spacing: -0.02em;
-  max-width: 16ch;
 }
 
 .hero-sub {
   margin-top: 1.4rem;
   font-size: 1.1rem;
   color: var(--muted);
-  max-width: var(--measure);
+  max-width: 54ch;
+  line-height: 1.75;
 }
 
 .hero-actions {
@@ -393,6 +443,69 @@ h1, h2, h3, h4 {
   gap: 0.8rem;
   margin-top: 2rem;
 }
+
+/* Right panel in hero split */
+.hero-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem 2.2rem;
+  box-shadow: var(--shadow-sm);
+}
+.hero-panel .panel-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+.hero-panel h3 { font-size: 1.4rem; margin-bottom: 0.6rem; }
+.hero-panel p  { color: var(--muted); font-size: 0.96rem; }
+.hero-panel .panel-link {
+  display: inline-block;
+  margin-top: 1.4rem;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  text-decoration: none;
+}
+.hero-panel .panel-link::after { content: " →"; }
+
+/* Stat strip — 3 numbers below hero-left */
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-top: 2.5rem;
+}
+.stat-strip .stat {
+  padding: 1.1rem 1.4rem;
+  border-right: 1px solid var(--border);
+  background: var(--surface);
+}
+.stat-strip .stat:last-child { border-right: none; }
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1;
+}
+.stat-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-top: 0.35rem;
+}
+@media (max-width: 640px) { .stat-strip { grid-template-columns: 1fr 1fr; } }
 
 
 /* =========================================
@@ -454,7 +567,7 @@ h1, h2, h3, h4 {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
@@ -462,6 +575,9 @@ h1, h2, h3, h4 {
   overflow: hidden;
   margin-top: 2rem;
 }
+@media (max-width: 1000px) { .card-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 700px)  { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 440px)  { .card-grid { grid-template-columns: 1fr; } }
 .card-grid .card {
   border: none;
   border-radius: 0;
@@ -514,14 +630,17 @@ h1, h2, h3, h4 {
 /* --- Map grid (sitemap) --- */
 .map-grid {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   overflow: hidden;
   margin-top: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
+@media (max-width: 1000px) { .map-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 680px)  { .map-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 420px)  { .map-grid { grid-template-columns: 1fr; } }
 .map-card {
   background: var(--surface);
   padding: 1.5rem;
@@ -785,6 +904,8 @@ h1, h2, h3, h4 {
   justify-content: space-between;
   gap: 1.2rem 2.5rem;
   padding: 2.5rem 0 3.5rem;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 .footer-copy {
   font-family: 'DM Mono', monospace;
