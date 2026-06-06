@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="drill-article">
+
+  <div class="eyebrow">{{ page.week }} · {{ page.day }}</div>
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="meta" style="margin: 0.8rem 0 2rem;">
+    {% if page.category %}<span>{{ page.category }}</span>{% endif %}
+    {% if page.level %} · <span>{{ page.level }}</span>{% endif %}
+    {% if page.duration %} · <span>{{ page.duration }}</span>{% endif %}
+  </div>
+
+  {{ content }}
+
+  <div class="drill-nav">
+    {% if page.prev_drill %}
+      <a class="btn-ghost" href="{{ page.prev_drill }}">← Previous</a>
+    {% endif %}
+    {% if page.next_drill %}
+      <a class="btn-primary" href="{{ page.next_drill }}">Next →</a>
+    {% endif %}
+    <a class="btn-ghost" href="/drills/">All Drills</a>
+  </div>
+
+</article>

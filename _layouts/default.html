@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html
+  data-theme="{{ site.unstuck_theme | default: 'dojo' }}"
+  data-typography="{{ site.typography | default: 'executive' }}"
+  lang="en-GB"
+>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% if page.permalink %}<link rel="canonical" href="{{ site.url }}{{ page.permalink }}">{% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a class="brand" href="/">
+      <div class="logo">{{ site.title }}</div>
+      <div class="tagline-small">Leadership Handbooks</div>
+    </a>
+    <div class="header-right">
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="/">Home</a>
+        <a href="/start-here/">Start Here</a>
+        <div class="nav-item">
+          <a href="/the-invisible-backlog/" class="has-dropdown">Handbook #1</a>
+          <div class="dropdown">
+            <a href="/the-invisible-backlog/">About the Book</a>
+            <a href="/drills/">The Drills</a>
+            <a href="/workbook/">The Workbook</a>
+          </div>
+        </div>
+        <a href="/drills/">Drills</a>
+        <a href="/writing/">Writing</a>
+        <a href="/the-series/">The Series</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="nav-overlay" id="nav-overlay"></div>
+
+<main class="container">
+  {{ content }}
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-copy">
+      {{ site.title }} · Leadership Handbooks<br>
+      <a href="{{ site.url }}">{{ site.url | remove: 'https://' }}</a><br>
+      {{ site.tagline }}
+    </div>
+    <div class="footer-links">
+      <a href="/drills/">Drills</a>
+      <a href="/workbook/">Workbook</a>
+      <a href="/stories/">Stories</a>
+      <a href="/the-series/">The Series</a>
+      <a href="/about/">About</a>
+      <a href="/sitemap/">Sitemap</a>
+    </div>
+    <div class="footer-copy">
+      © {{ site.time | date: "%Y" }} {{ site.author }}.<br>
+      Drills and workbook are free, always.
+    </div>
+  </div>
+</footer>
+
+<script src="{{ '/assets/js/drill.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</body>
+</html>

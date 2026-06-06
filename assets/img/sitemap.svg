@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 820" role="img" aria-label="Pictorial sitemap of getunstuck.in">
+<defs>
+<style><![CDATA[
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=DM+Sans:wght@400;500&family=DM+Mono:wght@400&display=swap');
+  .bg    { fill: #F3EDE2; }
+  .root  { fill: #211C16; }
+  .card  { fill: #F8F4EC; stroke: #211C16; stroke-opacity: 0.16; stroke-width: 1; }
+  .clay  { fill: #9E5A34; }
+  .ink   { fill: #211C16; }
+  .soft  { fill: #5C5347; }
+  .faint { fill: #8A8073; }
+  .white { fill: #F8F4EC; }
+  .line  { stroke: #211C16; stroke-opacity: 0.22; fill: none; stroke-width: 1.3; }
+  .dash  { stroke: #9E5A34; stroke-opacity: 0.4; fill: none; stroke-width: 1; stroke-dasharray: 4 4; }
+  .display { font-family: 'Playfair Display', serif; }
+  .mono    { font-family: 'DM Mono', monospace; letter-spacing: 0.1em; }
+  .sans    { font-family: 'DM Sans', sans-serif; }
+]]></style>
+</defs>
+
+<rect width="1240" height="820" class="bg"/>
+
+<!-- Title -->
+<text x="30" y="44" class="mono clay" font-size="12">GET UNSTUCK · LEADERSHIP HANDBOOKS</text>
+<text x="30" y="76" class="display ink" font-size="24">Pictorial Sitemap</text>
+<text x="30" y="96" class="mono faint" font-size="11">getunstuck.in — edit this file as the site grows</text>
+
+<!-- Connectors root → sections -->
+<g class="line">
+  <path d="M620 182 C620 230 80 236 80 280"/>
+  <path d="M620 182 C620 230 240 236 240 280"/>
+  <path d="M620 182 C620 230 400 236 400 280"/>
+  <path d="M620 182 V280"/>
+  <path d="M620 182 C620 230 780 236 780 280"/>
+  <path d="M620 182 C620 230 940 236 940 280"/>
+  <path d="M620 182 C620 230 1100 236 1100 280"/>
+  <path d="M620 182 C620 230 1160 236 1160 280"/>
+</g>
+
+<!-- Drills → 8-week arc -->
+<path class="dash" d="M400 350 V480"/>
+
+<!-- ROOT -->
+<rect x="490" y="118" width="260" height="64" rx="4" class="root"/>
+<text x="620" y="146" text-anchor="middle" class="mono white" font-size="10" opacity="0.7">HOME</text>
+<text x="620" y="167" text-anchor="middle" class="display white" font-size="16">getunstuck.in</text>
+
+<!-- Section nodes  (width=140, centres: 80,240,400,620,780,940,1100,1160... adjust) -->
+<!-- 01 Start Here -->
+<rect x="10" y="280" width="140" height="68" rx="4" class="card"/>
+<circle cx="28" cy="298" r="4" class="clay"/>
+<text x="40" y="302" class="mono faint" font-size="10">01</text>
+<text x="22" y="324" class="sans ink" font-size="13" font-weight="500">Start Here</text>
+<text x="22" y="340" class="mono faint" font-size="9">LIVE</text>
+
+<!-- 02 Handbook #1 -->
+<rect x="170" y="280" width="140" height="68" rx="4" class="card"/>
+<circle cx="188" cy="298" r="4" fill="none" stroke="#9E5A34" stroke-width="1.4"/>
+<text x="200" y="302" class="mono faint" font-size="10">02</text>
+<text x="182" y="322" class="sans ink" font-size="13" font-weight="500">The Invisible</text>
+<text x="182" y="338" class="sans ink" font-size="13" font-weight="500">Backlog</text>
+
+<!-- 03 Drills -->
+<rect x="330" y="280" width="140" height="68" rx="4" class="card" stroke-width="2" stroke="#9E5A34" stroke-opacity="0.5"/>
+<circle cx="348" cy="298" r="4" fill="none" stroke="#9E5A34" stroke-width="1.4"/>
+<text x="360" y="302" class="mono faint" font-size="10">03</text>
+<text x="342" y="324" class="sans ink" font-size="13" font-weight="500">The Drills</text>
+<text x="342" y="340" class="mono clay" font-size="9">FREE · NO GATE</text>
+
+<!-- 04 Workbook -->
+<rect x="550" y="280" width="140" height="68" rx="4" class="card"/>
+<circle cx="568" cy="298" r="4" fill="none" stroke="#9E5A34" stroke-width="1.4"/>
+<text x="580" y="302" class="mono faint" font-size="10">04</text>
+<text x="562" y="324" class="sans ink" font-size="13" font-weight="500">Workbook</text>
+<text x="562" y="340" class="mono soft" font-size="9">FREE PDF</text>
+
+<!-- 05 Stories -->
+<rect x="710" y="280" width="140" height="68" rx="4" class="card"/>
+<circle cx="728" cy="298" r="4" fill="none" stroke="#9E5A34" stroke-width="1.4"/>
+<text x="740" y="302" class="mono faint" font-size="10">05</text>
+<text x="722" y="320" class="sans ink" font-size="13" font-weight="500">What Became</text>
+<text x="722" y="336" class="sans ink" font-size="13" font-weight="500">Possible</text>
+
+<!-- 06 The Series -->
+<rect x="870" y="280" width="140" height="68" rx="4" class="card"/>
+<circle cx="888" cy="298" r="4" fill="none" stroke="#9E5A34" stroke-width="1.4"/>
+<text x="900" y="302" class="mono faint" font-size="10">06</text>
+<text x="882" y="324" class="sans ink" font-size="13" font-weight="500">The Series</text>
+<text x="882" y="340" class="mono soft" font-size="9">SIX HANDBOOKS</text>
+
+<!-- 07 Writing -->
+<rect x="1030" y="280" width="140" height="68" rx="4" class="card"/>
+<circle cx="1048" cy="298" r="4" fill="none" stroke="#9E5A34" stroke-width="1.4"/>
+<text x="1060" y="302" class="mono faint" font-size="10">07</text>
+<text x="1042" y="324" class="sans ink" font-size="13" font-weight="500">Writing</text>
+<text x="1042" y="340" class="mono soft" font-size="9">ARTICLES</text>
+
+<!-- 08 About -->
+<rect x="1090" y="280" width="140" height="68" rx="4" class="card"/>
+<circle cx="1108" cy="298" r="4" fill="none" stroke="#9E5A34" stroke-width="1.4"/>
+<text x="1120" y="302" class="mono faint" font-size="10">08</text>
+<text x="1102" y="324" class="sans ink" font-size="13" font-weight="500">About</text>
+
+<!-- 8-Week Arc label -->
+<text x="30" y="462" class="mono clay" font-size="11">THE 8-WEEK ARC — INSIDE THE DRILLS</text>
+
+<!-- Week chips -->
+<g>
+  {% assign weeks = "See,Measure,Sort,Eliminate,Act,Prevent,Systemise,Integrate" | split: "," %}
+</g>
+
+<rect x="30"   y="478" width="135" height="52" rx="4" class="card"/>
+<text x="44"  y="500" class="mono clay" font-size="10">WEEK 1</text>
+<text x="44"  y="518" class="sans ink" font-size="13" font-weight="500">See</text>
+
+<rect x="175"  y="478" width="135" height="52" rx="4" class="card"/>
+<text x="189" y="500" class="mono clay" font-size="10">WEEK 2</text>
+<text x="189" y="518" class="sans ink" font-size="13" font-weight="500">Measure</text>
+
+<rect x="320"  y="478" width="135" height="52" rx="4" class="card"/>
+<text x="334" y="500" class="mono clay" font-size="10">WEEK 3</text>
+<text x="334" y="518" class="sans ink" font-size="13" font-weight="500">Sort</text>
+
+<rect x="465"  y="478" width="135" height="52" rx="4" class="card"/>
+<text x="479" y="500" class="mono clay" font-size="10">WEEK 4</text>
+<text x="479" y="518" class="sans ink" font-size="13" font-weight="500">Eliminate</text>
+
+<rect x="610"  y="478" width="135" height="52" rx="4" class="card"/>
+<text x="624" y="500" class="mono clay" font-size="10">WEEK 5</text>
+<text x="624" y="518" class="sans ink" font-size="13" font-weight="500">Act</text>
+
+<rect x="755"  y="478" width="135" height="52" rx="4" class="card"/>
+<text x="769" y="500" class="mono clay" font-size="10">WEEK 6</text>
+<text x="769" y="518" class="sans ink" font-size="13" font-weight="500">Prevent</text>
+
+<rect x="900"  y="478" width="135" height="52" rx="4" class="card"/>
+<text x="914" y="500" class="mono clay" font-size="10">WEEK 7</text>
+<text x="914" y="518" class="sans ink" font-size="13" font-weight="500">Systemise</text>
+
+<rect x="1045" y="478" width="135" height="52" rx="4" class="card"/>
+<text x="1059" y="500" class="mono clay" font-size="10">WEEK 8</text>
+<text x="1059" y="518" class="sans ink" font-size="13" font-weight="500">Integrate</text>
+
+<!-- Room to grow -->
+<text x="30" y="608" class="mono faint" font-size="11">ROOM TO GROW</text>
+<rect x="30"  y="622" width="190" height="46" rx="4" fill="none" stroke="#9E5A34" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+<text x="44"  y="650" class="sans soft" font-size="12">Assessment (pre/post)</text>
+<rect x="232" y="622" width="190" height="46" rx="4" fill="none" stroke="#9E5A34" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+<text x="246" y="650" class="sans soft" font-size="12">90-Day Project</text>
+<rect x="434" y="622" width="190" height="46" rx="4" fill="none" stroke="#9E5A34" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+<text x="448" y="650" class="sans faint" font-size="12">+ your next section…</text>
+
+<!-- Legend -->
+<text x="30" y="730" class="mono faint" font-size="11">LEGEND</text>
+<circle cx="38" cy="750" r="4" class="clay"/>
+<text x="52" y="754" class="sans soft" font-size="12">Live</text>
+<circle cx="120" cy="750" r="4" fill="none" stroke="#9E5A34" stroke-width="1.4"/>
+<text x="134" y="754" class="sans soft" font-size="12">In progress</text>
+<rect x="252" y="746" width="20" height="9" rx="2" fill="none" stroke="#9E5A34" stroke-opacity="0.3" stroke-dasharray="3 3"/>
+<text x="280" y="754" class="sans soft" font-size="12">Planned</text>
+<text x="1210" y="808" text-anchor="end" class="mono faint" font-size="10">v1 · edit freely</text>
+</svg>

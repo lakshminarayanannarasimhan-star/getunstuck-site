@@ -1,0 +1,92 @@
+# =========================================
+# GET UNSTUCK — SITE CONFIGURATION
+# Leadership Handbooks · getunstuck.in
+# =========================================
+
+# -------------------------
+# BASIC SITE INFO
+# -------------------------
+
+title: Get Unstuck
+tagline: "You were never broken. You were stuck."
+description: "A practitioner library for leaders. Free drills, free workbook. No email gate."
+author: Lakshmi Narayanan
+
+# -------------------------
+# THEME
+# -------------------------
+# Options: dojo (default) | midnight | slate | mono
+# Change one line — every page follows.
+
+unstuck_theme: dojo
+
+typography: executive   # executive | compact | spacious
+
+# -------------------------
+# DOMAIN
+# -------------------------
+
+url: "https://getunstuck.in"
+baseurl: ""
+
+# -------------------------
+# COLLECTIONS
+# -------------------------
+
+collections:
+  drills:
+    output: true
+    permalink: /drills/:name/
+  articles:
+    output: true
+    permalink: /writing/:name/
+
+# -------------------------
+# DEFAULTS
+# -------------------------
+
+defaults:
+  - scope:
+      path: ""
+      type: "drills"
+    values:
+      layout: "drill"
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# -------------------------
+# MARKDOWN
+# -------------------------
+
+markdown: kramdown
+highlighter: rouge
+
+# -------------------------
+# BUILD
+# -------------------------
+
+exclude:
+  - README.md
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# =========================================
+# NOTES
+# =========================================
+# 1. Custom domain → baseurl must be ""
+# 2. CNAME file must contain: getunstuck.in
+# 3. DNS: four A records pointing to GitHub Pages IPs
+#    185.199.108.153 / .109 / .110 / .111
+# 4. Drills live in /_drills/ as .md files
+# 5. Articles live in /_articles/ as .md files
+# 6. Posts (writings) live in /_posts/ as YYYY-MM-DD-title.md
+# =========================================
