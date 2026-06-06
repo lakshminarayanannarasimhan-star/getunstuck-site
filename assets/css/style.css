@@ -729,11 +729,13 @@ h1, h2, h3, h4 {
 .section-ink {
   padding: clamp(2.5rem, 5vw, var(--spacing-section)) clamp(1.5rem, 4vw, 3.5rem);
   background: var(--ink-gradient, var(--text));
-  color: var(--bg);
+  color: rgba(255,255,255,0.92);
 }
-.section-ink h2, .section-ink p, .section-ink .pull-quote { color: var(--bg); }
-.section-ink .pull-quote em { color: var(--primary-soft); opacity: 0.9; }
-.section-ink .section-label  { color: var(--primary-soft); opacity: 0.8; }
+.section-ink h2          { color: rgba(255,255,255,0.95); }
+.section-ink p           { color: rgba(255,255,255,0.80); }
+.section-ink .pull-quote { color: rgba(255,255,255,0.92); }
+.section-ink .pull-quote em  { color: var(--primary-soft, #F2E6DA); font-style: italic; opacity: 1; }
+.section-ink .section-label  { color: var(--primary-soft, #F2E6DA); opacity: 0.85; }
 
 .section-label {
   font-family: 'DM Mono', monospace;
