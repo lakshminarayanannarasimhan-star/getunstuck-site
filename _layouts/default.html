@@ -17,29 +17,61 @@
 
 <header class="header">
   <div class="header-inner">
+
     <a class="brand" href="/">
       <div class="logo">{{ site.title }}</div>
-      <div class="tagline-small">Leadership Handbooks</div>
+      <div class="tagline-small">Leadership · Strategy · Consulting</div>
     </a>
+
     <div class="header-right">
       <div class="menu-toggle" id="menu-toggle">
         <span></span><span></span><span></span>
       </div>
+
       <nav class="nav" id="nav">
-        <a href="/">Home</a>
-        <a href="/start-here/">Start Here</a>
+
+        <!-- 1. BOOKS -->
         <div class="nav-item">
-          <a href="/the-invisible-backlog/" class="has-dropdown">Handbook #1</a>
+          <a href="/books/" class="has-dropdown">Books</a>
           <div class="dropdown">
-            <a href="/the-invisible-backlog/">About the Book</a>
-            <a href="/drills/">The Drills</a>
-            <a href="/workbook/">The Workbook</a>
+            <a href="/books/get-unstuck/">GET UNSTUCK Series</a>
+            <a href="/books/the-indispensable/">The Indispensable Series</a>
+            <a href="/drills/">Drills (Free)</a>
+            <a href="/workbook/">Workbook (Free PDF)</a>
           </div>
         </div>
-        <a href="/drills/">Drills</a>
-        <a href="/writing/">Writing</a>
-        <a href="/the-series/">The Series</a>
+
+        <!-- 2. PUBLICATIONS -->
+        <div class="nav-item">
+          <a href="/publications/" class="has-dropdown">Publications</a>
+          <div class="dropdown">
+            <a href="/publications/">All Writing</a>
+            <a href="/publications/articles/">Articles</a>
+            <a href="/publications/linkedin/">LinkedIn</a>
+          </div>
+        </div>
+
+        <!-- 3. CONSULTING -->
+        <a href="/consulting/">Consulting</a>
+
+        <!-- 4. PERSONAL BRAND -->
+        <div class="nav-item">
+          <a href="/personal-branding/" class="has-dropdown">Personal Brand</a>
+          <div class="dropdown">
+            <a href="/personal-branding/">Overview</a>
+            <a href="/personal-branding/linkedin/">LinkedIn Presence</a>
+            <a href="/personal-branding/thought-leadership/">Thought Leadership</a>
+          </div>
+        </div>
+
+        <!-- 5. ABOUT -->
         <a href="/about/">About</a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/lakshminarayanann/"
+           class="nav-linkedin"
+           target="_blank" rel="noopener" title="LinkedIn">in</a>
+
       </nav>
     </div>
   </div>
@@ -53,23 +85,40 @@
 
 <footer class="footer">
   <div class="container footer-inner">
+
     <div class="footer-copy">
-      {{ site.title }} · Leadership Handbooks<br>
-      <a href="{{ site.url }}">{{ site.url | remove: 'https://' }}</a><br>
-      {{ site.tagline }}
+      <strong style="font-family:'Playfair Display',serif;font-size:1rem;">{{ site.title }}</strong><br>
+      Leadership · Strategy · Consulting<br>
+      <a href="{{ site.url }}">{{ site.url | remove: 'https://' }}</a>
     </div>
-    <div class="footer-links">
-      <a href="/drills/">Drills</a>
-      <a href="/workbook/">Workbook</a>
-      <a href="/stories/">Stories</a>
-      <a href="/the-series/">The Series</a>
-      <a href="/about/">About</a>
-      <a href="/sitemap/">Sitemap</a>
+
+    <div class="footer-col">
+      <div class="footer-group-label">Books</div>
+      <div class="footer-links">
+        <a href="/books/get-unstuck/">GET UNSTUCK Series</a>
+        <a href="/books/the-indispensable/">The Indispensable Series</a>
+        <a href="/drills/">Drills</a>
+        <a href="/workbook/">Workbook</a>
+        <a href="/stories/">Reader Stories</a>
+      </div>
     </div>
+
+    <div class="footer-col">
+      <div class="footer-group-label">Work</div>
+      <div class="footer-links">
+        <a href="/publications/">Publications</a>
+        <a href="/consulting/">Consulting</a>
+        <a href="/personal-branding/">Personal Brand</a>
+        <a href="/about/">About</a>
+        <a href="/sitemap/">Sitemap</a>
+      </div>
+    </div>
+
     <div class="footer-copy">
       © {{ site.time | date: "%Y" }} {{ site.author }}.<br>
-      Drills and workbook are free, always.
+      {{ site.tagline }}
     </div>
+
   </div>
 </footer>
 

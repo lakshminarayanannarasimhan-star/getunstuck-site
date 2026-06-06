@@ -2,7 +2,7 @@
 layout: default
 title: Home
 permalink: /
-description: "A practitioner library for leaders. Free drills, free workbook. No email gate."
+description: "Leadership practitioner, author, and consultant. 25 years building systems, teams, and strategy. GET UNSTUCK Leadership Handbooks."
 ---
 
 <!-- HERO -->
@@ -10,157 +10,160 @@ description: "A practitioner library for leaders. Free drills, free workbook. No
   <div class="hero-split">
 
     <div class="hero-left">
-      <div class="eyebrow reveal d1">Leadership Handbook #1 · The Invisible Backlog</div>
-      <h1 class="hero-title reveal d2">Most books make you feel better for a week.</h1>
-      <p class="hero-sub reveal d3">This is a practitioner library for leaders — a place to practise, not just to read. The drills are free. The workbook is free. There is no email to hand over. Welcome to the dojo.</p>
+      <div class="eyebrow reveal d1">Leadership · Strategy · Consulting</div>
+      <h1 class="hero-title reveal d2">Helping leaders move from stuck to deliberate.</h1>
+      <p class="hero-sub reveal d3">25 years building systems, teams, and strategy inside one of India's largest organisations. Now distilling what works — into books, writing, and direct consulting work.</p>
       <div class="hero-actions reveal d4">
-        <a class="btn-primary" href="/start-here/">Start Here</a>
-        <a class="btn-secondary" href="/drills/">Go to the Drills</a>
+        <a class="btn-primary" href="/about/">About Lakshmi</a>
+        <a class="btn-secondary" href="/consulting/">Work with Me</a>
       </div>
       <div class="stat-strip reveal d5">
         <div class="stat">
-          <div class="stat-num">8</div>
-          <div class="stat-label">Week Practice</div>
+          <div class="stat-num">25</div>
+          <div class="stat-label">Years in Practice</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">6</div>
+          <div class="stat-label">Books in Series</div>
         </div>
         <div class="stat">
           <div class="stat-num">Free</div>
           <div class="stat-label">Drills &amp; Workbook</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">6</div>
-          <div class="stat-label">Handbooks in Series</div>
         </div>
       </div>
     </div>
 
     <div class="hero-right reveal d3">
       <div class="hero-panel">
-        <div class="panel-label">The tagline</div>
-        <h3>You were never broken.<br>You were stuck.</h3>
-        <p>Most problems that look like a capability problem are actually a system problem. The Invisible Backlog names the system — and gives you the practice to clear it.</p>
-        <a class="panel-link" href="/the-invisible-backlog/">About Handbook #1</a>
+        <div class="panel-label">Latest — GET UNSTUCK Handbook #1</div>
+        <h3>The Invisible Backlog</h3>
+        <p>You were never broken. You were stuck. A practitioner manual for leaders on trajectory governance — and the practice to clear what accumulates invisibly.</p>
+        <a class="panel-link" href="/books/get-unstuck/">Explore the Book</a>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- 8-WEEK ARC — full width strip -->
+<!-- 5 PILLARS -->
 <div class="section-accent">
   <div class="bleed-inner">
-    <div class="section-label" style="margin-bottom:.8rem;">The 8-week arc</div>
-    <div class="flow-wrapper">
-      <div class="flow">
-        <div class="flow-card active">Week 1 · See</div>
-        <div class="flow-arrow">→</div>
-        <div class="flow-card">Week 2 · Measure</div>
-        <div class="flow-arrow">→</div>
-        <div class="flow-card">Week 3 · Sort</div>
-        <div class="flow-arrow">→</div>
-        <div class="flow-card">Week 4 · Eliminate</div>
-        <div class="flow-arrow">→</div>
-        <div class="flow-card">Week 5 · Act</div>
-        <div class="flow-arrow">→</div>
-        <div class="flow-card">Week 6 · Prevent</div>
-        <div class="flow-arrow">→</div>
-        <div class="flow-card">Week 7 · Systemise</div>
-        <div class="flow-arrow">→</div>
-        <div class="flow-card">Week 8 · Integrate</div>
-      </div>
+    <div class="section-label">Five areas of work</div>
+    <div class="pillar-strip">
+      <a class="pillar" href="/books/">
+        <div class="pillar-num">01</div>
+        <div class="pillar-name">Books</div>
+        <div class="pillar-desc">GET UNSTUCK Series · The Indispensable Series</div>
+      </a>
+      <a class="pillar" href="/publications/">
+        <div class="pillar-num">02</div>
+        <div class="pillar-name">Publications</div>
+        <div class="pillar-desc">Articles · LinkedIn · Thought leadership</div>
+      </a>
+      <a class="pillar" href="/consulting/">
+        <div class="pillar-num">03</div>
+        <div class="pillar-name">Consulting</div>
+        <div class="pillar-desc">People development · Strategy · Operations</div>
+      </a>
+      <a class="pillar" href="/personal-branding/">
+        <div class="pillar-num">04</div>
+        <div class="pillar-name">Personal Brand</div>
+        <div class="pillar-desc">Positioning · Presence · Thought leadership</div>
+      </a>
+      <a class="pillar" href="/about/">
+        <div class="pillar-num">05</div>
+        <div class="pillar-name">About</div>
+        <div class="pillar-desc">25 years · Philosophy · What I believe</div>
+      </a>
     </div>
   </div>
 </div>
 
-<!-- MAP -->
+<!-- BOOKS -->
 <section class="section-wide">
-  <div class="section-label">The map</div>
-  <h2>Everything here, on one page.</h2>
-  <div class="map-grid">
-    <a class="map-card" href="/start-here/">
-      <div class="num">01</div>
-      <h3>Start Here</h3>
-      <p>Orientation — what this is, how to use it, where to begin.</p>
-      <span class="status">Live</span>
-    </a>
-    <a class="map-card" href="/the-invisible-backlog/">
-      <div class="num">02</div>
-      <h3>The Invisible Backlog</h3>
-      <p>Handbook #1 — about the book, a sample, where to find it.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/drills/">
-      <div class="num">03</div>
-      <h3>The Drills</h3>
-      <p>The full 8-week practice. Free, no gate, no email.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/workbook/">
-      <div class="num">04</div>
-      <h3>The Workbook</h3>
-      <p>Every drill in one free PDF. Print it, share it, pass it on.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/stories/">
-      <div class="num">05</div>
-      <h3>What Became Possible</h3>
-      <p>Reader stories, unedited. Optional to read, optional to share.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/the-series/">
-      <div class="num">06</div>
-      <h3>The Series</h3>
-      <p>Six handbooks: Self → Position → Strategy → Team → Organisation → Ecosystem.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/writing/">
-      <div class="num">07</div>
-      <h3>Writing</h3>
-      <p>Articles and thinking on leadership, systems, and practice.</p>
-      <span class="status">In progress</span>
-    </a>
-    <a class="map-card" href="/about/">
-      <div class="num">08</div>
-      <h3>About</h3>
-      <p>The philosophy, the commitments, the person behind it.</p>
-      <span class="status">In progress</span>
-    </a>
+  <div class="section-label">Books</div>
+  <div class="layout-sidebar" style="align-items:start;">
+    <div>
+      <h2>Two series. One through-line.</h2>
+      <p class="prose" style="margin-top:1rem;">The GET UNSTUCK Leadership Handbooks are practitioner manuals — each one installs a single operating shift. The Indispensable Series builds the structural thinking underneath strategy, team, and ecosystem leadership.</p>
+      <div class="hero-actions" style="margin-top:1.5rem;">
+        <a class="btn-primary" href="/books/get-unstuck/">GET UNSTUCK Series</a>
+        <a class="btn-secondary" href="/books/the-indispensable/">The Indispensable Series</a>
+      </div>
+    </div>
+    <div class="card-stack">
+      <div class="card" style="margin-bottom:1px;">
+        <div class="num">GET UNSTUCK · Handbook #1</div>
+        <h3 style="margin-top:.3rem;">The Invisible Backlog</h3>
+        <p style="font-size:.92rem;color:var(--muted);margin-top:.4rem;">The system for clearing what accumulates invisibly in a leader's trajectory.</p>
+        <a class="card-link" href="/books/get-unstuck/">Read more</a>
+      </div>
+      <div class="card">
+        <div class="num">The Indispensable Series · 5 Books</div>
+        <h3 style="margin-top:.3rem;">Position → Ecosystem</h3>
+        <p style="font-size:.92rem;color:var(--muted);margin-top:.4rem;">Structural thinking from individual positioning to ecosystem design.</p>
+        <a class="card-link" href="/books/the-indispensable/">Read more</a>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- PROMISE — full-bleed ink -->
+<!-- PUBLICATIONS + CONSULTING side by side -->
+<section class="section-wide">
+  <div class="col-3" style="gap:1px;background:var(--border);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;">
+    <div style="padding:2rem;background:var(--surface);">
+      <div class="section-label">Publications</div>
+      <h3>Writing worth reading slowly.</h3>
+      <p style="color:var(--muted);font-size:.93rem;margin-top:.7rem;">Articles on leadership systems, strategy, and the gap between execution and indispensability. Published across LinkedIn and long-form platforms.</p>
+      <a class="card-link" href="/publications/">All publications</a>
+    </div>
+    <div style="padding:2rem;background:var(--surface);">
+      <div class="section-label">Consulting</div>
+      <h3>Systems that make execution repeatable.</h3>
+      <p style="color:var(--muted);font-size:.93rem;margin-top:.7rem;">People development, strategy design, and operations — for organisations that need more than advice. Built from 25 years of doing the work.</p>
+      <a class="card-link" href="/consulting/">Consulting work</a>
+    </div>
+    <div style="padding:2rem;background:var(--surface);">
+      <div class="section-label">Personal Brand</div>
+      <h3>Presence that earns the right seat.</h3>
+      <p style="color:var(--muted);font-size:.93rem;margin-top:.7rem;">Positioning, thought leadership, and LinkedIn presence — built around genuine expertise, not performance. The long game, done deliberately.</p>
+      <a class="card-link" href="/personal-branding/">Brand work</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROMISE -->
 <div class="section-ink">
   <div class="bleed-inner">
-    <div class="section-label">The promise</div>
-    <p class="pull-quote">The difference is practice. <em>This one will change how you operate for the rest of your life.</em></p>
+    <div class="section-label">The through-line</div>
+    <p class="pull-quote">Tools change. <em>Systems endure.</em> Every book, article, and engagement is built on that one idea.</p>
   </div>
 </div>
 
-<!-- HOW THIS WORKS -->
+<!-- ABOUT STRIP -->
 <section class="section-wide">
   <div class="layout-sidebar">
     <div>
-      <div class="section-label">How this works</div>
-      <h2>A library built on radical generosity.</h2>
+      <div class="section-label">About</div>
+      <h2>25 years of building what others theorise about.</h2>
       <div class="prose" style="margin-top:1.2rem;">
-        <p>You read a chapter. You do the drill. You notice what changes. The book is the paid object — but the practice itself is free and always will be. Every drill lives here, openly, so that what something costs never stops anyone.</p>
-        <p>If you have someone you would mentor through this, hold them in mind as you read. If you don't, the path is complete on its own. Nothing here asks you to hurry, sign up, or prove anything.</p>
+        <p>People development. Strategy. Operations. Not as separate functions — as one system that either works or doesn't. The books, the writing, and the consulting all come from the same place: sustained practice inside one of India's largest organisations, long enough to see what actually holds.</p>
       </div>
       <div class="hero-actions" style="margin-top:1.8rem;">
-        <a class="btn-primary" href="/drills/">Start the Practice</a>
-        <a class="btn-secondary" href="/the-series/">See the Full Series</a>
+        <a class="btn-primary" href="/about/">Full story</a>
+        <a class="btn-secondary" href="/consulting/">Work with me</a>
       </div>
     </div>
     <aside>
       <div class="hero-panel">
-        <div class="panel-label">The commitments</div>
+        <div class="panel-label">Open to</div>
         <ul style="list-style:none;display:flex;flex-direction:column;gap:.8rem;margin-top:.5rem;">
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Drills free — always</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Workbook free — always</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;No email gate, ever</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;One book donated per 50 sold</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Dignity first in every copy</li>
+          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Leadership programme partnerships</li>
+          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Consulting engagements</li>
+          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Senior industry opportunities</li>
+          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Speaking and workshops</li>
         </ul>
-        <a class="panel-link" href="/about/">Read the philosophy</a>
+        <a class="panel-link" href="/consulting/">Get in touch</a>
       </div>
     </aside>
   </div>
