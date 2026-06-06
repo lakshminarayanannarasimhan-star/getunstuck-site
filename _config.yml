@@ -20,7 +20,7 @@ author: Lakshmi Narayanan
 #
 # ── SIGNATURE THEMES (full surface + gradient system) ──────────────
 #
-unstuck_theme: dojo            # Warm paper, ochre gradient       · DEFAULT
+# unstuck_theme: dojo            # Warm paper, ochre gradient       · DEFAULT
 # unstuck_theme: midnight      # Deep dark, indigo glow
 # unstuck_theme: forest        # Deep green, earthy, grounded
 # unstuck_theme: sunset        # Warm amber to rose, editorial
