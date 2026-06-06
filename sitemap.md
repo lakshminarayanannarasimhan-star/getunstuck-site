@@ -22,7 +22,7 @@ sitemap: false
 <ul>
   <li><a href="/the-invisible-backlog/">About the Book</a></li>
   <li><a href="/drills/">The Drills (8-Week Practice)</a></li>
-  <li><a href="/workbook/">The Workbook (Free PDF)</a></li>
+  <li><a href="/workbook/">The Workbook</a></li>
 </ul>
 </div>
 

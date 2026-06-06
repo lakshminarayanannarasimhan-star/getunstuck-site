@@ -36,7 +36,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <div class="stat-label">Article Series</div>
         </div>
         <div class="stat">
-          <div class="stat-num">Free</div>
+          <div class="stat-num">Open</div>
           <div class="stat-label">Drills &amp; Workbook</div>
         </div>
       </div>
@@ -57,7 +57,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       <span class="badge">11 in Progress</span>
     </div>
     <h2>A growing library for leadership practitioners.</h2>
-    <p>Two series, built incrementally. Each book installs one shift in how a leader sees, decides, and acts. The practice materials — drills and workbook — are free, always.</p>
+    <p>Two series, built incrementally. Each book installs one shift in how a leader sees, decides, and acts. The practice materials — drills and workbook — carry no price, always.</p>
 
     <div class="dash-books-unified">
       <div class="unified-track">
@@ -74,7 +74,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <div class="stat-label">In development</div>
         </div>
         <div class="unified-stat">
-          <div class="stat-num">Free</div>
+          <div class="stat-num">Open</div>
           <div class="stat-label">Practice materials</div>
         </div>
       </div>
@@ -91,8 +91,8 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     <div class="dash-card-footer">
       <div style="display:flex;gap:.5rem;flex-wrap:wrap;">
         <a class="btn-primary" href="/books/">Browse the Library</a>
-        <a class="btn-secondary" href="/drills/">Free Drills</a>
-        <a class="btn-secondary" href="/workbook/">Free Workbook</a>
+        <a class="btn-secondary" href="/drills/">The Drills</a>
+        <a class="btn-secondary" href="/workbook/">The Workbook</a>
       </div>
       <a class="card-link" href="/stories/">Reader stories</a>
     </div>

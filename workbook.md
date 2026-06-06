@@ -5,14 +5,14 @@ permalink: /workbook/
 ---
 
 <section class="hero">
-  <div class="eyebrow reveal d1">Free download</div>
+  <div class="eyebrow reveal d1">Open access</div>
   <h1 class="hero-title reveal d2">The workbook.</h1>
-  <p class="hero-sub reveal d3">Every drill collected into one free PDF — made to be printed, worked through, and passed on.</p>
+  <p class="hero-sub reveal d3">Every drill collected into one PDF — made to be printed, worked through, and passed on.</p>
 </section>
 
 <section class="section-wide">
   <div class="prose">
-    <p>When it is ready, the download will sit right here. No charge, no email. Your transformation will never be stopped by what something costs.</p>
+    <p>When it is ready, it will sit right here. No email, no gate. Your transformation will never be stopped by what something costs.</p>
   </div>
   <div class="coming">
     <div class="label">Still being built</div>

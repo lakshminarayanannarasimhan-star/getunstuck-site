@@ -10,7 +10,7 @@ description: "Lakshmi Narayanan — leadership systems practitioner, author, and
     <div class="hero-left">
       <div class="eyebrow reveal d1">About</div>
       <h1 class="hero-title reveal d2">Lifelong student. Reluctant expert.</h1>
-      <p class="hero-sub reveal d3">I have been learning, teaching, and building systems for as long as I can remember. The books, the writing, and the free practice materials are all expressions of the same thing.</p>
+      <p class="hero-sub reveal d3">I have been learning, teaching, and building systems for as long as I can remember. The books, the writing, and the practice materials are all expressions of the same thing.</p>
     </div>
     <div class="hero-right reveal d3">
       <div class="hero-panel">
@@ -55,7 +55,7 @@ description: "Lakshmi Narayanan — leadership systems practitioner, author, and
       <div class="prose" style="margin-top:1.2rem;">
         <p>My father, Sri P K Narasimhan, is a teacher. Not was — is. He still gets excited teaching a primary school child with the same energy he brings to teaching spiritual leaders on the Bhagavad Gita. He runs a YouTube channel on various Sthotrams and his commitment to sharing what he knows has never wavered across decades.</p>
         <p>Watching him, I understood something early: teaching is not a transaction. The teacher learns from the student. The student learns from being taken seriously. Neither is diminished. Both are elevated.</p>
-        <p>That is the model I have tried to carry forward — in every workshop, every article, every book, and every drill that is offered free because access should never be the barrier.</p>
+        <p>That is the model I have tried to carry forward — in every workshop, every article, every book, and every drill that is offered openly because access should never be the barrier.</p>
       </div>
     </div>
     <aside>
@@ -87,7 +87,7 @@ description: "Lakshmi Narayanan — leadership systems practitioner, author, and
 
     <div class="card">
       <div class="num">Community &amp; Teaching</div>
-      <p style="color:var(--muted);font-size:.93rem;margin-top:.6rem;">29 workshops conducted across engineering colleges and institutions in Tamil Nadu, Karnataka, and Puducherry — on programming, networks, systems, and interview skills. Every session free. Every audience taken seriously. Topics ranged from Linux internals to data structures to career preparation, always grounded in what actually helps someone get to the next level.</p>
+      <p style="color:var(--muted);font-size:.93rem;margin-top:.6rem;">29 workshops conducted across engineering colleges and institutions in Tamil Nadu, Karnataka, and Puducherry — on programming, networks, systems, and interview skills. Every session, no charge. Every audience taken seriously. Topics ranged from Linux internals to data structures to career preparation, always grounded in what actually helps someone get to the next level.</p>
     </div>
 
     <div class="card">
@@ -97,7 +97,7 @@ description: "Lakshmi Narayanan — leadership systems practitioner, author, and
 
     <div class="card">
       <div class="num">Books &amp; Practice</div>
-      <p style="color:var(--muted);font-size:.93rem;margin-top:.6rem;">Two series of leadership handbooks currently in development — eleven books across both series. The drills and workbook that accompany the books are free, as they always will be. The books are the paid object. The practice is the gift. That distinction matters and will never be reversed.</p>
+      <p style="color:var(--muted);font-size:.93rem;margin-top:.6rem;">Two series of leadership handbooks currently in development — eleven books across both series. The drills and workbook that accompany the books carry no price, as they never will. The books are the paid object. The practice is the gift. That distinction matters and will never be reversed.</p>
     </div>
 
   </div>
@@ -138,7 +138,7 @@ description: "Lakshmi Narayanan — leadership systems practitioner, author, and
     </div>
     <div class="card">
       <div class="num">On knowledge</div>
-      <p style="color:var(--muted);font-size:.93rem;margin-top:.5rem;">Knowledge shared compounds. Knowledge hoarded decays. Thirty years of free workshops, free articles, and free practice materials are not a strategy. They are a value — one that predates the word "content" and will outlast it.</p>
+      <p style="color:var(--muted);font-size:.93rem;margin-top:.5rem;">Knowledge shared compounds. Knowledge hoarded decays. Thirty years of open workshops, shared articles, and practice materials with no gate are not a strategy. They are a value — one that predates the word "content" and will outlast it.</p>
     </div>
     <div class="card">
       <div class="num">On systems</div>

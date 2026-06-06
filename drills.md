@@ -5,7 +5,7 @@ permalink: /drills/
 ---
 
 <section class="hero">
-  <div class="eyebrow reveal d1">The practice · Free · No gate</div>
+  <div class="eyebrow reveal d1">The practice · Open to all · No gate</div>
   <h1 class="hero-title reveal d2">The drills.</h1>
   <p class="hero-sub reveal d3">The full eight-week practice, open to anyone. No email, no sign-up, nothing to hand over.</p>
 </section>
