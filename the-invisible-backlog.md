@@ -12,7 +12,7 @@ permalink: /the-invisible-backlog/
 
 <section class="section-wide">
   <div class="prose">
-    <p>What the book is, a short sample, and the places you can find it. Reading it is optional. Practising is the point — and the practice is free in the drills.</p>
+    <p>What the book is, a short sample, and the places you can find it. Reading it is optional. Practising is the point — and the practice lives in the drills, open to all.</p>
   </div>
   <div class="coming">
     <div class="label">Still being built</div>
