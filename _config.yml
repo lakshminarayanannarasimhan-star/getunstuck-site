@@ -29,7 +29,7 @@ author: Lakshmi Narayanan
 #
 # ── DARK THEMES ────────────────────────────────────────────────────
 #
-unstuck_theme: obsidian      # Pure black, electric blue accent
+# unstuck_theme: obsidian      # Pure black, electric blue accent
 # unstuck_theme: navy          # Deep navy, gold accent
 # unstuck_theme: plum          # Deep purple-black, rose accent
 # unstuck_theme: charcoal      # Dark grey, cyan accent
@@ -44,7 +44,7 @@ unstuck_theme: obsidian      # Pure black, electric blue accent
 #
 # ── BOLD / VIVID THEMES ────────────────────────────────────────────
 #
-# unstuck_theme: saffron       # Deep burnt orange, firelike warmth
+unstuck_theme: saffron       # Deep burnt orange, firelike warmth
 # unstuck_theme: cobalt        # Bright blue surfaces, white text
 # unstuck_theme: jade          # Deep teal, gold accent
 # unstuck_theme: crimson       # Deep red base, cream text
