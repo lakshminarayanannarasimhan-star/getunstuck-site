@@ -247,6 +247,361 @@
 [data-theme="evergreen"]    { --primary: #002500; --primary-soft: #f0fdf4; --primary-strong: #001500; --btn-gradient: linear-gradient(135deg, #4ade80 0%, #002500 50%, #001500 100%); }
 
 
+/* =========================================================
+   FULL SURFACE THEMES — 20 new themes
+   Each has complete token set + gradient system
+   Switch with: unstuck_theme: <name> in _config.yml
+   ========================================================= */
+
+/* ── DARK THEMES ── */
+
+/* obsidian — pure black, electric blue accent */
+[data-theme="obsidian"] {
+  --bg: #000000; --bg-deep: #0a0a0a;
+  --surface: #111111; --surface-soft: #1a1a1a;
+  --text: #f0f0f0; --muted: #a0a0a0; --faint: #555555;
+  --primary: #00d4ff; --primary-soft: rgba(0,212,255,0.12); --primary-strong: #00b8e0;
+  --border: rgba(255,255,255,0.08); --border-soft: rgba(255,255,255,0.04);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.6); --shadow-md: 0 10px 30px rgba(0,0,0,0.7); --shadow-lg: 0 20px 60px rgba(0,0,0,0.8);
+  --hero-gradient:       linear-gradient(135deg, #000000 0%, #0a0a14 50%, #000a10 100%);
+  --ink-gradient:        linear-gradient(135deg, #000000 0%, #0a0a0a 100%);
+  --accent-gradient:     linear-gradient(135deg, #111111 0%, #001a1f 100%);
+  --btn-gradient:        linear-gradient(135deg, #00eeff 0%, #00d4ff 50%, #0099cc 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+  --card-hover-gradient: linear-gradient(135deg, #111111 0%, #001a1f 100%);
+  --surface-gradient:    linear-gradient(160deg, #111111 0%, #141414 100%);
+}
+
+/* navy — deep navy, gold accent */
+[data-theme="navy"] {
+  --bg: #0a0e1a; --bg-deep: #060810;
+  --surface: #111827; --surface-soft: #1a2235;
+  --text: #e8edf5; --muted: #8899bb; --faint: #4a5878;
+  --primary: #f0c040; --primary-soft: rgba(240,192,64,0.14); --primary-strong: #d4a820;
+  --border: rgba(240,192,64,0.12); --border-soft: rgba(240,192,64,0.06);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.5); --shadow-md: 0 10px 30px rgba(0,0,0,0.6); --shadow-lg: 0 20px 60px rgba(0,0,0,0.7);
+  --hero-gradient:       linear-gradient(135deg, #0a0e1a 0%, #060d1f 45%, #0d1428 100%);
+  --ink-gradient:        linear-gradient(135deg, #060810 0%, #0a0e1a 60%, #060d1f 100%);
+  --accent-gradient:     linear-gradient(135deg, #111827 0%, #0d1630 100%);
+  --btn-gradient:        linear-gradient(135deg, #f5d060 0%, #f0c040 50%, #d4a820 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #f0c040 0%, #d4a820 100%);
+  --card-hover-gradient: linear-gradient(135deg, #111827 0%, #0d1630 100%);
+  --surface-gradient:    linear-gradient(160deg, #111827 0%, #131d2e 100%);
+}
+
+/* plum — deep purple-black, rose accent */
+[data-theme="plum"] {
+  --bg: #0f0814; --bg-deep: #08040d;
+  --surface: #1a1020; --surface-soft: #22162c;
+  --text: #f0e8f5; --muted: #b090c0; --faint: #604870;
+  --primary: #f472b6; --primary-soft: rgba(244,114,182,0.14); --primary-strong: #ec4899;
+  --border: rgba(244,114,182,0.12); --border-soft: rgba(244,114,182,0.06);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.5); --shadow-md: 0 10px 30px rgba(0,0,0,0.6); --shadow-lg: 0 20px 60px rgba(0,0,0,0.7);
+  --hero-gradient:       linear-gradient(135deg, #0f0814 0%, #180c22 45%, #0f0a1a 100%);
+  --ink-gradient:        linear-gradient(135deg, #08040d 0%, #120820 55%, #0f0814 100%);
+  --accent-gradient:     linear-gradient(135deg, #1a1020 0%, #22102e 100%);
+  --btn-gradient:        linear-gradient(135deg, #f9a8d4 0%, #f472b6 50%, #ec4899 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #f472b6 0%, #ec4899 100%);
+  --card-hover-gradient: linear-gradient(135deg, #1a1020 0%, #22102e 100%);
+  --surface-gradient:    linear-gradient(160deg, #1a1020 0%, #1e1226 100%);
+}
+
+/* charcoal — dark grey, cyan accent */
+[data-theme="charcoal"] {
+  --bg: #1a1a1a; --bg-deep: #111111;
+  --surface: #242424; --surface-soft: #2e2e2e;
+  --text: #f0f0f0; --muted: #a8a8a8; --faint: #606060;
+  --primary: #22d3ee; --primary-soft: rgba(34,211,238,0.12); --primary-strong: #06b6d4;
+  --border: rgba(255,255,255,0.1); --border-soft: rgba(255,255,255,0.05);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.4); --shadow-md: 0 10px 30px rgba(0,0,0,0.5); --shadow-lg: 0 20px 60px rgba(0,0,0,0.6);
+  --hero-gradient:       linear-gradient(135deg, #1a1a1a 0%, #141820 45%, #1a1a1a 100%);
+  --ink-gradient:        linear-gradient(135deg, #111111 0%, #141414 100%);
+  --accent-gradient:     linear-gradient(135deg, #242424 0%, #1a2028 100%);
+  --btn-gradient:        linear-gradient(135deg, #67e8f9 0%, #22d3ee 50%, #06b6d4 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%);
+  --card-hover-gradient: linear-gradient(135deg, #242424 0%, #1e2630 100%);
+  --surface-gradient:    linear-gradient(160deg, #242424 0%, #262626 100%);
+}
+
+/* ── LIGHT THEMES ── */
+
+/* ivory — warm white, ink text, barely-there surfaces */
+[data-theme="ivory"] {
+  --bg: #faf8f4; --bg-deep: #f3f0e8;
+  --surface: #ffffff; --surface-soft: #faf8f4;
+  --text: #1a1612; --muted: #4a4540; --faint: #9a9590;
+  --primary: #2d2520; --primary-soft: #ede8e0; --primary-strong: #1a1410;
+  --border: rgba(26,22,18,0.1); --border-soft: rgba(26,22,18,0.05);
+  --shadow-sm: 0 2px 6px rgba(26,22,18,0.05); --shadow-md: 0 10px 30px rgba(26,22,18,0.08); --shadow-lg: 0 20px 60px rgba(26,22,18,0.1);
+  --hero-gradient:       linear-gradient(135deg, #faf8f4 0%, #f5f2ea 50%, #faf8f4 100%);
+  --ink-gradient:        linear-gradient(135deg, #1a1612 0%, #2d2520 55%, #1a1612 100%);
+  --accent-gradient:     linear-gradient(135deg, #f3f0e8 0%, #ede8de 100%);
+  --btn-gradient:        linear-gradient(135deg, #3d3530 0%, #2d2520 50%, #1a1510 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #2d2520 0%, #1a1510 100%);
+  --card-hover-gradient: linear-gradient(135deg, #ffffff 0%, #f5f2ea 100%);
+  --surface-gradient:    linear-gradient(160deg, #ffffff 0%, #faf8f4 100%);
+}
+
+/* linen — warm cream, terracotta, editorial */
+[data-theme="linen"] {
+  --bg: #f8f2e8; --bg-deep: #efe6d5;
+  --surface: #fdf9f3; --surface-soft: #fefcf8;
+  --text: #2a1f14; --muted: #6b5040; --faint: #b09880;
+  --primary: #c0522a; --primary-soft: #faeae0; --primary-strong: #9a3e1e;
+  --border: rgba(42,31,20,0.12); --border-soft: rgba(42,31,20,0.06);
+  --shadow-sm: 0 2px 6px rgba(42,31,20,0.06); --shadow-md: 0 10px 30px rgba(42,31,20,0.09); --shadow-lg: 0 20px 60px rgba(42,31,20,0.12);
+  --hero-gradient:       linear-gradient(135deg, #f8f2e8 0%, #f0e8d5 45%, #f8eedc 100%);
+  --ink-gradient:        linear-gradient(135deg, #2a1f14 0%, #3d2c1a 50%, #2a1810 100%);
+  --accent-gradient:     linear-gradient(135deg, #efe6d5 0%, #e8dac4 100%);
+  --btn-gradient:        linear-gradient(135deg, #d4682e 0%, #c0522a 50%, #9a3e1e 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #c0522a 0%, #9a3e1e 100%);
+  --card-hover-gradient: linear-gradient(135deg, #fdf9f3 0%, #f8f0e4 100%);
+  --surface-gradient:    linear-gradient(160deg, #fdf9f3 0%, #faf5ec 100%);
+}
+
+/* chalk — bright white, graphite, zero colour */
+[data-theme="chalk"] {
+  --bg: #ffffff; --bg-deep: #f4f4f4;
+  --surface: #ffffff; --surface-soft: #fafafa;
+  --text: #1c1c1c; --muted: #505050; --faint: #a0a0a0;
+  --primary: #1c1c1c; --primary-soft: #eeeeee; --primary-strong: #000000;
+  --border: rgba(0,0,0,0.1); --border-soft: rgba(0,0,0,0.05);
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.05); --shadow-md: 0 10px 30px rgba(0,0,0,0.08); --shadow-lg: 0 20px 60px rgba(0,0,0,0.1);
+  --hero-gradient:       linear-gradient(135deg, #ffffff 0%, #f8f8f8 50%, #ffffff 100%);
+  --ink-gradient:        linear-gradient(135deg, #1c1c1c 0%, #2c2c2c 100%);
+  --accent-gradient:     linear-gradient(135deg, #f4f4f4 0%, #eeeeee 100%);
+  --btn-gradient:        linear-gradient(135deg, #3c3c3c 0%, #1c1c1c 50%, #000000 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #1c1c1c 0%, #000000 100%);
+  --card-hover-gradient: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+  --surface-gradient:    linear-gradient(160deg, #ffffff 0%, #fafafa 100%);
+}
+
+/* cloud — cool white, soft lavender accent */
+[data-theme="cloud"] {
+  --bg: #f4f6fb; --bg-deep: #e8edf7;
+  --surface: #ffffff; --surface-soft: #f8fafd;
+  --text: #1a1e2e; --muted: #4a5070; --faint: #9098b8;
+  --primary: #6366f1; --primary-soft: #eef2ff; --primary-strong: #4f46e5;
+  --border: rgba(26,30,46,0.1); --border-soft: rgba(26,30,46,0.05);
+  --shadow-sm: 0 2px 6px rgba(26,30,46,0.06); --shadow-md: 0 10px 30px rgba(26,30,46,0.09); --shadow-lg: 0 20px 60px rgba(26,30,46,0.12);
+  --hero-gradient:       linear-gradient(135deg, #f4f6fb 0%, #e8edf7 45%, #eeeaff 100%);
+  --ink-gradient:        linear-gradient(135deg, #1a1e2e 0%, #252a42 50%, #1a1e36 100%);
+  --accent-gradient:     linear-gradient(135deg, #e8edf7 0%, #e0e8ff 100%);
+  --btn-gradient:        linear-gradient(135deg, #818cf8 0%, #6366f1 50%, #4f46e5 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  --card-hover-gradient: linear-gradient(135deg, #ffffff 0%, #eef2ff 100%);
+  --surface-gradient:    linear-gradient(160deg, #ffffff 0%, #f8fafd 100%);
+}
+
+/* ── BOLD / VIVID THEMES ── */
+
+/* saffron — deep burnt orange, very warm */
+[data-theme="saffron"] {
+  --bg: #1a0e00; --bg-deep: #100800;
+  --surface: #241400; --surface-soft: #2e1a00;
+  --text: #fff0d0; --muted: #d0a060; --faint: #806030;
+  --primary: #ff9900; --primary-soft: rgba(255,153,0,0.15); --primary-strong: #e08000;
+  --border: rgba(255,153,0,0.15); --border-soft: rgba(255,153,0,0.07);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.5); --shadow-md: 0 10px 30px rgba(0,0,0,0.6); --shadow-lg: 0 20px 60px rgba(0,0,0,0.7);
+  --hero-gradient:       linear-gradient(135deg, #1a0e00 0%, #2a1400 45%, #1a0a00 100%);
+  --ink-gradient:        linear-gradient(135deg, #100800 0%, #1a0e00 55%, #0f0600 100%);
+  --accent-gradient:     linear-gradient(135deg, #241400 0%, #301800 100%);
+  --btn-gradient:        linear-gradient(135deg, #ffb833 0%, #ff9900 50%, #e08000 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #ff9900 0%, #e08000 100%);
+  --card-hover-gradient: linear-gradient(135deg, #241400 0%, #301a00 100%);
+  --surface-gradient:    linear-gradient(160deg, #241400 0%, #281600 100%);
+}
+
+/* cobalt — bright blue surfaces, white text */
+[data-theme="cobalt"] {
+  --bg: #0030a0; --bg-deep: #002080;
+  --surface: #0040c0; --surface-soft: #0050d0;
+  --text: #ffffff; --muted: #b0d0ff; --faint: #6090d0;
+  --primary: #ffffff; --primary-soft: rgba(255,255,255,0.18); --primary-strong: #e0f0ff;
+  --border: rgba(255,255,255,0.15); --border-soft: rgba(255,255,255,0.08);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.3); --shadow-md: 0 10px 30px rgba(0,0,0,0.4); --shadow-lg: 0 20px 60px rgba(0,0,0,0.5);
+  --hero-gradient:       linear-gradient(135deg, #0030a0 0%, #0040b8 45%, #002898 100%);
+  --ink-gradient:        linear-gradient(135deg, #001060 0%, #002080 55%, #001050 100%);
+  --accent-gradient:     linear-gradient(135deg, #0040c0 0%, #0050d8 100%);
+  --btn-gradient:        linear-gradient(135deg, #ffffff 0%, #e0f0ff 50%, #b8d8ff 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #e0f0ff 0%, #b8d8ff 100%);
+  --card-hover-gradient: linear-gradient(135deg, #0040c0 0%, #0050d8 100%);
+  --surface-gradient:    linear-gradient(160deg, #0040c0 0%, #0048c8 100%);
+}
+
+/* jade — deep teal, gold accent */
+[data-theme="jade"] {
+  --bg: #041a14; --bg-deep: #02100c;
+  --surface: #082420; --surface-soft: #0e2e28;
+  --text: #d8f0e8; --muted: #70b098; --faint: #386858;
+  --primary: #d4a820; --primary-soft: rgba(212,168,32,0.14); --primary-strong: #b88c10;
+  --border: rgba(212,168,32,0.14); --border-soft: rgba(212,168,32,0.07);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.5); --shadow-md: 0 10px 30px rgba(0,0,0,0.6); --shadow-lg: 0 20px 60px rgba(0,0,0,0.7);
+  --hero-gradient:       linear-gradient(135deg, #041a14 0%, #061e18 45%, #041610 100%);
+  --ink-gradient:        linear-gradient(135deg, #02100c 0%, #041a14 55%, #021008 100%);
+  --accent-gradient:     linear-gradient(135deg, #082420 0%, #0c2e28 100%);
+  --btn-gradient:        linear-gradient(135deg, #f0c840 0%, #d4a820 50%, #b88c10 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #d4a820 0%, #b88c10 100%);
+  --card-hover-gradient: linear-gradient(135deg, #082420 0%, #0e3028 100%);
+  --surface-gradient:    linear-gradient(160deg, #082420 0%, #0a2822 100%);
+}
+
+/* crimson — deep red base, cream text */
+[data-theme="crimson"] {
+  --bg: #1a0408; --bg-deep: #100204;
+  --surface: #240810; --surface-soft: #2e0c14;
+  --text: #fff0f0; --muted: #d08088; --faint: #804050;
+  --primary: #ff8080; --primary-soft: rgba(255,128,128,0.14); --primary-strong: #ff4444;
+  --border: rgba(255,128,128,0.14); --border-soft: rgba(255,128,128,0.07);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.5); --shadow-md: 0 10px 30px rgba(0,0,0,0.6); --shadow-lg: 0 20px 60px rgba(0,0,0,0.7);
+  --hero-gradient:       linear-gradient(135deg, #1a0408 0%, #260610 45%, #1a0208 100%);
+  --ink-gradient:        linear-gradient(135deg, #100204 0%, #1a0408 55%, #0e0204 100%);
+  --accent-gradient:     linear-gradient(135deg, #240810 0%, #2e0c18 100%);
+  --btn-gradient:        linear-gradient(135deg, #ff9999 0%, #ff8080 50%, #ff4444 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #ff8080 0%, #ff4444 100%);
+  --card-hover-gradient: linear-gradient(135deg, #240810 0%, #2e0e18 100%);
+  --surface-gradient:    linear-gradient(160deg, #240810 0%, #260a12 100%);
+}
+
+/* ── EDITORIAL / PRINT THEMES ── */
+
+/* broadsheet — newspaper grey, classic */
+[data-theme="broadsheet"] {
+  --bg: #f5f4f0; --bg-deep: #ebe9e3;
+  --surface: #faf9f7; --surface-soft: #ffffff;
+  --text: #141210; --muted: #4a4840; --faint: #9a9890;
+  --primary: #1a1612; --primary-soft: #e8e6e0; --primary-strong: #000000;
+  --border: rgba(20,18,16,0.12); --border-soft: rgba(20,18,16,0.06);
+  --shadow-sm: 0 2px 6px rgba(20,18,16,0.05); --shadow-md: 0 10px 30px rgba(20,18,16,0.08); --shadow-lg: 0 20px 60px rgba(20,18,16,0.1);
+  --hero-gradient:       linear-gradient(135deg, #f5f4f0 0%, #eeece6 45%, #f5f4f0 100%);
+  --ink-gradient:        linear-gradient(135deg, #141210 0%, #201e18 50%, #141210 100%);
+  --accent-gradient:     linear-gradient(135deg, #ebe9e3 0%, #e4e2da 100%);
+  --btn-gradient:        linear-gradient(135deg, #383430 0%, #1a1612 50%, #0a0806 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #1a1612 0%, #0a0806 100%);
+  --card-hover-gradient: linear-gradient(135deg, #ffffff 0%, #f0eeea 100%);
+  --surface-gradient:    linear-gradient(160deg, #faf9f7 0%, #f7f6f2 100%);
+}
+
+/* manuscript — aged parchment, sepia, scholarly */
+[data-theme="manuscript"] {
+  --bg: #f0e8d0; --bg-deep: #e4d8b8;
+  --surface: #f8f0d8; --surface-soft: #fdf8ec;
+  --text: #2a1e08; --muted: #6a5030; --faint: #b09060;
+  --primary: #8b4513; --primary-soft: #f5e8d0; --primary-strong: #6b3510;
+  --border: rgba(42,30,8,0.15); --border-soft: rgba(42,30,8,0.07);
+  --shadow-sm: 0 2px 6px rgba(42,30,8,0.07); --shadow-md: 0 10px 30px rgba(42,30,8,0.1); --shadow-lg: 0 20px 60px rgba(42,30,8,0.14);
+  --hero-gradient:       linear-gradient(135deg, #f0e8d0 0%, #e8ddb8 45%, #f0e8cc 100%);
+  --ink-gradient:        linear-gradient(135deg, #2a1e08 0%, #3d2c10 50%, #2a1808 100%);
+  --accent-gradient:     linear-gradient(135deg, #e4d8b8 0%, #ddd0a8 100%);
+  --btn-gradient:        linear-gradient(135deg, #a85520 0%, #8b4513 50%, #6b3510 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #8b4513 0%, #6b3510 100%);
+  --card-hover-gradient: linear-gradient(135deg, #f8f0d8 0%, #f0e8c8 100%);
+  --surface-gradient:    linear-gradient(160deg, #f8f0d8 0%, #f5edd4 100%);
+}
+
+/* blueprint — dark blue, white text, technical */
+[data-theme="blueprint"] {
+  --bg: #0a1628; --bg-deep: #060e1a;
+  --surface: #102040; --surface-soft: #162850;
+  --text: #e8f4ff; --muted: #80aad0; --faint: #406080;
+  --primary: #60c8ff; --primary-soft: rgba(96,200,255,0.12); --primary-strong: #30b0f0;
+  --border: rgba(96,200,255,0.14); --border-soft: rgba(96,200,255,0.07);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.4); --shadow-md: 0 10px 30px rgba(0,0,0,0.5); --shadow-lg: 0 20px 60px rgba(0,0,0,0.6);
+  --hero-gradient:       linear-gradient(135deg, #0a1628 0%, #0c1c38 45%, #0a1430 100%);
+  --ink-gradient:        linear-gradient(135deg, #060e1a 0%, #0a1628 55%, #060c18 100%);
+  --accent-gradient:     linear-gradient(135deg, #102040 0%, #142850 100%);
+  --btn-gradient:        linear-gradient(135deg, #90d8ff 0%, #60c8ff 50%, #30b0f0 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #60c8ff 0%, #30b0f0 100%);
+  --card-hover-gradient: linear-gradient(135deg, #102040 0%, #162858 100%);
+  --surface-gradient:    linear-gradient(160deg, #102040 0%, #122244 100%);
+}
+
+/* noir — near-black, sepia accent, cinematic */
+[data-theme="noir"] {
+  --bg: #0c0c0a; --bg-deep: #080806;
+  --surface: #161612; --surface-soft: #201e18;
+  --text: #f0ead8; --muted: #a09070; --faint: #504838;
+  --primary: #d4a860; --primary-soft: rgba(212,168,96,0.14); --primary-strong: #b88840;
+  --border: rgba(212,168,96,0.12); --border-soft: rgba(212,168,96,0.06);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.5); --shadow-md: 0 10px 30px rgba(0,0,0,0.65); --shadow-lg: 0 20px 60px rgba(0,0,0,0.75);
+  --hero-gradient:       linear-gradient(135deg, #0c0c0a 0%, #100e08 50%, #0c0c0a 100%);
+  --ink-gradient:        linear-gradient(135deg, #080806 0%, #0c0c0a 100%);
+  --accent-gradient:     linear-gradient(135deg, #161612 0%, #1e1c14 100%);
+  --btn-gradient:        linear-gradient(135deg, #e8c880 0%, #d4a860 50%, #b88840 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #d4a860 0%, #b88840 100%);
+  --card-hover-gradient: linear-gradient(135deg, #161612 0%, #201e16 100%);
+  --surface-gradient:    linear-gradient(160deg, #161612 0%, #181614 100%);
+}
+
+/* ── NATURE THEMES ── */
+
+/* ocean — deep sea blue-green, foam white */
+[data-theme="ocean"] {
+  --bg: #041820; --bg-deep: #021014;
+  --surface: #082430; --surface-soft: #0e2e3c;
+  --text: #e0f4f8; --muted: #70b8c8; --faint: #307888;
+  --primary: #40e0d0; --primary-soft: rgba(64,224,208,0.14); --primary-strong: #20c8b8;
+  --border: rgba(64,224,208,0.14); --border-soft: rgba(64,224,208,0.07);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.4); --shadow-md: 0 10px 30px rgba(0,0,0,0.5); --shadow-lg: 0 20px 60px rgba(0,0,0,0.6);
+  --hero-gradient:       linear-gradient(135deg, #041820 0%, #062028 45%, #041620 100%);
+  --ink-gradient:        linear-gradient(135deg, #021014 0%, #041820 55%, #020e12 100%);
+  --accent-gradient:     linear-gradient(135deg, #082430 0%, #0e2e3c 100%);
+  --btn-gradient:        linear-gradient(135deg, #80ffe8 0%, #40e0d0 50%, #20c8b8 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #40e0d0 0%, #20c8b8 100%);
+  --card-hover-gradient: linear-gradient(135deg, #082430 0%, #0e3040 100%);
+  --surface-gradient:    linear-gradient(160deg, #082430 0%, #0a2834 100%);
+}
+
+/* sand — warm beige, sun-bleached minimal */
+[data-theme="sand"] {
+  --bg: #f5ead8; --bg-deep: #ecdfc8;
+  --surface: #faf4e8; --surface-soft: #fdf9f0;
+  --text: #2a2010; --muted: #7a6848; --faint: #c0a880;
+  --primary: #c8781e; --primary-soft: #faeede; --primary-strong: #a86010;
+  --border: rgba(42,32,16,0.12); --border-soft: rgba(42,32,16,0.06);
+  --shadow-sm: 0 2px 6px rgba(42,32,16,0.06); --shadow-md: 0 10px 30px rgba(42,32,16,0.09); --shadow-lg: 0 20px 60px rgba(42,32,16,0.12);
+  --hero-gradient:       linear-gradient(135deg, #f5ead8 0%, #ede0c4 45%, #f8edd8 100%);
+  --ink-gradient:        linear-gradient(135deg, #2a2010 0%, #3a2e18 50%, #2a1e0c 100%);
+  --accent-gradient:     linear-gradient(135deg, #ecdfc8 0%, #e4d5b8 100%);
+  --btn-gradient:        linear-gradient(135deg, #e0902e 0%, #c8781e 50%, #a86010 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #c8781e 0%, #a86010 100%);
+  --card-hover-gradient: linear-gradient(135deg, #faf4e8 0%, #f5eed8 100%);
+  --surface-gradient:    linear-gradient(160deg, #faf4e8 0%, #f8f0e4 100%);
+}
+
+/* ember — dark brown, glowing amber, firelight */
+[data-theme="ember"] {
+  --bg: #180c04; --bg-deep: #100800;
+  --surface: #221408; --surface-soft: #2c1c0c;
+  --text: #ffe8c0; --muted: #c09060; --faint: #705030;
+  --primary: #ff6a00; --primary-soft: rgba(255,106,0,0.15); --primary-strong: #e05a00;
+  --border: rgba(255,106,0,0.14); --border-soft: rgba(255,106,0,0.07);
+  --shadow-sm: 0 2px 10px rgba(0,0,0,0.5); --shadow-md: 0 10px 30px rgba(0,0,0,0.6); --shadow-lg: 0 20px 60px rgba(0,0,0,0.7);
+  --hero-gradient:       linear-gradient(135deg, #180c04 0%, #221008 45%, #180a02 100%);
+  --ink-gradient:        linear-gradient(135deg, #100800 0%, #180c04 55%, #0e0600 100%);
+  --accent-gradient:     linear-gradient(135deg, #221408 0%, #2e1c0c 100%);
+  --btn-gradient:        linear-gradient(135deg, #ff9030 0%, #ff6a00 50%, #e05a00 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #ff6a00 0%, #e05a00 100%);
+  --card-hover-gradient: linear-gradient(135deg, #221408 0%, #301c0c 100%);
+  --surface-gradient:    linear-gradient(160deg, #221408 0%, #26160a 100%);
+}
+
+/* arctic — ice white, steel blue, clean and cold */
+[data-theme="arctic"] {
+  --bg: #f0f6ff; --bg-deep: #e0ecff;
+  --surface: #f8fbff; --surface-soft: #ffffff;
+  --text: #0a1830; --muted: #3a5878; --faint: #8aaac8;
+  --primary: #0070e0; --primary-soft: #ddeeff; --primary-strong: #0050c0;
+  --border: rgba(10,24,48,0.1); --border-soft: rgba(10,24,48,0.05);
+  --shadow-sm: 0 2px 6px rgba(10,24,48,0.06); --shadow-md: 0 10px 30px rgba(10,24,48,0.09); --shadow-lg: 0 20px 60px rgba(10,24,48,0.12);
+  --hero-gradient:       linear-gradient(135deg, #f0f6ff 0%, #e4f0ff 45%, #dceeff 100%);
+  --ink-gradient:        linear-gradient(135deg, #0a1830 0%, #102040 50%, #0a1838 100%);
+  --accent-gradient:     linear-gradient(135deg, #e0ecff 0%, #d8e8ff 100%);
+  --btn-gradient:        linear-gradient(135deg, #4090ff 0%, #0070e0 50%, #0050c0 100%);
+  --btn-gradient-hover:  linear-gradient(135deg, #0070e0 0%, #0050c0 100%);
+  --card-hover-gradient: linear-gradient(135deg, #f8fbff 0%, #eef6ff 100%);
+  --surface-gradient:    linear-gradient(160deg, #f8fbff 0%, #f4f9ff 100%);
+}
 
 /* =========================================
    3. TYPOGRAPHY SCALES
