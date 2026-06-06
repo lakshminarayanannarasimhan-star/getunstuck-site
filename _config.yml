@@ -54,7 +54,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: broadsheet    # Newspaper grey, classic editorial
 # unstuck_theme: manuscript    # Aged parchment, sepia, scholarly
 # unstuck_theme: blueprint     # Dark blue, white text, technical
-unstuck_theme: noir          # Near-black, sepia accent, cinematic
+# unstuck_theme: noir          # Near-black, sepia accent, cinematic
 #
 # ── NATURE THEMES ──────────────────────────────────────────────────
 #
@@ -67,7 +67,7 @@ unstuck_theme: noir          # Near-black, sepia accent, cinematic
 # These inherit the warm paper surface — only the accent colour changes.
 #
 # unstuck_theme: indigo        # Indigo accent
-# unstuck_theme: emerald       # Emerald accent
+unstuck_theme: emerald       # Emerald accent
 # unstuck_theme: amber         # Amber accent
 # unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
