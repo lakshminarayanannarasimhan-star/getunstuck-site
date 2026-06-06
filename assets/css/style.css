@@ -1067,8 +1067,8 @@ h1, h2, h3, h4 {
    ========================================= */
 
 .footer {
-  border-top: 1px solid var(--border);
-  background: var(--bg-deep);
+  border-top: none;
+  background: var(--ink-gradient, var(--text));
   margin-top: 4rem;
 }
 .footer-inner {
@@ -1077,39 +1077,34 @@ h1, h2, h3, h4 {
   align-items: baseline;
   justify-content: space-between;
   gap: 1.2rem 2.5rem;
-  padding: 2.5rem 0 3.5rem;
+  padding: 2.5rem clamp(1.5rem, 4vw, 3.5rem) 3.5rem;
   max-width: 1320px;
   margin: 0 auto;
 }
 .footer-copy {
   font-family: 'DM Mono', monospace;
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   letter-spacing: 0.08em;
-  color: var(--faint);
-  line-height: 1.8;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.9;
+}
+.footer-copy strong {
+  color: rgba(255,255,255,0.95);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 .footer-copy a {
-  color: var(--muted);
+  color: rgba(255,255,255,0.75);
   text-decoration: none;
-  border-bottom: 1px solid var(--border);
-  transition: color .15s ease;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  transition: color .15s ease, border-color .15s ease;
 }
-.footer-copy a:hover { color: var(--primary); }
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem 1.4rem;
+.footer-copy a:hover {
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.6);
 }
-.footer-links a {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--faint);
-  text-decoration: none;
-  transition: color .15s ease;
-}
-.footer-links a:hover { color: var(--primary); }
 
 @media (max-width: 640px) {
   .footer-inner { flex-direction: column; }
@@ -1189,7 +1184,7 @@ h1, h2, h3, h4 {
   font-size: .65rem;
   letter-spacing: .15em;
   text-transform: uppercase;
-  color: var(--primary);
+  color: var(--primary-soft, rgba(255,255,255,0.5));
   margin-bottom: .2rem;
 }
 .footer-links {
@@ -1202,11 +1197,11 @@ h1, h2, h3, h4 {
   font-size: .68rem;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: var(--faint);
+  color: rgba(255,255,255,0.65);
   text-decoration: none;
   transition: color .15s ease;
 }
-.footer-links a:hover { color: var(--primary); }
+.footer-links a:hover { color: #ffffff; }
 
 /* LinkedIn pill in nav */
 .nav-linkedin {
