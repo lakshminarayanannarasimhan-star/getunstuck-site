@@ -756,9 +756,22 @@ h1, h2, h3, h4 {
   top: 0;
   z-index: 100;
   background: var(--ink-gradient, var(--text));
-  border-bottom: none;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 4px 30px rgba(0,0,0,0.35);
+  box-shadow: 0 4px 30px rgba(0,0,0,0.4);
+  /* thin accent line at bottom */
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+/* Accent glow strip under header */
+.header::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--primary-soft, rgba(255,255,255,0.2)) 30%,
+    var(--primary, #9E5A34) 50%,
+    var(--primary-soft, rgba(255,255,255,0.2)) 70%,
+    transparent 100%);
+  opacity: 0.6;
 }
 
 .header-inner {
@@ -768,111 +781,120 @@ h1, h2, h3, h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
-  height: 84px;
+  gap: 1.5rem;
+  height: 88px;
 }
 
-/* Brand — logo only, no sub-label */
-.brand { text-decoration: none; display: flex; flex-direction: column; gap: 5px; }
+/* ── BRAND ── */
+.brand {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+}
 
 .brand .logo {
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 700;
   line-height: 1;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   background: linear-gradient(135deg,
     #ffffff 0%,
-    var(--primary-soft, #F2E6DA) 35%,
-    rgba(255,255,255,0.9) 65%,
-    var(--primary-soft, #F2E6DA) 100%);
+    rgba(255,255,255,0.9) 30%,
+    var(--primary-soft, #F2E6DA) 55%,
+    rgba(255,255,255,0.95) 80%,
+    #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  filter: drop-shadow(0 0 20px rgba(255,255,255,0.15));
 }
 
-/* Prevent tagline wrapping at smaller widths */
 .brand .tagline-small {
   font-family: 'DM Mono', monospace;
-  font-size: 0.58rem;
-  letter-spacing: 0.18em;
+  font-size: 0.56rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.55);
   line-height: 1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 420px;
+  max-width: 380px;
 }
 
+/* ── NAV ── */
 .header-right {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
+  flex-shrink: 0;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: 0.1rem;
+  gap: 0;
 }
 
-/* Nav links — 7% larger than before (0.7rem → 0.75rem) */
 .nav a {
   font-family: 'DM Mono', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.7);
   text-decoration: none;
-  padding: 0.45rem 0.8rem;
+  padding: 0.5rem 0.75rem;
   border-radius: var(--radius-sm);
+  white-space: nowrap;           /* ← prevents wrapping */
   transition: color .18s ease, background .18s ease;
 }
 .nav a:hover, .nav a[aria-current="page"] {
   color: #ffffff;
-  background: rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.1);
 }
 
-/* Nav item — dropdown anchor */
+/* ── DROPDOWN ── */
 .nav-item { position: relative; }
 .nav-item .has-dropdown { cursor: pointer; }
 
 .dropdown {
   display: none;
   position: absolute;
-  top: calc(100% + 6px);
+  top: calc(100% + 8px);
   left: 0;
   background: var(--ink-gradient, #1a1a1a);
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: var(--radius-md);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
-  min-width: 210px;
-  padding: 0.5rem 0;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+  min-width: 200px;
+  padding: 0.4rem 0;
   z-index: 200;
 }
 .dropdown a {
   display: block;
   padding: 0.55rem 1rem;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   letter-spacing: 0.08em;
-  color: rgba(255,255,255,0.72);
+  color: rgba(255,255,255,0.7);
   border-radius: 0;
   white-space: nowrap;
 }
 .dropdown a:hover {
   color: #ffffff;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.08);
 }
 .nav-item:hover .dropdown { display: block; }
 
-/* Hamburger — white on dark */
+/* ── HAMBURGER ── */
 .menu-toggle {
   display: none;
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
-  padding: 4px;
+  padding: 6px;
 }
 .menu-toggle span {
   display: block;
@@ -891,43 +913,53 @@ h1, h2, h3, h4 {
   z-index: 90;
 }
 
-@media (max-width: 768px) {
+/* Mobile nav — trigger at 1080px since we have many items */
+@media (max-width: 1080px) {
   .menu-toggle { display: flex; }
   .nav {
     display: none;
     position: fixed;
-    top: 68px; right: 0; bottom: 0;
-    width: min(280px, 80vw);
+    top: 88px; right: 0; bottom: 0;
+    width: min(300px, 85vw);
     background: var(--ink-gradient, #111);
     border-left: 1px solid rgba(255,255,255,0.08);
     flex-direction: column;
     align-items: flex-start;
     padding: 1.5rem 1rem;
-    gap: 0.2rem;
+    gap: 0.15rem;
     z-index: 100;
     overflow-y: auto;
   }
   .nav.open { display: flex; }
   .nav-overlay.open { display: block; }
-  .dropdown { position: static; border: none; box-shadow: none; padding: 0 0 0 1rem; background: transparent; }
+  .nav a { font-size: 0.78rem; padding: 0.6rem 0.8rem; width: 100%; }
+  .dropdown {
+    position: static; border: none; box-shadow: none;
+    padding: 0 0 0 1rem; background: transparent;
+  }
   .nav-item:hover .dropdown { display: none; }
   .nav-item.open .dropdown { display: block; }
 }
 
-/* LinkedIn pill */
+/* ── LINKEDIN PILL ── */
 .nav-linkedin {
   font-family: 'DM Mono', monospace;
   font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
   color: var(--text) !important;
   background: linear-gradient(135deg, #ffffff 0%, var(--primary-soft, #F2E6DA) 100%);
-  padding: .35rem .8rem !important;
+  padding: .4rem .9rem !important;
   border-radius: var(--radius-sm);
   text-decoration: none;
-  transition: opacity .18s ease;
+  white-space: nowrap;
+  transition: opacity .18s ease, transform .18s ease;
 }
-.nav-linkedin:hover { opacity: 0.85; }
+.nav-linkedin:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
 
 
 /* =========================================
