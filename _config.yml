@@ -24,7 +24,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: midnight      # Deep dark, indigo glow
 # unstuck_theme: forest        # Deep green, earthy, grounded
 # unstuck_theme: sunset        # Warm amber to rose, editorial
-unstuck_theme: slate         # Cool white, steel blue, executive
+# unstuck_theme: slate         # Cool white, steel blue, executive
 # unstuck_theme: mono          # Stripped back, pure black/white
 #
 # ── DARK THEMES ────────────────────────────────────────────────────
@@ -58,7 +58,7 @@ unstuck_theme: slate         # Cool white, steel blue, executive
 #
 # ── NATURE THEMES ──────────────────────────────────────────────────
 #
-# unstuck_theme: ocean         # Deep sea blue-green, foam white
+unstuck_theme: ocean         # Deep sea blue-green, foam white
 # unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
 # unstuck_theme: arctic        # Ice white, steel blue, cold and clean
