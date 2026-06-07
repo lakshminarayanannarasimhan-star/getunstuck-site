@@ -136,64 +136,90 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
 </section>
 
 <!-- CAREER TIMELINE -->
-<section class="section-wide" style="padding-bottom:2rem;">
+<section class="section-wide tl3-section">
   <div class="section-label">The arc</div>
   <h2>24 years. One organisation. Every layer.</h2>
-  <div class="timeline-wrap">
-    <div class="timeline">
 
-      <div class="tl-node">
-        <div class="tl-year">2002</div>
-        <div class="tl-dot"></div>
-        <div class="tl-text">
-          <div class="tl-title">Joined HCLTech</div>
-          <div class="tl-sub">Lead Engineer, Networking</div>
+  <div class="tl3-wrap">
+    <div class="tl3">
+      <div class="tl3-line"></div>
+
+      <div class="tl3-node">
+        <div class="tl3-above"></div>
+        <div class="tl3-mid"><div class="tl3-dot"></div></div>
+        <div class="tl3-below">
+          <div class="tl3-card">
+            <div class="tl3-year">2002</div>
+            <div class="tl3-title">Joined HCLTech</div>
+            <div class="tl3-sub">Lead Engineer, Networking</div>
+            <span class="tl3-badge">Day One</span>
+          </div>
         </div>
       </div>
 
-      <div class="tl-node flip">
-        <div class="tl-year">2006</div>
-        <div class="tl-dot"></div>
-        <div class="tl-text">
-          <div class="tl-title">Technical Lead</div>
-          <div class="tl-sub">Network Security · Seed member, Video Tech</div>
+      <div class="tl3-node">
+        <div class="tl3-above">
+          <div class="tl3-card">
+            <div class="tl3-year">2006</div>
+            <div class="tl3-title">Technical Lead</div>
+            <div class="tl3-sub">Network Security · Seed: Video Tech</div>
+            <span class="tl3-badge">Int'l Speaker</span>
+          </div>
+        </div>
+        <div class="tl3-mid"><div class="tl3-dot"></div></div>
+        <div class="tl3-below"></div>
+      </div>
+
+      <div class="tl3-node">
+        <div class="tl3-above"></div>
+        <div class="tl3-mid"><div class="tl3-dot"></div></div>
+        <div class="tl3-below">
+          <div class="tl3-card">
+            <div class="tl3-year">2010</div>
+            <div class="tl3-title">Video &amp; IP Streaming</div>
+            <div class="tl3-sub">Managed Services · Risk-Reward Model</div>
+            <span class="tl3-badge">3→300+ Engineers</span>
+          </div>
         </div>
       </div>
 
-      <div class="tl-node">
-        <div class="tl-year">2010</div>
-        <div class="tl-dot"></div>
-        <div class="tl-text">
-          <div class="tl-title">Video &amp; IP Streaming</div>
-          <div class="tl-sub">Managed Services · Risk-Reward Model</div>
+      <div class="tl3-node">
+        <div class="tl3-above">
+          <div class="tl3-card">
+            <div class="tl3-year">2015</div>
+            <div class="tl3-title">Solution Architect → Director</div>
+            <div class="tl3-sub">IP Streaming · CDN/Edge</div>
+            <span class="tl3-badge">$10M+ Contracts</span>
+          </div>
+        </div>
+        <div class="tl3-mid"><div class="tl3-dot"></div></div>
+        <div class="tl3-below"></div>
+      </div>
+
+      <div class="tl3-node">
+        <div class="tl3-above"></div>
+        <div class="tl3-mid"><div class="tl3-dot"></div></div>
+        <div class="tl3-below">
+          <div class="tl3-card">
+            <div class="tl3-year">2020</div>
+            <div class="tl3-title">Delivery Head</div>
+            <div class="tl3-sub">Video · NetSec · Networking</div>
+            <span class="tl3-badge">4→600+ · $150M+</span>
+          </div>
         </div>
       </div>
 
-      <div class="tl-node flip">
-        <div class="tl-year">2015</div>
-        <div class="tl-dot"></div>
-        <div class="tl-text">
-          <div class="tl-title">Solution Architect → Director</div>
-          <div class="tl-sub">IP Streaming · CDN/Edge</div>
+      <div class="tl3-node is-now">
+        <div class="tl3-above">
+          <div class="tl3-card">
+            <div class="tl3-year">2026</div>
+            <div class="tl3-title">Strategic OEM Engagements</div>
+            <div class="tl3-sub">Building strategic engagements for top OEMs</div>
+            <span class="tl3-badge is-now">Now</span>
+          </div>
         </div>
-      </div>
-
-      <div class="tl-node">
-        <div class="tl-year">2020</div>
-        <div class="tl-dot"></div>
-        <div class="tl-text">
-          <div class="tl-title">Delivery Head</div>
-          <div class="tl-sub">Video · NetSec · Networking</div>
-        </div>
-      </div>
-
-      <div class="tl-node flip current">
-        <div class="tl-year">2026</div>
-        <div class="tl-dot"></div>
-        <div class="tl-text">
-          <div class="tl-title">Author · Consultant</div>
-          <div class="tl-sub">Leadership Handbooks · Consulting Practice</div>
-        </div>
+        <div class="tl3-mid"><div class="tl3-dot"></div></div>
+        <div class="tl3-below"></div>
       </div>
 
     </div>

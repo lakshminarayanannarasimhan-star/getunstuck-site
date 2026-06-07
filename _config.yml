@@ -40,12 +40,12 @@ author: Lakshmi Narayanan
 # unstuck_theme: ivory         # Warm white, barely-there surfaces
 # unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
-unstuck_theme: cloud         # Cool white, soft lavender accent
+# unstuck_theme: cloud         # Cool white, soft lavender accent
 #
 # ── BOLD / VIVID THEMES ────────────────────────────────────────────
 #
 # unstuck_theme: saffron       # Deep burnt orange, firelike warmth
-# unstuck_theme: cobalt        # Bright blue surfaces, white text
+unstuck_theme: cobalt        # Bright blue surfaces, white text
 # unstuck_theme: jade          # Deep teal, gold accent
 # unstuck_theme: crimson       # Deep red base, cream text
 #
