@@ -52,11 +52,11 @@ description: "People I worked with. In their words — what we did together and 
       <div class="mentee-body">
         <div class="mentee-section">
           <div class="mentee-q">What we did together</div>
-          <p>{{ mentee.content | split: "## How it helped" | first | remove: "## What we did together" | strip }}</p>
+          <p>{{ mentee.together }}</p>
         </div>
         <div class="mentee-section">
           <div class="mentee-q">How it helped</div>
-          <p>{{ mentee.content | split: "## How it helped" | last | strip }}</p>
+          <p>{{ mentee.helped }}</p>
         </div>
       </div>
 
