@@ -75,12 +75,12 @@ author: Lakshmi Narayanan
 # unstuck_theme: oasis         # Muted purple accent
 # unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
-unstuck_theme: summer_sunset # Deep rose accent
+# unstuck_theme: summer_sunset # Deep rose accent
 # unstuck_theme: adventure     # Dark teal accent
 # unstuck_theme: feast         # Deep forest green accent
 # unstuck_theme: ocean_breeze  # Bold red accent
 # unstuck_theme: pumpkin_spice # Pumpkin orange accent
-# unstuck_theme: evergreen     # Deep green accent
+unstuck_theme: evergreen     # Deep green accent
 
 typography: executive   # executive | compact | spacious
 
