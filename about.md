@@ -11,7 +11,32 @@ description: "Lakshmi Narayanan — leadership systems practitioner, author, and
       <div class="eyebrow reveal d1">About</div>
       <h1 class="hero-title reveal d2">Lifelong student. Reluctant expert.</h1>
       <p class="hero-sub reveal d3">I have been learning, teaching, and building systems for as long as I can remember. The books, the writing, and the practice materials are all expressions of the same thing.</p>
+
+      <div class="stat-strip reveal d4" style="margin-top:1.8rem;">
+        <div class="stat">
+          <div class="stat-num">25+</div>
+          <div class="stat-label">Years in Practice</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">600+</div>
+          <div class="stat-label">Engineers Led</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">45+</div>
+          <div class="stat-label">Workshops</div>
+        </div>
+      </div>
+
+      <div class="area-tags reveal d5" style="margin-top:1.2rem;">
+        <span class="area-tag">Technology Executive</span>
+        <span class="area-tag">HCL Technologies</span>
+        <span class="area-tag">Cloud &amp; Cybersecurity</span>
+        <span class="area-tag">Networking</span>
+        <span class="area-tag">Product Engineering</span>
+        <span class="area-tag">Chennai</span>
+      </div>
     </div>
+
     <div class="hero-right reveal d3">
       <div class="hero-panel">
         <div class="panel-label">In brief</div>
@@ -30,30 +55,6 @@ description: "Lakshmi Narayanan — leadership systems practitioner, author, and
     </div>
   </div>
 </section>
-
-<div class="section-accent">
-  <div class="bleed-inner">
-    <div class="section-label">The numbers</div>
-    <div class="stat-strip-4">
-      <div class="stat">
-        <div class="stat-num">25+</div>
-        <div class="stat-label">Years in Practice</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">29</div>
-        <div class="stat-label">Workshops Conducted</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">22</div>
-        <div class="stat-label">Technical Articles</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">15+</div>
-        <div class="stat-label">Years Writing Publicly</div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <section class="section-wide">
   <div class="layout-sidebar">
