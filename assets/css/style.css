@@ -1629,8 +1629,8 @@ h1, h2, h3, h4 {
   margin-top: 2rem;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-    "books    books    books    consulting"
-    "pubs     pubs     brand    about";
+    "books    books    consulting  consulting"
+    "pubs     pubs     brand       about";
 }
 @media (max-width: 960px) {
   .dashboard-grid {
