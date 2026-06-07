@@ -61,13 +61,13 @@ author: Lakshmi Narayanan
 # unstuck_theme: ocean         # Deep sea blue-green, foam white
 # unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
-unstuck_theme: arctic        # Ice white, steel blue, cold and clean
+# unstuck_theme: arctic        # Ice white, steel blue, cold and clean
 #
 # ── ACCENT-SWAP THEMES (dojo base + colour accent) ─────────────────
 # These inherit the warm paper surface — only the accent colour changes.
 #
 # unstuck_theme: indigo        # Indigo accent
-# unstuck_theme: emerald       # Emerald accent
+unstuck_theme: emerald       # Emerald accent
 # unstuck_theme: amber         # Amber accent
 # unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
