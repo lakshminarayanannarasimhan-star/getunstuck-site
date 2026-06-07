@@ -2312,3 +2312,118 @@ h1, h2, h3, h4 {
   gap: 1.5rem;
   flex-wrap: wrap;
 }
+
+
+/* =========================================
+   22. CAREER TIMELINE
+   ========================================= */
+
+.timeline-wrap {
+  margin-top: 2.5rem;
+  overflow-x: auto;
+  padding: 3rem 0 1rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-width: 700px;
+  padding: 0 2rem;
+}
+
+/* Connecting line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  right: 2rem;
+  height: 2px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--primary) 8%,
+    var(--primary) 92%,
+    transparent 100%);
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+
+/* Each node */
+.tl-node {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: default;
+}
+
+/* Year label */
+.tl-year {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  line-height: 1;
+  margin-bottom: 0.6rem;
+}
+
+/* Dot */
+.tl-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--primary);
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.tl-node:hover .tl-dot {
+  transform: scale(1.4);
+  box-shadow: 0 0 0 3px var(--primary), 0 0 12px var(--primary);
+}
+
+/* Text block */
+.tl-text {
+  margin-top: 0.6rem;
+  text-align: center;
+  max-width: 130px;
+}
+.tl-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.4;
+}
+.tl-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--faint);
+  margin-top: 0.2rem;
+  line-height: 1.4;
+}
+
+/* Alternating layout — even nodes flip above the line */
+.tl-node.flip {
+  flex-direction: column-reverse;
+}
+.tl-node.flip .tl-year { margin-bottom: 0; margin-top: 0.6rem; }
+.tl-node.flip .tl-text { margin-top: 0; margin-bottom: 0.6rem; }
+
+/* Current/last node highlight */
+.tl-node.current .tl-dot {
+  background: var(--text);
+  box-shadow: 0 0 0 2px var(--text);
+  width: 18px;
+  height: 18px;
+}
+.tl-node.current .tl-year { color: var(--text); }

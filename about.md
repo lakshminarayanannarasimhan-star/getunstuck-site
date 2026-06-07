@@ -135,6 +135,71 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
   </div>
 </section>
 
+<!-- CAREER TIMELINE -->
+<section class="section-wide" style="padding-bottom:2rem;">
+  <div class="section-label">The arc</div>
+  <h2>24 years. One organisation. Every layer.</h2>
+  <div class="timeline-wrap">
+    <div class="timeline">
+
+      <div class="tl-node">
+        <div class="tl-year">2002</div>
+        <div class="tl-dot"></div>
+        <div class="tl-text">
+          <div class="tl-title">Joined HCLTech</div>
+          <div class="tl-sub">Lead Engineer, Networking</div>
+        </div>
+      </div>
+
+      <div class="tl-node flip">
+        <div class="tl-year">2006</div>
+        <div class="tl-dot"></div>
+        <div class="tl-text">
+          <div class="tl-title">Technical Lead</div>
+          <div class="tl-sub">Network Security · Seed member, Video Tech</div>
+        </div>
+      </div>
+
+      <div class="tl-node">
+        <div class="tl-year">2010</div>
+        <div class="tl-dot"></div>
+        <div class="tl-text">
+          <div class="tl-title">Video &amp; IP Streaming</div>
+          <div class="tl-sub">Managed Services · Risk-Reward Model</div>
+        </div>
+      </div>
+
+      <div class="tl-node flip">
+        <div class="tl-year">2015</div>
+        <div class="tl-dot"></div>
+        <div class="tl-text">
+          <div class="tl-title">Solution Architect → Director</div>
+          <div class="tl-sub">IP Streaming · CDN/Edge</div>
+        </div>
+      </div>
+
+      <div class="tl-node">
+        <div class="tl-year">2020</div>
+        <div class="tl-dot"></div>
+        <div class="tl-text">
+          <div class="tl-title">Delivery Head</div>
+          <div class="tl-sub">Video · NetSec · Networking</div>
+        </div>
+      </div>
+
+      <div class="tl-node flip current">
+        <div class="tl-year">2026</div>
+        <div class="tl-dot"></div>
+        <div class="tl-text">
+          <div class="tl-title">Author · Consultant</div>
+          <div class="tl-sub">Leadership Handbooks · Consulting Practice</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- THREAD -->
 <div class="section-ink">
   <div class="bleed-inner">
