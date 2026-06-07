@@ -32,7 +32,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: obsidian      # Pure black, electric blue accent
 # unstuck_theme: navy          # Deep navy, gold accent
 # unstuck_theme: plum          # Deep purple-black, rose accent
-# unstuck_theme: charcoal      # Dark grey, cyan accent
+unstuck_theme: charcoal      # Dark grey, cyan accent
 # unstuck_theme: midnight      # Deep dark, indigo glow (see above)
 #
 # ── LIGHT THEMES ───────────────────────────────────────────────────
@@ -67,7 +67,7 @@ author: Lakshmi Narayanan
 # These inherit the warm paper surface — only the accent colour changes.
 #
 # unstuck_theme: indigo        # Indigo accent
-unstuck_theme: emerald       # Emerald accent
+# unstuck_theme: emerald       # Emerald accent
 # unstuck_theme: amber         # Amber accent
 # unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
