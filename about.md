@@ -75,6 +75,9 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
      PROFESSIONAL — recruiter facing
 ═══════════════════════════════ -->
 <section class="section-wide" style="padding-bottom:1.5rem;">
+  <div class="layout-sidebar">
+    <div>
+      <div class="section-label">The Professional</div>
       <h2>Technology Head. Engineering Scaler. Systems Builder.</h2>
       <div class="prose" style="margin-top:1.2rem;">
         <p>At HCL Technologies, I own technology strategy and product engineering for global portfolios across Cloud, Cybersecurity, Networking, and Telco Cloud — generating $150M+ cumulative revenue with a 43% gross margin. I built the engineering organisation from 4 to 600+ professionals, established India as a strategic hub for global platform engineering, and drove $29M+ revenue growth through operating model transformation.</p>
