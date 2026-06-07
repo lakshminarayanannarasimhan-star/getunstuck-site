@@ -12,7 +12,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
   <div class="hero-split">
 
     <div class="hero-left">
-      <div class="eyebrow reveal d1">Leadership · Writing · Practice</div>
+      <div class="eyebrow reveal d1">Leadership Operating Systems · Technology Strategy · Author</div>
       <h1 class="hero-title reveal d2">25 years of building what others theorise about.</h1>
       <p class="hero-sub reveal d3">Author. Leadership systems practitioner. Writing on what actually holds — in books, articles, and practice.</p>
       <div class="hero-actions reveal d4">
@@ -147,10 +147,10 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
   <div class="dash-card dash-area-pubs">
     <div class="dash-card-label">
       Publications
-      <span class="badge">2 Active Series</span>
+      <span class="badge">4 Series</span>
     </div>
     <h3>Writing worth reading slowly.</h3>
-    <p>Articles on leadership systems, strategy, and the gap between execution and indispensability.</p>
+    <p>Articles on leadership systems, technology strategy, security, and the gap between execution and indispensability.</p>
 
     <div class="pub-series">
       <div class="pub-series-item">
@@ -162,6 +162,16 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <div class="ps-label">Series B</div>
         <div class="ps-title">Beyond Execution</div>
         <div class="ps-meta">6 articles · In progress</div>
+      </div>
+      <div class="pub-series-item">
+        <div class="ps-label">Series C</div>
+        <div class="ps-title">The Moving Target</div>
+        <div class="ps-meta">7 articles · Network security strategy</div>
+      </div>
+      <div class="pub-series-item">
+        <div class="ps-label">Series D</div>
+        <div class="ps-title">The Trust Equation</div>
+        <div class="ps-meta">Security as a trust problem · D0 live</div>
       </div>
     </div>
 
