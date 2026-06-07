@@ -71,10 +71,10 @@ author: Lakshmi Narayanan
 # unstuck_theme: amber         # Amber accent
 # unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
-# unstuck_theme: violet        # Violet accent
+unstuck_theme: violet        # Violet accent
 # unstuck_theme: oasis         # Muted purple accent
 # unstuck_theme: berry         # Berry accent
-unstuck_theme: delight       # Bright red accent
+# unstuck_theme: delight       # Bright red accent
 # unstuck_theme: summer_sunset # Deep rose accent
 # unstuck_theme: adventure     # Dark teal accent
 # unstuck_theme: feast         # Deep forest green accent
