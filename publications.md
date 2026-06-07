@@ -129,8 +129,8 @@ description: "Four series across leadership systems, technology strategy, and se
       <h2>Security is a trust problem.</h2>
       <p class="prose" style="margin-top:.8rem;">Most security programmes are built as if the customer does not exist. They protect systems. What they actually defend is the willingness of a person who trusted you where they could not see. This series names the structural problem — and gives practitioners the language to make it visible to the people who govern it.</p>
     </div>
-    <span class="series-status live" style="align-self:flex-start;">
-      <span class="series-dot"></span>Live
+    <span class="series-status coming" style="align-self:flex-start;">
+      <span class="series-dot"></span>Coming
     </span>
   </div>
   <div class="card-grid" style="margin-top:1.8rem;">
