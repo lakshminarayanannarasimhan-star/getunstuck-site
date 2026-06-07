@@ -8,22 +8,32 @@ description: "Articles and writing on leadership, strategy, and the gap between 
 <section class="hero">
   <div class="eyebrow reveal d1">Publications</div>
   <h1 class="hero-title reveal d2">Writing worth reading slowly.</h1>
-  <p class="hero-sub reveal d3">Articles on leadership systems, strategy, and the thinking that separates execution from indispensability. Published across LinkedIn and long-form platforms.</p>
+  <p class="hero-sub reveal d3">Four series across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
 </section>
 
 <div class="section-accent">
   <div class="bleed-inner">
-    <div class="section-label">Two active series</div>
+    <div class="section-label">Four series</div>
     <div class="pillar-strip">
-      <a class="pillar" href="/publications/articles/#los">
+      <a class="pillar" href="#series-a">
         <div class="pillar-num">Series A</div>
         <div class="pillar-name">Leadership Operating System</div>
         <div class="pillar-desc">How leaders build systems, not just habits — four articles</div>
       </a>
-      <a class="pillar" href="/publications/articles/#beyond-execution">
+      <a class="pillar" href="#series-b">
         <div class="pillar-num">Series B</div>
         <div class="pillar-name">Beyond Execution</div>
         <div class="pillar-desc">From execution to indispensability — the full arc</div>
+      </a>
+      <a class="pillar" href="#series-c">
+        <div class="pillar-num">Series C</div>
+        <div class="pillar-name">The Moving Target</div>
+        <div class="pillar-desc">Network security as technology strategy — seven articles</div>
+      </a>
+      <a class="pillar" href="#series-d">
+        <div class="pillar-num">Series D</div>
+        <div class="pillar-name">The Trust Equation</div>
+        <div class="pillar-desc">Security as a trust problem — D0 now live</div>
       </a>
     </div>
   </div>
