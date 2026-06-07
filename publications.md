@@ -19,7 +19,7 @@ description: "Four series across leadership systems, technology strategy, and se
     <a class="series-card" href="#series-d">
       <div class="series-card-top">
         <div class="series-id">Series D</div>
-        <span class="series-status live">
+        <span class="series-status coming">
           <span class="series-dot"></span>Live
         </span>
       </div>
