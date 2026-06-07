@@ -32,7 +32,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: obsidian      # Pure black, electric blue accent
 # unstuck_theme: navy          # Deep navy, gold accent
 # unstuck_theme: plum          # Deep purple-black, rose accent
-# unstuck_theme: charcoal      # Dark grey, cyan accent
+unstuck_theme: charcoal      # Dark grey, cyan accent
 # unstuck_theme: midnight      # Deep dark, indigo glow (see above)
 #
 # ── LIGHT THEMES ───────────────────────────────────────────────────
@@ -72,7 +72,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
 # unstuck_theme: violet        # Violet accent
-unstuck_theme: oasis         # Muted purple accent
+# unstuck_theme: oasis         # Muted purple accent
 # unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
 # unstuck_theme: summer_sunset # Deep rose accent
