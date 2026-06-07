@@ -1837,31 +1837,36 @@ h1, h2, h3, h4 {
   position: relative;
   width: 100%;
   background: var(--bg-deep);
-  min-height: 240px;
+  height: 320px;         /* fixed height — images scale to fit */
+  overflow: hidden;
 }
 
 .li-track {
   display: flex;
+  height: 100%;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;          /* Firefox */
-  -ms-overflow-style: none;       /* IE/Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
-.li-track::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+.li-track::-webkit-scrollbar { display: none; }
 
 .li-slide {
   flex: 0 0 100%;
   width: 100%;
+  height: 100%;
   scroll-snap-align: start;
   overflow: hidden;
 }
 
 .li-slide img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;    /* contain so full image visible, not cropped */
+  object-position: center;
   display: block;
-  max-height: 360px;
-  object-fit: cover;
+  background: var(--bg-deep);
 }
 
 /* Prev / Next buttons */
