@@ -109,7 +109,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       <h3 style="font-size:1.05rem;">From the feed.</h3>
     </div>
 
-    {% assign li_images = site.static_files | where_exp: "f", "f.path contains '/assets/img/linkedin/'" | where_exp: "f", "f.extname == '.jpg' or f.extname == '.png' or f.extname == '.webp' or f.extname == '.jpeg'" | sort: "name" | reverse %}
+    {% assign li_images = site.static_files | where_exp: "f", "f.path contains '/assets/img/linkedin/'" | sort: "name" | reverse %}
 
     {% if li_images.size > 0 %}
     <div class="li-carousel" id="liCarousel">
