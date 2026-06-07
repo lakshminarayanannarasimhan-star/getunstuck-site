@@ -1504,7 +1504,7 @@ h1, h2, h3, h4 {
 
 .pillar-strip {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
@@ -1512,8 +1512,8 @@ h1, h2, h3, h4 {
   overflow: hidden;
   margin-top: 1.2rem;
 }
-@media (max-width: 900px) { .pillar-strip { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 580px) { .pillar-strip { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .pillar-strip { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .pillar-strip { grid-template-columns: 1fr; } }
 
 .pillar {
   background: var(--surface);
