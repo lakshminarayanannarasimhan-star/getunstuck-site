@@ -17,6 +17,14 @@ description: "Lakshmi Narayanan — leadership systems practitioner, author, and
         <div class="panel-label">In brief</div>
         <h3>Lakshmi Narayanan N</h3>
         <p>Leadership systems practitioner. Author. 25 years inside one of India's largest organisations. Chennai.</p>
+        <div style="margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid var(--border);">
+          <div class="panel-label">Professional</div>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:.7rem;margin-top:.6rem;">
+            <li style="font-size:.9rem;color:var(--muted);line-height:1.5;">Technology Executive at HCL Technologies — scaled global product engineering from 4 to 600+ engineers across Cloud, Cybersecurity, and Networking, owning portfolios generating $150M+ cumulative revenue.</li>
+            <li style="font-size:.9rem;color:var(--muted);line-height:1.5;">24 years of end-to-end product engineering leadership — from Software Engineer to Technology Head — with strategic partnerships spanning Cisco, Palo Alto Networks, HPE, VMware, and Juniper.</li>
+            <li style="font-size:.9rem;color:var(--muted);line-height:1.5;">M.S. Software Engineering (BITS Pilani) · B.E. Electronics & Communication (Thiagarajar College) · 20+ published articles · 45+ workshops and guest lectures.</li>
+          </ul>
+        </div>
         <p style="margin-top:.7rem;font-size:.88rem;color:var(--faint);">"Ceasing to learn is ceasing to breathe."</p>
       </div>
     </div>
