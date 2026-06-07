@@ -58,7 +58,7 @@ unstuck_theme: charcoal      # Dark grey, cyan accent
 #
 # ── NATURE THEMES ──────────────────────────────────────────────────
 #
-# unstuck_theme: ocean         # Deep sea blue-green, foam white
+unstuck_theme: ocean         # Deep sea blue-green, foam white
 # unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
 # unstuck_theme: arctic        # Ice white, steel blue, cold and clean

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Case Studies
-permalink: /case-studies/
+permalink: /case_studies/
 description: "Real engagements. Real outcomes. Leadership systems, platform transformation, and engineering organisation design in practice."
 ---
 
