@@ -21,7 +21,7 @@ author: Lakshmi Narayanan
 # ── SIGNATURE THEMES (full surface + gradient system) ──────────────
 #
 # unstuck_theme: dojo            # Warm paper, ochre gradient       · DEFAULT
-# unstuck_theme: midnight      # Deep dark, indigo glow
+unstuck_theme: midnight      # Deep dark, indigo glow
 # unstuck_theme: forest        # Deep green, earthy, grounded
 # unstuck_theme: sunset        # Warm amber to rose, editorial
 # unstuck_theme: slate         # Cool white, steel blue, executive
@@ -80,7 +80,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: feast         # Deep forest green accent
 # unstuck_theme: ocean_breeze  # Bold red accent
 # unstuck_theme: pumpkin_spice # Pumpkin orange accent
-unstuck_theme: evergreen     # Deep green accent
+# unstuck_theme: evergreen     # Deep green accent
 
 typography: executive   # executive | compact | spacious
 
