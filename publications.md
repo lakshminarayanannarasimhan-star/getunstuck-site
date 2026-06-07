@@ -67,34 +67,6 @@ description: "Four series across leadership systems, technology strategy, and se
   </div>
 </section>
 
-<!-- SERIES D — LIVE -->
-<section class="section-wide" id="series-d">
-  <div class="series-section-header">
-    <div>
-      <div class="section-label">Series D · The Trust Equation</div>
-      <h2>Security is a trust problem.</h2>
-      <p class="prose" style="margin-top:.8rem;">Most security programmes are built as if the customer does not exist. They protect systems. What they actually defend is the willingness of a person who trusted you where they could not see. This series names the structural problem — and gives practitioners the language to make it visible to the people who govern it.</p>
-    </div>
-    <span class="series-status live" style="align-self:flex-start;">
-      <span class="series-dot"></span>Live
-    </span>
-  </div>
-  <div class="card-grid" style="margin-top:1.8rem;">
-    {% for post in site.posts %}
-      {% if post.series contains "Trust Equation" or post.series contains "Series D" %}
-      <div class="card">
-        <div class="num">{{ post.date | date: "%d %b %Y" }} · D{{ forloop.index0 }}</div>
-        <h3 style="margin-top:.3rem;font-size:1.1rem;">
-          <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">{{ post.title }}</a>
-        </h3>
-        <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-        <a class="card-link" href="{{ post.url }}">Read</a>
-      </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
-
 <!-- SERIES A -->
 <section class="section-wide" id="series-a">
   <div class="series-section-header">
@@ -146,6 +118,34 @@ description: "Four series across leadership systems, technology strategy, and se
   <div class="coming" style="margin-top:1.8rem;">
     <div class="label">Held until Series A and B close</div>
     <p>Seven articles, outlined and frozen. Content begins after Series A and B publish.</p>
+  </div>
+</section>
+
+<!-- SERIES D — LIVE -->
+<section class="section-wide" id="series-d">
+  <div class="series-section-header">
+    <div>
+      <div class="section-label">Series D · The Trust Equation</div>
+      <h2>Security is a trust problem.</h2>
+      <p class="prose" style="margin-top:.8rem;">Most security programmes are built as if the customer does not exist. They protect systems. What they actually defend is the willingness of a person who trusted you where they could not see. This series names the structural problem — and gives practitioners the language to make it visible to the people who govern it.</p>
+    </div>
+    <span class="series-status live" style="align-self:flex-start;">
+      <span class="series-dot"></span>Live
+    </span>
+  </div>
+  <div class="card-grid" style="margin-top:1.8rem;">
+    {% for post in site.posts %}
+      {% if post.series contains "Trust Equation" or post.series contains "Series D" %}
+      <div class="card">
+        <div class="num">{{ post.date | date: "%d %b %Y" }} · D{{ forloop.index0 }}</div>
+        <h3 style="margin-top:.3rem;font-size:1.1rem;">
+          <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">{{ post.title }}</a>
+        </h3>
+        <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        <a class="card-link" href="{{ post.url }}">Read</a>
+      </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </section>
 
