@@ -28,7 +28,22 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
     </div>
 
     <div class="hero-right reveal d3">
-      <div class="hero-panel">
+
+      <!-- PHOTO — replace lakshmi.jpg with your actual photo -->
+      <div class="about-photo-wrap">
+        <img
+          src="/assets/img/lakshmi.jpg"
+          alt="Lakshmi Narayanan N"
+          class="about-photo"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+        >
+        <div class="about-photo-placeholder" style="display:none;">
+          <span>LN</span>
+          <p>Add your photo to<br><code>assets/img/lakshmi.jpg</code></p>
+        </div>
+      </div>
+
+      <div class="hero-panel" style="margin-top:1rem;">
         <div class="panel-label">In brief</div>
         <h3>Lakshmi Narayanan N</h3>
         <p>Technology Executive. Leadership systems practitioner. Author. 25 years inside one of India's largest organisations. Chennai.</p>
