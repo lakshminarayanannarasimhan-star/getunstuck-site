@@ -116,7 +116,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       <div class="li-track" id="liTrack">
         {% for img in li_images %}
         <div class="li-slide">
-          <img src="{{ img.path | relative_url }}" alt="LinkedIn post {{ forloop.index }}" loading="lazy">
+          <img src="{{ img.path | relative_url }}" alt="LinkedIn post {{ forloop.index }}" loading="eager">
         </div>
         {% endfor %}
       </div>
