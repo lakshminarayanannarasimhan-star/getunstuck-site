@@ -2135,8 +2135,8 @@ h1, h2, h3, h4 {
    ========================================= */
 
 .about-photo-wrap {
-  width: 75%;
-  max-width: 280px;
+  width: 60%;
+  max-width: 200px;
   margin: 0 auto;
   border-radius: var(--radius-lg);
   overflow: hidden;
