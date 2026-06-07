@@ -17,7 +17,8 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       <p class="hero-sub reveal d3">Author. Leadership systems practitioner. Writing on what actually holds — in books, articles, and practice.</p>
       <div class="hero-actions reveal d4">
         <a class="btn-primary" href="/books/">The Library</a>
-        <a class="btn-secondary" href="/about/">About Lakshmi</a>
+        <a class="btn-secondary" href="/publications/">The Writing</a>
+        <a class="btn-secondary" href="/case-studies/">Case Studies</a>
       </div>
     </div>
 
