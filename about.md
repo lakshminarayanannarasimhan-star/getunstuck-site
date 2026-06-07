@@ -106,7 +106,7 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
           <li style="font-size:.92rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Leadership programme partnerships</strong> — books, workshops, and cohort engagements</li>
           <li style="font-size:.92rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Speaking</strong> at industry events on engineering leadership, platform strategy, or AI transformation</li>
         </ul>
-        <a class="panel-link" href="mailto:hello@getunstuck.in">Start a conversation</a>
+        <a class="panel-link" href="mailto:lakshminarayanan.narasimhan@gmail.com">Start a conversation</a>
       </div>
 
       <div class="hero-panel">
