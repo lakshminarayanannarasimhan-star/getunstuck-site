@@ -16,18 +16,6 @@ description: "Four series across leadership systems, technology strategy, and se
   <div class="section-label">Four series</div>
   <div class="series-grid">
 
-    <a class="series-card" href="#series-d">
-      <div class="series-card-top">
-        <div class="series-id">Series D</div>
-        <span class="series-status coming">
-          <span class="series-dot"></span>Live
-        </span>
-      </div>
-      <h3 class="series-title">The Trust Equation</h3>
-      <p class="series-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction.</p>
-      <div class="series-meta">Security leadership · Boards · Compliance · D0 published</div>
-    </a>
-
     <a class="series-card" href="#series-a">
       <div class="series-card-top">
         <div class="series-id">Series A</div>
@@ -62,6 +50,18 @@ description: "Four series across leadership systems, technology strategy, and se
       <h3 class="series-title">The Moving Target</h3>
       <p class="series-desc">Network security as technology strategy. Risk is not static — every technology shift redistributes where it concentrates.</p>
       <div class="series-meta">7 articles · Held until A and B close</div>
+    </a>
+
+    <a class="series-card" href="#series-d">
+      <div class="series-card-top">
+        <div class="series-id">Series D</div>
+        <span class="series-status coming">
+          <span class="series-dot"></span>Coming
+        </span>
+      </div>
+      <h3 class="series-title">The Trust Equation</h3>
+      <p class="series-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction.</p>
+      <div class="series-meta">Security leadership · Boards · Compliance · D0 published</div>
     </a>
 
   </div>
