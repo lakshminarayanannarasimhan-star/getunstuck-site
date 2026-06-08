@@ -2,237 +2,380 @@
 layout: default
 title: Home
 permalink: /
-description: "Leadership practitioner, author, and writer. 25 years building systems, teams, and strategy. GET UNSTUCK Leadership Handbooks."
+description: "Leadership practitioner, author, and writer. 25 years building systems, teams, and strategy. GET UNSTUCK."
 ---
 
-<!-- ═══════════════════════════════
-     LEAN HERO
-═══════════════════════════════ -->
-<section class="hero-lean">
-  <div class="hero-split">
+<!-- ═══════════════════════
+     HERO
+═══════════════════════ -->
+<section class="hp-hero">
+  <div class="hp-hero-inner">
 
-    <div class="hero-left">
-      <div class="eyebrow reveal d1">Leadership Operating Systems · Technology Strategy · Author</div>
-      <h1 class="hero-title reveal d2">25 years of building what others theorise about.</h1>
-      <p class="hero-sub reveal d3">Author. Leadership systems practitioner. Writing on what actually holds — in books, articles, and practice.</p>
-      <div class="hero-actions reveal d4">
-        <a class="btn-primary" href="/books/">The Library</a>
-        <a class="btn-secondary" href="/publications/">The Writing</a>
-        <a class="btn-secondary" href="/case-studies/">Case Studies</a>
-        <a class="btn-secondary" href="/los/">The LOS</a>
+    <div class="hp-hero-left">
+      <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">Leadership Operating Systems · Technology Strategy · Author</div>
+      <h1 class="hp-hero-title reveal d2">25 years of building what others theorise about.</h1>
+      <p class="hp-hero-sub reveal d3">Practitioner. Author. Everything here is drawn from work done in real organisations, with real stakes. Not theorised. Not consulted. Lived.</p>
+      <div class="area-tags reveal d4" style="margin-top:1.4rem;">
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Leadership Operating Systems</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Technology Strategy</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Cybersecurity</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Engineering Leadership</span>
       </div>
     </div>
 
-    <div class="hero-right reveal d4">
-      <div class="stat-strip-4">
-        <div class="stat">
-          <div class="stat-num">25</div>
-          <div class="stat-label">Years in Practice</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">11</div>
-          <div class="stat-label">Books in Progress</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">2</div>
-          <div class="stat-label">Article Series</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">Open</div>
-          <div class="stat-label">Drills &amp; Workbook</div>
-        </div>
+    <div class="hp-hero-right reveal d3">
+      <div class="hp-toc">
+        <div class="hp-toc-label">On this platform</div>
+        <a class="hp-toc-item" href="#los">
+          <span class="hp-toc-num">01</span>
+          <div>
+            <div class="hp-toc-name">The Leadership Operating System</div>
+            <div class="hp-toc-meta">Constitution v1.0 · 34 capabilities · 6 domains</div>
+          </div>
+          <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Live</span>
+        </a>
+        <a class="hp-toc-item" href="#books">
+          <span class="hp-toc-num">02</span>
+          <div>
+            <div class="hp-toc-name">Books</div>
+            <div class="hp-toc-meta">The Invisible Backlog · Two series in development</div>
+          </div>
+          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Writing</span>
+        </a>
+        <a class="hp-toc-item" href="#publications">
+          <span class="hp-toc-num">03</span>
+          <div>
+            <div class="hp-toc-name">Publications</div>
+            <div class="hp-toc-meta">4 series · Technology · Leadership · Security</div>
+          </div>
+          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Active</span>
+        </a>
+        <a class="hp-toc-item" href="#practice">
+          <span class="hp-toc-num">04</span>
+          <div>
+            <div class="hp-toc-name">Case Studies &amp; Drills</div>
+            <div class="hp-toc-meta">Drawn from practice · No price · No gate</div>
+          </div>
+          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Building</span>
+        </a>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- ═══════════════════════════════
-     DASHBOARD
-═══════════════════════════════ -->
-<div class="dashboard-grid">
-
-  <!-- ── BOOKS (large, 3 cols) ── -->
-  <div class="dash-card dash-area-books">
-    <div class="dash-card-label">
-      Books
-      <span class="badge">11 in Progress</span>
-    </div>
-    <h2>A growing library for leadership practitioners.</h2>
-    <p>Two series, built incrementally. Each book installs one shift in how a leader sees, decides, and acts. The practice materials — drills and workbook — carry no price, always.</p>
-
-    <div class="dash-books-unified">
-      <div class="unified-track">
-        <div class="unified-stat">
-          <div class="stat-num">11</div>
-          <div class="stat-label">Books planned</div>
-        </div>
-        <div class="unified-stat">
-          <div class="stat-num">1</div>
-          <div class="stat-label">Published</div>
-        </div>
-        <div class="unified-stat">
-          <div class="stat-num">10</div>
-          <div class="stat-label">In development</div>
-        </div>
-        <div class="unified-stat">
-          <div class="stat-num">Open</div>
-          <div class="stat-label">Practice materials</div>
-        </div>
+<!-- ═══════════════════════
+     FEATURED ARTICLE
+═══════════════════════ -->
+{% assign featured = site.posts.first %}
+{% if featured %}
+<section class="section-wide" style="padding-top:2.5rem;padding-bottom:2.5rem;" id="featured">
+  <div class="section-label">Featured article</div>
+  <div class="hp-featured-card">
+    <div class="hp-fa-left">
+      <div class="hp-fa-meta">
+        <span class="series-status live"><span class="series-dot"></span>Published</span>
+        <span class="hp-fa-series">{{ featured.series }}</span>
       </div>
-      <div class="unified-progress">
-        <div class="progress-label">
-          <span>Library progress</span><span>1 of 11 published</span>
-        </div>
-        <div class="progress-bar" style="height:6px;">
-          <div class="progress" style="width:9%"></div>
-        </div>
+      <h2 class="hp-fa-title">{{ featured.title }}</h2>
+      <p class="hp-fa-excerpt">{{ featured.excerpt | strip_html | truncate: 200 }}</p>
+      <div class="hp-fa-footer">
+        <a class="btn-primary" href="{{ featured.url }}">Read the article</a>
+        <span class="hp-fa-detail">{{ featured.date | date: "%d %b %Y" }}</span>
       </div>
     </div>
+    <div class="hp-fa-right">
+      <div class="hp-fa-pull">
+        <div class="hp-fa-pull-label">From the piece</div>
+        <p class="hp-fa-pull-text">"You are not running a security programme. You are running the defence of a relationship the customer cannot supervise."</p>
+      </div>
+      <div class="hp-fa-tags">
+        <span class="area-tag">Security Leadership</span>
+        <span class="area-tag">Boards</span>
+        <span class="area-tag">Compliance</span>
+        <span class="area-tag">~1,500 words</span>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
 
-    <div class="dash-card-footer">
-      <div style="display:flex;gap:.5rem;flex-wrap:wrap;">
+<!-- ═══════════════════════
+     THE LOS
+═══════════════════════ -->
+<div class="section-ink" id="los" style="padding-top:clamp(2.5rem,5vw,4.5rem);padding-bottom:clamp(2.5rem,5vw,4.5rem);">
+  <div class="bleed-inner">
+    <div class="hp-los-grid">
+
+      <div class="hp-los-left">
+        <div class="section-label">The Leadership Operating System</div>
+        <h2 style="color:#fff;font-size:clamp(1.8rem,3vw,2.6rem);margin-bottom:1rem;">Leadership is stewardship.<br>Not authority.</h2>
+        <p style="color:rgba(255,255,255,.65);font-size:.95rem;line-height:1.75;max-width:44ch;margin-bottom:1.2rem;">A lifelong practice system. Not a course. Not a competency catalogue. Capability is counted as installed only when it performs, sustains, transfers, and survives absence.</p>
+        <p style="color:rgba(255,255,255,.5);font-size:.85rem;font-style:italic;line-height:1.65;max-width:40ch;margin-bottom:1.8rem;padding-left:.9rem;border-left:2px solid var(--primary);">Constitution v1.0 is frozen. The curriculum is being built from evidence — not invented at the desk.</p>
+        <div style="display:flex;gap:1.5rem;margin-bottom:1.8rem;">
+          <div style="text-align:center;">
+            <div style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;color:#fff;line-height:1;">34</div>
+            <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.3rem;">Capabilities</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;color:#fff;line-height:1;">6</div>
+            <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.3rem;">Domains</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;color:#fff;line-height:1;">8</div>
+            <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.3rem;">Belts</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;color:#fff;line-height:1;">4</div>
+            <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.3rem;">Dojos</div>
+          </div>
+        </div>
+        <a class="btn-primary" href="/los/" style="display:inline-block;">Explore the LOS →</a>
+      </div>
+
+      <div class="hp-los-right">
+        <div class="hp-domains-list">
+          <div class="hp-domain-row" style="--dd:#9E5A34;">
+            <span class="hp-dl">A</span>
+            <div><div class="hp-dn">Self Governance</div><div class="hp-dq">Can I be trusted with myself?</div></div>
+          </div>
+          <div class="hp-domain-row" style="--dd:#1565C0;">
+            <span class="hp-dl">B</span>
+            <div><div class="hp-dn">Human Leadership</div><div class="hp-dq">Do people feel safe placing important things in my hands?</div></div>
+          </div>
+          <div class="hp-domain-row" style="--dd:#2E7D32;">
+            <span class="hp-dl">C</span>
+            <div><div class="hp-dn">Collective Leadership</div><div class="hp-dq">Is success dependent on heroics or design?</div></div>
+          </div>
+          <div class="hp-domain-row" style="--dd:#7B1FA2;">
+            <span class="hp-dl">D</span>
+            <div><div class="hp-dn">Organisational Leadership</div><div class="hp-dq">What reality are we actually facing?</div></div>
+          </div>
+          <div class="hp-domain-row" style="--dd:#C62828;">
+            <span class="hp-dl">E</span>
+            <div><div class="hp-dn">Stewardship</div><div class="hp-dq">Will this survive me?</div></div>
+          </div>
+          <div class="hp-domain-row" style="--dd:#9a7808;">
+            <span class="hp-dl">F</span>
+            <div><div class="hp-dn">Legacy &amp; Wisdom</div><div class="hp-dq">What is worth doing?</div></div>
+          </div>
+        </div>
+        <div style="margin-top:1.2rem;padding:1rem 1.2rem;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius-md);">
+          <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin-bottom:.4rem;">Defining principle</div>
+          <p style="font-family:'Playfair Display',serif;font-size:.95rem;font-style:italic;color:rgba(255,255,255,.8);line-height:1.5;">Leadership is the progressive expansion of stewardship.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════
+     BOOKS
+═══════════════════════ -->
+<section class="section-wide" id="books">
+  <div class="section-label">Books</div>
+  <h2>Built incrementally. Each book installs one shift.</h2>
+
+  <div class="hp-books-grid">
+
+    <div class="hp-book-lead">
+      <div class="hp-book-badge">
+        <span class="series-status in-progress"><span class="series-dot"></span>Writing Part 2</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.62rem;color:var(--faint);letter-spacing:.06em;">Handbook #1</span>
+      </div>
+      <h3 class="hp-book-title">The Invisible Backlog</h3>
+      <p class="hp-book-sub">GET UNSTUCK Leadership Handbooks</p>
+      <p style="font-size:.9rem;color:var(--muted);line-height:1.7;margin-top:.8rem;">Every leader carries a backlog of deferred decisions, unexamined patterns, and inherited commitments. This book names the system, installs the discipline, and closes the loop. Part 1 frozen at 7 chapters. Part 2 in progress.</p>
+      <div class="hp-book-status">
+        <div class="hp-book-stat"><span>7</span> chapters frozen</div>
+        <div class="hp-book-stat"><span>~120</span> pages</div>
+        <div class="hp-book-stat"><span>14</span> chapters planned</div>
+      </div>
+      <div class="hp-book-progress">
+        <div class="progress-label"><span>Manuscript progress</span><span>Part 1 of 4 complete</span></div>
+        <div class="progress-bar"><div class="progress" style="width:28%"></div></div>
+      </div>
+      <div style="margin-top:1.4rem;display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;">
         <a class="btn-primary" href="/books/">Browse the Library</a>
+        <a class="btn-secondary" href="/workbook/">Workbook — Open</a>
+      </div>
+    </div>
+
+    <div class="hp-book-pipeline">
+      <div class="hp-pipeline-label">Two series in development</div>
+
+      <div class="hp-pipeline-series">
+        <div class="hp-ps-header">
+          <span class="hp-ps-name">GET UNSTUCK Leadership Handbooks</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.6rem;color:var(--faint);">6 volumes</span>
+        </div>
+        <div class="hp-ps-track">
+          <div class="hp-ps-node active" title="#1 The Invisible Backlog">#1</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#2">#2</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#3">#3</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#4">#4</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#5">#5</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#6">#6</div>
+        </div>
+        <div class="hp-ps-arc">Self → Position → Strategy → Team → Organisation → Ecosystem</div>
+      </div>
+
+      <div class="hp-pipeline-series">
+        <div class="hp-ps-header">
+          <span class="hp-ps-name">The Indispensable Series</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.6rem;color:var(--faint);">5 volumes</span>
+        </div>
+        <div class="hp-ps-track">
+          <div class="hp-ps-node" title="#1">#1</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#2">#2</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#3">#3</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#4">#4</div>
+          <div class="hp-ps-line"></div>
+          <div class="hp-ps-node" title="#5">#5</div>
+        </div>
+        <div class="hp-ps-arc">Structural thinking · Strategy · Build · Scale · Ecosystem</div>
+      </div>
+
+      <div class="hp-pipeline-note">
+        <div style="font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--primary);margin-bottom:.4rem;">Practice materials</div>
+        <p style="font-size:.82rem;color:var(--muted);line-height:1.6;">Every book comes with drills and a workbook. No price. No gate. No email. The practice circulates freely — always has, always will.</p>
+        <a class="card-link" href="/drills/">The Drills</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════
+     PUBLICATIONS
+═══════════════════════ -->
+<div class="section-ink" id="publications" style="padding-top:clamp(2.5rem,5vw,4.5rem);padding-bottom:clamp(2.5rem,5vw,4.5rem);">
+  <div class="bleed-inner">
+    <div class="section-label">Publications</div>
+    <div class="hp-pubs-grid">
+      <div>
+        <h2 style="color:#fff;font-size:clamp(1.6rem,2.8vw,2.2rem);margin-bottom:.8rem;">Writing worth reading slowly.</h2>
+        <p style="color:rgba(255,255,255,.55);font-size:.9rem;line-height:1.7;max-width:40ch;margin-bottom:1.4rem;">Four series across leadership systems, technology strategy, and security. Each series is a single argument — not a list of topics.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.6rem;">
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Leadership</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Technology Strategy</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Cybersecurity</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Management</span>
+        </div>
+        <a class="btn-primary" href="/publications/">All publications →</a>
+      </div>
+      <div class="hp-pubs-series">
+        <div class="hp-pub-row">
+          <div class="hp-pub-id">D</div>
+          <div>
+            <div class="hp-pub-title">The Trust Equation</div>
+            <div class="hp-pub-meta">Security as a trust problem · D0 published</div>
+          </div>
+          <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Live</span>
+        </div>
+        <div class="hp-pub-row">
+          <div class="hp-pub-id">A</div>
+          <div>
+            <div class="hp-pub-title">Leadership Operating System</div>
+            <div class="hp-pub-meta">4 articles · Submitting Jul–Oct 2026</div>
+          </div>
+          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ready</span>
+        </div>
+        <div class="hp-pub-row">
+          <div class="hp-pub-id">B</div>
+          <div>
+            <div class="hp-pub-title">Beyond Execution</div>
+            <div class="hp-pub-meta">6 articles · From execution to indispensability</div>
+          </div>
+          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Drafting</span>
+        </div>
+        <div class="hp-pub-row">
+          <div class="hp-pub-id">C</div>
+          <div>
+            <div class="hp-pub-title">The Moving Target</div>
+            <div class="hp-pub-meta">7 articles · Network security as strategy</div>
+          </div>
+          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Coming</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════
+     CASE STUDIES & DRILLS
+═══════════════════════ -->
+<section class="section-wide" id="practice">
+  <div class="section-label">Case Studies &amp; Drills</div>
+  <h2>Drawn from 25 years of practice.</h2>
+  <div class="hp-practice-grid">
+
+    <div class="hp-practice-card">
+      <div class="hp-pc-icon">⬡</div>
+      <div class="hp-pc-label">
+        Case Studies
+        <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;"><span class="series-dot"></span>Building</span>
+      </div>
+      <h3>What the work actually looks like.</h3>
+      <p>Real engagements across leadership systems, platform transformation, and engineering organisation design. Outcomes, not descriptions. Being documented as the platform grows.</p>
+      <p style="font-size:.84rem;color:var(--faint);margin-top:.6rem;font-style:italic;">Each case covers the situation, the system problem, the approach, and the outcome — without naming clients where confidentiality applies.</p>
+      <a class="card-link" href="/case-studies/">Case studies</a>
+    </div>
+
+    <div class="hp-practice-card">
+      <div class="hp-pc-icon">◈</div>
+      <div class="hp-pc-label">
+        Drills
+        <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;"><span class="series-dot"></span>Open</span>
+      </div>
+      <h3>The practice is the gift.</h3>
+      <p>Every drill in the workbook comes from a real situation — not a textbook. Daily and weekly practice formats designed to install capability, not fill time. No price. No gate. No email required.</p>
+      <div class="area-tags" style="margin-top:.8rem;">
+        <span class="area-tag">Daily drills</span>
+        <span class="area-tag">Weekly review</span>
+        <span class="area-tag">No gate</span>
+      </div>
+      <div style="display:flex;gap:.6rem;margin-top:1.2rem;flex-wrap:wrap;">
         <a class="btn-secondary" href="/drills/">The Drills</a>
         <a class="btn-secondary" href="/workbook/">The Workbook</a>
       </div>
-      <a class="card-link" href="/stories/">Reader stories</a>
     </div>
-  </div>
 
-  <!-- ── THE LOS (2 cols) ── -->
-  <div class="dash-card dash-area-consulting">
-    <div class="dash-card-label">The Leadership Operating System
-      <span class="series-status live" style="font-size:.58rem;padding:.18rem .5rem;"><span class="series-dot"></span>Constitution v1.0</span>
-    </div>
-    <h2>A system for developing capability that survives your absence.</h2>
-    <p>Not a course. Not a competency catalogue. A lifelong practice system built on one standard: capability is installed only when it performs, sustains, transfers, and survives absence.</p>
-
-    <div class="los-spot-domains" style="margin-top:1.4rem;gap:3px;">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;">
-        <div class="los-spot-domain" style="--dd:#9E5A34;background:var(--bg-deep);border-radius:var(--radius-sm) 0 0 var(--radius-sm);">
-          <span class="los-spot-dletter" style="color:var(--dc,#9E5A34);">A</span>
-          <span class="los-spot-dname" style="color:var(--muted);">Self Governance</span>
+    <div class="hp-practice-card hp-practice-cred">
+      <div class="hp-pc-label" style="margin-bottom:1rem;">Built in the field</div>
+      <h3>Not theorised. Lived.</h3>
+      <p style="font-size:.88rem;color:var(--muted);line-height:1.7;">Everything here is drawn from 25+ years of hands-on leadership inside deep technology engagements. Battle-tested in real organisations, with real stakes.</p>
+      <div class="stat-strip" style="margin-top:1.2rem;">
+        <div class="stat">
+          <div class="stat-num">25+</div>
+          <div class="stat-label">Years</div>
         </div>
-        <div class="los-spot-domain" style="--dd:#1565C0;background:var(--bg-deep);border-radius:0 var(--radius-sm) var(--radius-sm) 0;">
-          <span class="los-spot-dletter" style="color:#1565C0;">B</span>
-          <span class="los-spot-dname" style="color:var(--muted);">Human Leadership</span>
+        <div class="stat">
+          <div class="stat-num">600+</div>
+          <div class="stat-label">Engineers Led</div>
         </div>
-        <div class="los-spot-domain" style="--dd:#2E7D32;background:var(--bg-deep);border-radius:var(--radius-sm) 0 0 var(--radius-sm);">
-          <span class="los-spot-dletter" style="color:#2E7D32;">C</span>
-          <span class="los-spot-dname" style="color:var(--muted);">Collective Leadership</span>
-        </div>
-        <div class="los-spot-domain" style="--dd:#7B1FA2;background:var(--bg-deep);border-radius:0 var(--radius-sm) var(--radius-sm) 0;">
-          <span class="los-spot-dletter" style="color:#7B1FA2;">D</span>
-          <span class="los-spot-dname" style="color:var(--muted);">Organisational Leadership</span>
-        </div>
-        <div class="los-spot-domain" style="--dd:#C62828;background:var(--bg-deep);border-radius:var(--radius-sm) 0 0 var(--radius-sm);">
-          <span class="los-spot-dletter" style="color:#C62828;">E</span>
-          <span class="los-spot-dname" style="color:var(--muted);">Stewardship</span>
-        </div>
-        <div class="los-spot-domain" style="--dd:#9a7808;background:var(--bg-deep);border-radius:0 var(--radius-sm) var(--radius-sm) 0;">
-          <span class="los-spot-dletter" style="color:#9a7808;">F</span>
-          <span class="los-spot-dname" style="color:var(--muted);">Legacy &amp; Wisdom</span>
+        <div class="stat">
+          <div class="stat-num">$150M+</div>
+          <div class="stat-label">Revenue</div>
         </div>
       </div>
-    </div>
-
-    <div class="dash-card-footer">
-      <div style="display:flex;gap:.5rem;flex-wrap:wrap;">
-        <a class="btn-primary" href="/los/">Explore the LOS</a>
-      </div>
-      <div style="display:flex;gap:1.2rem;">
-        <span style="font-family:'DM Mono',monospace;font-size:.68rem;color:var(--faint);">34 capabilities</span>
-        <span style="font-family:'DM Mono',monospace;font-size:.68rem;color:var(--faint);">8 belts</span>
-        <span style="font-family:'DM Mono',monospace;font-size:.68rem;color:var(--faint);">4 dojos</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── PUBLICATIONS (2 cols) ── -->
-  <div class="dash-card dash-area-pubs">
-    <div class="dash-card-label">
-      Publications
-      <span class="badge">4 Series</span>
-    </div>
-    <h3>Writing worth reading slowly.</h3>
-    <p>Articles on leadership systems, technology strategy, security, and the gap between execution and indispensability.</p>
-
-    <div class="pub-series">
-      <div class="pub-series-item">
-        <div class="ps-label">Series A</div>
-        <div class="ps-title">Leadership Operating System</div>
-        <div class="ps-meta">4 articles · Jul–Oct 2026</div>
-      </div>
-      <div class="pub-series-item">
-        <div class="ps-label">Series B</div>
-        <div class="ps-title">Beyond Execution</div>
-        <div class="ps-meta">6 articles · In progress</div>
-      </div>
-      <div class="pub-series-item">
-        <div class="ps-label">Series C</div>
-        <div class="ps-title">The Moving Target</div>
-        <div class="ps-meta">7 articles · Network security strategy</div>
-      </div>
-      <div class="pub-series-item">
-        <div class="ps-label">Series D</div>
-        <div class="ps-title">The Trust Equation</div>
-        <div class="ps-meta">Security as a trust problem · D0 live</div>
-      </div>
-    </div>
-
-    <div class="dash-card-footer">
-      <a class="card-link" href="/publications/">All publications</a>
-      <a class="btn-secondary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">LinkedIn →</a>
-    </div>
-  </div>
-
-  <!-- ── THE PRACTICE (1 col) ── -->
-  <div class="dash-card dash-area-brand">
-    <div class="dash-card-label">The Practice</div>
-    <h3>The practice is the gift.</h3>
-    <p>Every book comes with drills and a workbook. No price. No gate. No email required. The practice materials circulate freely — always have, always will.</p>
-    <div class="area-tags" style="margin-top:.8rem;">
-      <span class="area-tag">Daily Drills</span>
-      <span class="area-tag">Workbook</span>
-      <span class="area-tag">No gate</span>
-    </div>
-    <div class="dash-card-footer">
-      <a class="btn-secondary" href="/drills/">The Drills</a>
-      <a class="card-link" href="/workbook/">The Workbook</a>
-    </div>
-  </div>
-
-  <!-- ── BUILT IN THE FIELD (1 col) ── -->
-  <div class="dash-card dash-area-about">
-    <div class="dash-card-label">Built in the field</div>
-    <h3>Not theorised. Lived.</h3>
-    <p>Everything here — the books, the system, the writing — is drawn from 25+ years of hands-on leadership inside deep OEM engagements. Battle-tested in real organisations, with real stakes.</p>
-    <div class="stat-strip" style="margin-top:1rem;">
-      <div class="stat">
-        <div class="stat-num">25+</div>
-        <div class="stat-label">Years</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">600+</div>
-        <div class="stat-label">Engineers Led</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">$150M+</div>
-        <div class="stat-label">Revenue</div>
-      </div>
-    </div>
-    <div class="dash-card-footer">
       <a class="card-link" href="/about/">The full story</a>
     </div>
+
   </div>
+</section>
 
-</div>
-
-<!-- ═══════════════════════════════
-     THROUGH-LINE
-═══════════════════════════════ -->
-<div class="section-ink" style="margin-top:2rem;">
+<!-- THROUGH-LINE -->
+<div class="section-ink">
   <div class="bleed-inner">
     <div class="section-label">The through-line</div>
     <p class="pull-quote">Tools change. <em>Systems endure.</em> Every book, article, and engagement is built on that one idea.</p>
