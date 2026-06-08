@@ -469,6 +469,125 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
   </div>
 </section>
 
+<!-- A1 INNER GOVERNANCE — REFERENCE BLUEPRINT -->
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">Inside the system</div>
+    <p class="pull-quote">A1 — Inner Governance. <em>The root capability. The reference template. The first field-built Blueprint.</em></p>
+  </div>
+</div>
+
+<section class="section-wide">
+  <div class="section-label">Reference Blueprint · White Belt · Personal Dojo · Domain A</div>
+  <h2>What a capability looks like inside LOS.</h2>
+  <p class="prose" style="margin-top:.8rem;margin-bottom:2rem;">A1 Inner Governance is the root of every dependency chain — and the first capability written end-to-end. All 33 remaining capabilities follow this same shape across 14 fields. What follows is a representative view.</p>
+
+  <div class="los-a1-grid">
+
+    <div>
+      <div class="los-a1-purpose">Every external act of leadership is downstream of an internal one. Before a leader governs a team, a budget, or a strategy, they govern their own attention, impulse, and commitment. Inner Governance is the floor everything else stands on: when it is absent, judgment degrades, attention scatters, and the reliability others need cannot exist — because it does not yet exist in the leader alone.</div>
+
+      <div class="los-a1-question">
+        <div class="los-a1-q-label">Core Question</div>
+        <div class="los-a1-q-text">Can I be trusted with myself?</div>
+      </div>
+
+      <div style="margin-top:1.4rem;">
+        <div class="section-label" style="margin-bottom:.8rem;">Capability Signature</div>
+        <ul class="los-a1-sig">
+          <li>Govern your internal states before you attempt to govern anything external.</li>
+          <li>Keep the promises you make to yourself the way you expect others to keep theirs.</li>
+          <li>The reliability others feel in you begins with the reliability you maintain when no one is watching.</li>
+        </ul>
+      </div>
+
+      <div style="margin-top:1.4rem;">
+        <div class="section-label" style="margin-bottom:.8rem;">Protocols</div>
+        <div class="los-a1-protocols">
+          <div class="los-a1-protocol">
+            <div class="los-a1-proto-name">Trigger–Pause–Choose</div>
+            <div class="los-a1-proto-desc">On a known trigger, insert a deliberate pause, name the impulse, choose the response. The core operating loop of the capability.</div>
+          </div>
+          <div class="los-a1-protocol">
+            <div class="los-a1-proto-name">Daily Commitment</div>
+            <div class="los-a1-proto-desc">Each morning, set one small promise to yourself; each night, verify kept or broken, honestly logged.</div>
+          </div>
+          <div class="los-a1-protocol">
+            <div class="los-a1-proto-name">State Reset</div>
+            <div class="los-a1-proto-desc">A defined personal routine to re-establish governance after an emotional spike — chosen in advance, not improvised.</div>
+          </div>
+          <div class="los-a1-protocol">
+            <div class="los-a1-proto-name">Weekly Self-Audit</div>
+            <div class="los-a1-proto-desc">Review the week for the moments where state drove action, and the moments where you chose.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-label" style="margin-bottom:1rem;">Failure Architecture — Four States</div>
+      <div class="los-failure-grid">
+        <div class="los-fstate" data-state="healthy">
+          <div class="los-fs-indicator"></div>
+          <div class="los-fs-state">Healthy</div>
+          <div class="los-fs-name">Composure</div>
+          <div class="los-fs-desc">Chosen response under pressure, commitments kept by default, honest self-account.</div>
+        </div>
+        <div class="los-fstate" data-state="underuse">
+          <div class="los-fs-indicator"></div>
+          <div class="los-fs-state">Underuse</div>
+          <div class="los-fs-name">Drift</div>
+          <div class="los-fs-desc">Reactive and impulse-led; promises to self routinely broken; the perpetual "I'll start on Monday."</div>
+        </div>
+        <div class="los-fstate" data-state="overuse">
+          <div class="los-fs-indicator"></div>
+          <div class="los-fs-state">Overuse</div>
+          <div class="los-fs-name">Rigidity</div>
+          <div class="los-fs-desc">Suppression mistaken for control; brittle self-tyranny; burnout from white-knuckling. Governance has become a cage.</div>
+        </div>
+        <div class="los-fstate" data-state="collapse">
+          <div class="los-fs-indicator"></div>
+          <div class="los-fs-state">Collapse</div>
+          <div class="los-fs-name">Self-Deception</div>
+          <div class="los-fs-desc">The leader believes they are governed while visibly not. Trust broken with oneself, unnoticed.</div>
+        </div>
+      </div>
+
+      <div style="margin-top:1.4rem;">
+        <div class="section-label" style="margin-bottom:.8rem;">Context Readings</div>
+        <div class="los-ctx-readings">
+          <div class="los-ctx-reading">
+            <div class="los-cr-ctx">⊕ Formation</div>
+            <div class="los-cr-expr">Establishing your baseline routines and commitments where none yet exist</div>
+          </div>
+          <div class="los-ctx-reading">
+            <div class="los-cr-ctx">↑ Growth</div>
+            <div class="los-cr-expr">Holding that baseline as demands scale and pull you back toward reactivity</div>
+          </div>
+          <div class="los-ctx-reading">
+            <div class="los-cr-ctx">⊜ Stability</div>
+            <div class="los-cr-expr">Guarding against complacency and quiet drift when nothing forces the issue</div>
+          </div>
+          <div class="los-ctx-reading">
+            <div class="los-cr-ctx">⚡ Crisis</div>
+            <div class="los-cr-expr">The pause that stops your fear from becoming the team's fear</div>
+          </div>
+          <div class="los-ctx-reading">
+            <div class="los-cr-ctx">↻ Renewal</div>
+            <div class="los-cr-expr">The honest self-account of what you yourself must change</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:1.4rem;padding:1.1rem 1.3rem;background:var(--primary-soft);border:1px solid var(--border);border-radius:var(--radius-md);">
+        <div class="section-label" style="margin-bottom:.5rem;">Blueprint shape — 14 fields</div>
+        <p style="font-size:.8rem;color:var(--muted);line-height:1.6;margin:0;">Purpose · Core Question · Capability Signature · Cognitive Models · Principles · Failure Architecture · Anti-Patterns · Protocols · Drills · Missions · Reflection · Evidence · Transfer · Mastery Indicators. Every capability, in every curriculum revision, takes this fixed shape.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- FOUR DOJOS -->
 <section class="section-wide">
   <div class="section-label">Four dojos</div>
@@ -571,15 +690,15 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
       <div class="series-meta">Renewal only · 3-year cycle</div>
     </div>
     <div class="series-card" style="text-decoration:none;color:inherit;cursor:default;">
-      <div class="series-card-top"><div class="series-id">Capability Handbook</div><span class="series-status in-progress"><span class="series-dot"></span>Building</span></div>
+      <div class="series-card-top"><div class="series-id">Capability Handbook</div><span class="series-status live"><span class="series-dot"></span>A1 Complete</span></div>
       <div class="series-title" style="font-size:.95rem;">One Blueprint per capability</div>
-      <p class="series-desc">All 14 fields per capability. Starting with A1 Inner Governance as the template before the first twenty practitioners.</p>
+      <p class="series-desc">A1 Inner Governance — the reference template — is written end-to-end across all 14 fields. All 33 remaining capabilities follow in Dependency-Map order.</p>
       <div class="series-meta">Continuous · Dependency-map order</div>
     </div>
     <div class="series-card" style="text-decoration:none;color:inherit;cursor:default;">
       <div class="series-card-top"><div class="series-id">Curriculum</div><span class="series-status coming"><span class="series-dot"></span>Scaffolded</span></div>
-      <div class="series-title" style="font-size:.95rem;">Mental models · Drills · Protocols</div>
-      <p class="series-desc">Per capability: mental models, principles, four failure states, anti-patterns, context readings. Target 40–60 mental models, 100+ anti-patterns.</p>
+      <div class="series-title" style="font-size:.95rem;">Cognitive Models Library · Drills · Protocols</div>
+      <p class="series-desc">Five families: Reality · Reasoning · Strategic · Human · Execution. Plus principles, four failure states, anti-patterns, context readings. Shaped by practitioner evidence, not desk taxonomy.</p>
       <div class="series-meta">Shaped by practitioner evidence</div>
     </div>
     <div class="series-card" style="text-decoration:none;color:inherit;cursor:default;">
