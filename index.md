@@ -187,33 +187,43 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     </div>
   </div>
 
-  <!-- ── ABOUT (1 col) ── -->
+  <!-- ── THE PRACTICE (1 col) ── -->
   <div class="dash-card dash-area-brand">
-    <div class="dash-card-label">About</div>
-    <h3>Lakshmi Narayanan</h3>
-    <p>Technology Executive. Leadership systems practitioner. 25 years inside one of India's largest organisations. Chennai.</p>
-    <ul class="open-to-list">
-      <li>Senior technology leadership</li>
-      <li>Leadership programme partnerships</li>
-      <li>Writing and speaking</li>
-    </ul>
+    <div class="dash-card-label">The Practice</div>
+    <h3>The practice is the gift.</h3>
+    <p>Every book comes with drills and a workbook. No price. No gate. No email required. The practice materials circulate freely — always have, always will.</p>
+    <div class="area-tags" style="margin-top:.8rem;">
+      <span class="area-tag">Daily Drills</span>
+      <span class="area-tag">Workbook</span>
+      <span class="area-tag">No gate</span>
+    </div>
     <div class="dash-card-footer">
-      <a class="card-link" href="/about/">Full story</a>
+      <a class="btn-secondary" href="/drills/">The Drills</a>
+      <a class="card-link" href="/workbook/">The Workbook</a>
     </div>
   </div>
 
-  <!-- ── ABOUT (1 col) ── -->
+  <!-- ── BUILT IN THE FIELD (1 col) ── -->
   <div class="dash-card dash-area-about">
-    <div class="dash-card-label">About</div>
-    <h3>Lakshmi Narayanan</h3>
-    <p>Leadership systems practitioner. 25 years inside one of India's largest organisations. Chennai.</p>
-    <ul class="open-to-list">
-      <li>Leadership programme partnerships</li>
-      <li>Writing and speaking</li>
-      <li>Senior industry opportunities</li>
-    </ul>
+    <div class="dash-card-label">Built in the field</div>
+    <h3>Not theorised. Lived.</h3>
+    <p>Everything here — the books, the system, the writing — is drawn from 25+ years of hands-on leadership inside deep OEM engagements. Battle-tested in real organisations, with real stakes.</p>
+    <div class="stat-strip" style="margin-top:1rem;">
+      <div class="stat">
+        <div class="stat-num">25+</div>
+        <div class="stat-label">Years</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">600+</div>
+        <div class="stat-label">Engineers Led</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">$150M+</div>
+        <div class="stat-label">Revenue</div>
+      </div>
+    </div>
     <div class="dash-card-footer">
-      <a class="card-link" href="/about/">Full story</a>
+      <a class="card-link" href="/about/">The full story</a>
     </div>
   </div>
 
