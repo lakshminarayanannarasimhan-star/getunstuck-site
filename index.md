@@ -19,6 +19,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <a class="btn-primary" href="/books/">The Library</a>
         <a class="btn-secondary" href="/publications/">The Writing</a>
         <a class="btn-secondary" href="/case-studies/">Case Studies</a>
+        <a class="btn-secondary" href="/los/">The LOS</a>
       </div>
     </div>
 
@@ -181,18 +182,20 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     </div>
   </div>
 
-  <!-- ── PERSONAL BRAND (1 col) ── -->
+  <!-- ── THE LOS (1 col) ── -->
   <div class="dash-card dash-area-brand">
-    <div class="dash-card-label">Personal Brand</div>
-    <h3>Presence that earns the right seat.</h3>
-    <p>Positioning built on genuine expertise. The long game, done deliberately.</p>
+    <div class="dash-card-label">The LOS
+      <span class="series-status live" style="font-size:.58rem;padding:.18rem .5rem;"><span class="series-dot"></span>Constitution v1.0</span>
+    </div>
+    <h3>Leadership Operating System.</h3>
+    <p>A lifelong practice system. 34 capabilities across 6 domains. Not a course — a system for developing capability that survives your absence.</p>
     <div class="area-tags" style="margin-top:.8rem;">
-      <span class="area-tag">Positioning</span>
-      <span class="area-tag">LinkedIn</span>
-      <span class="area-tag">Thought Leadership</span>
+      <span class="area-tag">34 Capabilities</span>
+      <span class="area-tag">8 Belts</span>
+      <span class="area-tag">4 Dojos</span>
     </div>
     <div class="dash-card-footer">
-      <a class="card-link" href="/personal-branding/">Brand work</a>
+      <a class="card-link" href="/los/">Explore the LOS</a>
     </div>
   </div>
 
