@@ -220,76 +220,9 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 </div>
 
 <!-- ═══════════════════════════════
-     THE LOS SPOTLIGHT
-═══════════════════════════════ -->
-<section class="los-spotlight">
-  <div class="los-spotlight-inner">
-
-    <div class="los-spot-left">
-      <div class="eyebrow" style="color:rgba(255,255,255,.5);letter-spacing:.18em;">The Leadership Operating System</div>
-      <h2 class="los-spot-heading">Leadership is stewardship.<br>Not authority.</h2>
-      <p class="los-spot-sub">A lifelong practice system built on a single standard: capability is not installed merely because it can be demonstrated — it is installed only when it performs, sustains, transfers, and survives absence.</p>
-      <div class="los-spot-stats">
-        <div class="los-spot-stat">
-          <div class="los-spot-num">34</div>
-          <div class="los-spot-label">Capabilities</div>
-        </div>
-        <div class="los-spot-stat">
-          <div class="los-spot-num">6</div>
-          <div class="los-spot-label">Domains</div>
-        </div>
-        <div class="los-spot-stat">
-          <div class="los-spot-num">8</div>
-          <div class="los-spot-label">Belts</div>
-        </div>
-        <div class="los-spot-stat">
-          <div class="los-spot-num">4</div>
-          <div class="los-spot-label">Dojos</div>
-        </div>
-      </div>
-      <a class="los-spot-cta" href="/los/">Explore the LOS →</a>
-    </div>
-
-    <div class="los-spot-right">
-      <div class="los-spot-domains">
-        <div class="los-spot-domain" style="--dd:#9E5A34;">
-          <span class="los-spot-dletter">A</span>
-          <span class="los-spot-dname">Self Governance</span>
-        </div>
-        <div class="los-spot-domain" style="--dd:#1565C0;">
-          <span class="los-spot-dletter">B</span>
-          <span class="los-spot-dname">Human Leadership</span>
-        </div>
-        <div class="los-spot-domain" style="--dd:#2E7D32;">
-          <span class="los-spot-dletter">C</span>
-          <span class="los-spot-dname">Collective Leadership</span>
-        </div>
-        <div class="los-spot-domain" style="--dd:#7B1FA2;">
-          <span class="los-spot-dletter">D</span>
-          <span class="los-spot-dname">Organisational Leadership</span>
-        </div>
-        <div class="los-spot-domain" style="--dd:#C62828;">
-          <span class="los-spot-dletter">E</span>
-          <span class="los-spot-dname">Stewardship</span>
-        </div>
-        <div class="los-spot-domain" style="--dd:#9a7808;">
-          <span class="los-spot-dletter">F</span>
-          <span class="los-spot-dname">Legacy &amp; Wisdom</span>
-        </div>
-      </div>
-      <div class="los-spot-principle">
-        <div class="los-spot-principle-label">The defining principle</div>
-        <p class="los-spot-principle-text">Leadership is the progressive expansion of stewardship.</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ═══════════════════════════════
      THROUGH-LINE
 ═══════════════════════════════ -->
-<div class="section-ink" style="margin-top:0;">
+<div class="section-ink" style="margin-top:2rem;">
   <div class="bleed-inner">
     <div class="section-label">The through-line</div>
     <p class="pull-quote">Tools change. <em>Systems endure.</em> Every book, article, and engagement is built on that one idea.</p>
