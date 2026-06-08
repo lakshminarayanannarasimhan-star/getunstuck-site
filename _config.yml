@@ -40,7 +40,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: ivory         # Warm white, barely-there surfaces
 # unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
-unstuck_theme: cloud         # Cool white, soft lavender accent
+# unstuck_theme: cloud         # Cool white, soft lavender accent
 #
 # ── BOLD / VIVID THEMES ────────────────────────────────────────────
 #
@@ -67,7 +67,7 @@ unstuck_theme: cloud         # Cool white, soft lavender accent
 # These inherit the warm paper surface — only the accent colour changes.
 #
 # unstuck_theme: indigo        # Indigo accent
-# unstuck_theme: emerald       # Emerald accent
+unstuck_theme: emerald       # Emerald accent
 # unstuck_theme: amber         # Amber accent
 # unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
