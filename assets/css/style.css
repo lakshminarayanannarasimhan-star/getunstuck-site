@@ -3295,3 +3295,164 @@ h1, h2, h3, h4 {
   .los-chain { flex-direction: column; }
   .los-chain-label { width: 100%; border-right: none; border-bottom: 1px solid var(--border); }
 }
+
+
+/* =========================================
+   26. LOS SPOTLIGHT (homepage section)
+   ========================================= */
+
+.los-spotlight {
+  background: var(--ink-gradient, var(--text));
+  padding: clamp(3rem, 6vw, 5rem) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle radial glow */
+.los-spotlight::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse 70% 80% at 20% 50%,
+    rgba(158, 90, 52, 0.18) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.los-spotlight-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 clamp(1.5rem, 4vw, 3.5rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 860px) {
+  .los-spotlight-inner { grid-template-columns: 1fr; }
+}
+
+/* Left side */
+.los-spot-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.15;
+  margin: .6rem 0 1rem;
+}
+
+.los-spot-sub {
+  font-size: .95rem;
+  color: rgba(255,255,255,.65);
+  line-height: 1.75;
+  max-width: 480px;
+  margin-bottom: 1.8rem;
+}
+
+.los-spot-stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.los-spot-stat { text-align: center; }
+.los-spot-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+}
+.los-spot-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.45);
+  margin-top: .3rem;
+}
+
+.los-spot-cta {
+  display: inline-block;
+  font-family: 'DM Mono', monospace;
+  font-size: .75rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .75rem 1.5rem;
+  background: var(--primary);
+  color: var(--surface);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: opacity .18s ease, transform .18s ease;
+}
+.los-spot-cta:hover {
+  opacity: .88;
+  transform: translateY(-2px);
+  color: var(--surface);
+}
+
+/* Right side */
+.los-spot-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.los-spot-domains {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.los-spot-domain {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  padding: .55rem .9rem;
+  background: rgba(255,255,255,.05);
+  border-left: 3px solid var(--dd, rgba(255,255,255,.2));
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  transition: background .18s ease, transform .18s ease;
+}
+.los-spot-domain:hover {
+  background: rgba(255,255,255,.1);
+  transform: translateX(4px);
+}
+
+.los-spot-dletter {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--dd, rgba(255,255,255,.7));
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 18px;
+}
+.los-spot-dname {
+  font-family: 'DM Sans', sans-serif;
+  font-size: .82rem;
+  color: rgba(255,255,255,.7);
+}
+
+.los-spot-principle {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.2rem;
+}
+.los-spot-principle-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: .5rem;
+}
+.los-spot-principle-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: rgba(255,255,255,.85);
+  line-height: 1.5;
+}
