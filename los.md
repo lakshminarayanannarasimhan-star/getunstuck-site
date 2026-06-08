@@ -91,70 +91,139 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
 <section class="section-wide">
   <div class="section-label">One spine · Two axes · One lens</div>
   <h2>The measurement system.</h2>
-  <div class="los-arch-grid" style="margin-top:2rem;">
 
-    <div class="los-arch-card">
-      <div class="los-arch-label">The Spine</div>
-      <div class="los-arch-name">Belts</div>
-      <p class="los-arch-desc">Measure <em>stewardship radius</em> — how much, and how many, you are trusted to steward. This is the primary progression.</p>
-      <div class="flow-wrapper" style="margin-top:1rem;">
-        <div class="flow" style="gap:.3rem;">
-          <div class="flow-card" style="font-size:.6rem;padding:.4rem .6rem;">White</div>
-          <div class="flow-arrow" style="font-size:.7rem;">›</div>
-          <div class="flow-card" style="font-size:.6rem;padding:.4rem .6rem;">Yellow</div>
-          <div class="flow-arrow" style="font-size:.7rem;">›</div>
-          <div class="flow-card" style="font-size:.6rem;padding:.4rem .6rem;">Orange</div>
-          <div class="flow-arrow" style="font-size:.7rem;">›</div>
-          <div class="flow-card" style="font-size:.6rem;padding:.4rem .6rem;">Green</div>
-          <div class="flow-arrow" style="font-size:.7rem;">›</div>
-          <div class="flow-card" style="font-size:.6rem;padding:.4rem .6rem;">Blue</div>
-          <div class="flow-arrow" style="font-size:.7rem;">›</div>
-          <div class="flow-card" style="font-size:.6rem;padding:.4rem .6rem;">Brown</div>
-          <div class="flow-arrow" style="font-size:.7rem;">›</div>
-          <div class="flow-card" style="font-size:.6rem;padding:.4rem .6rem;">Black</div>
-          <div class="flow-arrow" style="font-size:.7rem;">›</div>
-          <div class="flow-card active" style="font-size:.6rem;padding:.4rem .6rem;">Master</div>
+  <div class="los-pillars">
+
+    <!-- BELTS (The Spine) -->
+    <div class="los-pillar">
+      <div class="los-pillar-label">The Spine</div>
+      <div class="los-pillar-name">Belts</div>
+      <p class="los-pillar-desc">Measure <em>stewardship radius</em> — how far you are trusted to reach. The primary progression. Belt measures reach; Maturity measures the interior. The two are never conflated.</p>
+      <div class="los-belt-stack">
+        <div class="los-belt" data-belt="White">
+          <div class="los-belt-name">White</div>
+          <div class="los-belt-info">Lead self<div class="los-belt-radius">Domain A · Canon I</div></div>
+        </div>
+        <div class="los-belt" data-belt="Yellow">
+          <div class="los-belt-name">Yellow</div>
+          <div class="los-belt-info">Lead one person<div class="los-belt-radius">Domain B · Canon II</div></div>
+        </div>
+        <div class="los-belt" data-belt="Orange">
+          <div class="los-belt-name">Orange</div>
+          <div class="los-belt-info">Lead small team<div class="los-belt-radius">B → C · Canon II–III</div></div>
+        </div>
+        <div class="los-belt" data-belt="Green">
+          <div class="los-belt-name">Green</div>
+          <div class="los-belt-info">Lead team<div class="los-belt-radius">Domain C · Canon III</div></div>
+        </div>
+        <div class="los-belt" data-belt="Blue">
+          <div class="los-belt-name">Blue</div>
+          <div class="los-belt-info">Lead multiple teams<div class="los-belt-radius">C → D · Canon III–IV</div></div>
+        </div>
+        <div class="los-belt" data-belt="Brown">
+          <div class="los-belt-name">Brown</div>
+          <div class="los-belt-info">Lead function<div class="los-belt-radius">Domain D · Canon IV</div></div>
+        </div>
+        <div class="los-belt" data-belt="Black">
+          <div class="los-belt-name">Black</div>
+          <div class="los-belt-info">Lead organisation<div class="los-belt-radius">D → E · Canon IV–V</div></div>
+        </div>
+        <div class="los-belt" data-belt="Master">
+          <div class="los-belt-name">Master</div>
+          <div class="los-belt-info">Build institutions<div class="los-belt-radius">E → F · Canon V–VI</div></div>
         </div>
       </div>
     </div>
 
-    <div class="los-arch-card">
-      <div class="los-arch-label">Axis One</div>
-      <div class="los-arch-name">Maturity Stage</div>
-      <p class="los-arch-desc">Measures <em>inner orientation</em> — the question you are privately answering. Cuts across belts. A Green Belt may operate from Stage 2 or Stage 4.</p>
-      <ul style="list-style:none;display:flex;flex-direction:column;gap:.3rem;margin-top:1rem;">
-        <li style="font-size:.78rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">1</span> &nbsp;Self Preservation</li>
-        <li style="font-size:.78rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">2</span> &nbsp;Achievement</li>
-        <li style="font-size:.78rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">3</span> &nbsp;Responsibility</li>
-        <li style="font-size:.78rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">4</span> &nbsp;Systems</li>
-        <li style="font-size:.78rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">5</span> &nbsp;Stewardship</li>
-        <li style="font-size:.78rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">6</span> &nbsp;Legacy</li>
-      </ul>
+    <!-- MATURITY (Axis One) -->
+    <div class="los-pillar">
+      <div class="los-pillar-label">Axis One</div>
+      <div class="los-pillar-name">Maturity Stage</div>
+      <p class="los-pillar-desc">Measures <em>inner orientation</em> — the question you are privately answering. Cuts across belts; never conflated with them.</p>
+      <div class="los-maturity-stack">
+        <div class="los-maturity-item" data-stage="1">
+          <div class="los-maturity-num">1</div>
+          <div><div class="los-maturity-name">Self Preservation</div><div class="los-maturity-q">Can I protect myself?</div></div>
+        </div>
+        <div class="los-maturity-item" data-stage="2">
+          <div class="los-maturity-num">2</div>
+          <div><div class="los-maturity-name">Achievement</div><div class="los-maturity-q">Can I win?</div></div>
+        </div>
+        <div class="los-maturity-item" data-stage="3">
+          <div class="los-maturity-num">3</div>
+          <div><div class="los-maturity-name">Responsibility</div><div class="los-maturity-q">Can I help others succeed?</div></div>
+        </div>
+        <div class="los-maturity-item" data-stage="4">
+          <div class="los-maturity-num">4</div>
+          <div><div class="los-maturity-name">Systems</div><div class="los-maturity-q">Can I improve systems?</div></div>
+        </div>
+        <div class="los-maturity-item" data-stage="5">
+          <div class="los-maturity-num">5</div>
+          <div><div class="los-maturity-name">Stewardship</div><div class="los-maturity-q">What must outlast me?</div></div>
+        </div>
+        <div class="los-maturity-item" data-stage="6">
+          <div class="los-maturity-num">6</div>
+          <div><div class="los-maturity-name">Legacy</div><div class="los-maturity-q">What should exist because I was here?</div></div>
+        </div>
+      </div>
     </div>
 
-    <div class="los-arch-card">
-      <div class="los-arch-label">Axis Two</div>
-      <div class="los-arch-name">Transfer Level</div>
-      <p class="los-arch-desc">Measures <em>depth of installation, per capability</em>. The same practitioner may be Level 4 on Trust Building and Level 1 on Conflict Navigation.</p>
-      <ul style="list-style:none;display:flex;flex-direction:column;gap:.5rem;margin-top:1rem;">
-        <li style="font-size:.82rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">1</span> &nbsp;<strong style="color:var(--text);">Perform</strong> — can do it</li>
-        <li style="font-size:.82rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">2</span> &nbsp;<strong style="color:var(--text);">Sustain</strong> — can repeat consistently</li>
-        <li style="font-size:.82rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">3</span> &nbsp;<strong style="color:var(--text);">Teach</strong> — can develop in others</li>
-        <li style="font-size:.82rem;color:var(--muted);"><span style="color:var(--primary);font-family:'DM Mono',monospace;font-size:.65rem;">4</span> &nbsp;<strong style="color:var(--text);">Institutionalise</strong> — survives absence</li>
-      </ul>
+    <!-- TRANSFER (Axis Two) -->
+    <div class="los-pillar">
+      <div class="los-pillar-label">Axis Two</div>
+      <div class="los-pillar-name">Transfer Level</div>
+      <p class="los-pillar-desc">Measures <em>depth of installation, per capability.</em> The same practitioner may be Level 4 on Trust Building and Level 1 on Conflict Navigation.</p>
+      <div class="los-transfer-stack">
+        <div class="los-transfer-step" data-level="1">
+          <div class="los-transfer-num">Level 1</div>
+          <div class="los-transfer-name">Perform</div>
+          <div class="los-transfer-sub">Can do it</div>
+        </div>
+        <div class="los-transfer-step" data-level="2">
+          <div class="los-transfer-num">Level 2</div>
+          <div class="los-transfer-name">Sustain</div>
+          <div class="los-transfer-sub">Can repeat consistently</div>
+        </div>
+        <div class="los-transfer-step" data-level="3">
+          <div class="los-transfer-num">Level 3</div>
+          <div class="los-transfer-name">Teach</div>
+          <div class="los-transfer-sub">Can develop in others</div>
+        </div>
+        <div class="los-transfer-step" data-level="4">
+          <div class="los-transfer-num">Level 4 · Installed</div>
+          <div class="los-transfer-name">Institutionalise</div>
+          <div class="los-transfer-sub">Survives absence</div>
+        </div>
+      </div>
     </div>
 
-    <div class="los-arch-card">
-      <div class="los-arch-label">The Lens</div>
-      <div class="los-arch-name">Context</div>
-      <p class="los-arch-desc">Measures the <em>operating environment</em>. Context is read, never climbed — it is not a progression to track.</p>
-      <ul style="list-style:none;display:flex;flex-direction:column;gap:.35rem;margin-top:1rem;">
-        <li style="font-size:.8rem;color:var(--muted);">⬡ &nbsp;<strong style="color:var(--text);">Formation</strong> — creating something new</li>
-        <li style="font-size:.8rem;color:var(--muted);">⬡ &nbsp;<strong style="color:var(--text);">Growth</strong> — scaling</li>
-        <li style="font-size:.8rem;color:var(--muted);">⬡ &nbsp;<strong style="color:var(--text);">Stability</strong> — optimising</li>
-        <li style="font-size:.8rem;color:var(--muted);">⬡ &nbsp;<strong style="color:var(--text);">Crisis</strong> — protecting</li>
-        <li style="font-size:.8rem;color:var(--muted);">⬡ &nbsp;<strong style="color:var(--text);">Renewal</strong> — reinventing</li>
-      </ul>
+    <!-- CONTEXT (The Lens) -->
+    <div class="los-pillar">
+      <div class="los-pillar-label">The Lens</div>
+      <div class="los-pillar-name">Context</div>
+      <p class="los-pillar-desc">Measures the <em>operating environment.</em> Context is read, never climbed — it is not a progression. The same Trust Building capability expresses differently in each.</p>
+      <div class="los-context-stack">
+        <div class="los-ctx-item">
+          <div class="los-ctx-icon">⊕</div>
+          <div><div class="los-ctx-name">Formation</div><div class="los-ctx-desc">Creating something new</div></div>
+        </div>
+        <div class="los-ctx-item">
+          <div class="los-ctx-icon">↑</div>
+          <div><div class="los-ctx-name">Growth</div><div class="los-ctx-desc">Scaling</div></div>
+        </div>
+        <div class="los-ctx-item">
+          <div class="los-ctx-icon">⊜</div>
+          <div><div class="los-ctx-name">Stability</div><div class="los-ctx-desc">Optimising</div></div>
+        </div>
+        <div class="los-ctx-item">
+          <div class="los-ctx-icon">⚡</div>
+          <div><div class="los-ctx-name">Crisis</div><div class="los-ctx-desc">Protecting</div></div>
+        </div>
+        <div class="los-ctx-item">
+          <div class="los-ctx-icon">↻</div>
+          <div><div class="los-ctx-name">Renewal</div><div class="los-ctx-desc">Reinventing</div></div>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -164,106 +233,106 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
 <section class="section-wide">
   <div class="section-label">Six domains · 34 capabilities</div>
   <h2>What is stewarded.</h2>
-  <p class="prose" style="margin-top:.8rem;">The domains describe what is stewarded. They are not a maturity ladder; a practitioner works across several at once.</p>
+  <p class="prose" style="margin-top:.8rem;">The domains describe what is stewarded. They are not a maturity ladder — a practitioner works across several at once.</p>
 
-  <div class="los-domains-grid" style="margin-top:2rem;">
+  <div class="los-domains-v2">
 
-    <div class="los-domain-card">
-      <div class="los-domain-header">
-        <span class="los-domain-letter">A</span>
+    <div class="los-dcard" data-domain="A">
+      <div class="los-dcard-top">
+        <div class="los-dcard-letter">A</div>
         <div>
-          <div class="los-domain-name">Self Governance</div>
-          <div class="los-domain-q">Can I be trusted with myself?</div>
+          <div class="los-dcard-name">Self Governance</div>
+          <div class="los-dcard-q">Can I be trusted with myself?</div>
         </div>
       </div>
-      <ul class="los-cap-list">
-        <li><span>A1</span> Inner Governance</li>
-        <li><span>A2</span> Attention Stewardship</li>
-        <li><span>A3</span> Reflection &amp; Learning</li>
-        <li><span>A4</span> Judgment</li>
-      </ul>
+      <div class="los-chips">
+        <span class="los-chip"><span class="los-chip-code">A1</span>Inner Governance</span>
+        <span class="los-chip"><span class="los-chip-code">A2</span>Attention Stewardship</span>
+        <span class="los-chip"><span class="los-chip-code">A3</span>Reflection &amp; Learning</span>
+        <span class="los-chip"><span class="los-chip-code">A4</span>Judgment</span>
+      </div>
     </div>
 
-    <div class="los-domain-card">
-      <div class="los-domain-header">
-        <span class="los-domain-letter">B</span>
+    <div class="los-dcard" data-domain="B">
+      <div class="los-dcard-top">
+        <div class="los-dcard-letter">B</div>
         <div>
-          <div class="los-domain-name">Human Leadership</div>
-          <div class="los-domain-q">Do people feel safe placing important things in my hands?</div>
+          <div class="los-dcard-name">Human Leadership</div>
+          <div class="los-dcard-q">Do people feel safe placing important things in my hands?</div>
         </div>
       </div>
-      <ul class="los-cap-list">
-        <li><span>B1</span> Trust Building</li>
-        <li><span>B2</span> Communication</li>
-        <li><span>B3</span> Conflict Navigation</li>
-        <li><span>B4</span> Influence</li>
-        <li><span>B5</span> Mentorship</li>
-      </ul>
+      <div class="los-chips">
+        <span class="los-chip"><span class="los-chip-code">B1</span>Trust Building</span>
+        <span class="los-chip"><span class="los-chip-code">B2</span>Communication</span>
+        <span class="los-chip"><span class="los-chip-code">B3</span>Conflict Navigation</span>
+        <span class="los-chip"><span class="los-chip-code">B4</span>Influence</span>
+        <span class="los-chip"><span class="los-chip-code">B5</span>Mentorship</span>
+      </div>
     </div>
 
-    <div class="los-domain-card">
-      <div class="los-domain-header">
-        <span class="los-domain-letter">C</span>
+    <div class="los-dcard" data-domain="C">
+      <div class="los-dcard-top">
+        <div class="los-dcard-letter">C</div>
         <div>
-          <div class="los-domain-name">Collective Leadership</div>
-          <div class="los-domain-q">Is success dependent on heroics or design?</div>
+          <div class="los-dcard-name">Collective Leadership</div>
+          <div class="los-dcard-q">Is success dependent on heroics or design?</div>
         </div>
       </div>
-      <ul class="los-cap-list">
-        <li><span>C1</span> Team Architecture</li>
-        <li><span>C2</span> Decision Architecture</li>
-        <li><span>C3</span> Culture Stewardship</li>
-        <li><span>C4</span> Collective Intelligence</li>
-      </ul>
+      <div class="los-chips">
+        <span class="los-chip"><span class="los-chip-code">C1</span>Team Architecture</span>
+        <span class="los-chip"><span class="los-chip-code">C2</span>Decision Architecture</span>
+        <span class="los-chip"><span class="los-chip-code">C3</span>Culture Stewardship</span>
+        <span class="los-chip"><span class="los-chip-code">C4</span>Collective Intelligence</span>
+      </div>
     </div>
 
-    <div class="los-domain-card">
-      <div class="los-domain-header">
-        <span class="los-domain-letter">D</span>
+    <div class="los-dcard" data-domain="D">
+      <div class="los-dcard-top">
+        <div class="los-dcard-letter">D</div>
         <div>
-          <div class="los-domain-name">Organisational Leadership</div>
-          <div class="los-domain-q">What reality are we actually facing?</div>
+          <div class="los-dcard-name">Organisational Leadership</div>
+          <div class="los-dcard-q">What reality are we actually facing?</div>
         </div>
       </div>
-      <ul class="los-cap-list">
-        <li><span>D1</span> Strategic Sensemaking</li>
-        <li><span>D2</span> Strategic Choice</li>
-        <li><span>D3</span> Organisational Design</li>
-        <li><span>D4</span> Change Leadership</li>
-        <li><span>D5</span> Execution Stewardship</li>
-        <li><span>D6</span> Resource Stewardship</li>
-      </ul>
+      <div class="los-chips">
+        <span class="los-chip"><span class="los-chip-code">D1</span>Strategic Sensemaking</span>
+        <span class="los-chip"><span class="los-chip-code">D2</span>Strategic Choice</span>
+        <span class="los-chip"><span class="los-chip-code">D3</span>Organisational Design</span>
+        <span class="los-chip"><span class="los-chip-code">D4</span>Change Leadership</span>
+        <span class="los-chip"><span class="los-chip-code">D5</span>Execution Stewardship</span>
+        <span class="los-chip"><span class="los-chip-code">D6</span>Resource Stewardship</span>
+      </div>
     </div>
 
-    <div class="los-domain-card">
-      <div class="los-domain-header">
-        <span class="los-domain-letter">E</span>
+    <div class="los-dcard" data-domain="E">
+      <div class="los-dcard-top">
+        <div class="los-dcard-letter">E</div>
         <div>
-          <div class="los-domain-name">Stewardship</div>
-          <div class="los-domain-q">Will this survive me?</div>
+          <div class="los-dcard-name">Stewardship</div>
+          <div class="los-dcard-q">Will this survive me?</div>
         </div>
       </div>
-      <ul class="los-cap-list">
-        <li><span>E1</span> Institution Building</li>
-        <li><span>E2</span> Renewal Leadership</li>
-        <li><span>E3</span> Succession &amp; Continuity</li>
-        <li><span>E4</span> Moral Courage</li>
-      </ul>
+      <div class="los-chips">
+        <span class="los-chip"><span class="los-chip-code">E1</span>Institution Building</span>
+        <span class="los-chip"><span class="los-chip-code">E2</span>Renewal Leadership</span>
+        <span class="los-chip"><span class="los-chip-code">E3</span>Succession &amp; Continuity</span>
+        <span class="los-chip"><span class="los-chip-code">E4</span>Moral Courage</span>
+      </div>
     </div>
 
-    <div class="los-domain-card">
-      <div class="los-domain-header">
-        <span class="los-domain-letter">F</span>
+    <div class="los-dcard" data-domain="F">
+      <div class="los-dcard-top">
+        <div class="los-dcard-letter">F</div>
         <div>
-          <div class="los-domain-name">Legacy &amp; Wisdom</div>
-          <div class="los-domain-q">What is worth doing?</div>
+          <div class="los-dcard-name">Legacy &amp; Wisdom</div>
+          <div class="los-dcard-q">What is worth doing?</div>
         </div>
       </div>
-      <ul class="los-cap-list">
-        <li><span>F1</span> Wisdom &amp; Meaning</li>
-        <li><span>F2</span> Generative Legacy</li>
-        <li><span>F3</span> Field Stewardship</li>
-      </ul>
+      <div class="los-chips">
+        <span class="los-chip"><span class="los-chip-code">F1</span>Wisdom &amp; Meaning</span>
+        <span class="los-chip"><span class="los-chip-code">F2</span>Generative Legacy</span>
+        <span class="los-chip"><span class="los-chip-code">F3</span>Field Stewardship</span>
+      </div>
     </div>
 
   </div>
@@ -273,89 +342,128 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
 <section class="section-wide">
   <div class="section-label">The dependency map</div>
   <h2>Treat the upstream cause, not the downstream symptom.</h2>
-  <p class="prose" style="margin-top:.8rem;margin-bottom:2rem;">Capabilities are not equal. Some are foundational; others degrade when their prerequisites are absent. When a high capability fails, look down its chain before adding training at the point of failure.</p>
+  <p class="prose" style="margin-top:.8rem;">Capabilities are not equal. Some are foundational; others degrade when their prerequisites are absent. When a high capability fails, look down its chain before adding training at the point of failure.</p>
 
-  <div class="los-dep-grid">
+  <div class="los-dep-v2">
 
-    <div class="los-dep-chain">
-      <div class="los-dep-label">Self-governance chain</div>
-      <div class="los-dep-flow">
-        <span class="los-dep-node root">A1 Inner Governance</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">A2 Attention</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">A3 Reflection</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">A4 Judgment</span>
+    <div class="los-chain">
+      <div class="los-chain-label">
+        <div class="los-chain-label-text">Self-governance chain</div>
       </div>
-      <div class="los-dep-note">Without Inner Governance and Attention, Judgment degrades.</div>
-    </div>
-
-    <div class="los-dep-chain">
-      <div class="los-dep-label">Human chain</div>
-      <div class="los-dep-flow">
-        <span class="los-dep-node root">B1 Trust</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">B2 Communication</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">B3 Conflict</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">B4 Influence</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">B5 Mentorship</span>
-      </div>
-      <div class="los-dep-note">Without Trust and Communication, Influence degrades into manipulation.</div>
-    </div>
-
-    <div class="los-dep-chain">
-      <div class="los-dep-label">Collective chain</div>
-      <div class="los-dep-flow">
-        <span class="los-dep-node root">(Judgment + Trust)</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">C1 Team Architecture</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">C2 Decision Architecture</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">C3 Culture</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">C4 Collective Intelligence</span>
+      <div class="los-chain-body">
+        <div class="los-chain-flow">
+          <span class="los-cnode root">A1 Inner Governance</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">A2 Attention Stewardship</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">A3 Reflection &amp; Learning</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">A4 Judgment</span>
+        </div>
+        <div class="los-chain-note">Without Inner Governance and Attention, Judgment degrades.</div>
       </div>
     </div>
 
-    <div class="los-dep-chain">
-      <div class="los-dep-label">Organisational chain</div>
-      <div class="los-dep-flow">
-        <span class="los-dep-node root">A4 Judgment</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">D1 Sensemaking</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">D2 Strategic Choice</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">D3–D6</span>
+    <div class="los-chain">
+      <div class="los-chain-label">
+        <div class="los-chain-label-text">Human chain</div>
+      </div>
+      <div class="los-chain-body">
+        <div class="los-chain-flow">
+          <span class="los-cnode root">B1 Trust Building</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">B2 Communication</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">B3 Conflict Navigation</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">B4 Influence</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">B5 Mentorship</span>
+        </div>
+        <div class="los-chain-note">Without Trust and Communication, Influence degrades into manipulation.</div>
       </div>
     </div>
 
-    <div class="los-dep-chain">
-      <div class="los-dep-label">Stewardship &amp; legacy chain</div>
-      <div class="los-dep-flow">
-        <span class="los-dep-node root">(All A–D)</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">E1 Institution Building</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">E2 Renewal</span>
-        <span class="los-dep-arrow">→</span>
-        <span class="los-dep-node">E3 Succession</span>
+    <div class="los-chain">
+      <div class="los-chain-label">
+        <div class="los-chain-label-text">Collective chain</div>
+      </div>
+      <div class="los-chain-body">
+        <div class="los-chain-flow">
+          <span class="los-cnode root">A4 Judgment</span>
+          <span class="los-carrow">+</span>
+          <span class="los-cnode root">B1 Trust</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">C1 Team Architecture</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">C2 Decision Architecture</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">C3 Culture Stewardship</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">C4 Collective Intelligence</span>
+        </div>
       </div>
     </div>
 
-    <div class="los-dep-chain los-dep-foundational">
-      <div class="los-dep-label">Foundational throughout</div>
-      <div class="los-dep-flow">
-        <span class="los-dep-node root">A1 Inner Governance</span>
-        <span class="los-dep-arrow">+</span>
-        <span class="los-dep-node root">E4 Moral Courage</span>
+    <div class="los-chain">
+      <div class="los-chain-label">
+        <div class="los-chain-label-text">Organisational chain</div>
       </div>
-      <div class="los-dep-note">When either is absent, every capability downstream weakens regardless of belt.</div>
+      <div class="los-chain-body">
+        <div class="los-chain-flow">
+          <span class="los-cnode root">A4 Judgment</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">D1 Strategic Sensemaking</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">D2 Strategic Choice</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">D3 Org Design</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">D4 Change</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">D5 Execution</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">D6 Resources</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="los-chain">
+      <div class="los-chain-label">
+        <div class="los-chain-label-text">Stewardship &amp; legacy chain</div>
+      </div>
+      <div class="los-chain-body">
+        <div class="los-chain-flow">
+          <span class="los-cnode root">All A–D</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">E1 Institution Building</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">E2 Renewal Leadership</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">E3 Succession &amp; Continuity</span>
+        </div>
+        <div class="los-chain-flow" style="margin-top:.4rem;">
+          <span class="los-cnode root">F1 Wisdom &amp; Meaning</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">F2 Generative Legacy</span>
+          <span class="los-carrow">→</span>
+          <span class="los-cnode">F3 Field Stewardship</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="los-chain foundational">
+      <div class="los-chain-label">
+        <div class="los-chain-label-text">Foundational throughout</div>
+      </div>
+      <div class="los-chain-body">
+        <div class="los-chain-flow">
+          <span class="los-cnode root">A1 Inner Governance</span>
+          <span class="los-carrow">+</span>
+          <span class="los-cnode root">E4 Moral Courage</span>
+        </div>
+        <div class="los-chain-note">When either is absent, every capability downstream weakens regardless of belt.</div>
+      </div>
     </div>
 
   </div>

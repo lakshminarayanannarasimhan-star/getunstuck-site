@@ -2840,3 +2840,458 @@ h1, h2, h3, h4 {
   font-style: italic;
   margin-top: .6rem;
 }
+
+
+/* =========================================
+   25. LOS — VISUAL REDESIGN (v2)
+       Architecture · Domains · Dep Map
+   ========================================= */
+
+/* ── ARCHITECTURE: FOUR PILLARS ── */
+
+.los-pillars {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-top: 2rem;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .los-pillars { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .los-pillars { grid-template-columns: 1fr; }
+}
+
+.los-pillar {
+  background: var(--surface);
+  padding: 1.4rem 1.2rem 1.6rem;
+}
+.los-pillar-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: .35rem;
+}
+.los-pillar-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: .5rem;
+}
+.los-pillar-desc {
+  font-size: .8rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+/* Belt stack */
+.los-belt-stack { display: flex; flex-direction: column; gap: 3px; }
+.los-belt {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  padding: .45rem .8rem;
+  border-radius: var(--radius-sm);
+  background: var(--bc, var(--bg-deep));
+  color: var(--bt, var(--text));
+  transition: transform .15s ease;
+}
+.los-belt:hover { transform: translateX(3px); }
+.los-belt-name {
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  letter-spacing: .06em;
+  font-weight: 500;
+  flex-shrink: 0;
+  min-width: 46px;
+}
+.los-belt-info {
+  font-size: .7rem;
+  line-height: 1.3;
+  opacity: .85;
+}
+.los-belt-radius {
+  font-size: .62rem;
+  opacity: .7;
+}
+
+/* Belt colours — fixed semantic values */
+.los-belt[data-belt="White"]  { --bc:#f0ede8; --bt:#333333; }
+.los-belt[data-belt="Yellow"] { --bc:#F5C518; --bt:#1a1208; }
+.los-belt[data-belt="Orange"] { --bc:#E07522; --bt:#ffffff; }
+.los-belt[data-belt="Green"]  { --bc:#2E7D32; --bt:#ffffff; }
+.los-belt[data-belt="Blue"]   { --bc:#1565C0; --bt:#ffffff; }
+.los-belt[data-belt="Brown"]  { --bc:#5D4037; --bt:#ffffff; }
+.los-belt[data-belt="Black"]  { --bc:#1a1a1a; --bt:#eeeeee; }
+.los-belt[data-belt="Master"] { --bc:#9a7808; --bt:#fffbe8; }
+
+/* Maturity scale */
+.los-maturity-stack { display: flex; flex-direction: column; gap: 3px; }
+.los-maturity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: .7rem;
+  padding: .55rem .7rem;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--mc, var(--border));
+  background: var(--surface-soft);
+  transition: background .15s ease;
+}
+.los-maturity-item:hover { background: var(--bg-deep); }
+.los-maturity-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--mc, var(--primary));
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 18px;
+}
+.los-maturity-name {
+  font-size: .78rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.3;
+}
+.los-maturity-q {
+  font-size: .68rem;
+  color: var(--faint);
+  font-style: italic;
+  margin-top: .15rem;
+  line-height: 1.3;
+}
+
+/* Maturity stage colours */
+.los-maturity-item[data-stage="1"] { --mc:#7a7a8a; }
+.los-maturity-item[data-stage="2"] { --mc:#b87030; }
+.los-maturity-item[data-stage="3"] { --mc:#3a7a3a; }
+.los-maturity-item[data-stage="4"] { --mc:#2a5a9a; }
+.los-maturity-item[data-stage="5"] { --mc:#7a4a7a; }
+.los-maturity-item[data-stage="6"] { --mc:#9a7808; }
+
+/* Transfer staircase */
+.los-transfer-stack { display: flex; flex-direction: column; gap: 5px; }
+.los-transfer-step {
+  display: flex;
+  flex-direction: column;
+  padding: .6rem .8rem;
+  border-radius: var(--radius-sm);
+  background: var(--tc-bg, var(--bg-deep));
+  color: var(--tc-txt, var(--text));
+  transition: filter .15s ease;
+  width: var(--tc-w, 60%);
+  align-self: flex-end;
+}
+.los-transfer-step:hover { filter: brightness(1.06); }
+.los-transfer-num {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .12em;
+  margin-bottom: .2rem;
+  opacity: .75;
+}
+.los-transfer-name {
+  font-size: .82rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.los-transfer-sub {
+  font-size: .7rem;
+  opacity: .8;
+  margin-top: .1rem;
+}
+
+.los-transfer-step[data-level="1"] { --tc-bg:var(--bg-deep); --tc-txt:var(--muted); --tc-w:60%; }
+.los-transfer-step[data-level="2"] { --tc-bg:var(--primary-soft); --tc-txt:var(--text); --tc-w:73%; }
+.los-transfer-step[data-level="3"] {
+  background: color-mix(in srgb, var(--primary) 25%, var(--bg-deep));
+  color: var(--text);
+  --tc-w: 87%;
+}
+.los-transfer-step[data-level="4"] { --tc-bg:var(--primary); --tc-txt:var(--surface); --tc-w:100%; }
+
+/* Context strip */
+.los-context-stack { display: flex; flex-direction: column; gap: 4px; }
+.los-ctx-item {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  padding: .55rem .8rem;
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+  border: 1px solid var(--border-soft);
+  transition: background .15s ease, border-color .15s ease;
+}
+.los-ctx-item:hover {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+.los-ctx-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.los-ctx-name {
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--text);
+}
+.los-ctx-desc {
+  font-size: .68rem;
+  color: var(--faint);
+}
+
+
+/* ── DOMAINS: 3-COL WITH CHIPS ── */
+
+.los-domains-v2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-top: 2rem;
+}
+@media (max-width: 800px) { .los-domains-v2 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .los-domains-v2 { grid-template-columns: 1fr; } }
+
+.los-dcard {
+  background: var(--surface);
+  padding: 1.4rem 1.3rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: background .18s ease;
+}
+.los-dcard:hover { background: var(--surface-soft); }
+
+/* Watermark domain letter */
+.los-dcard::after {
+  content: attr(data-domain);
+  position: absolute;
+  bottom: -.5rem;
+  right: .4rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 7rem;
+  font-weight: 700;
+  color: var(--primary);
+  opacity: .055;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Colour stripe at top of each domain card */
+.los-dcard::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--dc, var(--primary));
+}
+
+/* Domain card colours */
+.los-dcard[data-domain="A"] { --dc: #9E5A34; }
+.los-dcard[data-domain="B"] { --dc: #1565C0; }
+.los-dcard[data-domain="C"] { --dc: #2E7D32; }
+.los-dcard[data-domain="D"] { --dc: #7B1FA2; }
+.los-dcard[data-domain="E"] { --dc: #C62828; }
+.los-dcard[data-domain="F"] { --dc: #9a7808; }
+
+.los-dcard-top {
+  display: flex;
+  align-items: flex-start;
+  gap: .8rem;
+  margin-bottom: .9rem;
+  padding-bottom: .9rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+.los-dcard-letter {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--dc, var(--primary));
+  line-height: 1;
+  flex-shrink: 0;
+}
+.los-dcard-name {
+  font-family: 'Playfair Display', serif;
+  font-size: .95rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.25;
+  margin-bottom: .3rem;
+}
+.los-dcard-q {
+  font-size: .75rem;
+  color: var(--faint);
+  font-style: italic;
+  line-height: 1.45;
+}
+
+/* Capability chips */
+.los-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+.los-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  font-size: .75rem;
+  color: var(--muted);
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: .25rem .65rem .25rem .45rem;
+  transition: background .15s ease, border-color .15s ease;
+  white-space: nowrap;
+}
+.los-chip:hover {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+  color: var(--text);
+}
+.los-chip-code {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  font-weight: 500;
+  color: var(--dc, var(--primary));
+  letter-spacing: .04em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: .1rem .35rem;
+  flex-shrink: 0;
+}
+
+
+/* ── DEPENDENCY MAP V2 ── */
+
+.los-dep-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 2rem;
+}
+
+.los-chain {
+  display: flex;
+  align-items: stretch;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: box-shadow .18s ease;
+}
+.los-chain:hover { box-shadow: var(--shadow-sm); }
+
+.los-chain-label {
+  flex-shrink: 0;
+  width: 130px;
+  padding: .9rem .8rem;
+  background: var(--bg-deep);
+  border-right: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+}
+.los-chain-label-text {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  line-height: 1.4;
+}
+
+.los-chain-body {
+  flex: 1;
+  padding: .9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.los-chain-flow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+
+/* Nodes */
+.los-cnode {
+  font-family: 'DM Sans', sans-serif;
+  font-size: .78rem;
+  font-weight: 500;
+  padding: .35rem .75rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  white-space: nowrap;
+  transition: background .15s ease;
+}
+.los-cnode:hover { background: var(--primary-soft); color: var(--text); }
+
+/* Root node — foundational */
+.los-cnode.root {
+  background: var(--primary);
+  color: var(--surface);
+  border-color: var(--primary);
+  font-weight: 600;
+}
+.los-cnode.root:hover {
+  background: var(--primary-strong, var(--primary));
+  color: var(--surface);
+}
+
+/* Arrow */
+.los-carrow {
+  color: var(--primary);
+  font-size: .9rem;
+  font-weight: 300;
+  flex-shrink: 0;
+  opacity: .7;
+}
+
+/* Chain note */
+.los-chain-note {
+  font-size: .74rem;
+  color: var(--faint);
+  font-style: italic;
+}
+
+/* Foundational chain — special treatment */
+.los-chain.foundational {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+.los-chain.foundational .los-chain-label {
+  background: var(--primary);
+  border-right-color: var(--primary);
+}
+.los-chain.foundational .los-chain-label-text {
+  color: var(--surface);
+}
+.los-chain.foundational .los-chain-body {
+  background: transparent;
+}
+
+@media (max-width: 700px) {
+  .los-chain { flex-direction: column; }
+  .los-chain-label { width: 100%; border-right: none; border-bottom: 1px solid var(--border); }
+}
