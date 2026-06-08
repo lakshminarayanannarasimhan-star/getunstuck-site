@@ -100,47 +100,52 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     </div>
   </div>
 
-  <!-- ── LINKEDIN CAROUSEL (1 col) ── -->
-  <div class="dash-card dash-area-consulting" style="padding:0;overflow:hidden;">
-    <div style="padding:1.6rem 1.8rem 1rem;">
-      <div class="dash-card-label">
-        LinkedIn
-        <a href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener" class="badge" style="text-decoration:none;">Follow →</a>
-      </div>
-      <h3 style="font-size:1.05rem;">From the feed.</h3>
+  <!-- ── THE LOS (2 cols) ── -->
+  <div class="dash-card dash-area-consulting">
+    <div class="dash-card-label">The Leadership Operating System
+      <span class="series-status live" style="font-size:.58rem;padding:.18rem .5rem;"><span class="series-dot"></span>Constitution v1.0</span>
     </div>
+    <h2>A system for developing capability that survives your absence.</h2>
+    <p>Not a course. Not a competency catalogue. A lifelong practice system built on one standard: capability is installed only when it performs, sustains, transfers, and survives absence.</p>
 
-    {% assign li_images = site.static_files | where_exp: "f", "f.path contains '/assets/img/linkedin/'" | sort: "name" | reverse %}
-
-    {% if li_images.size > 0 %}
-    <div class="li-carousel" id="liCarousel">
-      <div class="li-track" id="liTrack">
-        {% for img in li_images %}
-        <div class="li-slide">
-          <img src="{{ img.path | relative_url }}" alt="LinkedIn post {{ forloop.index }}" loading="eager">
+    <div class="los-spot-domains" style="margin-top:1.4rem;gap:3px;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;">
+        <div class="los-spot-domain" style="--dd:#9E5A34;background:var(--bg-deep);border-radius:var(--radius-sm) 0 0 var(--radius-sm);">
+          <span class="los-spot-dletter" style="color:var(--dc,#9E5A34);">A</span>
+          <span class="los-spot-dname" style="color:var(--muted);">Self Governance</span>
         </div>
-        {% endfor %}
-      </div>
-      <button class="li-btn li-prev" id="liPrev" aria-label="Previous">&#8592;</button>
-      <button class="li-btn li-next" id="liNext" aria-label="Next">&#8594;</button>
-      <div class="li-dots" id="liDots">
-        {% for img in li_images %}
-        <button class="li-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
-        {% endfor %}
+        <div class="los-spot-domain" style="--dd:#1565C0;background:var(--bg-deep);border-radius:0 var(--radius-sm) var(--radius-sm) 0;">
+          <span class="los-spot-dletter" style="color:#1565C0;">B</span>
+          <span class="los-spot-dname" style="color:var(--muted);">Human Leadership</span>
+        </div>
+        <div class="los-spot-domain" style="--dd:#2E7D32;background:var(--bg-deep);border-radius:var(--radius-sm) 0 0 var(--radius-sm);">
+          <span class="los-spot-dletter" style="color:#2E7D32;">C</span>
+          <span class="los-spot-dname" style="color:var(--muted);">Collective Leadership</span>
+        </div>
+        <div class="los-spot-domain" style="--dd:#7B1FA2;background:var(--bg-deep);border-radius:0 var(--radius-sm) var(--radius-sm) 0;">
+          <span class="los-spot-dletter" style="color:#7B1FA2;">D</span>
+          <span class="los-spot-dname" style="color:var(--muted);">Organisational Leadership</span>
+        </div>
+        <div class="los-spot-domain" style="--dd:#C62828;background:var(--bg-deep);border-radius:var(--radius-sm) 0 0 var(--radius-sm);">
+          <span class="los-spot-dletter" style="color:#C62828;">E</span>
+          <span class="los-spot-dname" style="color:var(--muted);">Stewardship</span>
+        </div>
+        <div class="los-spot-domain" style="--dd:#9a7808;background:var(--bg-deep);border-radius:0 var(--radius-sm) var(--radius-sm) 0;">
+          <span class="los-spot-dletter" style="color:#9a7808;">F</span>
+          <span class="los-spot-dname" style="color:var(--muted);">Legacy &amp; Wisdom</span>
+        </div>
       </div>
     </div>
-    {% else %}
-    <div style="padding:1.5rem 1.8rem 1.8rem;">
-      <div class="carousel-empty">
-        <div class="carousel-empty-icon">&#128248;</div>
-        <p>Drop your LinkedIn post images into<br><code>assets/img/linkedin/</code><br>They will appear here automatically.</p>
-        <p style="margin-top:.6rem;font-size:.8rem;color:var(--faint);">Supported: JPG, PNG, WEBP<br>Name files by date for correct order<br>e.g. <code>2026-06-13.jpg</code></p>
-      </div>
-    </div>
-    {% endif %}
 
-    <div style="padding:.8rem 1.8rem 1.4rem;border-top:1px solid var(--border);margin-top:auto;">
-      <a class="card-link" href="/personal-branding/linkedin/">All LinkedIn posts</a>
+    <div class="dash-card-footer">
+      <div style="display:flex;gap:.5rem;flex-wrap:wrap;">
+        <a class="btn-primary" href="/los/">Explore the LOS</a>
+      </div>
+      <div style="display:flex;gap:1.2rem;">
+        <span style="font-family:'DM Mono',monospace;font-size:.68rem;color:var(--faint);">34 capabilities</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.68rem;color:var(--faint);">8 belts</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.68rem;color:var(--faint);">4 dojos</span>
+      </div>
     </div>
   </div>
 
@@ -182,20 +187,18 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     </div>
   </div>
 
-  <!-- ── THE LOS (1 col) ── -->
+  <!-- ── ABOUT (1 col) ── -->
   <div class="dash-card dash-area-brand">
-    <div class="dash-card-label">The LOS
-      <span class="series-status live" style="font-size:.58rem;padding:.18rem .5rem;"><span class="series-dot"></span>Constitution v1.0</span>
-    </div>
-    <h3>Leadership Operating System.</h3>
-    <p>A lifelong practice system. 34 capabilities across 6 domains. Not a course — a system for developing capability that survives your absence.</p>
-    <div class="area-tags" style="margin-top:.8rem;">
-      <span class="area-tag">34 Capabilities</span>
-      <span class="area-tag">8 Belts</span>
-      <span class="area-tag">4 Dojos</span>
-    </div>
+    <div class="dash-card-label">About</div>
+    <h3>Lakshmi Narayanan</h3>
+    <p>Technology Executive. Leadership systems practitioner. 25 years inside one of India's largest organisations. Chennai.</p>
+    <ul class="open-to-list">
+      <li>Senior technology leadership</li>
+      <li>Leadership programme partnerships</li>
+      <li>Writing and speaking</li>
+    </ul>
     <div class="dash-card-footer">
-      <a class="card-link" href="/los/">Explore the LOS</a>
+      <a class="card-link" href="/about/">Full story</a>
     </div>
   </div>
 
