@@ -51,7 +51,7 @@ author: Lakshmi Narayanan
 #
 # ── EDITORIAL / PRINT THEMES ───────────────────────────────────────
 #
-unstuck_theme: broadsheet    # Newspaper grey, classic editorial
+# unstuck_theme: broadsheet    # Newspaper grey, classic editorial
 # unstuck_theme: manuscript    # Aged parchment, sepia, scholarly
 # unstuck_theme: blueprint     # Dark blue, white text, technical
 # unstuck_theme: noir          # Near-black, sepia accent, cinematic
@@ -72,7 +72,7 @@ unstuck_theme: broadsheet    # Newspaper grey, classic editorial
 # unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
 # unstuck_theme: violet        # Violet accent
-# unstuck_theme: oasis         # Muted purple accent
+unstuck_theme: oasis         # Muted purple accent
 # unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
 # unstuck_theme: summer_sunset # Deep rose accent
