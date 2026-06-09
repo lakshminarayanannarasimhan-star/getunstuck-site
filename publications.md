@@ -40,9 +40,9 @@ description: "Four series across leadership systems, technology strategy, and se
       <div class="series-meta">4 articles · Submitting Jul–Oct 2026</div>
     </a>
 
-    <a class="series-card" href="#series-b">
+    <a class="series-card" href="#horizon">
       <div class="series-card-top">
-        <div class="series-id">Series B</div>
+        <div class="series-id">Horizon</div>
         <span class="series-status in-progress">
           <span class="series-dot"></span>In progress
         </span>
@@ -114,10 +114,10 @@ description: "Four series across leadership systems, technology strategy, and se
 </section>
 
 <!-- SERIES B — HORIZON -->
-<section class="section-wide" id="series-b">
+<section class="section-wide" id="horizon">
   <div class="series-section-header">
     <div>
-      <div class="section-label">Series B · Horizon</div>
+      <div class="section-label">Horizon</div>
       <h2>How technology services firms escape the race to the bottom.</h2>
       <p class="prose" style="margin-top:.8rem;">Technology services firms were built to help customers execute. The next generation of industry leaders will be built to help customers expand. Execution remains necessary. Expansion becomes decisive. Six episodes tracing the arc from execution to indispensability — at the firm level, in the GenAI and GCC era.</p>
     </div>
@@ -143,7 +143,7 @@ description: "Four series across leadership systems, technology strategy, and se
 
     <div style="display:flex;align-items:stretch;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;">
       <div style="flex-shrink:0;width:80px;background:var(--primary);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.8rem;gap:.3rem;">
-        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);">B0</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);">#1</span>
         <span class="series-status live" style="font-size:.5rem;padding:.12rem .35rem;"><span class="series-dot"></span>Frozen</span>
       </div>
       <div style="flex:1;padding:1.1rem 1.3rem;">
@@ -159,7 +159,7 @@ description: "Four series across leadership systems, technology strategy, and se
 
     <div style="display:flex;align-items:stretch;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;">
       <div style="flex-shrink:0;width:80px;background:var(--primary);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.8rem;gap:.3rem;">
-        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);">B1</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);">#2</span>
         <span class="series-status live" style="font-size:.5rem;padding:.12rem .35rem;"><span class="series-dot"></span>Frozen</span>
       </div>
       <div style="flex:1;padding:1.1rem 1.3rem;">
@@ -175,7 +175,7 @@ description: "Four series across leadership systems, technology strategy, and se
 
     <div style="display:flex;align-items:stretch;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;">
       <div style="flex-shrink:0;width:80px;background:var(--bg-deep);border-right:1px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.8rem;gap:.3rem;">
-        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);">B2</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);">#3</span>
         <span class="series-status in-progress" style="font-size:.5rem;padding:.12rem .35rem;"><span class="series-dot"></span>Rework</span>
       </div>
       <div style="flex:1;padding:1.1rem 1.3rem;">
@@ -191,7 +191,7 @@ description: "Four series across leadership systems, technology strategy, and se
 
     <div style="display:flex;align-items:stretch;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;">
       <div style="flex-shrink:0;width:80px;background:var(--bg-deep);border-right:1px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.8rem;gap:.3rem;">
-        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);">B3</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);">#4</span>
         <span class="series-status in-progress" style="font-size:.5rem;padding:.12rem .35rem;"><span class="series-dot"></span>Review</span>
       </div>
       <div style="flex:1;padding:1.1rem 1.3rem;">
@@ -207,7 +207,7 @@ description: "Four series across leadership systems, technology strategy, and se
 
     <div style="display:flex;align-items:stretch;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;">
       <div style="flex-shrink:0;width:80px;background:var(--bg-deep);border-right:1px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.8rem;gap:.3rem;">
-        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);">B4</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);">#5</span>
         <span class="series-status coming" style="font-size:.5rem;padding:.12rem .35rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div style="flex:1;padding:1.1rem 1.3rem;">
@@ -223,7 +223,7 @@ description: "Four series across leadership systems, technology strategy, and se
 
     <div style="display:flex;align-items:stretch;background:var(--bg-deep);border:1px dashed var(--border);border-radius:var(--radius-md);overflow:hidden;opacity:.7;">
       <div style="flex-shrink:0;width:80px;background:transparent;border-right:1px dashed var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.8rem;gap:.3rem;">
-        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);">B5</span>
+        <span style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);">#6</span>
         <span class="series-status coming" style="font-size:.5rem;padding:.12rem .35rem;"><span class="series-dot"></span>Hold</span>
       </div>
       <div style="flex:1;padding:1.1rem 1.3rem;">

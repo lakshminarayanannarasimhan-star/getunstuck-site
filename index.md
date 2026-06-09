@@ -292,7 +292,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ready</span>
         </div>
         <div class="hp-pub-row">
-          <div class="hp-pub-id">B</div>
+          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">H</div>
           <div>
             <div class="hp-pub-title">Horizon</div>
             <div class="hp-pub-meta">6 episodes · Technology services strategy · Nov 2026–</div>
