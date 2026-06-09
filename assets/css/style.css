@@ -4874,3 +4874,374 @@ h1, h2, h3, h4 {
   color: var(--faint);
   font-size: .9rem;
 }
+
+
+/* =========================================
+   31. BOOKS PAGE
+   ========================================= */
+
+/* ── LEAD BOOK ── */
+.bk-lead {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: clamp(2rem, 4vw, 4rem);
+  align-items: start;
+  margin-top: 2rem;
+}
+@media (max-width: 780px) { .bk-lead { grid-template-columns: 1fr; } }
+
+/* Book cover */
+.bk-lead-cover {
+  position: sticky;
+  top: calc(88px + 2rem);
+}
+.bk-cover-placeholder {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  background: var(--ink-gradient, var(--text));
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1.6rem 1.4rem;
+  position: relative;
+  overflow: hidden;
+}
+.bk-cover-placeholder::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 20% 30%,
+    rgba(158,90,52,.35) 0%, transparent 70%);
+}
+.bk-cover-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.25;
+  position: relative;
+  z-index: 1;
+}
+.bk-cover-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.5);
+  margin-top: .4rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Lead book right */
+.bk-status-row {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin-bottom: .9rem;
+}
+.bk-lead-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--text);
+  margin-bottom: .3rem;
+}
+.bk-lead-series {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 1.2rem;
+}
+.bk-lead-desc {
+  font-size: .95rem;
+  color: var(--muted);
+  line-height: 1.75;
+  max-width: 60ch;
+  margin-bottom: .8rem;
+}
+
+.bk-lead-tagline {
+  display: flex;
+  align-items: baseline;
+  gap: .5rem;
+  margin: 1.4rem 0;
+  padding: .9rem 1.2rem;
+  background: var(--primary-soft);
+  border-left: 3px solid var(--primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--text);
+}
+.bk-tq-mark {
+  font-size: 1.8rem;
+  color: var(--primary);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.bk-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin: 1.4rem 0;
+}
+@media (max-width: 560px) { .bk-meta-grid { grid-template-columns: 1fr 1fr; } }
+.bk-meta-item {
+  background: var(--surface);
+  padding: .8rem 1rem;
+}
+.bk-meta-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-bottom: .25rem;
+}
+.bk-meta-val {
+  font-size: .82rem;
+  color: var(--text);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.bk-progress-wrap { margin: 1.2rem 0 1.6rem; }
+
+.bk-lead-actions {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  flex-wrap: wrap;
+}
+
+/* ── FOUR PARTS ── */
+.bk-parts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-top: 2rem;
+}
+@media (max-width: 900px) { .bk-parts-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .bk-parts-grid { grid-template-columns: 1fr; } }
+
+.bk-part {
+  background: var(--surface);
+  padding: 1.4rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+.bk-part-num {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.bk-part-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.2;
+}
+.bk-part-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .05em;
+  color: var(--faint);
+  margin-bottom: .3rem;
+}
+.bk-part-desc {
+  font-size: .84rem;
+  color: var(--muted);
+  line-height: 1.65;
+  flex: 1;
+  margin-bottom: .6rem;
+}
+
+.bk-protected-phrase {
+  display: flex;
+  align-items: baseline;
+  gap: .6rem;
+  margin-top: 2rem;
+  padding: 1rem 1.4rem;
+  background: var(--bg-deep);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--muted);
+}
+.bk-pp-mark {
+  font-size: 1.4rem;
+  color: var(--primary);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* ── ECOSYSTEM ── */
+.bk-eco-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-top: 2rem;
+}
+@media (max-width: 860px) { .bk-eco-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .bk-eco-grid { grid-template-columns: 1fr; } }
+
+.bk-eco-card {
+  background: var(--surface-gradient, var(--surface));
+  padding: 1.5rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  transition: background .18s ease;
+}
+.bk-eco-card:hover { background: var(--card-hover-gradient, var(--surface-soft)); }
+.bk-eco-primary {
+  background: var(--primary-soft);
+  position: relative;
+  overflow: hidden;
+}
+.bk-eco-primary::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--primary);
+}
+.bk-eco-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.bk-eco-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: .2rem;
+}
+.bk-eco-desc {
+  font-size: .84rem;
+  color: var(--muted);
+  line-height: 1.65;
+  flex: 1;
+}
+.bk-eco-price {
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  letter-spacing: .05em;
+  color: var(--text);
+  font-weight: 500;
+  margin-top: .4rem;
+}
+.bk-eco-free {
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  letter-spacing: .05em;
+  color: #15803d;
+  font-weight: 500;
+  margin-top: .4rem;
+}
+
+/* ── SERIES LAYOUT ── */
+.bk-series-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+@media (max-width: 860px) { .bk-series-layout { grid-template-columns: 1fr; } }
+
+.bk-series-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.bk-series-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 1.4rem .6rem;
+}
+.bk-series-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+}
+.bk-series-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .06em;
+  color: var(--faint);
+  padding: 0 1.4rem 1rem;
+  line-height: 1.5;
+}
+
+.bk-vol-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--border);
+  border-top: 1px solid var(--border);
+}
+.bk-vol {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  padding: .85rem 1.4rem;
+  background: var(--surface);
+  transition: background .15s ease;
+}
+.bk-vol:hover { background: var(--surface-soft); }
+.bk-vol-active { background: var(--primary-soft); }
+.bk-vol-active:hover { background: var(--primary-soft); }
+.bk-vol-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--primary);
+  flex-shrink: 0;
+  min-width: 26px;
+}
+.bk-vol-title {
+  font-size: .88rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.25;
+}
+.bk-vol-theme {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .04em;
+  color: var(--faint);
+  margin-top: .15rem;
+}
