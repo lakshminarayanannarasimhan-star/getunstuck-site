@@ -268,6 +268,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.6rem;">
           <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Leadership</span>
           <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Technology Strategy</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Technology Services</span>
           <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Cybersecurity</span>
           <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Management</span>
         </div>
@@ -293,8 +294,8 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <div class="hp-pub-row">
           <div class="hp-pub-id">B</div>
           <div>
-            <div class="hp-pub-title">Beyond Execution</div>
-            <div class="hp-pub-meta">6 articles · From execution to indispensability</div>
+            <div class="hp-pub-title">Horizon</div>
+            <div class="hp-pub-meta">6 episodes · Technology services strategy · Nov 2026–</div>
           </div>
           <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Drafting</span>
         </div>
