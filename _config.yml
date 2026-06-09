@@ -66,7 +66,7 @@ author: Lakshmi Narayanan
 # ── ACCENT-SWAP THEMES (dojo base + colour accent) ─────────────────
 # These inherit the warm paper surface — only the accent colour changes.
 #
-# unstuck_theme: indigo        # Indigo accent
+unstuck_theme: indigo        # Indigo accent
 # unstuck_theme: emerald       # Emerald accent
 # unstuck_theme: amber         # Amber accent
 # unstuck_theme: rose          # Rose accent
@@ -80,7 +80,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: feast         # Deep forest green accent
 # unstuck_theme: ocean_breeze  # Bold red accent
 # unstuck_theme: pumpkin_spice # Pumpkin orange accent
-unstuck_theme: evergreen     # Deep green accent
+# unstuck_theme: evergreen     # Deep green accent
 
 typography: spacious   # executive | compact | spacious
 
