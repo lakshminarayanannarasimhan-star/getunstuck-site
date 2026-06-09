@@ -203,33 +203,30 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     </div>
 
     <div class="hp-book-pipeline">
-      <div class="hp-pipeline-label">Two series in development</div>
+      <div class="hp-pipeline-label">In development</div>
 
       <div class="hp-pipeline-series">
         <div class="hp-ps-header">
           <span class="hp-ps-name">GET UNSTUCK Leadership Handbooks</span>
-          <span style="font-family:'DM Mono',monospace;font-size:.6rem;color:var(--faint);">6 volumes</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.6rem;color:var(--faint);">6 volumes · Self → Position → Strategy → Team → Organisation → Ecosystem</span>
         </div>
         <div class="hp-ps-track">
           <div class="hp-ps-node active" title="#1 The Invisible Backlog">#1</div>
           <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#2">#2</div>
+          <div class="hp-ps-node" title="#2 Position">#2</div>
           <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#3">#3</div>
+          <div class="hp-ps-node" title="#3 Strategy">#3</div>
           <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#4">#4</div>
+          <div class="hp-ps-node" title="#4 Team">#4</div>
           <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#5">#5</div>
+          <div class="hp-ps-node" title="#5 Organisation">#5</div>
           <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#6">#6</div>
+          <div class="hp-ps-node" title="#6 Ecosystem">#6</div>
         </div>
-        <div class="hp-ps-arc">Self → Position → Strategy → Team → Organisation → Ecosystem</div>
-      </div>
-
-      <div class="hp-pipeline-series">
+        <div style="height:1px;background:var(--border);margin:1.2rem 0;"></div>
         <div class="hp-ps-header">
           <span class="hp-ps-name">The Indispensable Series</span>
-          <span style="font-family:'DM Mono',monospace;font-size:.6rem;color:var(--faint);">5 volumes</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.6rem;color:var(--faint);">5 volumes · After the Handbooks complete</span>
         </div>
         <div class="hp-ps-track">
           <div class="hp-ps-node" title="#1">#1</div>
@@ -242,7 +239,6 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <div class="hp-ps-line"></div>
           <div class="hp-ps-node" title="#5">#5</div>
         </div>
-        <div class="hp-ps-arc">Structural thinking · Strategy · Build · Scale · Ecosystem</div>
       </div>
 
       <div class="hp-pipeline-note">
