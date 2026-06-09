@@ -1,0 +1,32 @@
+{% assign series_posts = site.posts | where: "series_code", page.series_code | sort: "date" %}
+{% assign current_index = -1 %}
+{% for post in series_posts %}
+  {% if post.url == page.url %}{% assign current_index = forloop.index0 %}{% endif %}
+{% endfor %}
+{% assign prev_index = current_index | minus: 1 %}
+{% assign next_index = current_index | plus: 1 %}
+{% if current_index >= 0 %}
+<nav class="art-series-nav">
+  <div class="art-sn-label">{{ page.series }}</div>
+  <div class="art-sn-track">
+    {% for post in series_posts %}
+    <a href="{{ post.url }}" class="art-sn-node {% if post.url == page.url %}current{% endif %}" title="{{ post.title }}">
+      <span class="art-sn-code">{{ post.article_code }}</span>
+    </a>
+    {% unless forloop.last %}<span class="art-sn-line"></span>{% endunless %}
+    {% endfor %}
+  </div>
+  <div class="art-sn-arrows">
+    {% if current_index > 0 %}
+      {% assign prev_post = series_posts[prev_index] %}
+      <a href="{{ prev_post.url }}" class="art-sn-prev">← {{ prev_post.article_code }} · {{ prev_post.title }}</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if next_index < series_posts.size %}
+      {% assign next_post = series_posts[next_index] %}
+      <a href="{{ next_post.url }}" class="art-sn-next">{{ next_post.article_code }} · {{ next_post.title }} →</a>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}

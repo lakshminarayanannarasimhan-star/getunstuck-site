@@ -1,0 +1,162 @@
+---
+layout: default
+---
+
+<div class="art-wrap">
+
+  <!-- ARTICLE HEADER -->
+  <header class="art-header">
+    <nav class="art-breadcrumb">
+      <a href="/">Home</a>
+      <span>›</span>
+      <a href="/publications/">Publications</a>
+      {% if page.series %}
+      <span>›</span>
+      <a href="/publications/#series-{{ page.series_code | downcase }}">{{ page.series }}</a>
+      {% endif %}
+    </nav>
+
+    <div class="art-meta-row">
+      {% if page.series %}<span class="art-series-badge">{{ page.series }} · {{ page.article_code }}</span>{% endif %}
+      {% if page.status == "published" %}<span class="series-status live" style="font-size:.6rem;padding:.2rem .5rem;"><span class="series-dot"></span>Published</span>{% elsif page.status == "draft" %}<span class="series-status coming" style="font-size:.6rem;padding:.2rem .5rem;"><span class="series-dot"></span>Draft</span>{% endif %}
+      {% if page.reading_time %}<span class="art-reading-time">{{ page.reading_time }} min read</span>{% endif %}
+    </div>
+
+    <h1 class="art-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="art-subtitle">{{ page.subtitle }}</p>{% endif %}
+
+    <div class="art-byline">
+      <div class="art-byline-left">
+        <span class="art-author">Lakshmi Narayanan N</span>
+        <span class="art-date">{{ page.date | date: "%d %b %Y" }}</span>
+        {% if page.last_updated and page.last_updated != page.date %}
+        <span class="art-updated">Updated {{ page.last_updated | date: "%d %b %Y" }}</span>
+        {% endif %}
+      </div>
+      {% if page.genre %}
+      <div class="art-genre-tags">
+        {% for g in page.genre %}<span class="art-genre">{{ g }}</span>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+
+    {% if page.tags %}
+    <div class="art-tags">
+      {% for tag in page.tags %}<a href="/publications/tags/{{ tag | slugify }}/" class="art-tag">#{{ tag }}</a>{% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <!-- TL;DR -->
+  {% if page.tldr %}
+  <div class="art-tldr">
+    <div class="art-tldr-label">Key Insight</div>
+    <p class="art-tldr-text">{{ page.tldr }}</p>
+  </div>
+  {% endif %}
+
+  <!-- ARTICLE BODY -->
+  <article class="art-body">
+    {{ content }}
+  </article>
+
+  <!-- QUESTIONS TO PONDER -->
+  {% if page.questions_to_ponder %}
+  <section class="art-section art-questions">
+    <div class="art-section-label">Questions to Ponder</div>
+    <h2 class="art-section-heading">Sit with these.</h2>
+    <ol class="art-question-list">
+      {% for q in page.questions_to_ponder %}
+      <li class="art-question">{{ q }}</li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
+  <!-- STRESS TEST -->
+  {% if page.stress_test %}
+  <section class="art-section art-stress">
+    <div class="art-section-label">Stress Test</div>
+    <h2 class="art-section-heading">Where this argument bends.</h2>
+    {% if page.stress_test.intro %}<p class="art-stress-intro">{{ page.stress_test.intro }}</p>{% endif %}
+    <div class="art-stress-grid">
+      {% for pt in page.stress_test.points %}
+      <div class="art-stress-item">
+        <div class="art-stress-challenge">{{ pt.challenge }}</div>
+        <div class="art-stress-response">{{ pt.response }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- BIBLIOGRAPHY -->
+  {% if page.bibliography %}
+  <section class="art-section art-bib">
+    <div class="art-section-label">Bibliography &amp; Notes</div>
+    <ol class="art-bib-list">
+      {% for ref in page.bibliography %}
+      <li class="art-bib-item" id="{{ ref.id }}">
+        {% if ref.author %}<span class="art-bib-author">{{ ref.author }}</span>{% endif %}
+        {% if ref.year %}<span class="art-bib-year">({{ ref.year }})</span>{% endif %}
+        {% if ref.title %}<span class="art-bib-title">{{ ref.title }}</span>{% if ref.publisher %} · {% endif %}{% endif %}
+        {% if ref.publisher %}<span class="art-bib-pub">{{ ref.publisher }}</span>{% endif %}
+        {% if ref.url %}<a class="art-bib-url" href="{{ ref.url }}" target="_blank" rel="noopener">↗</a>{% endif %}
+        {% if ref.note %}<span class="art-bib-note">{{ ref.note }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+    <div class="art-cite">
+      <div class="art-cite-label">Cite this article</div>
+      <p class="art-cite-text">Narasimhan, L. N. ({{ page.date | date: "%Y" }}). <em>{{ page.title }}</em>. <em>{{ page.series }}</em>. getunstuck.in. Retrieved from {{ site.url }}{{ page.url }}</p>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- WHAT'S NEXT -->
+  {% if page.whats_next %}
+  <section class="art-section art-next">
+    <div class="art-section-label">What's next in {{ page.series }}</div>
+    <div class="art-next-card">
+      <div class="art-next-code">{{ page.whats_next.code }}</div>
+      <div class="art-next-body">
+        <div class="art-next-title">{{ page.whats_next.title }}</div>
+        <p class="art-next-desc">{{ page.whats_next.description }}</p>
+      </div>
+      {% if page.whats_next.status == "coming" %}
+      <span class="series-status coming" style="flex-shrink:0;align-self:flex-start;"><span class="series-dot"></span>Coming</span>
+      {% elsif page.whats_next.url %}
+      <a class="btn-secondary" href="{{ page.whats_next.url }}" style="flex-shrink:0;align-self:flex-start;">Read →</a>
+      {% endif %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- SERIES NAVIGATOR -->
+  {% if page.series_code %}
+  {% include article-series-nav.html %}
+  {% endif %}
+
+  <!-- ABOUT AUTHOR -->
+  <section class="art-section art-author">
+    <div class="art-section-label">About the author</div>
+    <div class="art-author-card">
+      <div class="art-author-photo">
+        <img src="/assets/img/lakshmi.jpg" alt="Lakshmi Narayanan N"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="art-author-initials" style="display:none;">LN</div>
+      </div>
+      <div class="art-author-body">
+        <div class="art-author-name">Lakshmi Narayanan N</div>
+        <div class="art-author-title">Technology Executive · Leadership Systems Practitioner · Author</div>
+        <p class="art-author-bio">25+ years of hands-on leadership inside deep technology engagements at HCL Technologies — across Cloud, Cybersecurity, Networking, and Telco Cloud. The writing here comes from the same place the work did: a conviction that complex systems respond to the same discipline whether they run on machines or in organisations.</p>
+        <div class="art-author-links">
+          <a href="/about/">Full story</a>
+          <a href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="/los/">The LOS</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
