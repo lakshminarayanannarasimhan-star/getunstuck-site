@@ -16,10 +16,14 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       <h1 class="hp-hero-title reveal d2">25 years of building what others theorise about.</h1>
       <p class="hp-hero-sub reveal d3">Practitioner. Author. Everything here is drawn from work done in real organisations, with real stakes. Not theorised. Not consulted. Lived.</p>
       <div class="area-tags reveal d4" style="margin-top:1.4rem;">
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Leadership Operating Systems</span>
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Technology Strategy</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Networking</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Network Security</span>
         <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Cybersecurity</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Product Security</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Hybrid Cloud</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Leadership Operating System</span>
         <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Engineering Leadership</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Strategy</span>
       </div>
     </div>
 
@@ -37,8 +41,8 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <a class="hp-toc-item" href="#books">
           <span class="hp-toc-num">02</span>
           <div>
-            <div class="hp-toc-name">Books</div>
-            <div class="hp-toc-meta">The Invisible Backlog · Two series in development</div>
+            <div class="hp-toc-name">Books &amp; Workbooks</div>
+            <div class="hp-toc-meta">The Invisible Backlog · Drills · Workbook · No gate</div>
           </div>
           <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Writing</span>
         </a>
@@ -46,17 +50,17 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <span class="hp-toc-num">03</span>
           <div>
             <div class="hp-toc-name">Publications</div>
-            <div class="hp-toc-meta">4 series · Technology · Leadership · Security</div>
+            <div class="hp-toc-meta">Magazines · This site · Leadership · Technology · Security</div>
           </div>
           <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Active</span>
         </a>
-        <a class="hp-toc-item" href="#practice">
+        <a class="hp-toc-item" href="/mentees/">
           <span class="hp-toc-num">04</span>
           <div>
-            <div class="hp-toc-name">Case Studies &amp; Drills</div>
-            <div class="hp-toc-meta">Drawn from practice · No price · No gate</div>
+            <div class="hp-toc-name">Coaching</div>
+            <div class="hp-toc-meta">Long-term · Structured · Any experience level</div>
           </div>
-          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Building</span>
+          <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Open</span>
         </a>
       </div>
     </div>
