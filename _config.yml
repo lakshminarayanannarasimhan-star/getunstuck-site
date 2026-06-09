@@ -82,7 +82,7 @@ unstuck_theme: violet        # Violet accent
 # unstuck_theme: pumpkin_spice # Pumpkin orange accent
 # unstuck_theme: evergreen     # Deep green accent
 
-typography: executive   # executive | compact | spacious
+typography: spacious   # executive | compact | spacious
 
 # -------------------------
 # DOMAIN
