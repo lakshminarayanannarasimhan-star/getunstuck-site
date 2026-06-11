@@ -65,11 +65,10 @@ author: Lakshmi Narayanan
 #
 # ── ACCENT-SWAP THEMES (dojo base + colour accent) ─────────────────
 # These inherit the warm paper surface — only the accent colour changes.
-#
-unstuck_theme: indigo        # Indigo accent
+# unstuck_theme: indigo        # Indigo accent
 # unstuck_theme: emerald       # Emerald accent
 # unstuck_theme: amber         # Amber accent
-# unstuck_theme: rose          # Rose accent
+unstuck_theme: rose          # Rose accent
 # unstuck_theme: cyan          # Cyan accent
 # unstuck_theme: violet        # Violet accent
 # unstuck_theme: oasis         # Muted purple accent
