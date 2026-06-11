@@ -13,7 +13,7 @@ description: "Four series across leadership systems, technology strategy, and se
 
 <!-- SERIES OVERVIEW GRID -->
 <section class="section-wide">
-  <div class="section-label">Four series</div>
+  <div class="section-label">Perspective on Tech, Strategy and Leadership</div>
   <div class="series-grid">
 
     <a class="series-card" href="/horizon/">
