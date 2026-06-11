@@ -25,7 +25,7 @@ description: "Four series across leadership systems, technology strategy, and se
       </div>
       <h3 class="series-title">The Execution Trap</h3>
       <p class="series-desc">How technology services firms escape the race to the bottom and compete on terrain that cannot be commoditised. Six episodes on the arc from execution to indispensability — at the firm level.</p>
-      <div class="series-meta">6 episodes · Business World · The CEO Magazine · Indian Management</div>
+      <div class="series-meta">6 episodes · Deeper Insights to gain leverage</div>
     </a>
 
     <a class="series-card" href="#series-d">
