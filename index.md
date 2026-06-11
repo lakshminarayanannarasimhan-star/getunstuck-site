@@ -295,7 +295,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Horizon</div>
           <div>
             <div class="hp-pub-title">The Execution Trap</div>
-            <div class="hp-pub-meta">6 episodes · Technology services strategy · July–</div>
+            <div class="hp-pub-meta">6 episodes · Technology services strategy · July 2026 –</div>
           </div>
           <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Drafting</span>
         </div>
