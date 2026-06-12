@@ -34,7 +34,7 @@ default.html        ← master (header, nav, footer, theme, fonts)
 | Articles | `_posts/` | standard Jekyll | `article` or `post` |
 | Mentees | `_mentees/` | not output | — |
 
-`_posts/` is flat — all posts live directly in `_posts/`, named `YYYY-MM-DD-slug.md`. Drills live as individual files in `_drills/`.
+`_posts/` is flat for standalone posts (`YYYY-MM-DD-slug.md`) and uses per-series subdirectories for series articles (`_posts/series-h/`, `_posts/series-b/`, etc.). Drills live as individual files in `_drills/`.
 
 ### Theming
 
