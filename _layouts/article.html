@@ -12,7 +12,11 @@ layout: default
       <a href="/publications/">Publications</a>
       {% if page.series %}
       <span>›</span>
+      {% if page.series_code == "H" %}
+      <a href="/horizon/">{{ page.series }}</a>
+      {% else %}
       <a href="/publications/#series-{{ page.series_code | downcase }}">{{ page.series }}</a>
+      {% endif %}
       {% endif %}
     </nav>
 
@@ -46,6 +50,49 @@ layout: default
     </div>
     {% endif %}
   </header>
+
+  <!-- PROMINENT CONTEXT NAV -->
+  <nav class="art-context-nav">
+    <a class="art-ctx-card" href="/publications/">
+      <span class="art-ctx-icon">←</span>
+      <span class="art-ctx-text">
+        <span class="art-ctx-label">All publications</span>
+        <span class="art-ctx-sub">Four series · getunstuck.in</span>
+      </span>
+    </a>
+
+    {% if page.series_code == "H" %}
+    <a class="art-ctx-card art-ctx-card-center" href="/horizon/">
+      <span class="art-ctx-text">
+        <span class="art-ctx-label">{{ page.series }}</span>
+        <span class="art-ctx-sub">Episode {{ page.article_code }} of {{ page.series_total }} · See the full arc</span>
+      </span>
+      <span class="art-ctx-icon">↗</span>
+    </a>
+    {% endif %}
+
+    {% if page.whats_next %}
+      {% if page.whats_next.status == "coming" %}
+      <div class="art-ctx-card art-ctx-card-next art-ctx-disabled">
+        <span class="art-ctx-text">
+          <span class="art-ctx-label-small">Next in the series</span>
+          <span class="art-ctx-label">{{ page.whats_next.title }}</span>
+          <span class="art-ctx-sub">{{ page.whats_next.code }} · Coming soon</span>
+        </span>
+        <span class="art-ctx-icon art-ctx-icon-muted">→</span>
+      </div>
+      {% elsif page.whats_next.url %}
+      <a class="art-ctx-card art-ctx-card-next" href="{{ page.whats_next.url }}">
+        <span class="art-ctx-text">
+          <span class="art-ctx-label-small">Next in the series</span>
+          <span class="art-ctx-label">{{ page.whats_next.title }}</span>
+          <span class="art-ctx-sub">{{ page.whats_next.code }} · Continue reading</span>
+        </span>
+        <span class="art-ctx-icon">→</span>
+      </a>
+      {% endif %}
+    {% endif %}
+  </nav>
 
   <!-- TL;DR -->
   {% if page.tldr %}

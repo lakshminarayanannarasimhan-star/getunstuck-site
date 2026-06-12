@@ -5745,3 +5745,98 @@ h1, h2, h3, h4 {
   color: var(--primary);
   margin-bottom: .5rem;
 }
+
+
+/* =========================================
+   33. ARTICLE CONTEXT NAV — PROMINENT LINKS
+   ========================================= */
+
+.art-context-nav {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1.3fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin: 1.6rem 0 2.4rem;
+}
+@media (max-width: 780px) {
+  .art-context-nav { grid-template-columns: 1fr; }
+}
+
+.art-ctx-card {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  padding: 1.1rem 1.3rem;
+  background: var(--surface-gradient, var(--surface));
+  text-decoration: none;
+  transition: background .18s ease, transform .18s ease;
+}
+.art-ctx-card:hover {
+  background: var(--card-hover-gradient, var(--primary-soft));
+  transform: translateY(-1px);
+}
+
+.art-ctx-card-center {
+  background: var(--primary-soft);
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.art-ctx-card-center:hover { background: var(--primary-soft); filter: brightness(0.97); }
+.art-ctx-card-center .art-ctx-icon { color: var(--primary); }
+
+.art-ctx-card-next {
+  justify-content: space-between;
+}
+.art-ctx-disabled {
+  cursor: default;
+}
+.art-ctx-disabled:hover {
+  background: var(--surface-gradient, var(--surface));
+  transform: none;
+}
+
+.art-ctx-icon {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  color: var(--primary);
+  flex-shrink: 0;
+  line-height: 1;
+  transition: transform .18s ease;
+}
+.art-ctx-card:hover .art-ctx-icon { transform: translateX(2px); }
+.art-ctx-card-center:hover .art-ctx-icon,
+.art-ctx-card:first-child:hover .art-ctx-icon { transform: translateX(-2px); }
+.art-ctx-icon-muted {
+  color: var(--faint);
+}
+
+.art-ctx-text {
+  display: flex;
+  flex-direction: column;
+  gap: .15rem;
+  min-width: 0;
+}
+.art-ctx-label-small {
+  font-family: 'DM Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.art-ctx-label {
+  font-family: 'Playfair Display', serif;
+  font-size: .92rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.3;
+}
+.art-ctx-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .04em;
+  color: var(--faint);
+  line-height: 1.4;
+}
