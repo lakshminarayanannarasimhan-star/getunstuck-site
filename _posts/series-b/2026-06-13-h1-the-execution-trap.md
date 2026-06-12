@@ -116,11 +116,10 @@ Most firms never realise they are trapped. The customer trusts them. Revenue gro
 
 The boundary between the two zones has a name: The Crossing.
 
-```
-COMPRESSION ZONE  ·  Execution  ·  Trust
-─────────────────── THE CROSSING ────────────────────
-EXPANSION ZONE  ·  Influence  ·  Indispensability  ·  Ownership  ·  Growth
-```
+{% include figure.html
+   src="/assets/img/articles/series-b/arc-diagram.png"
+   alt="The six-level arc from Execution to Growth"
+   caption="The arc from Execution to Growth. Each level earns a different currency — and each crossing requires a different move." %}
 
 *Influence earns a seat.* Influence begins before the buying process begins. When the client decides where to place its next significant technology investment, influence determines who is invited before the RFP exists — and whose perspective shapes the decision once the conversation begins. Influence is not earned by executing more reliably. It is earned through growth leverage — the demonstrated capacity to help the client see possibilities they had not identified, reach markets they had not considered, or move faster than their own resources would permit. In practice, this means the partner introduces a market opportunity, a strategic ecosystem relationship, or a faster path to growth that the client would not have identified independently. A seat at the table, however, is not the same as a share of what the table produces. Access brought you into the room. Influence gives you a place to sit. Indispensability determines whether you share in it.
 
