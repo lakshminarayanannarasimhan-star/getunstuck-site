@@ -2,7 +2,7 @@
 layout: article
 title: "The Execution Trap"
 subtitle: "On why doing the work well is no longer enough to justify the relationship."
-date: 2026-07-01
+date: 2026-06-12
 series: "Horizon"
 series_code: H
 article_code: H1
