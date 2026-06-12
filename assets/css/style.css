@@ -1014,6 +1014,24 @@ h1, h2, h3, h4 {
    6. HEADER & NAV
    ========================================= */
 
+/* ── READING PROGRESS BAR (article pages only) ── */
+.reading-progress {
+  position: fixed;
+  top: 91px; /* 88px header + 3px border-top */
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--border);
+  z-index: 99;
+  pointer-events: none;
+}
+.reading-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--primary);
+  transition: width 0.08s linear;
+}
+
 /* ── HEADER: EDITORIAL — clean surface + accent top line ── */
 .header {
   position: sticky;
