@@ -5855,3 +5855,162 @@ h1, h2, h3, h4 {
   background: var(--muted);
   opacity: .6;
 }
+
+
+/* =========================================
+   35. CONTACT FAB — fixed, all pages
+   ========================================= */
+
+.contact-fab {
+  position: fixed;
+  right: clamp(1rem, 3vw, 1.6rem);
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .6rem;
+}
+
+/* Pills — hidden by default */
+.contact-fab-pills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .5rem;
+  pointer-events: none;
+}
+
+.contact-pill {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  font-family: 'DM Mono', monospace;
+  font-size: .7rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--surface-gradient, var(--surface));
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: .55rem .9rem .55rem .6rem;
+  box-shadow: var(--shadow-md);
+  white-space: nowrap;
+
+  opacity: 0;
+  transform: translateY(8px) scale(.96);
+  transition: opacity .18s ease, transform .18s ease, background .15s ease, border-color .15s ease;
+}
+.contact-pill:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--card-hover-gradient, var(--primary-soft));
+}
+
+.contact-pill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: .8rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.contact-pill-icon-li {
+  font-family: 'DM Mono', monospace;
+  font-weight: 700;
+  font-size: .62rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Main toggle button */
+.contact-fab-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: var(--btn-gradient, var(--primary));
+  color: var(--surface);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.contact-fab-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.22);
+}
+.contact-fab-btn:active { transform: translateY(0) scale(.96); }
+
+.contact-fab-icon {
+  position: absolute;
+  font-size: 1.25rem;
+  line-height: 1;
+  transition: opacity .15s ease, transform .2s ease;
+}
+.contact-fab-icon-open  { opacity: 1; transform: rotate(0deg) scale(1); }
+.contact-fab-icon-close { opacity: 0; transform: rotate(-45deg) scale(.7); font-weight: 300; }
+
+/* ── OPEN STATE ── */
+.contact-fab.open .contact-fab-pills {
+  pointer-events: auto;
+}
+.contact-fab.open .contact-pill {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+/* stagger */
+.contact-fab.open .contact-pill:nth-child(1) { transition-delay: .04s; }
+.contact-fab.open .contact-pill:nth-child(2) { transition-delay: .09s; }
+
+.contact-fab.open .contact-fab-btn {
+  background: var(--ink-gradient, var(--text));
+}
+.contact-fab.open .contact-fab-icon-open  { opacity: 0; transform: rotate(45deg) scale(.7); }
+.contact-fab.open .contact-fab-icon-close { opacity: 1; transform: rotate(0deg) scale(1); color: #fff; }
+
+/* ── DESKTOP HOVER ENHANCEMENT ── */
+@media (hover: hover) and (pointer: fine) {
+  .contact-fab:hover .contact-fab-pills,
+  .contact-fab:focus-within .contact-fab-pills {
+    pointer-events: auto;
+  }
+  .contact-fab:hover .contact-pill,
+  .contact-fab:focus-within .contact-pill {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  .contact-fab:hover .contact-fab-icon-open,
+  .contact-fab:focus-within .contact-fab-icon-open {
+    opacity: 0;
+    transform: rotate(45deg) scale(.7);
+  }
+  .contact-fab:hover .contact-fab-icon-close,
+  .contact-fab:focus-within .contact-fab-icon-close {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+    color: #fff;
+  }
+  .contact-fab:hover .contact-fab-btn,
+  .contact-fab:focus-within .contact-fab-btn {
+    background: var(--ink-gradient, var(--text));
+  }
+}
+
+/* Mobile sizing */
+@media (max-width: 480px) {
+  .contact-fab-btn { width: 48px; height: 48px; }
+  .contact-pill { font-size: .65rem; padding: .5rem .8rem .5rem .55rem; }
+  .contact-pill-icon { width: 22px; height: 22px; font-size: .75rem; }
+}

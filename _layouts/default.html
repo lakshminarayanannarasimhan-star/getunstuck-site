@@ -105,8 +105,58 @@
   </div>
 </footer>
 
+<!-- ═══════════════════════════════
+     CONTACT FAB — fixed on all pages
+═══════════════════════════════ -->
+<div class="contact-fab" id="contact-fab">
+  <div class="contact-fab-pills" id="contact-fab-pills">
+    <a class="contact-pill" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener" title="Connect on LinkedIn">
+      <span class="contact-pill-icon contact-pill-icon-li">in</span>
+      <span class="contact-pill-label">LinkedIn</span>
+    </a>
+    <a class="contact-pill" href="mailto:lakshminarayanan.narasimhan@gmail.com" title="Send an email">
+      <span class="contact-pill-icon">✉</span>
+      <span class="contact-pill-label">Email</span>
+    </a>
+  </div>
+  <button class="contact-fab-btn" id="contact-fab-btn" aria-label="Get in touch" aria-expanded="false">
+    <span class="contact-fab-icon contact-fab-icon-open">✉</span>
+    <span class="contact-fab-icon contact-fab-icon-close">×</span>
+  </button>
+</div>
+
 <script src="{{ '/assets/js/drill.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+<script>
+(function () {
+  var fab = document.getElementById('contact-fab');
+  var btn = document.getElementById('contact-fab-btn');
+  if (!fab || !btn) return;
+
+  function close() {
+    fab.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  }
+  function toggle() {
+    var willOpen = !fab.classList.contains('open');
+    fab.classList.toggle('open', willOpen);
+    btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+  }
+
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    toggle();
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!fab.contains(e.target)) close();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') close();
+  });
+})();
+</script>
 
 </body>
 </html>
