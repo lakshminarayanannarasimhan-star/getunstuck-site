@@ -5840,3 +5840,18 @@ h1, h2, h3, h4 {
   color: var(--faint);
   line-height: 1.4;
 }
+
+
+/* =========================================
+   34. SERIES STATUS — IDEATION
+   ========================================= */
+
+.series-status.ideation {
+  background: var(--bg-deep);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+.series-status.ideation .series-dot {
+  background: var(--muted);
+  opacity: .6;
+}

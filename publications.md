@@ -2,13 +2,13 @@
 layout: default
 title: Publications
 permalink: /publications/
-description: "Four series across leadership systems, technology strategy, and security. Each a single argument delivered across multiple pieces."
+description: "Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces."
 ---
 
 <section class="hero">
   <div class="eyebrow reveal d1">Publications</div>
   <h1 class="hero-title reveal d2">Writing worth reading slowly.</h1>
-  <p class="hero-sub reveal d3">Four series across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
+  <p class="hero-sub reveal d3">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
 </section>
 
 <!-- SERIES OVERVIEW GRID -->
@@ -31,43 +31,43 @@ description: "Four series across leadership systems, technology strategy, and se
     <a class="series-card" href="#series-d">
       <div class="series-card-top">
         <div class="series-id">The Trust Equation</div>
-        <span class="series-status live">
-          <span class="series-dot"></span>Live
+        <span class="series-status ideation">
+          <span class="series-dot"></span>Ideation
         </span>
       </div>
       <h3 class="series-title">The Trust Equation</h3>
       <p class="series-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction.</p>
-      <div class="series-meta">Security leadership · Boards · Compliance · D0 published</div>
+      <div class="series-meta">Security leadership · Boards · Compliance · Outlining underway</div>
     </a>
 
     <a class="series-card" href="#series-a">
       <div class="series-card-top">
         <div class="series-id">Leadership OS</div>
-        <span class="series-status in-progress">
-          <span class="series-dot"></span>In progress
+        <span class="series-status coming">
+          <span class="series-dot"></span>In pipeline
         </span>
       </div>
       <h3 class="series-title">Leadership Operating System</h3>
       <p class="series-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution.</p>
-      <div class="series-meta">4 articles · Submitting Jul–Oct 2026</div>
+      <div class="series-meta">4 articles · In pipeline</div>
     </a>
 
     <a class="series-card" href="#series-c">
       <div class="series-card-top">
         <div class="series-id">The Moving Target</div>
         <span class="series-status coming">
-          <span class="series-dot"></span>Coming
+          <span class="series-dot"></span>In pipeline
         </span>
       </div>
       <h3 class="series-title">The Moving Target</h3>
       <p class="series-desc">Network security as technology strategy. Risk is not static — every technology shift redistributes where it concentrates.</p>
-      <div class="series-meta">7 articles · Held until A and B close</div>
+      <div class="series-meta">7 articles · In pipeline</div>
     </a>
 
   </div>
 </section>
 
-<!-- SERIES D — LIVE -->
+<!-- SERIES D — IDEATION -->
 <section class="section-wide" id="series-d">
   <div class="series-section-header">
     <div>
@@ -75,23 +75,13 @@ description: "Four series across leadership systems, technology strategy, and se
       <h2>Security is a trust problem.</h2>
       <p class="prose" style="margin-top:.8rem;">Most security programmes are built as if the customer does not exist. They protect systems. What they actually defend is the willingness of a person who trusted you where they could not see. This series names the structural problem — and gives practitioners the language to make it visible to the people who govern it.</p>
     </div>
-    <span class="series-status live" style="align-self:flex-start;">
-      <span class="series-dot"></span>Live
+    <span class="series-status ideation" style="align-self:flex-start;">
+      <span class="series-dot"></span>Ideation
     </span>
   </div>
-  <div class="card-grid" style="margin-top:1.8rem;">
-    {% for post in site.posts %}
-      {% if post.series contains "Trust Equation" or post.series_code == "D" %}
-      <div class="card">
-        <div class="num">{{ post.date | date: "%d %b %Y" }}</div>
-        <h3 style="margin-top:.3rem;font-size:1.1rem;">
-          <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">{{ post.title }}</a>
-        </h3>
-        <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-        <a class="card-link" href="{{ post.url }}">Read</a>
-      </div>
-      {% endif %}
-    {% endfor %}
+  <div class="coming" style="margin-top:1.8rem;">
+    <div class="label">Outlining underway</div>
+    <p>The lexicon and structural argument are being worked through. Articles will appear here as they are written and frozen.</p>
   </div>
 </section>
 
@@ -101,15 +91,15 @@ description: "Four series across leadership systems, technology strategy, and se
     <div>
       <div class="section-label">Leadership Operating System</div>
       <h2>The system underneath execution.</h2>
-      <p class="prose" style="margin-top:.8rem;">Four articles on how leaders build systems — not just habits. Submitting to People Matters, Indian Management, Human Capital Online, The CEO Magazine, and Business World across July to October 2026.</p>
+      <p class="prose" style="margin-top:.8rem;">Four articles on how leaders build systems — not just habits.</p>
     </div>
-    <span class="series-status in-progress" style="align-self:flex-start;">
-      <span class="series-dot"></span>In progress
+    <span class="series-status coming" style="align-self:flex-start;">
+      <span class="series-dot"></span>In pipeline
     </span>
   </div>
   <div class="coming" style="margin-top:1.8rem;">
-    <div class="label">Submitting Jul–Oct 2026</div>
-    <p>Articles will appear here as they are published across the target platforms.</p>
+    <div class="label">In pipeline</div>
+    <p>Articles will appear here as they are written and published.</p>
   </div>
 </section>
 
@@ -122,12 +112,12 @@ description: "Four series across leadership systems, technology strategy, and se
       <p class="prose" style="margin-top:.8rem;">Seven articles on network security as technology strategy. Every technology shift — cloud, API, edge, AI — does not merely add risk. It moves the boundary of who holds risk and where it concentrates. The series installs a new way of seeing, not a longer checklist.</p>
     </div>
     <span class="series-status coming" style="align-self:flex-start;">
-      <span class="series-dot"></span>Coming
+      <span class="series-dot"></span>In pipeline
     </span>
   </div>
   <div class="coming" style="margin-top:1.8rem;">
-    <div class="label">Held until Series A and B close</div>
-    <p>Seven articles, outlined and frozen. Content begins after Series A and B publish.</p>
+    <div class="label">In pipeline</div>
+    <p>Seven articles, outlined and frozen. Content begins after earlier series are underway.</p>
   </div>
 </section>
 
