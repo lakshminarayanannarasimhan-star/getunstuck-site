@@ -5,13 +5,15 @@
 - [x] Editorial header (clean surface + accent top stripe)
 - [x] Article share bar (LinkedIn, WhatsApp, copy link)
 - [x] Audio player on articles (Web Speech API, gated via enable_audio in _config.yml)
+- [x] Open Graph / Twitter card meta tags
+- [~] **Reading progress bar** — implemented but progress bar blends with header accent line; needs repositioning fix
 
 ---
 
 ## Backlog
 
 ### Reading Experience
-- [ ] **Reading progress bar** — thin accent-colour bar filling as you scroll through an article
+- [~] **Reading progress bar** — implemented; bug: blends with header accent line (same colour/position)
 - [ ] **Table of contents** — auto-generated from headings, sticky sidebar for long articles
 - [ ] **Pull quotes / callout blocks** — styled blockquote treatment to make key ideas stand out
 
