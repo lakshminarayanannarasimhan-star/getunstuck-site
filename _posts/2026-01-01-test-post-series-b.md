@@ -66,7 +66,7 @@ The problem is that most leadership development thinking — and most of the adv
 It does not. Execution compounds into more execution. Better performance at a job is not the same as a larger job. And the leaders who cross from delivery into indispensability are not the ones who out-executed everyone else. They did something structurally different.
 
 {% include figure.html
-   src="/assets/img/articles/series-b/arc-diagram.png"
+   src="/assets/img/articles/series-h/arc-diagram.png"
    alt="The six-level arc from Execution to Growth"
    caption="The arc from Execution to Growth. Each level earns a different currency — and each crossing requires a different move." %}
 

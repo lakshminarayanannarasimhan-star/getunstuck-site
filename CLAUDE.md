@@ -34,7 +34,7 @@ default.html        ← master (header, nav, footer, theme, fonts)
 | Articles | `_posts/` | standard Jekyll | `article` or `post` |
 | Mentees | `_mentees/` | not output | — |
 
-`_posts/` is organised into subdirectories by series (e.g. `_posts/series-b/`). Drills live as individual files in `_drills/`.
+`_posts/` is flat — all posts live directly in `_posts/`, named `YYYY-MM-DD-slug.md`. Drills live as individual files in `_drills/`.
 
 ### Theming
 
@@ -88,6 +88,6 @@ Series H (Horizon) has special treatment: its breadcrumb links to `/horizon/` ra
 
 GitHub Pages serves from the `main` branch root. The `CNAME` file contains `getunstuck.in`. `baseurl` must remain `""` in `_config.yml`.
 
-### Scratch directory
+### Images
 
-`0_thrash/` contains working notes and drafts — not built or served by Jekyll.
+Article images live in `assets/img/articles/<series-code>/`, e.g. `assets/img/articles/series-h/` for Horizon. Match the series code when adding new images.

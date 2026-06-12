@@ -117,7 +117,7 @@ Most firms never realise they are trapped. The customer trusts them. Revenue gro
 The boundary between the two zones has a name: The Crossing.
 
 {% include figure.html
-   src="/assets/img/articles/series-b/arc-diagram.png"
+   src="/assets/img/articles/series-h/arc-diagram.png"
    alt="The six-level arc from Execution to Growth"
    caption="The arc from Execution to Growth. Each level earns a different currency — and each crossing requires a different move." %}
 
