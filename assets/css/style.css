@@ -73,34 +73,6 @@
    Switch theme: set unstuck_theme: <name> in _config.yml
    ========================================= */
 
-/* ── DOJO — warm paper, ochre gradients ── */
-[data-theme="dojo"] {
-  --bg:             #F3EDE2;
-  --bg-deep:        #EAE2D2;
-  --surface:        #F8F4EC;
-  --surface-soft:   #FDFAF5;
-  --text:           #211C16;
-  --muted:          #5C5347;
-  --faint:          #8A8073;
-  --primary:        #9E5A34;
-  --primary-soft:   #F2E6DA;
-  --primary-strong: #7A4022;
-  --border:         rgba(33,28,22,0.14);
-  --border-soft:    rgba(33,28,22,0.07);
-  --shadow-sm:      0 2px 6px rgba(33,28,22,0.06);
-  --shadow-md:      0 10px 30px rgba(33,28,22,0.10);
-  --shadow-lg:      0 20px 60px rgba(33,28,22,0.14);
-
-  /* gradients */
-  --hero-gradient:        linear-gradient(135deg, #F3EDE2 0%, #EDE3D0 45%, #F0DFC4 100%);
-  --ink-gradient:         linear-gradient(135deg, #2B1F14 0%, #211C16 55%, #3A2510 100%);
-  --accent-gradient:      linear-gradient(135deg, #EAE2D2 0%, #E0D4BE 100%);
-  --btn-gradient:         linear-gradient(135deg, #B86A3C 0%, #9E5A34 50%, #7A4022 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #9E5A34 0%, #7A4022 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #F8F4EC 0%, #F2E6DA 100%);
-  --surface-gradient:     linear-gradient(160deg, #F8F4EC 0%, #F5EEE2 100%);
-}
-
 /* ── MIDNIGHT — deep dark, indigo glow ── */
 [data-theme="midnight"] {
   --bg:             #09090b;
@@ -6014,3 +5986,25 @@ h1, h2, h3, h4 {
   .contact-pill { font-size: .65rem; padding: .5rem .8rem .5rem .55rem; }
   .contact-pill-icon { width: 22px; height: 22px; font-size: .75rem; }
 }
+
+/* =========================================
+   UTILITY CLASSES
+   ========================================= */
+
+.font-serif { font-family: 'Playfair Display', serif; }
+.font-mono  { font-family: 'DM Mono', monospace; }
+.font-sans  { font-family: 'DM Sans', sans-serif; }
+
+/* Eyebrow / label pattern used on ink sections */
+.ink-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: .4rem;
+}
+
+/* Stat variants for dark/ink backgrounds */
+.stat-num-ink   { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 600; color: #fff; line-height: 1; }
+.stat-label-ink { font-family: 'DM Mono', monospace; font-size: .58rem; letter-spacing: .14em; text-transform: uppercase; color: rgba(255,255,255,.4); margin-top: .3rem; }

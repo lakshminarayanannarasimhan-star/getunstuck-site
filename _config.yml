@@ -138,6 +138,7 @@ highlighter: rouge
 
 exclude:
   - README.md
+  - CLAUDE.md
   - Gemfile.lock
   - node_modules
   - vendor

@@ -118,20 +118,20 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <p style="color:rgba(255,255,255,.5);font-size:.85rem;font-style:italic;line-height:1.65;max-width:40ch;margin-bottom:1.8rem;padding-left:.9rem;border-left:2px solid var(--primary);">Constitution v1.0 is frozen. The curriculum is being built from evidence — not invented at the desk.</p>
         <div style="display:flex;gap:1.5rem;margin-bottom:1.8rem;">
           <div style="text-align:center;">
-            <div style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;color:#fff;line-height:1;">34</div>
-            <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.3rem;">Capabilities</div>
+            <div class="stat-num-ink">34</div>
+            <div class="stat-label-ink">Capabilities</div>
           </div>
           <div style="text-align:center;">
-            <div style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;color:#fff;line-height:1;">6</div>
-            <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.3rem;">Domains</div>
+            <div class="stat-num-ink">6</div>
+            <div class="stat-label-ink">Domains</div>
           </div>
           <div style="text-align:center;">
-            <div style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;color:#fff;line-height:1;">8</div>
-            <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.3rem;">Belts</div>
+            <div class="stat-num-ink">8</div>
+            <div class="stat-label-ink">Belts</div>
           </div>
           <div style="text-align:center;">
-            <div style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:600;color:#fff;line-height:1;">4</div>
-            <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.3rem;">Dojos</div>
+            <div class="stat-num-ink">4</div>
+            <div class="stat-label-ink">Dojos</div>
           </div>
         </div>
         <a class="btn-primary" href="/los/" style="display:inline-block;">Explore the LOS →</a>

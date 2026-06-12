@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var nav    = document.getElementById('nav');
   var overlay = document.getElementById('nav-overlay');
 
-  function openNav()  { nav.classList.add('open'); overlay.classList.add('open'); }
-  function closeNav() { nav.classList.remove('open'); overlay.classList.remove('open'); }
+  function openNav()  { nav.classList.add('open'); overlay.classList.add('open'); toggle.setAttribute('aria-expanded', 'true'); toggle.setAttribute('aria-label', 'Close menu'); }
+  function closeNav() { nav.classList.remove('open'); overlay.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); toggle.setAttribute('aria-label', 'Open menu'); }
 
   if (toggle) toggle.addEventListener('click', function () {
     nav.classList.contains('open') ? closeNav() : openNav();
