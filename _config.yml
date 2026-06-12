@@ -83,6 +83,8 @@ unstuck_theme: feast         # Vivid green accent
 
 typography: spacious   # executive | compact | spacious
 
+enable_audio: true     # set to false to hide the audio player on all articles
+
 # -------------------------
 # DOMAIN
 # -------------------------
