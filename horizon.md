@@ -18,11 +18,9 @@ description: "How technology services firms escape the race to the bottom and co
       <div class="hz-hero-meta reveal d4">
         <span class="hz-meta-item">6 episodes</span>
         <span class="hz-meta-sep">·</span>
-        <span class="hz-meta-item">Business World</span>
+        <span class="hz-meta-item">Self-published</span>
         <span class="hz-meta-sep">·</span>
-        <span class="hz-meta-item">The CEO Magazine</span>
-        <span class="hz-meta-sep">·</span>
-        <span class="hz-meta-item">Indian Management</span>
+        <span class="hz-meta-item">getunstuck.in</span>
       </div>
     </div>
 
@@ -167,7 +165,6 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-num">#1</div>
         <div class="hz-ep-status-col">
           <span class="series-status live"><span class="series-dot"></span>Published</span>
-          <span class="hz-ep-date">Jun 2026</span>
         </div>
       </div>
       <div class="hz-ep-body">
@@ -186,7 +183,6 @@ description: "How technology services firms escape the race to the bottom and co
           <a class="btn-primary" href="{{ post.url }}">Read →</a>
           {% endif %}
         {% endfor %}
-        <span class="hz-ep-pub">Business World</span>
       </div>
     </div>
 
@@ -196,7 +192,6 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-num">#2</div>
         <div class="hz-ep-status-col">
           <span class="series-status live"><span class="series-dot"></span>Frozen</span>
-          <span class="hz-ep-date">Dec 2026</span>
         </div>
       </div>
       <div class="hz-ep-body">
@@ -211,7 +206,6 @@ description: "How technology services firms escape the race to the bottom and co
       </div>
       <div class="hz-ep-right">
         <span class="series-status in-progress" style="font-size:.6rem;"><span class="series-dot"></span>Coming</span>
-        <span class="hz-ep-pub">Business World</span>
       </div>
     </div>
 
@@ -221,7 +215,6 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-num">#3</div>
         <div class="hz-ep-status-col">
           <span class="series-status in-progress"><span class="series-dot"></span>Rework</span>
-          <span class="hz-ep-date">Jan 2027</span>
         </div>
       </div>
       <div class="hz-ep-body">
@@ -236,7 +229,6 @@ description: "How technology services firms escape the race to the bottom and co
       </div>
       <div class="hz-ep-right">
         <span class="series-status coming" style="font-size:.6rem;"><span class="series-dot"></span>Coming</span>
-        <span class="hz-ep-pub">The CEO Magazine</span>
       </div>
     </div>
 
@@ -246,7 +238,6 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-num">#4</div>
         <div class="hz-ep-status-col">
           <span class="series-status in-progress"><span class="series-dot"></span>Review</span>
-          <span class="hz-ep-date">Feb 2027</span>
         </div>
       </div>
       <div class="hz-ep-body">
@@ -261,7 +252,6 @@ description: "How technology services firms escape the race to the bottom and co
       </div>
       <div class="hz-ep-right">
         <span class="series-status coming" style="font-size:.6rem;"><span class="series-dot"></span>Coming</span>
-        <span class="hz-ep-pub">The CEO Magazine</span>
       </div>
     </div>
 
@@ -271,7 +261,6 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-num">#5</div>
         <div class="hz-ep-status-col">
           <span class="series-status coming"><span class="series-dot"></span>To write</span>
-          <span class="hz-ep-date">Mar 2027</span>
         </div>
       </div>
       <div class="hz-ep-body">
@@ -286,7 +275,6 @@ description: "How technology services firms escape the race to the bottom and co
       </div>
       <div class="hz-ep-right">
         <span class="series-status coming" style="font-size:.6rem;"><span class="series-dot"></span>Coming</span>
-        <span class="hz-ep-pub">Business World</span>
       </div>
     </div>
 
@@ -296,7 +284,6 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-num" style="opacity:.5;">#6</div>
         <div class="hz-ep-status-col">
           <span class="series-status coming"><span class="series-dot"></span>Hold</span>
-          <span class="hz-ep-date" style="opacity:.5;">If earned</span>
         </div>
       </div>
       <div class="hz-ep-body">
@@ -304,9 +291,7 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-question" style="opacity:.5;">Why do some firms earn fees while others earn a share of the future?</div>
         <p class="hz-ep-desc" style="opacity:.5;">Reserve episode. Written only after #1–#5 are published and tested in market. GCCs cannot earn this premium — they are extensions of one enterprise. The Growth Premium belongs to the firm that multiplies opportunities across clients, ecosystems, and markets.</p>
       </div>
-      <div class="hz-ep-right">
-        <span class="hz-ep-pub" style="opacity:.4;">TBD</span>
-      </div>
+      <div class="hz-ep-right"></div>
     </div>
 
   </div>
@@ -349,7 +334,7 @@ description: "How technology services firms escape the race to the bottom and co
     <div>
       <div class="section-label">Follow the series</div>
       <h2>Episodes publish as they are ready.</h2>
-      <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">Each episode is submitted to print publications first — Business World, The CEO Magazine, and Indian Management. It appears here on this site at the same time or shortly after.</p>
+      <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">Each episode is published directly on this site as it is completed — no gate, no email required. The argument unfolds one piece at a time.</p>
       <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
         <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
         <a class="btn-secondary" href="/publications/">All publications</a>
