@@ -29,11 +29,11 @@ author: Lakshmi Narayanan
 #
 # ── DARK THEMES ────────────────────────────────────────────────────
 #
-# unstuck_theme: obsidian      # Pure black, electric blue accent
-# unstuck_theme: navy          # Deep navy, gold accent
-# unstuck_theme: plum          # Deep purple-black, rose accent
-# unstuck_theme: charcoal      # Dark grey, cyan accent
-# unstuck_theme: midnight      # Deep dark, indigo glow (see above)
+# unstuck_theme: obsidian      # Gunmetal black, warm amber accent
+# unstuck_theme: navy          # Deep admiralty navy, antique gold
+# unstuck_theme: plum          # Deep aubergine, electric fuchsia
+# unstuck_theme: charcoal      # Warm graphite, emerald accent
+# unstuck_theme: midnight      # Deep ink, electric indigo (see above)
 #
 # ── LIGHT THEMES ───────────────────────────────────────────────────
 #
@@ -45,20 +45,20 @@ author: Lakshmi Narayanan
 # ── BOLD / VIVID THEMES ────────────────────────────────────────────
 #
 # unstuck_theme: saffron       # Deep burnt orange, firelike warmth
-# unstuck_theme: cobalt        # Bright blue surfaces, white text
+# unstuck_theme: cobalt        # Deep sapphire, antique gold accent
 # unstuck_theme: jade          # Deep teal, gold accent
-# unstuck_theme: crimson       # Deep red base, cream text
+# unstuck_theme: crimson       # Deep burgundy, antique gold accent
 #
 # ── EDITORIAL / PRINT THEMES ───────────────────────────────────────
 #
 # unstuck_theme: broadsheet    # Newspaper grey, classic editorial
 # unstuck_theme: manuscript    # Aged parchment, sepia, scholarly
-# unstuck_theme: blueprint     # Dark blue, white text, technical
-# unstuck_theme: noir          # Near-black, sepia accent, cinematic
+# unstuck_theme: blueprint     # Technical navy, precision sky-blue
+# unstuck_theme: noir          # Cinematic near-black, sepia gold
 #
 # ── NATURE THEMES ──────────────────────────────────────────────────
 #
-unstuck_theme: ocean         # Deep sea blue-green, foam white
+unstuck_theme: ocean         # Deep abyssal blue, bioluminescent teal
 # unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
 # unstuck_theme: arctic        # Ice white, steel blue, cold and clean
@@ -75,11 +75,11 @@ unstuck_theme: ocean         # Deep sea blue-green, foam white
 # unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
 # unstuck_theme: summer_sunset # Deep rose accent
-# unstuck_theme: adventure     # Dark teal accent
-# unstuck_theme: feast         # Deep forest green accent
-# unstuck_theme: ocean_breeze  # Bold red accent
-# unstuck_theme: pumpkin_spice # Pumpkin orange accent
-# unstuck_theme: evergreen     # Deep green accent
+# unstuck_theme: adventure     # Sky blue accent
+# unstuck_theme: feast         # Vivid green accent
+# unstuck_theme: ocean_breeze  # Bold rose-red accent
+# unstuck_theme: pumpkin_spice # Warm orange accent
+# unstuck_theme: evergreen     # Forest green accent
 
 typography: spacious   # executive | compact | spacious
 
