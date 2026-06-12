@@ -30,7 +30,7 @@ author: Lakshmi Narayanan
 # ── DARK THEMES ────────────────────────────────────────────────────
 #
 # unstuck_theme: obsidian      # Gunmetal black, warm amber accent
-unstuck_theme: navy          # Deep admiralty navy, antique gold
+# unstuck_theme: navy          # Deep admiralty navy, antique gold
 # unstuck_theme: plum          # Deep aubergine, electric fuchsia
 # unstuck_theme: charcoal      # Warm graphite, emerald accent
 # unstuck_theme: midnight      # Deep ink, electric indigo (see above)
@@ -40,7 +40,7 @@ unstuck_theme: navy          # Deep admiralty navy, antique gold
 # unstuck_theme: ivory         # Warm white, barely-there surfaces
 # unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
-# unstuck_theme: cloud         # Cool white, soft lavender accent
+unstuck_theme: cloud         # Cool white, soft lavender accent
 #
 # ── BOLD / VIVID THEMES ────────────────────────────────────────────
 #
