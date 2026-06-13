@@ -7032,3 +7032,38 @@ body.page-exit {
 @media (max-width: 640px) {
   .not-found-grid { grid-template-columns: 1fr; }
 }
+
+
+/* =========================================
+   CUSTOM SCROLLBAR
+   ========================================= */
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+::-webkit-scrollbar              { width: 6px; height: 6px; }
+::-webkit-scrollbar-track        { background: transparent; }
+::-webkit-scrollbar-thumb        { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover  { background: var(--muted); }
+
+
+/* =========================================
+   SCROLL-REVEAL
+   ========================================= */
+
+@media (prefers-reduced-motion: no-preference) {
+  .js-sr .sr {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .js-sr .sr.sr-visible {
+    opacity: 1;
+    transform: none;
+  }
+  .js-sr .sr.sr-d1 { transition-delay: 0.08s; }
+  .js-sr .sr.sr-d2 { transition-delay: 0.16s; }
+  .js-sr .sr.sr-d3 { transition-delay: 0.24s; }
+  .js-sr .sr.sr-d4 { transition-delay: 0.32s; }
+}

@@ -48,6 +48,30 @@
   <meta property="article:author"         content="Lakshmi Narayanan Narasimhan">
   {% if page.series %}<meta property="article:section" content="{{ page.series }}">{% endif %}
   {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}">{% endfor %}{% endif %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ og_desc | strip_html | strip_newlines | jsonify }},
+    "author": {
+      "@type": "Person",
+      "name": "Lakshmi Narayanan Narasimhan",
+      "url": "{{ site.url }}/about/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ site.title | jsonify }},
+      "url": "{{ site.url }}"
+    },
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
+    "url": "{{ site.url }}{{ page.url }}"{% if page.image %},
+    "image": "{{ site.url }}{{ page.image }}"{% elsif og_image %},
+    "image": "{{ og_image }}"{% endif %}{% if page.reading_time %},
+    "timeRequired": "PT{{ page.reading_time }}M"{% endif %}
+  }
+  </script>
   {% endif %}
   <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -215,6 +239,7 @@
 <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/scroll-reveal.js' | relative_url }}"></script>
 <script>
 (function () {
   var fab = document.getElementById('contact-fab');

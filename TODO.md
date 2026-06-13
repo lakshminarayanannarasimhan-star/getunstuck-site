@@ -53,6 +53,22 @@
 - To re-enable: remove the entry from `exclude:` in `_config.yml`
 
 ## Backlog
+
+### High impact, low effort
+- [x] **Scroll-reveal animations** — IntersectionObserver fades cards/sections in as you scroll (~50 lines JS)
+- [x] **Structured data (JSON-LD)** — Article schema in `<head>` on article pages; unlocks rich snippets in Google (author, reading time, publish date)
+- [x] **Custom scrollbar** — CSS-only, 3 lines; small detail, disproportionate polish
+
+### High impact, medium effort
 - [ ] **Email subscribe** — Buttondown (free up to 100, $9/mo after; embed form in article footer and /subscribe/ page)
+- [ ] **Comments via Utterances** — GitHub Issues as comment threads; zero backend, free, clean look; great for thought-provoking articles
+- [ ] **Drill streak tracker** — localStorage counter ("You've done 7 drills this week"); gamification that drives return visits
+
+### Visually stunning, higher effort
+- [ ] **Animated hero gradient** — CSS @keyframes slow-shifting gradient on .hp-hero; subtle but striking
+- [ ] **Card tilt effect** — JS mouse-tracking tilt on hover (~30 lines); very modern feel
+- [ ] **Series progress ring** — SVG circle showing "2 of 6 episodes read" on the Horizon page
+
+### Deferred
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
 - [ ] **Series landing pages** — create when series has a plan or first article ready (template at examples/series-landing-template.md)
