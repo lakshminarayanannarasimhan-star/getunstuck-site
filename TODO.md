@@ -29,6 +29,18 @@
 - [x] Image lightbox — click article images to view full size (lightbox.js, overlay in default.html)
 - [x] Custom 404 page — improved with 6 navigation cards covering all major sections
 
+## Done (reach & distribution)
+- [x] Analytics — GoatCounter (getunstuck.goatcounter.com, script in default.html)
+- [x] OG / Twitter card meta tags — default image + per-article overrides
+
+## Done (site cleanup)
+- [x] Remove stub pages (stories, start-here, personal_branding)
+- [x] Exclude unfinished pages from build (workbook, case_studies, the-invisible-backlog, the-series)
+- [x] Remove unused articles collection from _config.yml
+- [x] Exclude examples/ directory from build
+- [x] Series-B test post set to draft
+- [x] Horizon episode cards — visual depth hierarchy (live → next → working → distant → reserve)
+
 ## Pages excluded from build (enable when content is ready)
 - [ ] **workbook.md** → `/workbook/` — PDF of all drills; exclude until PDF exists
 - [ ] **case_studies.md** → `/case_studies/` — real engagement write-ups; exclude until first case is written
@@ -37,8 +49,6 @@
 - To re-enable: remove the entry from `exclude:` in `_config.yml`
 
 ## Backlog
-- [x] **Analytics** — GoatCounter (getunstuck.goatcounter.com, script in default.html)
-- [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
-- [x] **Audio: pre-generated MP3s** — dropped; external files increase repo size; Web Speech API already in place
 - [ ] **Email subscribe** — Buttondown (free up to 100, $9/mo after; embed form in article footer and /subscribe/ page)
+- [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
 - [ ] **Series landing pages** — create when series has a plan or first article ready (template at examples/series-landing-template.md)
