@@ -40,10 +40,10 @@ bibliography:
     note: "The Compression Zone / Crossing / Expansion Zone model and the four forms of growth leverage (reach, ecosystem access, speed, investment) are original frameworks drawn from practitioner observation across technology-services engagements over 25 years. They are not adaptations of existing published frameworks."
 
 whats_next:
-  title: "The Crossing"
+  title: "The Indispensability Gap"
   code: "#3"
-  description: "Understanding the Trust Ceiling is not the same as crossing it. The Crossing is a deliberate act — a shift in what you offer, how you price it, and where you stand in the customer's future. The next article maps what The Crossing actually requires: not a better version of what you already do, but a fundamentally different kind of offer."
-  status: coming
+  description: "A seat at the table answers one question: can this firm contribute to how we think? A share of what the table produces answers a different question entirely: would this outcome exist without this firm? The next article maps the gap between influence and indispensability — and the one test that cuts through every justification."
+  url: /2026/06/19/h3-the-indispensability-gap/
 ---
 
 There is an organisation that most senior leaders in technology services will recognise immediately.

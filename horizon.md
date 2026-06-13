@@ -213,12 +213,12 @@ description: "How technology services firms escape the race to the bottom and co
       </div>
     </div>
 
-    <!-- #3 -->
-    <div class="hz-episode hz-ep-next">
+    <!-- #3 — LIVE -->
+    <div class="hz-episode hz-ep-live">
       <div class="hz-ep-left">
         <div class="hz-ep-num">#3</div>
         <div class="hz-ep-status-col">
-          <span class="series-status live"><span class="series-dot"></span>Frozen</span>
+          <span class="series-status live"><span class="series-dot"></span>Published</span>
         </div>
       </div>
       <div class="hz-ep-body">
@@ -232,7 +232,11 @@ description: "How technology services firms escape the race to the bottom and co
         </div>
       </div>
       <div class="hz-ep-right">
-        <span class="series-status coming" style="font-size:.6rem;"><span class="series-dot"></span>Coming</span>
+        {% for post in hz_posts %}
+          {% if post.series_position == 3 %}
+          <a class="btn-primary" href="{{ post.url }}">Read →</a>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
 
