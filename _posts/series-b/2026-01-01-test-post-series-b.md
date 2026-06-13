@@ -9,7 +9,7 @@ series_code: B
 article_code: B0
 series_position: 1
 series_total: 6
-status: published
+status: draft
 reading_time: 9
 excerpt: "Execution gets you paid. It does not get you a seat. The leaders who cross from delivery to indispensability do something structurally different — and most of them cannot name what it is."
 genre: [Leadership, Technology, Strategy]

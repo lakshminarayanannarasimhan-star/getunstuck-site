@@ -31,7 +31,7 @@ author: Lakshmi Narayanan
 #
 # unstuck_theme: obsidian      # Gunmetal black, warm amber accent
 # unstuck_theme: navy          # Deep admiralty navy, antique gold
-# unstuck_theme: plum          # Deep aubergine, electric fuchsia
+unstuck_theme: plum          # Deep aubergine, electric fuchsia
 # unstuck_theme: charcoal      # Warm graphite, emerald accent
 # unstuck_theme: midnight      # Deep ink, electric indigo (see above)
 #
@@ -58,7 +58,7 @@ author: Lakshmi Narayanan
 #
 # ── NATURE THEMES ──────────────────────────────────────────────────
 #
-unstuck_theme: ocean         # Deep abyssal blue, bioluminescent teal
+# unstuck_theme: ocean         # Deep abyssal blue, bioluminescent teal
 # unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
 # unstuck_theme: arctic        # Ice white, steel blue, cold and clean
@@ -100,9 +100,6 @@ collections:
   drills:
     output: true
     permalink: /drills/:name/
-  articles:
-    output: true
-    permalink: /writing/:name/
   mentees:
     output: false
 
@@ -116,11 +113,6 @@ defaults:
       type: "drills"
     values:
       layout: "drill"
-  - scope:
-      path: ""
-      type: "articles"
-    values:
-      layout: "post"
   - scope:
       path: ""
       type: "posts"
@@ -145,6 +137,11 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - examples
+  - workbook.md
+  - case_studies.md
+  - the-invisible-backlog.md
+  - the-series.md
 
 # =========================================
 # NOTES

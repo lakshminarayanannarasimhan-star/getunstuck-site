@@ -29,9 +29,16 @@
 - [x] Image lightbox — click article images to view full size (lightbox.js, overlay in default.html)
 - [x] Custom 404 page — improved with 6 navigation cards covering all major sections
 
+## Pages excluded from build (enable when content is ready)
+- [ ] **workbook.md** → `/workbook/` — PDF of all drills; exclude until PDF exists
+- [ ] **case_studies.md** → `/case_studies/` — real engagement write-ups; exclude until first case is written
+- [ ] **the-invisible-backlog.md** → `/the-invisible-backlog/` — book landing page; exclude until book is published
+- [ ] **the-series.md** → `/the-series/` — six-handbook series overview; exclude until series is defined
+- To re-enable: remove the entry from `exclude:` in `_config.yml`
+
 ## Backlog
 - [ ] **Analytics** — GoatCounter (free, needs account at goatcounter.com)
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
-- [ ] **Audio: pre-generated MP3s** — ElevenLabs/OpenAI TTS per article for higher voice quality
+- [x] **Audio: pre-generated MP3s** — dropped; external files increase repo size; Web Speech API already in place
 - [ ] **Email subscribe** — Buttondown (free up to 100, $9/mo after; embed form in article footer and /subscribe/ page)
-- [ ] **Series landing pages** — auto-generated index for each series
+- [ ] **Series landing pages** — create when series has a plan or first article ready (template at examples/series-landing-template.md)
