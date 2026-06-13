@@ -5,7 +5,7 @@
   var defaultTheme = btn.getAttribute('data-default-theme') || 'dojo';
   var isDark = localStorage.getItem('unstuck_dark') === '1';
   function apply(dark) {
-    document.documentElement.setAttribute('data-theme', dark ? 'dark' : defaultTheme);
+    document.documentElement.setAttribute('data-theme', dark ? 'midnight' : defaultTheme);
     btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
     btn.setAttribute('title',      dark ? 'Switch to light mode' : 'Switch to dark mode');
     btn.classList.toggle('is-dark', dark);
