@@ -846,8 +846,7 @@
 [data-theme="saffron"], [data-theme="cobalt"],
 [data-theme="jade"], [data-theme="crimson"],
 [data-theme="blueprint"], [data-theme="noir"],
-[data-theme="ocean"], [data-theme="ember"],
-[data-theme="mono"] {
+[data-theme="ocean"], [data-theme="ember"] {
   --header-logo-gradient: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.78) 55%, #fff 100%);
   --header-tagline:       rgba(255,255,255,0.52);
   --header-nav:           rgba(255,255,255,0.72);
