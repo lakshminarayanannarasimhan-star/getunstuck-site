@@ -37,7 +37,7 @@
 - To re-enable: remove the entry from `exclude:` in `_config.yml`
 
 ## Backlog
-- [ ] **Analytics** — GoatCounter (free, needs account at goatcounter.com)
+- [x] **Analytics** — GoatCounter (getunstuck.goatcounter.com, script in default.html)
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
 - [x] **Audio: pre-generated MP3s** — dropped; external files increase repo size; Web Speech API already in place
 - [ ] **Email subscribe** — Buttondown (free up to 100, $9/mo after; embed form in article footer and /subscribe/ page)
