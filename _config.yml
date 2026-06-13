@@ -58,7 +58,7 @@ author: Lakshmi Narayanan
 #
 # ── NATURE THEMES ──────────────────────────────────────────────────
 #
-# unstuck_theme: ocean         # Deep abyssal blue, bioluminescent teal
+unstuck_theme: ocean         # Deep abyssal blue, bioluminescent teal
 # unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
 # unstuck_theme: arctic        # Ice white, steel blue, cold and clean
@@ -75,7 +75,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
 # unstuck_theme: summer_sunset # Deep rose accent
-unstuck_theme: adventure     # Sky blue accent
+# unstuck_theme: adventure     # Sky blue accent
 # unstuck_theme: feast         # Vivid green accent
 # unstuck_theme: ocean_breeze  # Bold rose-red accent
 # unstuck_theme: pumpkin_spice # Warm orange accent
