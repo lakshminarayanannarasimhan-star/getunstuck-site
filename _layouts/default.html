@@ -202,10 +202,19 @@
   </svg>
 </button>
 
+<!-- ── IMAGE LIGHTBOX ── -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" tabindex="-1">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close image">×</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  <p class="lightbox-caption" id="lightbox-caption"></p>
+</div>
+
 <script src="{{ '/assets/js/drill.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/readtracker.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/header.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/transitions.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 <script>

@@ -24,6 +24,11 @@
 - [x] Reading percentage — fixed top-right, appears after 3% scroll
 - [x] Keyboard navigation — ←/→ arrows move between series articles with toast
 
+## Done (polish)
+- [x] Page transitions — fade in/out between pages (transitions.js, CSS @keyframes page-in/page-out)
+- [x] Image lightbox — click article images to view full size (lightbox.js, overlay in default.html)
+- [x] Custom 404 page — improved with 6 navigation cards covering all major sections
+
 ## Backlog
 - [ ] **Analytics** — GoatCounter (free, needs account at goatcounter.com)
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
