@@ -1017,12 +1017,12 @@ h1, h2, h3, h4 {
 /* ── READING PROGRESS BAR (article pages only) ── */
 .reading-progress {
   position: fixed;
-  top: 91px; /* 88px header + 3px border-top */
+  top: 0;
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--border);
-  z-index: 99;
+  background: color-mix(in srgb, var(--primary) 18%, var(--surface));
+  z-index: 200;
   pointer-events: none;
 }
 .reading-progress-fill {
@@ -1030,6 +1030,10 @@ h1, h2, h3, h4 {
   width: 0%;
   background: var(--primary);
   transition: width 0.08s linear;
+}
+/* suppress the static header accent line on pages that have a progress bar */
+body:has(.reading-progress) .header {
+  border-top-color: transparent;
 }
 
 /* ── HEADER: EDITORIAL — clean surface + accent top line ── */
