@@ -14,16 +14,11 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     <div class="hp-hero-left">
       <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">Leadership Operating Systems · Technology Strategy · Author</div>
       <h1 class="hp-hero-title reveal d2">25 years of building what others theorise about.</h1>
-      <p class="hp-hero-sub reveal d3">Practitioner. Author. Everything here is drawn from work done in real organisations, with real stakes. Not theorised. Not consulted. Lived.</p>
+      <p class="hp-hero-sub reveal d3">Most leadership writing is written by people who observe leaders from the outside. This is not that. 25 years of building organisations from the inside — carrying strategy, developing people, making decisions that had real consequences for real careers. Not studied. Not consulted. Carried. Everything on this site is drawn from what that work actually taught.</p>
       <div class="area-tags reveal d4" style="margin-top:1.4rem;">
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Networking</span>
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Network Security</span>
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Cybersecurity</span>
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Product Security</span>
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Hybrid Cloud</span>
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Leadership Operating System</span>
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Engineering Leadership</span>
-        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Strategy</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Technology Services</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Leadership Systems</span>
+        <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Security Strategy</span>
       </div>
     </div>
 
@@ -82,22 +77,22 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <span class="hp-fa-series">{{ featured.series }}</span>
       </div>
       <h2 class="hp-fa-title">{{ featured.title }}</h2>
-      <p class="hp-fa-excerpt">{{ featured.excerpt | strip_html | truncate: 200 }}</p>
+      <p class="hp-fa-excerpt">{% if featured.tldr %}{{ featured.tldr | truncate: 200 }}{% else %}{{ featured.excerpt | strip_html | truncate: 200 }}{% endif %}</p>
       <div class="hp-fa-footer">
         <a class="btn-primary" href="{{ featured.url }}">Read the article</a>
         <span class="hp-fa-detail">{{ featured.date | date: "%d %b %Y" }}</span>
       </div>
     </div>
     <div class="hp-fa-right">
+      {% if featured.tldr %}
       <div class="hp-fa-pull">
-        <div class="hp-fa-pull-label">From the piece</div>
-        <p class="hp-fa-pull-text">"You are not running a security programme. You are running the defence of a relationship the customer cannot supervise."</p>
+        <div class="hp-fa-pull-label">Key insight</div>
+        <p class="hp-fa-pull-text">{{ featured.tldr }}</p>
       </div>
+      {% endif %}
       <div class="hp-fa-tags">
-        <span class="area-tag">Security Leadership</span>
-        <span class="area-tag">Boards</span>
-        <span class="area-tag">Compliance</span>
-        <span class="area-tag">~1,500 words</span>
+        {% if featured.series %}<span class="area-tag">{{ featured.series }}</span>{% endif %}
+        {% if featured.reading_time %}<span class="area-tag">{{ featured.reading_time }} min read</span>{% endif %}
       </div>
     </div>
   </div>
@@ -276,28 +271,28 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       </div>
       <div class="hp-pubs-series">
         <div class="hp-pub-row">
+          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Horizon</div>
+          <div>
+            <div class="hp-pub-title">From Compression to Premium</div>
+            <div class="hp-pub-meta">6 episodes · Technology services strategy</div>
+          </div>
+          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In progress</span>
+        </div>
+        <div class="hp-pub-row">
           <div class="hp-pub-id">D</div>
           <div>
             <div class="hp-pub-title">The Trust Equation</div>
-            <div class="hp-pub-meta">Security as a trust problem · D0 published</div>
+            <div class="hp-pub-meta">Security as a trust problem · Ideation</div>
           </div>
-          <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Live</span>
+          <span class="series-status ideation" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ideation</span>
         </div>
         <div class="hp-pub-row">
           <div class="hp-pub-id">A</div>
           <div>
             <div class="hp-pub-title">Leadership Operating System</div>
-            <div class="hp-pub-meta">4 articles · Submitting Jul–Oct 2026</div>
+            <div class="hp-pub-meta">4 articles · Leadership systems</div>
           </div>
-          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ready</span>
-        </div>
-        <div class="hp-pub-row">
-          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Horizon</div>
-          <div>
-            <div class="hp-pub-title">The Execution Trap</div>
-            <div class="hp-pub-meta">6 episodes · Technology services strategy · July 2026 –</div>
-          </div>
-          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Drafting</span>
+          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In pipeline</span>
         </div>
         <div class="hp-pub-row">
           <div class="hp-pub-id">C</div>
@@ -305,7 +300,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
             <div class="hp-pub-title">The Moving Target</div>
             <div class="hp-pub-meta">7 articles · Network security as strategy</div>
           </div>
-          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Coming</span>
+          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In pipeline</span>
         </div>
       </div>
     </div>
@@ -319,18 +314,6 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
   <div class="section-label">Case Studies &amp; Drills</div>
   <h2>Drawn from 25 years of practice.</h2>
   <div class="hp-practice-grid">
-
-    <div class="hp-practice-card">
-      <div class="hp-pc-icon">⬡</div>
-      <div class="hp-pc-label">
-        Case Studies
-        <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;"><span class="series-dot"></span>Building</span>
-      </div>
-      <h3>What the work actually looks like.</h3>
-      <p>Real engagements across leadership systems, platform transformation, and engineering organisation design. Outcomes, not descriptions. Being documented as the platform grows.</p>
-      <p style="font-size:.84rem;color:var(--faint);margin-top:.6rem;font-style:italic;">Each case covers the situation, the system problem, the approach, and the outcome — without naming clients where confidentiality applies.</p>
-      <a class="card-link" href="/case-studies/">Case studies</a>
-    </div>
 
     <div class="hp-practice-card">
       <div class="hp-pc-icon">◈</div>
