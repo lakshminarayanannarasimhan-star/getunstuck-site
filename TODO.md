@@ -19,6 +19,11 @@
 - [x] Dark mode toggle — moon/sun icon in header, persists via localStorage
 - [x] Mark as read — tracks 80% scroll, shows ✓ Read badge on publications page
 
+## Done (reader experience)
+- [x] Font size control — A−/A+ in article header, persists via localStorage
+- [x] Reading percentage — fixed top-right, appears after 3% scroll
+- [x] Keyboard navigation — ←/→ arrows move between series articles with toast
+
 ## Backlog
 - [ ] **Analytics** — GoatCounter (free, needs account at goatcounter.com)
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
