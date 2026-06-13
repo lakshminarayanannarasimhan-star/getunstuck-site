@@ -5,6 +5,7 @@ layout: default
 <div class="reading-progress" id="reading-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
   <div class="reading-progress-fill" id="reading-progress-fill"></div>
 </div>
+<span class="art-read-pct" id="art-read-pct" aria-hidden="true"></span>
 
 <div class="art-wrap">
 
@@ -28,6 +29,10 @@ layout: default
       {% if page.series %}<span class="art-series-badge">{{ page.series }} · {{ page.article_code }}</span>{% endif %}
       {% if page.status == "published" %}<span class="series-status live" style="font-size:.6rem;padding:.2rem .5rem;"><span class="series-dot"></span>Published</span>{% elsif page.status == "draft" %}<span class="series-status coming" style="font-size:.6rem;padding:.2rem .5rem;"><span class="series-dot"></span>Draft</span>{% endif %}
       {% if page.reading_time %}<span class="art-reading-time">{{ page.reading_time }} min read</span>{% endif %}
+      <div class="art-font-controls" aria-label="Font size">
+        <button class="art-font-btn" id="font-smaller" aria-label="Smaller text" title="Smaller text">A−</button>
+        <button class="art-font-btn" id="font-larger"  aria-label="Larger text"  title="Larger text">A+</button>
+      </div>
     </div>
 
     <h1 class="art-title">{{ page.title }}</h1>
@@ -315,8 +320,39 @@ layout: default
 
 </div>
 
+<div class="reader-toast" id="reader-toast" aria-live="polite"></div>
+
+<script>
+(function () {
+  var body    = document.getElementById('art-body');
+  var btnUp   = document.getElementById('font-larger');
+  var btnDown = document.getElementById('font-smaller');
+  if (!body || !btnUp || !btnDown) return;
+
+  var steps   = [0.9, 1.05, 1.18];
+  var idx     = parseInt(localStorage.getItem('unstuck_fontidx'), 10);
+  if (isNaN(idx) || idx < 0 || idx > 2) idx = 1;
+
+  function set(i) {
+    idx = i;
+    var size = steps[idx] + 'rem';
+    body.querySelectorAll('p, li, blockquote p, figcaption').forEach(function (el) {
+      el.style.setProperty('font-size', size, 'important');
+    });
+    localStorage.setItem('unstuck_fontidx', idx);
+    btnDown.disabled = idx === 0;
+    btnUp.disabled   = idx === steps.length - 1;
+  }
+
+  btnUp.addEventListener('click',   function () { if (idx < 2) set(idx + 1); });
+  btnDown.addEventListener('click', function () { if (idx > 0) set(idx - 1); });
+  set(idx);
+}());
+</script>
+
 <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/share.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/reader.js' | relative_url }}"></script>
 {% if site.enable_audio %}
 <script src="{{ '/assets/js/audio.js' | relative_url }}"></script>
 {% endif %}

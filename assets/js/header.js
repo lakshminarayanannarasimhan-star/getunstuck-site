@@ -10,15 +10,20 @@
   }
 
   /* ── reading progress bar (article pages only) ── */
-  var fill = document.getElementById('reading-progress-fill');
-  var bar  = document.getElementById('reading-progress');
+  var fill    = document.getElementById('reading-progress-fill');
+  var bar     = document.getElementById('reading-progress');
+  var readPct = document.getElementById('art-read-pct');
   if (fill) {
     function updateProgress() {
-      var scrollTop  = window.scrollY;
-      var docHeight  = document.documentElement.scrollHeight - window.innerHeight;
-      var pct        = docHeight > 0 ? Math.min((scrollTop / docHeight) * 100, 100) : 0;
+      var scrollTop = window.scrollY;
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      var pct       = docHeight > 0 ? Math.min((scrollTop / docHeight) * 100, 100) : 0;
       fill.style.width = pct + '%';
       if (bar) bar.setAttribute('aria-valuenow', Math.round(pct));
+      if (readPct) {
+        readPct.textContent = pct > 3 ? Math.round(pct) + '%' : '';
+        readPct.style.opacity = pct > 3 ? '1' : '0';
+      }
     }
     window.addEventListener('scroll', updateProgress, { passive: true });
     updateProgress();
