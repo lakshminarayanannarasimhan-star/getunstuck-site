@@ -45,7 +45,7 @@ whats_next:
   title: "The Trust Ceiling"
   code: "#2"
   description: "Most technology services firms have earned their customers' trust. Trust, however, is not the destination — it is the ceiling. The highest reward the Compression Zone offers and the limit of what it can provide. Revenue grows, renewals continue, the relationship appears healthy — and every strategic conversation happens somewhere else. The next article maps why trusted firms stop evolving, and what making The Crossing actually requires."
-  status: coming
+  url: /2026/06/16/h2-the-trust-ceiling/
 ---
 
 There is a question that has started appearing in client conversations that did not appear five years ago.
