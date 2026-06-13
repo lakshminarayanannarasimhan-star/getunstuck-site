@@ -19,7 +19,7 @@
 
 ### Discoverability
 - [ ] **Open Graph / Twitter card meta tags** — rich preview cards (title, description, image) when sharing on LinkedIn, WhatsApp, Twitter ← *next up*
-- [ ] **Client-side search** — Lunr.js, indexes all articles and drills at build time, no server needed
+- [x] Client-side search — Lunr.js modal (Ctrl+K), covers articles + drills, keyboard navigable
 - [ ] **Related articles** — show 2–3 articles from the same series at the bottom of each article
 
 ### Technical
