@@ -12,9 +12,10 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
   <div class="hero-split">
 
     <div class="hero-left">
-      <div class="eyebrow reveal d1">The Origin</div>
+      <div class="eyebrow reveal d1">Lakshmi Narayanan Narasimhan · Technology Executive · Leadership Practitioner · Author</div>
       <h1 class="hero-title reveal d2">My father taught me what teaching really means.</h1>
       <div class="prose reveal d3" style="margin-top:1.2rem;">
+        <p>CTO, author, and leadership practitioner. 25 years building organisations from the inside — not consulting on them. Everything on this site is drawn from what that work actually taught.</p>
         <p>My father, Sri P K Narasimhan, is a teacher. Not was — is. He still gets excited teaching a primary school child with the same energy he brings to teaching spiritual leaders on the Bhagavad Gita. He runs a YouTube channel on various Sthotrams and his commitment to sharing what he knows has never wavered across decades.</p>
         <p>Watching him, I understood something early: teaching is not a transaction. The teacher learns from the student. The student learns from being taken seriously. Neither is diminished. Both are elevated.</p>
         <p>That is the model I have tried to carry forward — in every workshop, every article, every book, and every drill offered openly because access should never be the barrier.</p>
@@ -45,9 +46,9 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
 
       <div class="hero-panel" style="margin-top:1rem;">
         <div class="panel-label">In brief</div>
-        <h3>Lakshmi Narayanan N</h3>
-        <p>Technology Executive. Leadership systems practitioner. Author. 25 years inside one of India's largest organisations. Chennai.</p>
-        <p style="margin-top:.9rem;font-size:.88rem;color:var(--faint);font-style:italic;">"Ceasing to learn is ceasing to breathe."</p>
+        <h3>Lakshmi Narayanan Narasimhan</h3>
+        <p>Technology executive who builds organisations, not just products. Leadership practitioner who writes from practice, not observation. 25 years carrying accountability — not describing it. Chennai.</p>
+        <p style="margin-top:.9rem;font-size:.88rem;color:var(--faint);font-style:italic;">"Ceasing to learn is ceasing to breathe." — personal credo, since long before it became a slogan.</p>
         <div style="margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid var(--border);">
           <div class="panel-label">At a glance</div>
           <div class="stat-strip" style="margin-top:.8rem;">
@@ -70,6 +71,15 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
 
   </div>
 </section>
+
+<!-- CORE INSIGHT -->
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">The core insight</div>
+    <p class="pull-quote">The most complex system in any organisation is not the technology. <em>It is the people and the decisions they carry.</em></p>
+    <p style="color:rgba(255,255,255,.5);font-size:.9rem;max-width:60ch;margin-top:1.2rem;line-height:1.75;">Leadership is a systems problem. Most people treat it as a personality problem. That misdiagnosis is expensive — and it is the reason most leadership development produces knowledge without producing capability.</p>
+  </div>
+</div>
 
 <!-- ═══════════════════════════════
      PROFESSIONAL — recruiter facing
@@ -112,18 +122,6 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
     </div>
 
     <aside style="display:flex;flex-direction:column;gap:1rem;">
-      <div class="hero-panel">
-        <div class="panel-label">Open to conversations about</div>
-        <ul style="list-style:none;display:flex;flex-direction:column;gap:.75rem;margin-top:.6rem;">
-          <li style="font-size:.92rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Senior technology leadership</strong> — CTO, VP Engineering, Head of Technology, or equivalent roles with global scope</li>
-          <li style="font-size:.92rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">P&amp;L ownership</strong> with a technology transformation or platform engineering mandate</li>
-          <li style="font-size:.92rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Board and advisory</strong> positions in technology, cybersecurity, or product engineering companies</li>
-          <li style="font-size:.92rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Leadership programme partnerships</strong> — books, workshops, and cohort engagements</li>
-          <li style="font-size:.92rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Speaking</strong> at industry events on engineering leadership, platform strategy, or AI transformation</li>
-        </ul>
-        <a class="panel-link" href="mailto:lakshminarayanan.narasimhan@gmail.com">Start a conversation</a>
-      </div>
-
       <div class="hero-panel">
         <div class="panel-label">Education</div>
         <ul style="list-style:none;display:flex;flex-direction:column;gap:.6rem;margin-top:.5rem;">
@@ -256,28 +254,12 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
 
 <!-- THE PIVOT -->
 <section class="section-wide">
-  <div class="layout-sidebar">
-    <div>
-      <div class="section-label">The pivot</div>
-      <h2>From systems that run machines to systems that run organisations.</h2>
-      <div class="prose" style="margin-top:1.2rem;">
-        <p>The early years were spent in technology — deeply technical, building and presenting at international conferences, writing about Linux internals and Java profiling and network security. The discipline of that work — first principles thinking, systems understanding, rigorous documentation — never left.</p>
-        <p>What changed was the domain. Twenty-five years inside one of India's largest organisations showed something that no conference paper could capture: the most complex system in any organisation is not the technology. It is the people and the decisions they carry. Leadership is a systems problem. Most leaders treat it as a personality problem. That misdiagnosis is expensive.</p>
-        <p>The books, the writing, and the consulting work all come from that one observation — refined across decades of watching what holds and what doesn't.</p>
-      </div>
-    </div>
-    <aside>
-      <div class="hero-panel">
-        <div class="panel-label">What I try to be</div>
-        <ul style="list-style:none;display:flex;flex-direction:column;gap:.8rem;margin-top:.5rem;">
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Student first, always</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Teacher when ready</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Builder, not just thinker</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Practitioner before advisor</li>
-          <li style="font-size:.93rem;color:var(--muted);">✦ &nbsp;Generous by design</li>
-        </ul>
-      </div>
-    </aside>
+  <div class="section-label">The pivot</div>
+  <h2>From systems that run machines to systems that run organisations.</h2>
+  <div class="prose" style="margin-top:1.2rem;max-width:72ch;">
+    <p>The early years were spent in technology — deeply technical, building and presenting at international conferences, writing about Linux internals and Java profiling and network security. The discipline of that work — first principles thinking, systems understanding, rigorous documentation — never left.</p>
+    <p>What changed was the domain. Twenty-five years inside one of India's largest organisations showed something that no conference paper could capture: the most complex system in any organisation is not the technology. It is the people and the decisions they carry. Leadership is a systems problem. Most leaders treat it as a personality problem. That misdiagnosis is expensive.</p>
+    <p>The books, the writing, and the work all come from that one observation — refined across decades of watching what holds and what doesn't.</p>
   </div>
 </section>
 
@@ -296,6 +278,41 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
     <div class="card">
       <div class="num">On systems</div>
       <p style="color:var(--muted);font-size:.93rem;margin-top:.5rem;">Tools change. Systems endure. Whether the domain was Linux kernels or leadership pipelines, the principle held. Understand the system underneath the tool and you can survive any change in the tool. That is what every book, every drill, and every workshop has tried to install.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">The through-line</div>
+    <p class="pull-quote">Every workshop, every article, every book comes from the same place — <em>a genuine belief that knowledge shared compounds, and knowledge hoarded decays.</em></p>
+  </div>
+</div>
+
+<section class="section-wide">
+  <div style="display:flex;gap:3rem;flex-wrap:wrap;align-items:flex-start;">
+    <div style="flex:1;min-width:260px;">
+      <div class="section-label">Engage with the work</div>
+      <h2>The work is open. The conversation is open.</h2>
+      <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">Everything here is free to read, free to use, and free to share. If you want to go deeper — on the LOS, on the writing, on working together — the door is open.</p>
+      <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
+        <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        <a class="btn-secondary" href="/publications/">Read the writing</a>
+        <a class="btn-secondary" href="/los/">Explore the LOS</a>
+      </div>
+    </div>
+    <div style="flex:1;min-width:260px;">
+      <div class="hero-panel">
+        <div class="panel-label">Open to conversations about</div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:.65rem;margin-top:.6rem;">
+          <li style="font-size:.88rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Senior technology leadership</strong> — CTO, VP Engineering, or equivalent roles with global scope</li>
+          <li style="font-size:.88rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Board and advisory</strong> positions in technology, cybersecurity, or product engineering</li>
+          <li style="font-size:.88rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Leadership programme partnerships</strong> — books, workshops, and cohort engagements</li>
+          <li style="font-size:.88rem;color:var(--muted);line-height:1.5;">✦ &nbsp;<strong style="color:var(--text);">Speaking</strong> on engineering leadership, platform strategy, or AI transformation</li>
+        </ul>
+        <a class="panel-link" href="mailto:lakshminarayanan.narasimhan@gmail.com" style="margin-top:1rem;display:inline-block;">Start a conversation →</a>
+      </div>
     </div>
   </div>
 </section>
