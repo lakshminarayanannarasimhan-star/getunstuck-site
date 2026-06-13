@@ -136,10 +136,16 @@ layout: default
   </div>
   {% endif %}
 
-  <!-- ARTICLE BODY -->
-  <article class="art-body" id="art-body">
-    {{ content }}
-  </article>
+  <!-- ARTICLE BODY + TOC SIDEBAR -->
+  <div class="art-content-wrap">
+    <article class="art-body" id="art-body">
+      {{ content }}
+    </article>
+    <aside class="art-toc-sidebar" id="art-toc-sidebar" aria-label="Table of contents" hidden>
+      <div class="art-toc-label">Contents</div>
+      <nav class="art-toc" id="art-toc"></nav>
+    </aside>
+  </div>
 
   <!-- SHARE -->
   <div class="art-share"
@@ -268,6 +274,7 @@ layout: default
 
 </div>
 
+<script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/share.js' | relative_url }}"></script>
 {% if site.enable_audio %}
 <script src="{{ '/assets/js/audio.js' | relative_url }}"></script>
