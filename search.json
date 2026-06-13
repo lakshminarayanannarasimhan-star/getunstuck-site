@@ -1,0 +1,26 @@
+---
+layout: null
+---
+[
+{% for post in site.posts %}
+  {
+    "title":   {{ post.title   | jsonify }},
+    "url":     {{ post.url     | jsonify }},
+    "type":    "article",
+    "series":  {{ post.series  | default: "" | jsonify }},
+    "tags":    {{ post.tags    | join: " "   | jsonify }},
+    "content": {{ post.tldr    | default: post.excerpt | strip_html | strip_newlines | truncate: 300 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% if site.posts.size > 0 and site.drills.size > 0 %},{% endif %}
+{% for drill in site.drills %}
+  {
+    "title":   {{ drill.title   | jsonify }},
+    "url":     {{ drill.url     | jsonify }},
+    "type":    "drill",
+    "series":  "",
+    "tags":    {{ drill.tags    | join: " " | jsonify }},
+    "content": {{ drill.content | strip_html | strip_newlines | truncate: 300 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
