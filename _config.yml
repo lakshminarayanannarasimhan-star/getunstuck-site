@@ -77,8 +77,8 @@ author: Lakshmi Narayanan
 # unstuck_theme: summer_sunset # Deep rose accent
 # unstuck_theme: adventure     # Sky blue accent
 # unstuck_theme: feast         # Vivid green accent
-unstuck_theme: ocean_breeze  # Bold rose-red accent
-# unstuck_theme: pumpkin_spice # Warm orange accent
+# unstuck_theme: ocean_breeze  # Bold rose-red accent
+unstuck_theme: pumpkin_spice # Warm orange accent
 # unstuck_theme: evergreen     # Forest green accent
 
 typography: spacious   # executive | compact | spacious
