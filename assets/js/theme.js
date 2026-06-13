@@ -1,3 +1,23 @@
+/* ── Dark mode toggle ── */
+(function () {
+  var btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+  var defaultTheme = btn.getAttribute('data-default-theme') || 'dojo';
+  var isDark = localStorage.getItem('unstuck_dark') === '1';
+  function apply(dark) {
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : defaultTheme);
+    btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    btn.setAttribute('title',      dark ? 'Switch to light mode' : 'Switch to dark mode');
+    btn.classList.toggle('is-dark', dark);
+  }
+  apply(isDark);
+  btn.addEventListener('click', function () {
+    isDark = !isDark;
+    localStorage.setItem('unstuck_dark', isDark ? '1' : '0');
+    apply(isDark);
+  });
+})();
+
 // Mobile nav toggle
 document.addEventListener('DOMContentLoaded', function () {
   var toggle = document.getElementById('menu-toggle');

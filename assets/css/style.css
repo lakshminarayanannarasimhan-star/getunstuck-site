@@ -5479,6 +5479,78 @@ body.search-open { overflow: hidden; }
 }
 .art-author-links a:hover { border-bottom-color: var(--primary); }
 
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  left: 1.5rem;
+  z-index: 90;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: opacity .2s, transform .2s, background .15s, color .15s;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--text) 8%, transparent);
+}
+.back-to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.back-to-top:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+/* Dark mode toggle */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  color: var(--header-nav);
+  cursor: pointer;
+  padding: 0;
+  transition: color .15s, background .15s;
+  flex-shrink: 0;
+}
+.theme-toggle:hover { color: var(--primary); background: var(--primary-soft); }
+.theme-toggle .icon-sun  { display: none; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle.is-dark .icon-sun  { display: block; }
+.theme-toggle.is-dark .icon-moon { display: none; }
+
+/* Mark as read indicator */
+.card.is-read { position: relative; }
+.card.is-read::after {
+  content: "✓ Read";
+  position: absolute;
+  top: .75rem;
+  right: .75rem;
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--primary-soft);
+  padding: .15rem .4rem;
+  border-radius: 99px;
+  letter-spacing: .03em;
+}
+
 /* Print styles */
 @media print {
   .header, .footer, .art-breadcrumb, .art-series-nav,

@@ -23,4 +23,16 @@
     window.addEventListener('scroll', updateProgress, { passive: true });
     updateProgress();
   }
+  /* ── back to top button ── */
+  var backBtn = document.getElementById('back-to-top');
+  if (backBtn) {
+    function updateBackTop() {
+      backBtn.classList.toggle('visible', window.scrollY > 400);
+    }
+    window.addEventListener('scroll', updateBackTop, { passive: true });
+    backBtn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    updateBackTop();
+  }
 })();

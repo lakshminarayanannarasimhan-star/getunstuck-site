@@ -127,7 +127,7 @@ description: "Writing across leadership systems, technology strategy, and securi
   <h2>Articles</h2>
   <div class="card-grid" style="margin-top:1.8rem;">
     {% for post in site.posts %}
-    <div class="card">
+    <div class="card" data-read-url="{{ post.url }}">
       <div class="num">{{ post.date | date: "%d %b %Y" }}{% if post.series %} · {{ post.series }}{% endif %}</div>
       <h3 style="margin-top:.3rem;font-size:1.1rem;">
         <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">{{ post.title }}</a>
