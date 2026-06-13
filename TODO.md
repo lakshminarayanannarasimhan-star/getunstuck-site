@@ -33,5 +33,5 @@
 - [ ] **Analytics** — GoatCounter (free, needs account at goatcounter.com)
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
 - [ ] **Audio: pre-generated MP3s** — ElevenLabs/OpenAI TTS per article for higher voice quality
-- [ ] **Email subscribe** — simple signup at bottom of articles (Buttondown or similar)
+- [ ] **Email subscribe** — Buttondown (free up to 100, $9/mo after; embed form in article footer and /subscribe/ page)
 - [ ] **Series landing pages** — auto-generated index for each series

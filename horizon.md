@@ -187,7 +187,7 @@ description: "How technology services firms escape the race to the bottom and co
     </div>
 
     <!-- #2 -->
-    <div class="hz-episode">
+    <div class="hz-episode hz-ep-next">
       <div class="hz-ep-left">
         <div class="hz-ep-num">#2</div>
         <div class="hz-ep-status-col">
@@ -210,7 +210,7 @@ description: "How technology services firms escape the race to the bottom and co
     </div>
 
     <!-- #3 -->
-    <div class="hz-episode">
+    <div class="hz-episode hz-ep-working">
       <div class="hz-ep-left">
         <div class="hz-ep-num">#3</div>
         <div class="hz-ep-status-col">
@@ -233,7 +233,7 @@ description: "How technology services firms escape the race to the bottom and co
     </div>
 
     <!-- #4 -->
-    <div class="hz-episode">
+    <div class="hz-episode hz-ep-working">
       <div class="hz-ep-left">
         <div class="hz-ep-num">#4</div>
         <div class="hz-ep-status-col">
@@ -256,7 +256,7 @@ description: "How technology services firms escape the race to the bottom and co
     </div>
 
     <!-- #5 -->
-    <div class="hz-episode">
+    <div class="hz-episode hz-ep-distant">
       <div class="hz-ep-left">
         <div class="hz-ep-num">#5</div>
         <div class="hz-ep-status-col">

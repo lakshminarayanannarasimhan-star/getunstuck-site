@@ -6481,6 +6481,36 @@ body.search-open { overflow: hidden; }
   border-style: dashed;
 }
 
+/* Next-up episode: border and left panel trend toward primary */
+.hz-ep-next {
+  border-color: color-mix(in srgb, var(--primary) 28%, var(--border));
+}
+.hz-ep-next .hz-ep-left {
+  background: color-mix(in srgb, var(--primary) 22%, var(--bg-deep));
+  border-right-color: color-mix(in srgb, var(--primary) 22%, var(--border));
+}
+.hz-ep-next .hz-ep-num {
+  color: var(--primary-strong);
+}
+
+/* In-progress episodes: episode number steps back to muted */
+.hz-ep-working .hz-ep-num {
+  color: var(--muted);
+  font-size: 1.2rem;
+}
+
+/* Far-out episode: whole row fades, left panel recedes, number faint */
+.hz-ep-distant {
+  opacity: .72;
+}
+.hz-ep-distant .hz-ep-left {
+  background: color-mix(in srgb, var(--bg) 65%, var(--bg-deep));
+}
+.hz-ep-distant .hz-ep-num {
+  color: var(--faint);
+  font-size: 1.1rem;
+}
+
 .hz-ep-left {
   flex-shrink: 0;
   width: 90px;
