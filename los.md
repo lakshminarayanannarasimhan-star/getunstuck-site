@@ -25,24 +25,33 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
     </div>
     <div class="hero-right reveal d3">
       <div class="hero-panel">
-        <div class="panel-label">What LOS is not</div>
-        <ul style="list-style:none;display:flex;flex-direction:column;gap:.7rem;margin-top:.5rem;">
-          <li style="font-size:.92rem;color:var(--muted);">✕ &nbsp;Not a course</li>
-          <li style="font-size:.92rem;color:var(--muted);">✕ &nbsp;Not a competency catalogue</li>
-          <li style="font-size:.92rem;color:var(--muted);">✕ &nbsp;Not a certification factory</li>
-        </ul>
+        <div class="panel-label">The promise</div>
+        <p style="font-size:.95rem;color:var(--text);font-weight:500;line-height:1.65;margin-top:.4rem;">LOS does not promise transformation. LOS promises something harder and provable: any capability it claims to develop can be demonstrated, sustained, transferred to others, and shown to survive your absence — or it is not counted as installed.</p>
         <div style="margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid var(--border);">
-          <div class="panel-label">What LOS is</div>
-          <p style="font-size:.92rem;color:var(--muted);margin-top:.5rem;line-height:1.65;">A lifelong leadership practice system. LOS exists to install capability through deliberate practice, evidence, reflection, transfer, and stewardship. The objective is not knowledge acquisition. The objective is capability installation.</p>
+          <div class="panel-label">What LOS is not</div>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:.6rem;margin-top:.5rem;">
+            <li style="font-size:.88rem;color:var(--muted);">✕ &nbsp;Not a course</li>
+            <li style="font-size:.88rem;color:var(--muted);">✕ &nbsp;Not a competency catalogue</li>
+            <li style="font-size:.88rem;color:var(--muted);">✕ &nbsp;Not a certification factory</li>
+          </ul>
         </div>
         <div style="margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid var(--border);">
-          <div class="panel-label">The promise</div>
-          <p style="font-size:.88rem;color:var(--faint);font-style:italic;margin-top:.4rem;">LOS does not promise transformation. LOS promises something harder and provable: that any capability it claims to develop can be demonstrated, sustained, transferred to others, and shown to survive your absence — or it is not counted as installed.</p>
+          <div class="panel-label">What LOS is</div>
+          <p style="font-size:.88rem;color:var(--muted);margin-top:.4rem;line-height:1.65;">A lifelong leadership practice system. The objective is not knowledge acquisition. The objective is capability installation.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- WHY LOS EXISTS -->
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">The problem with leadership development</div>
+    <p class="pull-quote">Most leadership development produces knowledge. <em>LOS exists to produce capability.</em></p>
+    <p style="color:rgba(255,255,255,.55);font-size:.9rem;max-width:64ch;margin-top:1.2rem;line-height:1.75;">Courses without installation. Certificates without evidence. Programmes that measure attendance, not capability. The leadership development industry has confused information with development and completion with mastery. LOS is built on one premise: a capability not demonstrated, not sustained, not transferred, and not proven to survive your absence has not been installed — and should not be counted.</p>
+  </div>
+</div>
 
 <!-- DESIGN PRINCIPLES -->
 <section class="section-wide">
@@ -73,9 +82,9 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
       <div class="num">06 — Lifelong Development</div>
       <p style="color:var(--muted);font-size:.9rem;margin-top:.5rem;">LOS supports development from emerging leader to institutional steward. There is no graduation.</p>
     </div>
-    <div class="card" style="border:none;border-radius:0;grid-column:span 1;">
+    <div class="card" style="border:none;border-radius:0;grid-column:1/-1;">
       <div class="num">07 — The System Practises What It Teaches</div>
-      <p style="color:var(--muted);font-size:.9rem;margin-top:.5rem;">LOS is itself subject to renewal, evidence, and transfer. A system that exempts itself from its own laws has already failed Principle 4.</p>
+      <p style="color:var(--muted);font-size:.9rem;margin-top:.5rem;max-width:72ch;">LOS is itself subject to renewal, evidence, and transfer. A system that exempts itself from its own laws has already failed Principle 4.</p>
     </div>
   </div>
 </section>
@@ -718,6 +727,59 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
       <div class="series-title" style="font-size:.95rem;">Diagnostic · Rubric · Reflection</div>
       <p class="series-desc">Archetype diagnostic, stewardship coverage checklist, transfer-level rubric per capability, maturity reflection.</p>
       <div class="series-meta">Continuous · Evidence-driven</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO THIS IS FOR -->
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">Who LOS is written for</div>
+    <p class="pull-quote">The leader who suspects that what they know <em>is not yet what they can reliably do.</em></p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:2rem;">
+      <div>
+        <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin-bottom:.5rem;">White – Yellow Belt</div>
+        <div style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:#fff;margin-bottom:.4rem;">The emerging leader</div>
+        <p style="font-size:.85rem;color:rgba(255,255,255,.5);line-height:1.6;margin:0;">Beginning to lead yourself and one other person. The personal discipline is not yet consistent. The habits that make you reliable to others are still being formed.</p>
+      </div>
+      <div>
+        <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin-bottom:.5rem;">Orange – Blue Belt</div>
+        <div style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:#fff;margin-bottom:.4rem;">The team leader</div>
+        <p style="font-size:.85rem;color:rgba(255,255,255,.5);line-height:1.6;margin:0;">Leading people and teams. The question is no longer whether you can perform — it is whether your capability holds under pressure, scales across people, and survives when you are not in the room.</p>
+      </div>
+      <div>
+        <div style="font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin-bottom:.5rem;">Brown – Master Belt</div>
+        <div style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;color:#fff;margin-bottom:.4rem;">The senior leader</div>
+        <p style="font-size:.85rem;color:rgba(255,255,255,.5);line-height:1.6;margin:0;">Leading functions, organisations, or building institutions. The question has changed: not what you can do, but what will remain after you are gone. The final test of every capability is whether it outlasts you.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOLLOW / CTA -->
+<section class="section-wide">
+  <div style="display:flex;gap:3rem;flex-wrap:wrap;align-items:flex-start;">
+    <div style="flex:1;min-width:260px;">
+      <div class="section-label">Engage with the work</div>
+      <h2>The system is in active development.</h2>
+      <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">LOS is built in the open — the Constitution is frozen, the Capability Handbook is in progress, and the curriculum is shaped by practitioner evidence. Follow the work as it develops.</p>
+      <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
+        <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
+        <a class="btn-secondary" href="/publications/">Read the publications</a>
+      </div>
+    </div>
+    <div style="flex:1;min-width:260px;display:flex;gap:1.2rem;align-items:flex-start;">
+      <div class="hz-author-photo">
+        <img src="/assets/img/lakshmi.jpg" alt="Lakshmi Narayanan N"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="hz-author-initials" style="display:none;">LN</div>
+      </div>
+      <div>
+        <div class="hz-author-name">Lakshmi Narayanan Narasimhan</div>
+        <div class="hz-author-title">Technology Executive · Leadership Practitioner · Author</div>
+        <p style="font-size:.85rem;color:var(--muted);line-height:1.65;margin-top:.5rem;">LOS is drawn from 25+ years of hands-on leadership practice — not desk analysis. The capabilities described are ones I have had to develop, fail at, and rebuild.</p>
+        <a class="card-link" href="/about/" style="margin-top:.5rem;display:inline-block;">Full story</a>
+      </div>
     </div>
   </div>
 </section>
