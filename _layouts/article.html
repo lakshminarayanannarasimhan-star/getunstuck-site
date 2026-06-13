@@ -250,6 +250,47 @@ layout: default
   {% include article-series-nav.html %}
   {% endif %}
 
+  <!-- MORE FROM THIS SERIES -->
+  {% if page.series_code %}
+  {% assign series_all = site.posts | where: "series_code", page.series_code | sort: "series_position" %}
+  {% assign series_others = "" | split: "" %}
+  {% for p in series_all %}
+    {% unless p.url == page.url %}
+      {% assign series_others = series_others | push: p %}
+    {% endunless %}
+  {% endfor %}
+  {% if series_others.size > 0 %}
+  {% assign pos_prev = page.series_position | minus: 1 %}
+  {% assign pos_next = page.series_position | plus: 1 %}
+  <section class="art-section art-related">
+    <div class="art-section-label">More from this series</div>
+    <h2 class="art-section-heading">{{ page.series }}</h2>
+    <div class="art-related-grid">
+      {% assign shown = 0 %}
+      {% for p in series_others %}
+        {% if shown < 3 %}
+        <a class="art-related-card {% if p.status == 'published' %}art-related-live{% endif %}" href="{{ p.url | relative_url }}">
+          <div class="art-related-card-top">
+            <span class="art-related-code">{{ p.article_code }}</span>
+            {% if p.series_position == pos_prev %}<span class="art-related-nav-hint">← Previous</span>
+            {% elsif p.series_position == pos_next %}<span class="art-related-nav-hint">Next →</span>
+            {% endif %}
+          </div>
+          <div class="art-related-title">{{ p.title }}</div>
+          {% if p.tldr %}<p class="art-related-excerpt">{{ p.tldr | truncate: 110 }}</p>{% elsif p.excerpt %}<p class="art-related-excerpt">{{ p.excerpt | truncate: 110 }}</p>{% endif %}
+          <div class="art-related-card-foot">
+            <span class="art-related-read">{{ p.reading_time }} min read</span>
+            {% if p.status == "published" %}<span class="art-related-status art-related-status-live">Published</span>{% elsif p.status == "draft" %}<span class="art-related-status art-related-status-draft">Draft</span>{% endif %}
+          </div>
+        </a>
+        {% assign shown = shown | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+  {% endif %}
+
   <!-- ABOUT AUTHOR -->
   <section class="art-section art-author">
     <div class="art-section-label">About the author</div>

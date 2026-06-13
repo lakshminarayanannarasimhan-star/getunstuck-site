@@ -14,13 +14,13 @@
 
 ### Reading Experience
 - [x] Reading progress bar — fixed colour blending issue
-- [ ] **Table of contents** — auto-generated from headings, sticky sidebar for long articles
+- [x] **Table of contents** — auto-generated from headings, sticky sidebar for long articles
 - [ ] **Pull quotes / callout blocks** — styled blockquote treatment to make key ideas stand out
 
 ### Discoverability
 - [ ] **Open Graph / Twitter card meta tags** — rich preview cards (title, description, image) when sharing on LinkedIn, WhatsApp, Twitter ← *next up*
 - [x] Client-side search — Lunr.js modal (Ctrl+K), covers articles + drills, keyboard navigable
-- [ ] **Related articles** — show 2–3 articles from the same series at the bottom of each article
+- [x] **Related articles** — implemented; section hidden until series has 2+ articles. Test when H2 is published.
 
 ### Technical
 - [ ] **Analytics** — Plausible or Fathom (privacy-friendly, no cookie banner needed)
