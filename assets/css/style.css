@@ -4023,6 +4023,7 @@ body.search-open { overflow: hidden; }
   align-items: flex-start;
   gap: .9rem;
   padding: .6rem .9rem;
+  border-radius: var(--radius-sm);
   background: rgba(255,255,255,.05);
   border-left: 3px solid var(--dd, rgba(255,255,255,.2));
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
@@ -4219,6 +4220,7 @@ body.search-open { overflow: hidden; }
   align-items: center;
   gap: 1rem;
   padding: .85rem 1rem;
+  border-radius: var(--radius-sm);
   background: rgba(255,255,255,.05);
   border-radius: var(--radius-sm);
   transition: background .15s ease;
@@ -6053,6 +6055,7 @@ body.search-open { overflow: hidden; }
   align-items: center;
   gap: .9rem;
   padding: .85rem 1.4rem;
+  border-radius: var(--radius-sm);
   background: var(--surface);
   transition: background .15s ease;
 }
