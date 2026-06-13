@@ -41,6 +41,10 @@
 - [x] Series-B test post set to draft
 - [x] Horizon episode cards — visual depth hierarchy (live → next → working → distant → reserve)
 
+## Done (about page)
+- [x] Replace horizontal career timeline with bento grid (cb-card, cb-origin, cb-now)
+- [x] Add qualitative insight lines to each career milestone — the crossing, not just the title
+
 ## Pages excluded from build (enable when content is ready)
 - [ ] **workbook.md** → `/workbook/` — PDF of all drills; exclude until PDF exists
 - [ ] **case_studies.md** → `/case_studies/` — real engagement write-ups; exclude until first case is written
