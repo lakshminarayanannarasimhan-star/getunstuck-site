@@ -2050,6 +2050,13 @@ body.search-open { overflow: hidden; }
 }
 .nav-linkedin:hover { background: var(--primary-strong) !important; color: var(--surface) !important; }
 
+[data-theme="mono"] .nav-linkedin {
+  background: #0a0a0a !important;
+  color: #ffffff !important;
+  border: none;
+}
+[data-theme="mono"] .nav-linkedin:hover { background: #333333 !important; }
+
 
 /* =========================================
    16. DASHBOARD LAYOUT
