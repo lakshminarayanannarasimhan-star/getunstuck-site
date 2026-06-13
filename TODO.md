@@ -14,9 +14,14 @@
 
 ---
 
-## Backlog
+## Done (quick wins)
+- [x] Back to top button — fixed bottom-left, appears after 400px scroll
+- [x] Dark mode toggle — moon/sun icon in header, persists via localStorage
+- [x] Mark as read — tracks 80% scroll, shows ✓ Read badge on publications page
 
-### Technical
-- [ ] **Analytics** — Plausible or Fathom (privacy-friendly, no cookie banner needed)
+## Backlog
+- [ ] **Analytics** — GoatCounter (free, needs account at goatcounter.com)
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
-- [ ] **Audio: pre-generated MP3s** — option to upload ElevenLabs/OpenAI TTS audio per article for higher voice quality
+- [ ] **Audio: pre-generated MP3s** — ElevenLabs/OpenAI TTS per article for higher voice quality
+- [ ] **Email subscribe** — simple signup at bottom of articles (Buttondown or similar)
+- [ ] **Series landing pages** — auto-generated index for each series
