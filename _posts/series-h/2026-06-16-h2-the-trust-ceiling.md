@@ -2,7 +2,7 @@
 layout: article
 title: "The Trust Ceiling"
 subtitle: "On why execution earns trust, but growth leverage earns influence."
-date: 2026-06-19
+date: 2026-06-16
 series: "Horizon"
 series_code: H
 article_code: H2
