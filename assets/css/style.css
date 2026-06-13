@@ -1091,9 +1091,6 @@ body:has(.reading-progress) .header {
   color: var(--header-tagline);
   line-height: 1;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 380px;
 }
 
 /* ── NAV ── */
