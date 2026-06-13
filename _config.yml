@@ -22,7 +22,7 @@ author: Lakshmi Narayanan
 #
 # unstuck_theme: dojo            # Warm paper, ochre gradient       · DEFAULT
 # unstuck_theme: midnight      # Deep dark, indigo glow
-# unstuck_theme: forest        # Deep green, earthy, grounded
+unstuck_theme: forest        # Deep green, earthy, grounded
 # unstuck_theme: sunset        # Warm amber to rose, editorial
 # unstuck_theme: slate         # Cool white, steel blue, executive
 # unstuck_theme: mono          # Stripped back, pure black/white
@@ -30,7 +30,7 @@ author: Lakshmi Narayanan
 # ── DARK THEMES ────────────────────────────────────────────────────
 #
 # unstuck_theme: obsidian      # Gunmetal black, warm amber accent
-unstuck_theme: navy          # Deep admiralty navy, antique gold
+# unstuck_theme: navy          # Deep admiralty navy, antique gold
 # unstuck_theme: plum          # Deep aubergine, electric fuchsia
 # unstuck_theme: charcoal      # Warm graphite, emerald accent
 # unstuck_theme: midnight      # Deep ink, electric indigo (see above)
