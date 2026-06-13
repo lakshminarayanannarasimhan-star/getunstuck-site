@@ -1085,8 +1085,8 @@ body:has(.reading-progress) .header {
 
 .brand .tagline-small {
   font-family: 'DM Mono', monospace;
-  font-size: 0.56rem;
-  letter-spacing: 0.16em;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--header-tagline);
   line-height: 1;
