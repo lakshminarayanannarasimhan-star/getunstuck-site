@@ -2866,235 +2866,151 @@ body.search-open { overflow: hidden; }
 
 
 /* =========================================
-   23. CAREER TIMELINE v3 — REDESIGNED
+   23. CAREER BENTO GRID
    ========================================= */
 
-.tl3-section {
+.career-section {
   padding: 2.5rem 0 2rem;
-  position: relative;
-  overflow: hidden;
 }
 
-/* Subtle radial glow behind the timeline */
-.tl3-section::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(ellipse 90% 60% at 50% 55%,
-    var(--primary-soft) 0%, transparent 72%);
-  pointer-events: none;
-  opacity: 0.55;
+/* Bento grid */
+.career-bento {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 2rem;
 }
 
-.tl3-wrap {
-  overflow-x: auto;
-  padding: 0.5rem 0 1rem;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border) transparent;
-  position: relative;
-}
-
-.tl3 {
-  display: flex;
-  min-width: 900px;
-  position: relative;
-  padding: 0 2.5%;
-  align-items: center;
-}
-
-/* The horizontal line — rendered as a real element */
-.tl3-line {
-  position: absolute;
-  left: 2.5%;
-  right: 2.5%;
-  top: 50%;
-  height: 3px;
-  background: linear-gradient(90deg,
-    transparent 0%,
-    var(--primary) 6%,
-    var(--primary) 94%,
-    transparent 100%);
-  transform: translateY(-50%);
-  border-radius: 3px;
-  pointer-events: none;
-}
-
-/* Soft glow beneath line */
-.tl3-line::after {
-  content: '';
-  position: absolute;
-  inset: -4px 0;
-  background: inherit;
-  filter: blur(8px);
-  opacity: 0.3;
-  border-radius: 8px;
-}
-
-/* Each node column */
-.tl3-node {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  z-index: 2;
-}
-
-/* Above zone: card sits at bottom of this zone */
-.tl3-above {
-  height: 165px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  padding-bottom: 20px;
-}
-
-/* The dot zone */
-.tl3-mid {
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Below zone: card sits at top of this zone */
-.tl3-below {
-  height: 165px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding-top: 20px;
-}
-
-/* Dot on the line */
-.tl3-dot {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--primary);
-  border: 3px solid var(--bg);
-  box-shadow:
-    0 0 0 2px var(--primary),
-    0 0 12px var(--primary);
-  z-index: 4;
-  transition: transform .25s ease, box-shadow .25s ease;
-  flex-shrink: 0;
-}
-
-.tl3-node:hover .tl3-dot {
-  transform: scale(1.45);
-  box-shadow:
-    0 0 0 3px var(--primary),
-    0 0 22px var(--primary),
-    0 0 40px var(--primary);
-}
-
-/* "Now" dot — larger, different colour */
-.tl3-node.is-now .tl3-dot {
-  width: 22px;
-  height: 22px;
-  background: var(--text);
-  border-color: var(--bg);
-  box-shadow:
-    0 0 0 2px var(--primary),
-    0 0 14px var(--primary);
-}
-
-/* The card */
-.tl3-card {
-  width: 148px;
+.cb-card {
   background: linear-gradient(145deg, var(--surface) 0%, var(--primary-soft) 100%);
   border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 0.95rem 1rem 0.85rem;
-  text-align: center;
+  border-radius: 16px;
+  padding: 1.5rem 1.4rem 1.3rem;
   position: relative;
   overflow: hidden;
-  box-shadow:
-    0 4px 16px rgba(0,0,0,0.07),
-    0 1px 3px rgba(0,0,0,0.06);
-  transition: transform .25s ease, box-shadow .25s ease;
+  transition: transform .22s ease, box-shadow .22s ease;
 }
-
-/* Top accent stripe on card */
-.tl3-card::before {
+.cb-card::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 3px;
-  background: linear-gradient(90deg, var(--primary), var(--primary-strong, var(--primary)));
-  border-radius: 14px 14px 0 0;
+  background: linear-gradient(90deg, var(--primary), var(--primary-strong));
+  border-radius: 16px 16px 0 0;
+}
+.cb-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.18), 0 0 0 1px var(--primary);
 }
 
-/* Shine on card */
-.tl3-card::after {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 50%;
-  background: linear-gradient(180deg, rgba(255,255,255,0.07) 0%, transparent 100%);
-  border-radius: 14px 14px 0 0;
-  pointer-events: none;
-}
+/* 2002 origin card — spans 2 rows */
+.cb-origin { grid-row: span 2; }
 
-.tl3-node:hover .tl3-card {
-  transform: translateY(-5px);
-  box-shadow:
-    0 14px 40px rgba(0,0,0,0.13),
-    0 0 0 1.5px var(--primary);
-}
+/* 2026 now card — full width */
+.cb-now { grid-column: 1 / -1; }
 
-/* Card — year */
-.tl3-year {
+/* Year */
+.cb-year {
   font-family: 'Playfair Display', serif;
-  font-size: 1.55rem;
-  font-weight: 600;
+  font-size: 2.8rem;
+  font-weight: 700;
   color: var(--primary);
   line-height: 1;
-  margin-bottom: 0.35rem;
+  margin-bottom: .5rem;
 }
+.cb-origin .cb-year { font-size: 3.6rem; }
+.cb-now .cb-year { font-size: 2rem; display: inline; margin-right: .8rem; }
 
-/* Card — title */
-.tl3-title {
+/* Title */
+.cb-title {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.75rem;
+  font-size: .88rem;
   font-weight: 600;
   color: var(--text);
-  line-height: 1.35;
-  margin-bottom: 0.3rem;
-}
-
-/* Card — subtitle */
-.tl3-sub {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.58rem;
-  letter-spacing: 0.05em;
-  color: var(--faint);
-  line-height: 1.45;
-  margin-bottom: 0.6rem;
-}
-
-/* Card — achievement badge */
-.tl3-badge {
-  display: inline-block;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.56rem;
-  letter-spacing: 0.07em;
+  line-height: 1.3;
+  margin-bottom: .3rem;
   text-transform: uppercase;
-  padding: 0.22rem 0.55rem;
-  background: var(--primary);
-  color: var(--surface);
-  border-radius: 99px;
-  line-height: 1.4;
-  white-space: nowrap;
+  letter-spacing: .03em;
+}
+.cb-origin .cb-title { font-size: 1rem; }
+.cb-now .cb-title { font-size: .95rem; display: inline; }
+
+/* Subtitle */
+.cb-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  color: var(--muted);
+  letter-spacing: .04em;
+  line-height: 1.55;
+  margin-top: .35rem;
 }
 
-.tl3-badge.is-now {
-  background: var(--text);
+/* Badge */
+.cb-badge {
+  display: inline-block;
+  margin-top: .9rem;
+  font-family: 'DM Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: .25rem .7rem;
+  background: var(--primary);
   color: var(--bg);
+  border-radius: 99px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.cb-badge.now { background: var(--text); color: var(--bg); }
+
+/* Origin card extras */
+.cb-origin-stat {
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--border);
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  color: var(--faint);
+  letter-spacing: .06em;
+  line-height: 1.7;
+}
+
+/* Insight line */
+.cb-insight {
+  margin-top: 1rem;
+  padding-top: .9rem;
+  border-top: 1px solid var(--border);
+  font-size: .78rem;
+  color: var(--muted);
+  line-height: 1.6;
+  font-style: italic;
+}
+.cb-origin .cb-insight {
+  font-size: .82rem;
+}
+
+/* Now card — horizontal layout */
+.cb-now-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.cb-now-right {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  color: var(--muted);
+  letter-spacing: .04em;
+  line-height: 1.6;
+  text-align: right;
+}
+
+@media (max-width: 680px) {
+  .career-bento { grid-template-columns: 1fr 1fr; }
+  .cb-origin { grid-row: span 1; }
+  .cb-now { grid-column: 1 / -1; }
+  .cb-now-inner { flex-direction: column; align-items: flex-start; }
+  .cb-now-right { text-align: left; }
 }
 
 

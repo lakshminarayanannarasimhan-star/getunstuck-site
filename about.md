@@ -133,94 +133,81 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
   </div>
 </section>
 
-<!-- CAREER TIMELINE -->
-<section class="section-wide tl3-section">
+<!-- CAREER BENTO -->
+<section class="section-wide career-section">
   <div class="section-label">The arc</div>
   <h2>24 years. One organisation. Every layer.</h2>
 
-  <div class="tl3-wrap">
-    <div class="tl3">
-      <div class="tl3-line"></div>
+  <div class="career-bento">
 
-      <div class="tl3-node">
-        <div class="tl3-above"></div>
-        <div class="tl3-mid"><div class="tl3-dot"></div></div>
-        <div class="tl3-below">
-          <div class="tl3-card">
-            <div class="tl3-year">2002</div>
-            <div class="tl3-title">Joined HCLTech</div>
-            <div class="tl3-sub">Lead Engineer, Networking</div>
-            <span class="tl3-badge">Day One</span>
-          </div>
-        </div>
+    <!-- 2002 — origin, tall card -->
+    <div class="cb-card cb-origin">
+      <div class="cb-year">2002</div>
+      <div class="cb-title">Joined HCLTech</div>
+      <div class="cb-sub">Lead Engineer, Networking</div>
+      <div class="cb-badge">Day One</div>
+      <div class="cb-origin-stat">
+        24 years<br>
+        1 organisation<br>
+        Every layer
       </div>
-
-      <div class="tl3-node">
-        <div class="tl3-above">
-          <div class="tl3-card">
-            <div class="tl3-year">2006</div>
-            <div class="tl3-title">Technical Lead</div>
-            <div class="tl3-sub">Network Security · Seed: Video Tech</div>
-            <span class="tl3-badge">Int'l Speaker</span>
-          </div>
-        </div>
-        <div class="tl3-mid"><div class="tl3-dot"></div></div>
-        <div class="tl3-below"></div>
-      </div>
-
-      <div class="tl3-node">
-        <div class="tl3-above"></div>
-        <div class="tl3-mid"><div class="tl3-dot"></div></div>
-        <div class="tl3-below">
-          <div class="tl3-card">
-            <div class="tl3-year">2010</div>
-            <div class="tl3-title">Video &amp; IP Streaming</div>
-            <div class="tl3-sub">Managed Services · Risk-Reward Model</div>
-            <span class="tl3-badge">3→300+ Engineers</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="tl3-node">
-        <div class="tl3-above">
-          <div class="tl3-card">
-            <div class="tl3-year">2015</div>
-            <div class="tl3-title">Solution Architect → Director</div>
-            <div class="tl3-sub">IP Streaming · CDN/Edge</div>
-            <span class="tl3-badge">$10M+ Contracts</span>
-          </div>
-        </div>
-        <div class="tl3-mid"><div class="tl3-dot"></div></div>
-        <div class="tl3-below"></div>
-      </div>
-
-      <div class="tl3-node">
-        <div class="tl3-above"></div>
-        <div class="tl3-mid"><div class="tl3-dot"></div></div>
-        <div class="tl3-below">
-          <div class="tl3-card">
-            <div class="tl3-year">2020</div>
-            <div class="tl3-title">Delivery Head</div>
-            <div class="tl3-sub">Video · NetSec · Networking</div>
-            <span class="tl3-badge">4→600+ · $150M+</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="tl3-node is-now">
-        <div class="tl3-above">
-          <div class="tl3-card">
-            <div class="tl3-year">2026</div>
-            <div class="tl3-title">Strategic OEM Engagements</div>
-            <div class="tl3-sub">Building strategic engagements for top OEMs</div>
-            <span class="tl3-badge is-now">Now</span>
-          </div>
-        </div>
-        <div class="tl3-mid"><div class="tl3-dot"></div></div>
-        <div class="tl3-below"></div>
-      </div>
-
+      <div class="cb-insight">Networks taught one thing above all: understand the layer beneath the problem. That discipline never left — and it applies equally to technology and to people.</div>
     </div>
+
+    <!-- 2006 -->
+    <div class="cb-card">
+      <div class="cb-year">2006</div>
+      <div class="cb-title">Technical Lead</div>
+      <div class="cb-sub">Network Security<br>Seed: Video Tech</div>
+      <div class="cb-badge">Int'l Speaker</div>
+      <div class="cb-insight">Spotted video delivery over IP as a strategic domain before it had a name internally. Conviction over consensus — the seed was planted four years before the practice existed.</div>
+    </div>
+
+    <!-- 2010 -->
+    <div class="cb-card">
+      <div class="cb-year">2010</div>
+      <div class="cb-title">Video &amp; IP Streaming</div>
+      <div class="cb-sub">Managed Services<br>Risk-Reward Model</div>
+      <div class="cb-badge">3→300+ Engineers</div>
+      <div class="cb-insight">Not inherited — founded. The risk-reward model meant skin in the game: paid for outcomes, not effort. That changed everything about how the work was carried.</div>
+    </div>
+
+    <!-- 2015 -->
+    <div class="cb-card">
+      <div class="cb-year">2015</div>
+      <div class="cb-title">Solution Architect → Director</div>
+      <div class="cb-sub">IP Streaming · CDN/Edge</div>
+      <div class="cb-badge">$10M+ Contracts</div>
+      <div class="cb-insight">Six full product ownership engagements — not delivery contracts, but lifecycle ownership. The distinction between building what a customer specifies and owning what you build together is not subtle.</div>
+    </div>
+
+    <!-- 2020 -->
+    <div class="cb-card">
+      <div class="cb-year">2020</div>
+      <div class="cb-title">Delivery Head</div>
+      <div class="cb-sub">Video · NetSec · Networking</div>
+      <div class="cb-badge">4→600+ · $150M+</div>
+      <div class="cb-insight">120 to 600 engineers across geographies. At this scale, engineering is 20% of the job. The rest is operating model, culture, and leadership pipeline — systems thinking applied to people.</div>
+    </div>
+
+    <!-- 2026 — now, full-width -->
+    <div class="cb-card cb-now">
+      <div class="cb-now-inner">
+        <div>
+          <span class="cb-year">2026</span>
+          <span class="cb-title">Strategic OEM Engagements</span>
+          <div class="cb-sub" style="margin-top:.5rem;">OEM partnerships · Platform strategy · Author</div>
+          <div class="cb-badge now" style="margin-top:.8rem;">Now</div>
+          <div class="cb-insight" style="border-top:none;padding-top:.6rem;margin-top:.6rem;">Twenty-four years inside one organisation teaches things no conference talk can capture. Now the work is to make that compound — through writing, through partnerships, through the next generation.</div>
+        </div>
+        <div class="cb-now-right">
+          600+ engineers led<br>
+          $150M+ cumulative revenue<br>
+          43% gross margin
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
