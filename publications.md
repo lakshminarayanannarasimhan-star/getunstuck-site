@@ -23,9 +23,9 @@ description: "Writing across leadership systems, technology strategy, and securi
           <span class="series-dot"></span>In progress
         </span>
       </div>
-      <h3 class="series-title">The Execution Trap</h3>
-      <p class="series-desc">How technology services firms escape the race to the bottom and compete on terrain that cannot be commoditised. Six episodes on the arc from execution to indispensability — at the firm level.</p>
-      <div class="series-meta">6 episodes · Deeper Insights to gain leverage</div>
+      <h3 class="series-title">From Compression to Premium</h3>
+      <p class="series-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability — and what it takes to cross.</p>
+      <div class="series-meta">6 episodes · Technology services strategy</div>
     </a>
 
     <a class="series-card" href="#series-d">
@@ -37,7 +37,7 @@ description: "Writing across leadership systems, technology strategy, and securi
       </div>
       <h3 class="series-title">The Trust Equation</h3>
       <p class="series-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction.</p>
-      <div class="series-meta">Security leadership · Boards · Compliance · Outlining underway</div>
+      <div class="series-meta">Security leadership · Boards · Compliance</div>
     </a>
 
     <a class="series-card" href="#series-a">
@@ -67,57 +67,70 @@ description: "Writing across leadership systems, technology strategy, and securi
   </div>
 </section>
 
-<!-- SERIES D — IDEATION -->
-<section class="section-wide" id="series-d">
+<!-- HORIZON — PUBLISHED EPISODES -->
+{% assign hz_posts = site.posts | where: "series_code", "H" | sort: "series_position" %}
+{% if hz_posts.size > 0 %}
+<section class="section-wide" id="horizon">
   <div class="series-section-header">
     <div>
-      <div class="section-label">The Trust Equation</div>
-      <h2>Security is a trust problem.</h2>
-      <p class="prose" style="margin-top:.8rem;">Most security programmes are built as if the customer does not exist. They protect systems. What they actually defend is the willingness of a person who trusted you where they could not see. This series names the structural problem — and gives practitioners the language to make it visible to the people who govern it.</p>
+      <div class="section-label">Horizon</div>
+      <h2>From Compression to Premium.</h2>
+      <p class="prose" style="margin-top:.8rem;">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes — published as they are ready.</p>
     </div>
-    <span class="series-status ideation" style="align-self:flex-start;">
-      <span class="series-dot"></span>Ideation
-    </span>
+    <a class="btn-secondary" href="/horizon/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
   </div>
-  <div class="coming" style="margin-top:1.8rem;">
-    <div class="label">Outlining underway</div>
-    <p>The lexicon and structural argument are being worked through. Articles will appear here as they are written and frozen.</p>
+  <div class="card-grid" style="margin-top:1.8rem;">
+    {% for post in hz_posts %}
+    <div class="card" data-read-url="{{ post.url }}">
+      <div class="num">Episode {{ post.series_position }} &nbsp;·&nbsp; {{ post.date | date: "%d %b %Y" }}</div>
+      <h3 style="margin-top:.3rem;font-size:1.1rem;">
+        <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">{{ post.title }}</a>
+      </h3>
+      <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{% if post.tldr %}{{ post.tldr | truncate: 140 }}{% else %}{{ post.excerpt | strip_html | truncate: 140 }}{% endif %}</p>
+      <a class="card-link" href="{{ post.url }}">Read</a>
+    </div>
+    {% endfor %}
   </div>
 </section>
+{% endif %}
 
-<!-- SERIES A -->
-<section class="section-wide" id="series-a">
-  <div class="series-section-header">
-    <div>
-      <div class="section-label">Leadership Operating System</div>
-      <h2>The system underneath execution.</h2>
-      <p class="prose" style="margin-top:.8rem;">Four articles on how leaders build systems — not just habits.</p>
-    </div>
-    <span class="series-status coming" style="align-self:flex-start;">
-      <span class="series-dot"></span>In pipeline
-    </span>
-  </div>
-  <div class="coming" style="margin-top:1.8rem;">
-    <div class="label">In pipeline</div>
-    <p>Articles will appear here as they are written and published.</p>
-  </div>
-</section>
+<!-- IN DEVELOPMENT -->
+<section class="section-wide">
+  <div class="section-label">In development</div>
+  <h2>Three series in the pipeline.</h2>
+  <p class="prose" style="margin-top:.8rem;">Each series is outlined and structurally frozen before the first article is written. Articles appear here as they are completed.</p>
+  <div class="series-grid" style="margin-top:2rem;">
 
-<!-- SERIES C -->
-<section class="section-wide" id="series-c">
-  <div class="series-section-header">
-    <div>
-      <div class="section-label">The Moving Target</div>
-      <h2>Security does not sit still.</h2>
-      <p class="prose" style="margin-top:.8rem;">Seven articles on network security as technology strategy. Every technology shift — cloud, API, edge, AI — does not merely add risk. It moves the boundary of who holds risk and where it concentrates. The series installs a new way of seeing, not a longer checklist.</p>
+    <div class="series-card" id="series-d">
+      <div class="series-card-top">
+        <div class="series-id">The Trust Equation</div>
+        <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
+      </div>
+      <h3 class="series-title">Security is a trust problem.</h3>
+      <p class="series-desc">Most security programmes are built as if the customer does not exist. This series names the structural problem and gives practitioners the language to make it visible to the people who govern it.</p>
+      <div class="series-meta">Security leadership · Boards · Compliance</div>
     </div>
-    <span class="series-status coming" style="align-self:flex-start;">
-      <span class="series-dot"></span>In pipeline
-    </span>
-  </div>
-  <div class="coming" style="margin-top:1.8rem;">
-    <div class="label">In pipeline</div>
-    <p>Seven articles, outlined and frozen. Content begins after earlier series are underway.</p>
+
+    <div class="series-card" id="series-a">
+      <div class="series-card-top">
+        <div class="series-id">Leadership OS</div>
+        <span class="series-status coming"><span class="series-dot"></span>In pipeline</span>
+      </div>
+      <h3 class="series-title">The system underneath execution.</h3>
+      <p class="series-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution — what holds when circumstances change.</p>
+      <div class="series-meta">4 articles · Leadership systems</div>
+    </div>
+
+    <div class="series-card" id="series-c">
+      <div class="series-card-top">
+        <div class="series-id">The Moving Target</div>
+        <span class="series-status coming"><span class="series-dot"></span>In pipeline</span>
+      </div>
+      <h3 class="series-title">Security does not sit still.</h3>
+      <p class="series-desc">Every technology shift — cloud, API, edge, AI — moves the boundary of who holds risk. Seven articles on network security as technology strategy, not compliance.</p>
+      <div class="series-meta">7 articles · Technology strategy</div>
+    </div>
+
   </div>
 </section>
 
@@ -132,7 +145,7 @@ description: "Writing across leadership systems, technology strategy, and securi
       <h3 style="margin-top:.3rem;font-size:1.1rem;">
         <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">{{ post.title }}</a>
       </h3>
-      <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{% if post.tldr %}{{ post.tldr | truncate: 140 }}{% else %}{{ post.excerpt | strip_html | truncate: 140 }}{% endif %}</p>
       <a class="card-link" href="{{ post.url }}">Read</a>
     </div>
     {% endfor %}
@@ -148,22 +161,10 @@ description: "Writing across leadership systems, technology strategy, and securi
 
 <!-- LINKEDIN -->
 <section class="section-wide">
-  <div class="layout-sidebar">
-    <div>
-      <div class="section-label">LinkedIn</div>
-      <h2>Thinking in public.</h2>
-      <div class="prose" style="margin-top:1.2rem;">
-        <p>Short-form thinking on leadership, systems, and the practice of building organisations that hold. Published on a regular cadence — written to be useful, not to perform.</p>
-      </div>
-      <div class="hero-actions" style="margin-top:1.5rem;">
-        <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
-      </div>
-    </div>
-    <aside>
-      <div class="hero-panel">
-        <div class="panel-label">Coming</div>
-        <p style="font-size:.93rem;color:var(--muted);">A full archive of LinkedIn writing, organised by theme, will live here. Until then, the best place to follow the thinking is LinkedIn directly.</p>
-      </div>
-    </aside>
+  <div class="section-label">LinkedIn</div>
+  <h2>Thinking in public.</h2>
+  <p class="prose" style="margin-top:.8rem;">Short-form thinking on leadership, systems, and the practice of building organisations that hold. Published on a regular cadence — written to be useful, not to perform.</p>
+  <div class="hero-actions" style="margin-top:1.5rem;">
+    <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
   </div>
 </section>
