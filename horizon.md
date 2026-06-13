@@ -214,11 +214,11 @@ description: "How technology services firms escape the race to the bottom and co
     </div>
 
     <!-- #3 -->
-    <div class="hz-episode hz-ep-working">
+    <div class="hz-episode hz-ep-next">
       <div class="hz-ep-left">
         <div class="hz-ep-num">#3</div>
         <div class="hz-ep-status-col">
-          <span class="series-status in-progress"><span class="series-dot"></span>Rework</span>
+          <span class="series-status live"><span class="series-dot"></span>Frozen</span>
         </div>
       </div>
       <div class="hz-ep-body">
