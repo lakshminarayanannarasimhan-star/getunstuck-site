@@ -40,6 +40,13 @@ bibliography:
   - id: ref1
     note: "The six-level progression (Execution → Trust → Influence → Indispensability → Ownership → Growth) and the Compression Zone / Crossing / Expansion Zone model are original frameworks drawn from practitioner observation across technology-services engagements over 25 years. They are not adaptations of existing frameworks."
 
+# ── DRILL PACK ───────────────────────────────────────
+drill_pack:
+  title: "Drill Pack #1 — The Execution Trap"
+  url: /drills/execution-trap-pack/
+  count: 10
+  duration: "60–90 min"
+
 # ── WHAT'S NEXT ──────────────────────────────────────
 whats_next:
   title: "The Trust Ceiling"
@@ -201,10 +208,3 @@ Who in your organisation owns making it?
 ---
 
 *The firms that will lead technology services in the next decade will execute well, but they will not compete on execution alone. The transition was already underway. GenAI is simply making the timeline visible.*
-
-<div class="drillpack-cta">
-  <div class="drillpack-cta-label">Go deeper</div>
-  <div class="drillpack-cta-title">Drill Pack #1 — The Execution Trap</div>
-  <div class="drillpack-cta-meta">Ten exercises · 60–90 min</div>
-  <a class="btn-primary" href="/drills/execution-trap-pack/">Take the drills →</a>
-</div>

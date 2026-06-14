@@ -131,6 +131,8 @@ defaults:
 # MARKDOWN
 # -------------------------
 
+permalink: pretty
+
 markdown: kramdown
 highlighter: rouge
 

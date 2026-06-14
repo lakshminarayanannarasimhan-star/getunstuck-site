@@ -1922,35 +1922,50 @@ body.search-open { overflow: hidden; }
   border-bottom: 1px solid var(--border);
   vertical-align: top;
 }
-/* ── Drill Pack CTA (in-article card) ── */
-.drillpack-cta {
-  margin: 3rem auto;
-  max-width: 440px;
+/* ── Drill Pack CTA (TOC sidebar) ── */
+.art-toc-drillpack {
+  margin-top: 1.5rem;
+  padding: 0.9rem 1rem;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.8rem 2rem;
-  text-align: center;
+  border-radius: var(--radius-sm);
   background: var(--faint);
 }
-.drillpack-cta-label {
+.art-toc-drillpack-label {
   font-family: 'DM Mono', monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0.12em;
-  color: var(--muted);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-bottom: 0.6rem;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
 }
-.drillpack-cta-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.05rem;
+.art-toc-drillpack-title {
+  font-size: 0.82rem;
   font-weight: 600;
   color: var(--primary);
-  margin-bottom: 0.4rem;
+  line-height: 1.35;
+  margin-bottom: 0.3rem;
 }
-.drillpack-cta-meta {
-  font-size: 0.8rem;
+.art-toc-drillpack-meta {
+  font-size: 0.7rem;
   color: var(--muted);
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+.art-toc-drillpack-link {
+  display: block;
+  text-align: center;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.67rem;
+  letter-spacing: 0.06em;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.6rem;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+.art-toc-drillpack-link:hover {
+  background: var(--primary);
+  color: var(--surface);
 }
 
 .drillpack-article blockquote {

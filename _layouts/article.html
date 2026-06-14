@@ -149,6 +149,14 @@ layout: default
     <aside class="art-toc-sidebar" id="art-toc-sidebar" aria-label="Table of contents" hidden>
       <div class="art-toc-label">Contents</div>
       <nav class="art-toc" id="art-toc"></nav>
+      {% if page.drill_pack %}
+      <div class="art-toc-drillpack">
+        <div class="art-toc-drillpack-label">Go deeper</div>
+        <div class="art-toc-drillpack-title">{{ page.drill_pack.title }}</div>
+        <div class="art-toc-drillpack-meta">{{ page.drill_pack.count }} exercises · {{ page.drill_pack.duration }}</div>
+        <a class="art-toc-drillpack-link" href="{{ page.drill_pack.url }}">Take the drills →</a>
+      </div>
+      {% endif %}
     </aside>
   </div>
 
