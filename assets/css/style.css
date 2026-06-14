@@ -2092,24 +2092,28 @@ body.search-open { overflow: hidden; }
   align-items: center;
   gap: .7rem;
   text-decoration: none;
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.7);
   font-family: 'DM Mono', monospace;
   font-size: .65rem;
   letter-spacing: .05em;
   transition: color .2s;
 }
-.footer-ai-link:hover { color: rgba(255,255,255,.75); }
+.footer-ai-link:hover { color: rgba(255,255,255,.95); }
 .footer-ai-badge {
-  padding: .2rem .65rem;
-  border: 1px solid rgba(255,255,255,.2);
+  padding: .22rem .7rem;
+  border: 1px solid rgba(255,255,255,.5);
   border-radius: 99px;
   font-size: .6rem;
   letter-spacing: .1em;
   white-space: nowrap;
   flex-shrink: 0;
-  transition: border-color .2s;
+  color: rgba(255,255,255,.9);
+  transition: border-color .2s, background .2s;
 }
-.footer-ai-link:hover .footer-ai-badge { border-color: rgba(255,255,255,.4); }
+.footer-ai-link:hover .footer-ai-badge {
+  border-color: rgba(255,255,255,.8);
+  background: rgba(255,255,255,.08);
+}
 .footer-ai-text {
   opacity: 0;
   max-width: 0;
