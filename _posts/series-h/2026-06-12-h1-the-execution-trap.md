@@ -96,7 +96,7 @@ GenAI is not eliminating execution. It is compressing the economic value of exec
 
 The execution layer is entering a Compression Zone. Not because the work is disappearing, but because the basis of competition within that layer is converging. Faster. Cheaper. More reliable. These are not positions — they are the minimum requirements for being in the conversation. A firm that competes on execution quality alone is competing in a space that is simultaneously growing in volume and shrinking in margin. Every improvement it makes is matched by the next firm that acquires the same capability.
 
-> The danger is not poor execution. The danger is becoming world-class at something customers increasingly view as a baseline expectation.
+The danger is not poor execution. The danger is becoming world-class at something customers increasingly view as a baseline expectation.
 
 But GenAI is not the only force. Global Capability Centres are growing across every major customer segment — and they are asking a different question. Not: can a machine do this faster? But: why do we need an external provider to do this at all? GCCs are built to internalise execution — to bring talent, operations, and delivery inside the enterprise. GenAI compresses the value of execution. GCCs internalise it. One reduces what execution is worth. The other eliminates the need for a partner to provide it. Two forces, different mechanisms, same pressure. And the same question underneath both: what remains valuable when execution is no longer what you are selling?
 
@@ -106,15 +106,13 @@ The challenge is not how to survive compression. The challenge is how to earn en
 
 ## The Six Steps
 
-Most firms do not fail at this transition because they lack capability. They fail because they are trying to earn a reward that belongs to a higher stage using assets designed for a lower one. Execution earns trust — but trust cannot be earned by executing harder. Trust earns access — but access cannot be earned by demonstrating trustworthiness more emphatically. Each rung in the progression requires a different credential. The firm that recognises itself in this — capable, trusted, present, and still excluded from the conversations that matter — is the firm this series is written for.
+Most firms do not fail at this transition because they lack capability. They fail because they are trying to earn a reward that belongs to a higher stage using assets designed for a lower one. Execution earns trust. But once trust is earned, executing harder does not earn access — a different credential is required. Trust earns access. But once access is earned, demonstrating trustworthiness more emphatically does not earn a seat — influence is required, not reliability. Each rung unlocks the next. But more of the same rung never does. The firm that recognises itself in this — capable, trusted, present, and still excluded from the conversations that matter — is the firm this series is written for.
 
 *Execution earns compensation.* It is the entry ticket — the minimum required to be in the conversation. Without it, nothing else is possible. But compensation, however well-earned, is not the destination. As GenAI compresses the execution layer, compensation does not scale in the direction the industry was built to expect. More execution, done better, earns more of what is becoming increasingly compressed. The economics of execution are a floor, not a ceiling.
 
 *Trust earns access.* A customer who trusts a partner invites them into more rooms, more conversations, more planning cycles. Trust is built through consistent delivery — through showing up under pressure, honouring commitments, and being depended upon. These are genuine achievements. But trust is the highest reward available inside the Compression Zone — and the only one. The industry's most dangerous misconception is that trust is the destination. It is not. Trust is the reward for execution. Influence is the reward for leverage. Trust, however deep and however earned, is the ceiling of what the Compression Zone can provide. The firms that make the crossing use trust not as a destination but as the credential that unlocks the door to influence. Most firms never make that crossing. Not because they lack trust. Because they do not recognise that a different asset is required on the other side.
 
 Most firms never realise they are trapped. The customer trusts them. Revenue grows. Renewals continue. The relationship appears healthy. Yet every strategic conversation happens somewhere else. Trust has been earned. Influence has not. That gap — invisible from the inside, visible from the outside — is where most technology services relationships quietly stop evolving.
-
-> Trust is the reward for execution. Influence is the reward for leverage. Trust, however deep and however earned, is the ceiling of what the Compression Zone can provide.
 
 The boundary between the two zones has a name: The Crossing.
 
