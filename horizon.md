@@ -250,8 +250,8 @@ description: "How technology services firms escape the race to the bottom and co
       </div>
       <div class="hz-ep-body">
         <div class="hz-ep-title">The Ownership Ascent</div>
-        <div class="hz-ep-question">What does it take to move from participation to control?</div>
-        <p class="hz-ep-desc">Participation in the economics is not authority over the outcome. Control requires accountability. Participation does not. The firm that misreads a control problem as a participation problem will keep proving what it has already proved.</p>
+        <div class="hz-ep-question">What does it take to move from participation to ownership?</div>
+        <p class="hz-ep-desc">Participation and ownership are not the same position. Decision rights follow obligation — not contribution, not trust, not even participation. Two tests reveal where a firm actually stands: the Keys Test, and the Name Test.</p>
         <div class="hz-ep-tags">
           <span class="area-tag">Ownership</span>
           <span class="area-tag">Control</span>

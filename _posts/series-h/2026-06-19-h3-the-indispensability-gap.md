@@ -42,7 +42,7 @@ bibliography:
 whats_next:
   title: "The Ownership Ascent"
   code: "#4"
-  description: "Participation in the economics is not authority over the outcome. Control requires accountability. Participation does not. The firm that misreads a control problem as a participation problem will keep proving what it has already proved."
+  description: "Participation and ownership are not the same position. Decision rights follow obligation — not contribution, not trust, not even participation. Two tests reveal where a firm actually stands: the Keys Test, and the Name Test."
   status: coming
 ---
 
