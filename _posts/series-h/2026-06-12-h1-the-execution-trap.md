@@ -201,3 +201,10 @@ Who in your organisation owns making it?
 ---
 
 *The firms that will lead technology services in the next decade will execute well, but they will not compete on execution alone. The transition was already underway. GenAI is simply making the timeline visible.*
+
+<div class="drillpack-cta">
+  <div class="drillpack-cta-label">Go deeper</div>
+  <div class="drillpack-cta-title">Drill Pack #1 — The Execution Trap</div>
+  <div class="drillpack-cta-meta">Ten exercises · 60–90 min</div>
+  <a class="btn-primary" href="/drills/execution-trap-pack/">Take the drills →</a>
+</div>

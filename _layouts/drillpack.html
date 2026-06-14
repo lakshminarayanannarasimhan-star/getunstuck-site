@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article class="drillpack-article">
+
+  <div class="eyebrow">
+    Drill Pack{% if page.pack_number %} #{{ page.pack_number }}{% endif %}{% if page.series %} · {{ page.series }}{% endif %}
+  </div>
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="meta" style="margin:0.8rem 0 2rem;">
+    {% if page.drill_count %}<span>{{ page.drill_count }} drills</span>{% endif %}
+    {% if page.duration %} · <span>{{ page.duration }}</span>{% endif %}
+    {% if page.level %} · <span>{{ page.level }}</span>{% endif %}
+  </div>
+
+  {% if page.article_url %}
+  <div class="drillpack-context">
+    Companion exercises for <a href="{{ page.article_url }}">{{ page.article_title }}</a>
+  </div>
+  {% endif %}
+
+  {{ content }}
+
+  <div class="drill-nav">
+    {% if page.article_url %}
+      <a class="btn-ghost" href="{{ page.article_url }}">← Back to article</a>
+    {% endif %}
+    <a class="btn-ghost" href="/drills/">All Drills</a>
+  </div>
+
+</article>
