@@ -6857,6 +6857,42 @@ body.search-open { overflow: hidden; }
   font-size: 1.1rem;
 }
 
+/* ── FRONTIER series additions ── */
+
+/* Arc role tag beneath each episode description */
+.fr-ep-arc-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-top: .4rem;
+}
+.fr-ep-arc-tag-heart {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+/* Part 3 — heart of the series: restore opacity, accent left border */
+.fr-ep-heart {
+  opacity: 1 !important;
+  border-left: 3px solid var(--primary);
+}
+.fr-ep-heart .hz-ep-left {
+  background: color-mix(in srgb, var(--primary-soft) 60%, var(--bg));
+}
+.fr-ep-heart .hz-ep-num {
+  color: var(--primary);
+  font-size: 1.4rem;
+}
+
+/* Forces panel: muted variant for the "Not:" counter-question */
+.hz-force-name-alt {
+  color: rgba(255,255,255,.45);
+  text-decoration: line-through;
+  text-decoration-color: rgba(255,255,255,.2);
+}
+
 .hz-ep-left {
   flex-shrink: 0;
   width: 90px;

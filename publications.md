@@ -64,6 +64,18 @@ description: "Writing across leadership systems, technology strategy, and securi
       <div class="series-meta">6 episodes · Technology services strategy</div>
     </a>
 
+    <a class="series-card" href="/frontier/">
+      <div class="series-card-top">
+        <div class="series-id">Frontier</div>
+        <span class="series-status coming">
+          <span class="series-dot"></span>To write
+        </span>
+      </div>
+      <h3 class="series-title">Graduation, Not Rejection</h3>
+      <p class="series-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after the handover.</p>
+      <div class="series-meta">4 parts · Technology services &amp; GCCs</div>
+    </a>
+
     <a class="series-card" href="#series-d">
       <div class="series-card-top">
         <div class="series-id">The Trust Equation</div>
@@ -129,6 +141,18 @@ description: "Writing across leadership systems, technology strategy, and securi
   </div>
 </section>
 {% endif %}
+
+<!-- FRONTIER — LANDING PAGE LINK -->
+<section class="section-wide" id="frontier">
+  <div class="series-section-header">
+    <div>
+      <div class="section-label">Frontier</div>
+      <h2>Graduation, Not Rejection.</h2>
+      <p class="prose" style="margin-top:.8rem;">A four-part series for the technology services executive asked to help a long-standing client build a GCC. The governing question: what work resists compression? Four parts — The Call Comes, What You Actually Sell, Building Your Own Replacement, The Relationship After the Handover.</p>
+    </div>
+    <a class="btn-secondary" href="/frontier/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+  </div>
+</section>
 
 <!-- IN DEVELOPMENT -->
 <section class="section-wide">
