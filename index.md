@@ -261,11 +261,11 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <h2 style="color:#fff;font-size:clamp(1.6rem,2.8vw,2.2rem);margin-bottom:.8rem;">Writing worth reading slowly.</h2>
         <p style="color:rgba(255,255,255,.55);font-size:.9rem;line-height:1.7;max-width:40ch;margin-bottom:1.4rem;">Four series across leadership systems, technology strategy, and security. Each series is a single argument — not a list of topics.</p>
         <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.6rem;">
-          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Leadership</span>
-          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Technology Strategy</span>
-          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Technology Services</span>
-          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Cybersecurity</span>
-          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.15);border-radius:99px;color:rgba(255,255,255,.55);">Management</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Leadership</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Technology Strategy</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Technology Services</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Cybersecurity</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Management</span>
         </div>
         <a class="btn-primary" href="/publications/">All publications →</a>
       </div>
