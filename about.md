@@ -34,7 +34,7 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
       <div class="about-photo-wrap">
         <img
           src="/assets/img/lakshmi.jpg"
-          alt="Lakshmi Narayanan N"
+          alt="Lakshmi Narayanan Narasimhan"
           class="about-photo"
           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
         >

@@ -355,7 +355,7 @@ description: "How technology services firms escape the race to the bottom and co
 
     <div class="hz-author-strip">
       <div class="hz-author-photo">
-        <img src="/assets/img/lakshmi.jpg" alt="Lakshmi Narayanan N"
+        <img src="/assets/img/lakshmi.jpg" alt="Lakshmi Narayanan Narasimhan"
           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
         <div class="hz-author-initials" style="display:none;">LN</div>
       </div>

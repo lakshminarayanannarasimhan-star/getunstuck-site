@@ -770,7 +770,7 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
     </div>
     <div style="flex:1;min-width:260px;display:flex;gap:1.2rem;align-items:flex-start;">
       <div class="hz-author-photo">
-        <img src="/assets/img/lakshmi.jpg" alt="Lakshmi Narayanan N"
+        <img src="/assets/img/lakshmi.jpg" alt="Lakshmi Narayanan Narasimhan"
           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
         <div class="hz-author-initials" style="display:none;">LN</div>
       </div>
