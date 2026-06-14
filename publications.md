@@ -6,9 +6,24 @@ description: "Writing across leadership systems, technology strategy, and securi
 ---
 
 <section class="hero">
-  <div class="eyebrow reveal d1">Publications</div>
-  <h1 class="hero-title reveal d2">Writing worth reading slowly.</h1>
-  <p class="hero-sub reveal d3">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
+  <div class="hero-split">
+    <div>
+      <div class="eyebrow reveal d1">Publications</div>
+      <h1 class="hero-title reveal d2">Writing worth reading slowly.</h1>
+      <p class="hero-sub reveal d3">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
+    </div>
+    <div class="hero-panel reveal d3">
+      <div class="panel-label">Featured Series</div>
+      <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.9rem;">
+        <span style="font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;color:var(--primary);">Horizon</span>
+        <span class="series-status in-progress" style="font-size:.6rem;"><span class="series-dot"></span>In progress</span>
+      </div>
+      <h3>From Compression to Premium</h3>
+      <p>How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
+      <div style="margin-top:1rem;font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.08em;color:var(--faint);">4 of 6 episodes published</div>
+      <a class="panel-link" href="/horizon/">Explore the series</a>
+    </div>
+  </div>
 </section>
 
 <!-- SERIES OVERVIEW GRID -->
