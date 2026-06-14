@@ -1516,12 +1516,12 @@ body.search-open { overflow: hidden; }
 .pub-role-tag {
   font-family: 'DM Mono', monospace;
   font-size: .63rem;
-  letter-spacing: .04em;
-  padding: .25rem .7rem;
+  letter-spacing: .06em;
+  padding: .28rem .8rem;
   border-radius: 2rem;
-  border: 1px solid var(--border);
-  color: var(--muted);
-  background: var(--bg);
+  border: 1px solid var(--primary);
+  color: var(--surface);
+  background: var(--primary);
 }
 
 /* Stat strip — 3 numbers below hero-left */
