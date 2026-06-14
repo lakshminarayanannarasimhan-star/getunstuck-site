@@ -1924,48 +1924,47 @@ body.search-open { overflow: hidden; }
 }
 /* ── Drill Pack CTA (TOC sidebar) ── */
 .art-toc-drillpack {
-  margin-top: 1.5rem;
-  padding: 0.9rem 1rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  background: var(--faint);
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
 }
 .art-toc-drillpack-label {
   font-family: 'DM Mono', monospace;
-  font-size: 0.6rem;
-  letter-spacing: 0.1em;
+  font-size: .62rem;
+  letter-spacing: .12em;
   text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: 0.45rem;
+  color: var(--faint);
+  margin-bottom: .75rem;
 }
 .art-toc-drillpack-title {
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--primary);
-  line-height: 1.35;
-  margin-bottom: 0.3rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: .78rem;
+  line-height: 1.4;
+  color: var(--muted);
+  margin-bottom: .2rem;
 }
 .art-toc-drillpack-meta {
-  font-size: 0.7rem;
-  color: var(--muted);
-  margin-bottom: 0.75rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: .68rem;
+  color: var(--faint);
+  margin-bottom: .4rem;
 }
 .art-toc-drillpack-link {
   display: block;
-  text-align: center;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.67rem;
-  letter-spacing: 0.06em;
-  color: var(--primary);
-  border: 1px solid var(--primary);
-  border-radius: var(--radius-sm);
-  padding: 0.4rem 0.6rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: .78rem;
+  line-height: 1.4;
+  color: var(--muted);
   text-decoration: none;
-  transition: background 0.15s, color 0.15s;
+  padding: .28rem .5rem .28rem .4rem;
+  border-left: 2px solid transparent;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  transition: color .15s, border-color .15s, background .15s;
 }
 .art-toc-drillpack-link:hover {
-  background: var(--primary);
-  color: var(--surface);
+  color: var(--text);
+  background: var(--primary-soft);
+  border-left-color: var(--primary);
 }
 
 .drillpack-article blockquote {
