@@ -1885,7 +1885,7 @@ body.search-open { overflow: hidden; }
   font-size: 0.7rem;
   letter-spacing: 0.06em;
   color: var(--muted);
-  background: var(--faint);
+  background: var(--primary-soft);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 0.45rem 0.9rem;
@@ -1901,7 +1901,7 @@ body.search-open { overflow: hidden; }
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--primary);
+  color: var(--text);
   margin-top: 3.5rem;
   margin-bottom: 1rem;
   padding-top: 1.5rem;
@@ -1926,14 +1926,14 @@ body.search-open { overflow: hidden; }
 }
 .drillpack-article p {
   font-size: 0.95rem;
-  color: var(--muted);
+  color: var(--text);
   line-height: 1.75;
   margin-bottom: 0.8rem;
 }
 .drillpack-article ul,
 .drillpack-article ol {
   font-size: 0.95rem;
-  color: var(--muted);
+  color: var(--text);
   line-height: 1.7;
   padding-left: 1.4rem;
   margin-bottom: 1rem;
@@ -1943,15 +1943,26 @@ body.search-open { overflow: hidden; }
 .drillpack-article hr { display: none; }
 .drillpack-article blockquote {
   margin: 1.5rem 0 0;
-  padding: 0.85rem 1.1rem;
-  background: var(--faint);
+  padding: 0.9rem 1.1rem 0.85rem;
+  background: var(--primary-soft);
   border-left: 3px solid var(--primary);
   font-style: italic;
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--text);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
-.drillpack-article blockquote p { font-size: 0.9rem; margin: 0; }
+.drillpack-article blockquote::before {
+  content: "Prompt";
+  display: block;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-style: normal;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+.drillpack-article blockquote p { font-size: 0.9rem; margin: 0; color: var(--text); }
 .drillpack-article table {
   width: 100%;
   border-collapse: collapse;
@@ -1964,16 +1975,16 @@ body.search-open { overflow: hidden; }
   font-size: 0.63rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--text);
   padding: 0.5rem 0.75rem;
   border-bottom: 1.5px solid var(--primary);
-  background: var(--faint);
+  background: var(--primary-soft);
 }
 .drillpack-article td {
   padding: 0.6rem 0.75rem;
   border-bottom: 1px solid var(--border);
   vertical-align: top;
-  color: var(--muted);
+  color: var(--text);
   font-size: 0.9rem;
 }
 .drillpack-article tr:last-child td { border-bottom: none; }
