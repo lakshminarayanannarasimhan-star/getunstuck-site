@@ -158,6 +158,10 @@ description: "How technology services firms escape the race to the bottom and co
   <div class="hz-episodes">
 
     {% assign hz_posts = site.posts | where: "series_code", "H" | sort: "series_position" %}
+    {% assign ep1 = hz_posts | where: "series_position", 1 | first %}
+    {% assign ep2 = hz_posts | where: "series_position", 2 | first %}
+    {% assign ep3 = hz_posts | where: "series_position", 3 | first %}
+    {% assign ep4 = hz_posts | where: "series_position", 4 | first %}
 
     <!-- #1 — LIVE -->
     <div class="hz-episode hz-ep-live">
@@ -171,6 +175,8 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-title">The Execution Trap</div>
         <div class="hz-ep-question">When did execution stop being enough?</div>
         <p class="hz-ep-desc">GenAI compresses the value of execution. GCCs internalise it. Two forces, different mechanisms, same pressure. This episode names both, introduces the six-step progression, and identifies The Crossing — the boundary where the rules of earning change.</p>
+        {% assign q1 = ep1.questions_to_ponder | size %}{% assign s1 = ep1.stress_test.points | size %}{% assign d1 = ep1.drill_pack.count | default: 0 %}
+        {% if q1 > 0 or s1 > 0 or d1 > 0 %}<div class="hz-ep-meta-strip">{% if q1 > 0 %}<span>{{ q1 }} questions</span>{% endif %}{% if s1 > 0 %}<span>{{ s1 }} stress tests</span>{% endif %}{% if d1 > 0 %}<span>{{ d1 }} drills</span>{% endif %}</div>{% endif %}
         <div class="hz-ep-tags">
           <span class="area-tag">GenAI</span>
           <span class="area-tag">GCCs</span>
@@ -198,6 +204,8 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-title">The Trust Ceiling</div>
         <div class="hz-ep-question">Why do trusted firms stop evolving?</div>
         <p class="hz-ep-desc">Most technology services firms have earned their customers' trust. Trust, however, is not the destination — it is the ceiling. Revenue grows, renewals continue, and every strategic conversation happens somewhere else.</p>
+        {% assign q2 = ep2.questions_to_ponder | size %}{% assign s2 = ep2.stress_test.points | size %}{% assign d2 = ep2.drill_pack.count | default: 0 %}
+        {% if q2 > 0 or s2 > 0 or d2 > 0 %}<div class="hz-ep-meta-strip">{% if q2 > 0 %}<span>{{ q2 }} questions</span>{% endif %}{% if s2 > 0 %}<span>{{ s2 }} stress tests</span>{% endif %}{% if d2 > 0 %}<span>{{ d2 }} drills</span>{% endif %}</div>{% endif %}
         <div class="hz-ep-tags">
           <span class="area-tag">Trust</span>
           <span class="area-tag">Access</span>
@@ -225,6 +233,8 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-title">The Indispensability Gap</div>
         <div class="hz-ep-question">Would the customer create the same value without you?</div>
         <p class="hz-ep-desc">A GCC can replace execution. A GCC cannot replace indispensability. The indispensability test is simple and brutal — and it is the direct answer to both GenAI and GCC pressure.</p>
+        {% assign q3 = ep3.questions_to_ponder | size %}{% assign s3 = ep3.stress_test.points | size %}{% assign d3 = ep3.drill_pack.count | default: 0 %}
+        {% if q3 > 0 or s3 > 0 or d3 > 0 %}<div class="hz-ep-meta-strip">{% if q3 > 0 %}<span>{{ q3 }} questions</span>{% endif %}{% if s3 > 0 %}<span>{{ s3 }} stress tests</span>{% endif %}{% if d3 > 0 %}<span>{{ d3 }} drills</span>{% endif %}</div>{% endif %}
         <div class="hz-ep-tags">
           <span class="area-tag">Indispensability</span>
           <span class="area-tag">GCCs</span>
@@ -252,6 +262,8 @@ description: "How technology services firms escape the race to the bottom and co
         <div class="hz-ep-title">The Ownership Ascent</div>
         <div class="hz-ep-question">What does it take to move from participation to ownership?</div>
         <p class="hz-ep-desc">Participation and ownership are not the same position. Decision rights follow obligation — not contribution, not trust, not even participation. Two tests reveal where a firm actually stands: the Keys Test, and the Name Test.</p>
+        {% assign q4 = ep4.questions_to_ponder | size %}{% assign s4 = ep4.stress_test.points | size %}{% assign d4 = ep4.drill_pack.count | default: 0 %}
+        {% if q4 > 0 or s4 > 0 or d4 > 0 %}<div class="hz-ep-meta-strip">{% if q4 > 0 %}<span>{{ q4 }} questions</span>{% endif %}{% if s4 > 0 %}<span>{{ s4 }} stress tests</span>{% endif %}{% if d4 > 0 %}<span>{{ d4 }} drills</span>{% endif %}</div>{% endif %}
         <div class="hz-ep-tags">
           <span class="area-tag">Ownership</span>
           <span class="area-tag">Control</span>

@@ -6923,6 +6923,20 @@ body.search-open { overflow: hidden; }
   line-height: 1.65;
   flex: 1;
 }
+.hz-ep-meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: .6rem 0 .5rem;
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .06em;
+  color: var(--muted);
+}
+.hz-ep-meta-strip span + span::before {
+  content: " · ";
+  opacity: .5;
+}
 .hz-ep-tags {
   display: flex;
   flex-wrap: wrap;
