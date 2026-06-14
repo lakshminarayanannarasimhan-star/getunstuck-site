@@ -1871,6 +1871,7 @@ body.search-open { overflow: hidden; }
 .drillpack-article {
   max-width: var(--measure);
   padding: 3rem 0;
+  counter-reset: drill-counter;
 }
 .drillpack-article h1 {
   font-size: clamp(1.8rem, 4vw, 2.8rem);
@@ -1896,32 +1897,86 @@ body.search-open { overflow: hidden; }
   text-underline-offset: 2px;
 }
 .drillpack-article h2 {
-  font-size: 1.15rem;
-  margin-top: 3rem;
-  margin-bottom: 0.6rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--border);
+  counter-increment: drill-counter;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  border-bottom: none;
 }
+.drillpack-article h2::before {
+  content: counter(drill-counter, decimal-leading-zero);
+  display: block;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  font-weight: 400;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+.drillpack-article > p:first-of-type {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+.drillpack-article p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 0.8rem;
+}
+.drillpack-article ul,
+.drillpack-article ol {
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.7;
+  padding-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+.drillpack-article li { margin-bottom: 0.25rem; }
+.drillpack-article strong { color: var(--primary); font-weight: 600; }
+.drillpack-article hr { display: none; }
+.drillpack-article blockquote {
+  margin: 1.5rem 0 0;
+  padding: 0.85rem 1.1rem;
+  background: var(--faint);
+  border-left: 3px solid var(--primary);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--muted);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.drillpack-article blockquote p { font-size: 0.9rem; margin: 0; }
 .drillpack-article table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.88rem;
-  margin: 1rem 0 1.5rem;
+  margin: 1rem 0 1.2rem;
 }
 .drillpack-article th {
   text-align: left;
   font-family: 'DM Mono', monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.08em;
+  font-size: 0.63rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--muted);
   padding: 0.5rem 0.75rem;
-  border-bottom: 2px solid var(--border);
+  border-bottom: 1.5px solid var(--primary);
+  background: var(--faint);
 }
 .drillpack-article td {
-  padding: 0.55rem 0.75rem;
+  padding: 0.6rem 0.75rem;
   border-bottom: 1px solid var(--border);
   vertical-align: top;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
+.drillpack-article tr:last-child td { border-bottom: none; }
 /* ── Drill Pack CTA (TOC sidebar) ── */
 .art-toc-drillpack {
   margin-top: 1.2rem;

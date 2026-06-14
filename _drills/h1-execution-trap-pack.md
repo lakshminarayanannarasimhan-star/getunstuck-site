@@ -16,9 +16,7 @@ permalink: /drills/execution-trap-pack/
 
 *Ten exercises. For leadership teams ready to go deeper than diagnosis.*
 
----
-
-## Drill 1 — The Customer Question Audit
+## The Customer Question Audit
 
 List your five most important customers.
 
@@ -34,9 +32,7 @@ Choose only one:
 
 > How many customers are still asking execution questions? How many have already moved beyond them? The distribution tells you which zone your firm is competing in.
 
----
-
-## Drill 2 — The Replacement Test
+## The Replacement Test
 
 Imagine a credible competitor replaces you in your most important engagement tomorrow.
 
@@ -50,9 +46,7 @@ What would the customer permanently lose?
 
 > Temporary pain is not the same as strategic dependence. If the customer loses inconvenience but not outcome, you are in the Compression Zone regardless of how trusted the relationship is.
 
----
-
-## Drill 3 — The Revenue Defence Audit
+## The Revenue Defence Audit
 
 Estimate your current client revenue across three categories.
 
@@ -64,15 +58,13 @@ Estimate your current client revenue across three categories.
 
 > What percentage of your revenue survives if execution becomes a commodity? That number is the honest size of your Expansion Zone position today.
 
----
-
-## Drill 4 — The Compression Map
+## The Compression Map
 
 List your five most significant services or capabilities.
 
 For each one, assess the pressure it faces.
 
-| Service or capability | Compressed by GenAI? | Being internalised by GCC? | Both? | Neither? |
+| Service or capability | Compressed by GenAI? | Internalised by GCC? | Both? | Neither? |
 |---|---|---|---|---|
 | | | | | |
 | | | | | |
@@ -82,9 +74,7 @@ For each one, assess the pressure it faces.
 
 > Where is your value shrinking? Where is it disappearing? These are different phenomena. Shrinking value can be repositioned. Disappearing value must be replaced.
 
----
-
-## Drill 5 — The Scarcity Test
+## The Scarcity Test
 
 Name three things customers currently pay you for.
 
@@ -98,9 +88,7 @@ For each one, ask: will this remain scarce in ten years?
 
 > Customers pay premiums for scarcity, not importance. A capability can be genuinely important to the customer and simultaneously losing its scarcity value. Importance earns gratitude. Scarcity earns the premium.
 
----
-
-## Drill 6 — The Historical Unit of Scale
+## The Historical Unit of Scale
 
 Complete this sentence honestly:
 
@@ -110,9 +98,7 @@ Common answers: people · projects · customers · relationships · platforms ·
 
 > Your answer reveals your current unit of scale. If the answer is people or projects, your growth model is aligned with the Compression Zone. If the answer is influence, reach, or ecosystem — you are building toward the Expansion Zone.
 
----
-
-## Drill 7 — The GCC Thought Experiment
+## The GCC Thought Experiment
 
 Imagine your largest customer doubles its Global Capability Centre over the next three years and gives it an explicit mandate to replace what you currently provide.
 
@@ -122,9 +108,7 @@ Imagine your largest customer doubles its Global Capability Centre over the next
 
 > The second list is the only durable answer. A GCC cannot provide cross-enterprise reach, capital at risk, or leverage built across multiple engagements. If your answer to Question 2 is empty or vague, the work of building your Expansion Zone position has not yet begun.
 
----
-
-## Drill 8 — The Expansion Inventory
+## The Expansion Inventory
 
 List every example from the last twenty-four months where your organisation created something beyond execution:
 
@@ -144,9 +128,7 @@ Do not include examples of excellent execution. Only examples of leverage create
 
 > This is your Expansion Zone inventory. If the table is sparse or empty, you have your answer about where your firm currently stands.
 
----
-
-## Drill 9 — The Future Revenue Test
+## The Future Revenue Test
 
 A customer tells you:
 
@@ -158,9 +140,7 @@ _______________________________________________
 
 > Most firms discover they do not yet have a confident answer. That discovery is the beginning of the journey — not a failure, but the correct starting point for the work the Horizon series describes.
 
----
-
-## Drill 10 — The Boardroom Question
+## The Boardroom Question
 
 Ask your leadership team — separately, before any group discussion:
 
