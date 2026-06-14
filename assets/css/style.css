@@ -1110,6 +1110,7 @@ body:has(.reading-progress) .header {
 .nav a {
   font-family: 'DM Mono', monospace;
   font-size: 0.72rem;
+  font-weight: 600;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: var(--header-nav) !important;
