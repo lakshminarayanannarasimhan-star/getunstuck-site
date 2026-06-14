@@ -1476,6 +1476,43 @@ body.search-open { overflow: hidden; }
 }
 .hero-panel .panel-link::after { content: " →"; }
 
+/* Audience teaser strip — publications hero */
+.pub-audience {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.pub-audience-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-bottom: .65rem;
+}
+.pub-audience-roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-bottom: 1rem;
+}
+.pub-role-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: .67rem;
+  letter-spacing: .05em;
+  padding: .28rem .8rem;
+  border-radius: 2rem;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  background: var(--surface);
+}
+.pub-audience-hook {
+  font-size: .92rem;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 50ch;
+}
+
 /* Stat strip — 3 numbers below hero-left */
 .stat-strip {
   display: grid;

@@ -11,6 +11,16 @@ description: "Writing across leadership systems, technology strategy, and securi
       <div class="eyebrow reveal d1">Publications</div>
       <h1 class="hero-title reveal d2">Writing worth reading slowly.</h1>
       <p class="hero-sub reveal d3">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
+      <div class="pub-audience reveal d4">
+        <div class="pub-audience-label">Written for</div>
+        <div class="pub-audience-roles">
+          <span class="pub-role-tag">Executives</span>
+          <span class="pub-role-tag">VP · SVP</span>
+          <span class="pub-role-tag">Account Leaders</span>
+          <span class="pub-role-tag">GCC Heads</span>
+        </div>
+        <p class="pub-audience-hook">The technology services industry is being reshaped — by GenAI, by GCCs, and by a transition most firms cannot yet name. This writing names it, maps it, and shows what it asks of the leaders inside it.</p>
+      </div>
     </div>
     <div class="hero-panel reveal d3">
       <div class="panel-label">Featured Series</div>
