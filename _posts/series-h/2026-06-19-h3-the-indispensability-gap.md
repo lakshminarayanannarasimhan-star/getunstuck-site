@@ -43,7 +43,7 @@ whats_next:
   title: "The Ownership Ascent"
   code: "#4"
   description: "Participation and ownership are not the same position. Decision rights follow obligation — not contribution, not trust, not even participation. Two tests reveal where a firm actually stands: the Keys Test, and the Name Test."
-  status: coming
+  url: /2026/06/23/h4-the-ownership-ascent/
 ---
 
 There is a firm that has done everything H2 described.

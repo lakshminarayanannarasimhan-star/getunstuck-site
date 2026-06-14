@@ -1,0 +1,23 @@
+name: Publish H4 — The Ownership Ascent
+
+# 23 Jun 2026 21:01 IST = 23 Jun 2026 15:31 UTC
+on:
+  schedule:
+    - cron: '31 15 23 6 *'
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Empty commit to trigger GitHub Pages rebuild
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: scheduled rebuild — publish H4 The Ownership Ascent"
+          git push
