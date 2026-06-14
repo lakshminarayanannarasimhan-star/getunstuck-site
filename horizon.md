@@ -249,8 +249,8 @@ description: "How technology services firms escape the race to the bottom and co
         </div>
       </div>
       <div class="hz-ep-body">
-        <div class="hz-ep-title">The Ownership Trap</div>
-        <div class="hz-ep-question">What does the customer still not trust you with — and why?</div>
+        <div class="hz-ep-title">The Ownership Ascent</div>
+        <div class="hz-ep-question">What does it take to move from participation to control?</div>
         <p class="hz-ep-desc">Participation in the economics is not authority over the outcome. Control requires accountability. Participation does not. The firm that misreads a control problem as a participation problem will keep proving what it has already proved.</p>
         <div class="hz-ep-tags">
           <span class="area-tag">Ownership</span>

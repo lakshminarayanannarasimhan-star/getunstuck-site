@@ -40,7 +40,7 @@ bibliography:
     note: "The Indispensability Gap framework, the four sources of indispensability (capital at risk, cross-enterprise reach, leverage that cannot be replicated, risk absorption), and the GCC structural law are original frameworks drawn from practitioner observation across technology-services engagements over 25 years. They are not adaptations of existing published frameworks."
 
 whats_next:
-  title: "The Ownership Trap"
+  title: "The Ownership Ascent"
   code: "#4"
   description: "Participation in the economics is not authority over the outcome. Control requires accountability. Participation does not. The firm that misreads a control problem as a participation problem will keep proving what it has already proved."
   status: coming
