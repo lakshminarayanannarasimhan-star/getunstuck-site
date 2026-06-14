@@ -4004,7 +4004,7 @@ body.search-open { overflow: hidden; }
   font-family: 'DM Mono', monospace;
   font-size: .58rem;
   letter-spacing: .12em;
-  color: var(--primary);
+  color: rgba(255,255,255,.4);
   flex-shrink: 0;
   margin-top: .15rem;
 }
@@ -4342,7 +4342,7 @@ body.search-open { overflow: hidden; }
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--primary);
+  color: rgba(255,255,255,.25);
   flex-shrink: 0;
   min-width: 20px;
 }
