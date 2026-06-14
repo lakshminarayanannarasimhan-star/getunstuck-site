@@ -37,7 +37,7 @@ author: Lakshmi Narayanan
 #
 # ── LIGHT THEMES ───────────────────────────────────────────────────
 #
-unstuck_theme: ivory         # Warm white, barely-there surfaces
+# unstuck_theme: ivory         # Warm white, barely-there surfaces
 # unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
 # unstuck_theme: cloud         # Cool white, soft lavender accent
@@ -80,6 +80,14 @@ unstuck_theme: ivory         # Warm white, barely-there surfaces
 # unstuck_theme: ocean_breeze  # Bold rose-red accent
 # unstuck_theme: pumpkin_spice # Warm orange accent
 # unstuck_theme: evergreen     # Forest green accent
+
+# My Favorites
+# unstuck_theme: ivory         # light theme - Warm white, barely-there surfaces
+unstuck_theme: mono          # Stripped back, pure black/white
+# unstuck_theme: slate         # Cool white, steel blue, executive
+# unstuck_theme: sunset        # Warm amber to rose, editorial
+# unstuck_theme: linen         # Warm cream, terracotta, editorial
+# unstuck_theme: chalk         # Bright white, graphite, zero colour
 
 typography: spacious   # executive | compact | spacious
 
