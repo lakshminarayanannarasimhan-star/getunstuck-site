@@ -11,15 +11,19 @@ description: "Writing across leadership systems, technology strategy, and securi
       <div class="eyebrow reveal d1">Publications</div>
       <h1 class="hero-title reveal d2">Writing worth reading slowly.</h1>
       <p class="hero-sub reveal d3">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
-      <div class="pub-audience reveal d4">
-        <div class="pub-audience-label">Written for</div>
-        <div class="pub-audience-roles">
-          <span class="pub-role-tag">Executives</span>
-          <span class="pub-role-tag">VP · SVP</span>
-          <span class="pub-role-tag">Account Leaders</span>
-          <span class="pub-role-tag">GCC Heads</span>
+      <div class="pub-approach reveal d4">
+        <div class="pub-approach-col">
+          <div class="pub-approach-name">Perspective</div>
+          <div class="pub-approach-desc">The argument — first-principles, not commentary.</div>
         </div>
-        <p class="pub-audience-hook">The technology services industry is being reshaped — by GenAI, by GCCs, and by a transition most firms cannot yet name. This writing names it, maps it, and shows what it asks of the leaders inside it.</p>
+        <div class="pub-approach-col">
+          <div class="pub-approach-name">Stress Test</div>
+          <div class="pub-approach-desc">Where the argument holds, and where it bends.</div>
+        </div>
+        <div class="pub-approach-col">
+          <div class="pub-approach-name">Diagnostic</div>
+          <div class="pub-approach-desc">Five questions you can run in your own organisation.</div>
+        </div>
       </div>
     </div>
     <div class="hero-panel reveal d3">
@@ -30,7 +34,14 @@ description: "Writing across leadership systems, technology strategy, and securi
       </div>
       <h3>From Compression to Premium</h3>
       <p>How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
-      <div style="margin-top:1rem;font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.08em;color:var(--faint);">4 of 6 episodes published</div>
+      <div class="pub-audience-label" style="margin-top:1.2rem;">Written for</div>
+      <div class="pub-audience-roles">
+        <span class="pub-role-tag">Executives</span>
+        <span class="pub-role-tag">VP · SVP</span>
+        <span class="pub-role-tag">Account Leaders</span>
+        <span class="pub-role-tag">GCC Heads</span>
+      </div>
+      <div style="margin-top:.8rem;font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.08em;color:var(--faint);">4 of 6 episodes published</div>
       <a class="panel-link" href="/horizon/">Explore the series</a>
     </div>
   </div>

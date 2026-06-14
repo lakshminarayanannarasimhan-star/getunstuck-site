@@ -1476,41 +1476,52 @@ body.search-open { overflow: hidden; }
 }
 .hero-panel .panel-link::after { content: " →"; }
 
-/* Audience teaser strip — publications hero */
-.pub-audience {
+/* Approach strip — publications hero left column */
+.pub-approach {
   margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.2rem;
 }
+.pub-approach-name {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: .35rem;
+}
+.pub-approach-desc {
+  font-size: .82rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* Audience pills — used in featured series panel */
 .pub-audience-label {
   font-family: 'DM Mono', monospace;
   font-size: .6rem;
   letter-spacing: .16em;
   text-transform: uppercase;
   color: var(--faint);
-  margin-bottom: .65rem;
+  margin-bottom: .5rem;
 }
 .pub-audience-roles {
   display: flex;
   flex-wrap: wrap;
-  gap: .45rem;
-  margin-bottom: 1rem;
+  gap: .4rem;
 }
 .pub-role-tag {
   font-family: 'DM Mono', monospace;
-  font-size: .67rem;
-  letter-spacing: .05em;
-  padding: .28rem .8rem;
+  font-size: .63rem;
+  letter-spacing: .04em;
+  padding: .25rem .7rem;
   border-radius: 2rem;
   border: 1px solid var(--border);
   color: var(--muted);
-  background: var(--surface);
-}
-.pub-audience-hook {
-  font-size: .92rem;
-  color: var(--muted);
-  line-height: 1.7;
-  max-width: 50ch;
+  background: var(--bg);
 }
 
 /* Stat strip — 3 numbers below hero-left */
