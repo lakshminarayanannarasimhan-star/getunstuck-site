@@ -4616,6 +4616,8 @@ body.search-open { overflow: hidden; }
 .hp-pub-row {
   display: grid;
   grid-template-columns: 110px 1fr auto;
+  text-decoration: none;
+  color: inherit;
   align-items: center;
   gap: 1rem;
   padding: .85rem 1rem;

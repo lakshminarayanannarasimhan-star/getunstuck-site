@@ -270,54 +270,54 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <a class="btn-primary" href="/publications/">All publications →</a>
       </div>
       <div class="hp-pubs-series">
-        <div class="hp-pub-row">
+        <a class="hp-pub-row" href="/horizon/">
           <div class="hp-pub-id">Horizon</div>
           <div>
             <div class="hp-pub-title">From Compression to Premium</div>
             <div class="hp-pub-meta">6 episodes · Technology services strategy</div>
           </div>
           <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In progress</span>
-        </div>
-        <div class="hp-pub-row">
+        </a>
+        <a class="hp-pub-row" href="/frontier/">
           <div class="hp-pub-id">Frontier</div>
           <div>
             <div class="hp-pub-title">Graduation, Not Rejection</div>
             <div class="hp-pub-meta">4 parts · Technology services &amp; GCCs</div>
           </div>
           <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>To write</span>
-        </div>
-        <div class="hp-pub-row">
+        </a>
+        <a class="hp-pub-row" href="/compass/">
           <div class="hp-pub-id">Compass</div>
           <div>
             <div class="hp-pub-title">Why Organisations Lose Their Direction</div>
             <div class="hp-pub-meta">9 episodes · Strategy &amp; customer centricity</div>
           </div>
           <span class="series-status ideation" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ideation</span>
-        </div>
-        <div class="hp-pub-row">
+        </a>
+        <a class="hp-pub-row" href="/publications/#series-d">
           <div class="hp-pub-id">D</div>
           <div>
             <div class="hp-pub-title">The Trust Equation</div>
             <div class="hp-pub-meta">Security as a trust problem · Ideation</div>
           </div>
           <span class="series-status ideation" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ideation</span>
-        </div>
-        <div class="hp-pub-row">
+        </a>
+        <a class="hp-pub-row" href="/publications/#series-a">
           <div class="hp-pub-id">A</div>
           <div>
             <div class="hp-pub-title">Leadership Operating System</div>
             <div class="hp-pub-meta">4 articles · Leadership systems</div>
           </div>
           <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In pipeline</span>
-        </div>
-        <div class="hp-pub-row">
+        </a>
+        <a class="hp-pub-row" href="/publications/#series-c">
           <div class="hp-pub-id">C</div>
           <div>
             <div class="hp-pub-title">The Moving Target</div>
             <div class="hp-pub-meta">7 articles · Network security as strategy</div>
           </div>
           <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In pipeline</span>
-        </div>
+        </a>
       </div>
     </div>
   </div>
