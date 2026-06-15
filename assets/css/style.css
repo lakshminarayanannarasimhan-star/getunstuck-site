@@ -703,6 +703,32 @@
   --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #F2F6FF 100%);
 }
 
+/* blaze — warm off-white canvas, vivid orange accent */
+[data-theme="blaze"] {
+  --bg:             #FFF8F3;
+  --bg-deep:        #FFEEDE;
+  --surface:        #FFFFFF;
+  --surface-soft:   #FFF5EE;
+  --text:           #1A0800;
+  --muted:          #7A3010;
+  --faint:          #C85820;
+  --primary:        #FB6107;
+  --primary-soft:   #FFE0CC;
+  --primary-strong: #C44C05;
+  --border:         rgba(26,8,0,0.12);
+  --border-soft:    rgba(26,8,0,0.06);
+  --shadow-sm:      0 2px 6px rgba(26,8,0,0.07);
+  --shadow-md:      0 10px 30px rgba(26,8,0,0.10);
+  --shadow-lg:      0 20px 60px rgba(26,8,0,0.14);
+  --hero-gradient:        linear-gradient(135deg, #FFF8F3 0%, #FFEEDE 45%, #FFE0CC 100%);
+  --ink-gradient:         linear-gradient(135deg, #1A0800 0%, #3A1500 45%, #200A00 100%);
+  --accent-gradient:      linear-gradient(135deg, #FFEEDE 0%, #FFE0CC 100%);
+  --btn-gradient:         linear-gradient(135deg, #FF7A2E 0%, #FB6107 50%, #C44C05 100%);
+  --btn-gradient-hover:   linear-gradient(135deg, #FB6107 0%, #C44C05 100%);
+  --card-hover-gradient:  linear-gradient(135deg, #FFFFFF 0%, #FFE0CC 100%);
+  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #FFF8F3 100%);
+}
+
 /* sky — light blue canvas, deep cobalt accent */
 [data-theme="sky"] {
   --bg:             #EFF4FF;
