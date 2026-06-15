@@ -84,7 +84,7 @@ description: "Writing across leadership systems, technology strategy, and securi
         </span>
       </div>
       <h3 class="series-title">Why Organisations Lose Their Direction</h3>
-      <p class="series-desc">Most organisations measure position and call it direction. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
+      <p class="series-desc">Most organisations measure position and call it direction. The customer is true north. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
       <div class="series-meta">9 episodes · Strategy &amp; customer centricity</div>
     </a>
 
