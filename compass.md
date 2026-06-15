@@ -14,7 +14,7 @@ description: "A nine-episode series on why organisations lose their direction â€
     <div class="hz-hero-left">
       <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">Compass Â· A Series on Direction and Customer Centricity</div>
       <h1 class="hz-hero-title reveal d2">Most organisations measure position and call it direction.</h1>
-      <p class="hz-hero-sub reveal d3">Every organisation follows a compass. The question is what it actually points to. Nine episodes on how the needle drifts â€” through reasonable decisions, in aggregate â€” and what it takes to read it true.</p>
+      <p class="hz-hero-sub reveal d3">The customer is true north. Nine episodes on how the needle drifts â€” and what it takes to read it true.</p>
       <div class="hz-hero-meta reveal d4">
         <span class="hz-meta-item">9 episodes</span>
         <span class="hz-meta-sep">Â·</span>
@@ -106,7 +106,7 @@ description: "A nine-episode series on why organisations lose their direction â€
 
   <div class="cp-episodes">
 
-    <div class="cp-ep">
+    <div class="cp-ep cp-ep-flagship">
       <div class="cp-ep-head">
         <div class="cp-ep-num">E0</div>
         <div class="cp-ep-theme">Direction</div>
@@ -115,6 +115,7 @@ description: "A nine-episode series on why organisations lose their direction â€
       <div class="cp-ep-title">Every Organisation Has a Compass</div>
       <p class="cp-ep-thesis">Every organisation follows a compass; the question is what it points to. Organisations eventually become what their compass rewards.</p>
       <div class="cp-ep-takeaway">Show me what an organisation measures, rewards, and tolerates, and I will show you its compass.</div>
+      <div class="cp-ep-flagship-tag">The frame</div>
     </div>
 
     <div class="cp-ep">
@@ -150,7 +151,7 @@ description: "A nine-episode series on why organisations lose their direction â€
       <div class="cp-ep-takeaway">The second job often determines whether the first job matters.</div>
     </div>
 
-    <div class="cp-ep cp-ep-flagship">
+    <div class="cp-ep">
       <div class="cp-ep-head">
         <div class="cp-ep-num">E4</div>
         <div class="cp-ep-theme">Trust</div>
@@ -159,7 +160,6 @@ description: "A nine-episode series on why organisations lose their direction â€
       <div class="cp-ep-title">The Reading</div>
       <p class="cp-ep-thesis">Trust is not the product; trust is the reading. The customer relationship is the needle, and its trust level tells you whether you are still pointed at true north. Capability creates opportunities; trust tells you whether you are keeping them.</p>
       <div class="cp-ep-takeaway">Capability creates opportunities; trust tells you whether you are keeping them.</div>
-      <div class="cp-ep-flagship-tag">Flagship episode</div>
     </div>
 
     <div class="cp-ep cp-ep-flagship">
@@ -197,7 +197,7 @@ description: "A nine-episode series on why organisations lose their direction â€
       <div class="cp-ep-takeaway">Customer-centricity is an operating system, not a slogan.</div>
     </div>
 
-    <div class="cp-ep">
+    <div class="cp-ep cp-ep-flagship">
       <div class="cp-ep-head">
         <div class="cp-ep-num">E8</div>
         <div class="cp-ep-theme">Philosophy</div>
@@ -206,6 +206,7 @@ description: "A nine-episode series on why organisations lose their direction â€
       <div class="cp-ep-title">True North</div>
       <p class="cp-ep-thesis">Markets, technology, and strategy change. The customer remains the most reliable reference point â€” the one fixed point when everything else is up for debate. The compass exists whether or not you read it.</p>
       <div class="cp-ep-takeaway">The purpose of a compass is not to tell you where you are. It tells you whether you are still heading in the right direction.</div>
+      <div class="cp-ep-flagship-tag">The series close</div>
     </div>
 
   </div>
