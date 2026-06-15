@@ -3122,10 +3122,15 @@ body.search-open { overflow: hidden; }
 }
 
 /* COMING — ghost, dashed, barely-there */
+/* Reset overrides from the generic .coming placeholder-note rule */
 .series-status.coming {
   background: transparent;
   color: var(--faint);
   border: 1px dashed var(--border);
+  margin-top: 0;
+  padding: .25rem .65rem;
+  border-radius: 99px;
+  max-width: none;
 }
 .series-status.coming .series-dot {
   background: var(--faint);
