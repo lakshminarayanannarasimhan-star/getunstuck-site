@@ -12,17 +12,33 @@ description: "Writing across leadership systems, technology strategy, and securi
       <h1 class="hero-title reveal d2">Writing worth reading slowly.</h1>
       <p class="hero-sub reveal d3">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
       <div class="pub-approach reveal d4">
-        <div class="pub-approach-col">
-          <div class="pub-approach-name">Perspective</div>
-          <div class="pub-approach-desc">The argument — first-principles, not commentary.</div>
+        <div class="pub-approach-row">
+          <div class="pub-approach-num">01</div>
+          <div>
+            <div class="pub-approach-name">Perspective</div>
+            <div class="pub-approach-desc">Raw knowledge. The argument built from first principles — not commentary on what others have said.</div>
+          </div>
         </div>
-        <div class="pub-approach-col">
-          <div class="pub-approach-name">Stress Test</div>
-          <div class="pub-approach-desc">Where the argument holds, and where it bends.</div>
+        <div class="pub-approach-row">
+          <div class="pub-approach-num">02</div>
+          <div>
+            <div class="pub-approach-name">Stress Test</div>
+            <div class="pub-approach-desc">Don't believe what you see. The stress test is where the argument proves its strength — or breaks under challenge.</div>
+          </div>
         </div>
-        <div class="pub-approach-col">
-          <div class="pub-approach-name">Diagnostic</div>
-          <div class="pub-approach-desc">Five questions you can run in your own organisation.</div>
+        <div class="pub-approach-row">
+          <div class="pub-approach-num">03</div>
+          <div>
+            <div class="pub-approach-name">Diagnostic</div>
+            <div class="pub-approach-desc">Apply in your context. Questions you can run inside your own organisation to see where you stand.</div>
+          </div>
+        </div>
+        <div class="pub-approach-row">
+          <div class="pub-approach-num">04</div>
+          <div>
+            <div class="pub-approach-name">Drills</div>
+            <div class="pub-approach-desc">Installation. A skill practised until it is yours — tough to take away, sticks with you for years.</div>
+          </div>
         </div>
       </div>
     </div>

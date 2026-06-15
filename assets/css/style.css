@@ -1481,9 +1481,29 @@ body.search-open { overflow: hidden; }
   margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.pub-approach-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: .7rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.pub-approach-row:last-child {
+  border-bottom: none;
+}
+.pub-approach-num {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  font-weight: 500;
+  letter-spacing: .06em;
+  color: var(--faint);
+  flex-shrink: 0;
+  width: 20px;
+  padding-top: .1rem;
 }
 .pub-approach-name {
   font-family: 'DM Mono', monospace;
@@ -1491,12 +1511,12 @@ body.search-open { overflow: hidden; }
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--primary);
-  margin-bottom: .35rem;
+  margin-bottom: .2rem;
 }
 .pub-approach-desc {
-  font-size: .82rem;
+  font-size: .8rem;
   color: var(--muted);
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 /* Audience pills — used in featured series panel */
