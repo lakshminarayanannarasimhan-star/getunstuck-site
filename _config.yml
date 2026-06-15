@@ -92,8 +92,8 @@ author: Lakshmi Narayanan
 # unstuck_theme: mono          # Stripped back, pure black/white
 # unstuck_theme: sky           # Light blue canvas, deep cobalt accent
 # unstuck_theme: rainbow       # Light lavender canvas, deep violet accent (#5a189a)
-unstuck_theme: abyss         # Deep navy editorial, authoritative (#00296b)
-# unstuck_theme: blaze         # Warm off-white canvas, vivid orange accent (#fb6107)
+# unstuck_theme: abyss         # Deep navy editorial, authoritative (#00296b)
+unstuck_theme: blaze         # Warm off-white canvas, vivid orange accent (#fb6107)
 
 typography: spacious   # executive | compact | spacious
 
