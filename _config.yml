@@ -84,10 +84,10 @@ author: Lakshmi Narayanan
 # My Favorites
 # unstuck_theme: ivory         # light theme - Warm white, barely-there surfaces
 # unstuck_theme: mono          # Stripped back, pure black/white
-unstuck_theme: sunset        # Warm amber to rose, editorial
+# unstuck_theme: sunset        # Warm amber to rose, editorial
 # unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
-# unstuck_theme: tree          # Light green canvas, deep forest accent
+unstuck_theme: tree          # Light green canvas, deep forest accent
 # unstuck_theme: sky           # Light blue canvas, deep cobalt accent
 
 typography: spacious   # executive | compact | spacious
