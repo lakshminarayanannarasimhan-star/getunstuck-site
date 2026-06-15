@@ -87,8 +87,8 @@ author: Lakshmi Narayanan
 # unstuck_theme: sunset        # Warm amber to rose, editorial
 # unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
-unstuck_theme: tree          # Light green canvas, deep forest accent
-# unstuck_theme: sky           # Light blue canvas, deep cobalt accent
+# unstuck_theme: tree          # Light green canvas, deep forest accent
+unstuck_theme: sky           # Light blue canvas, deep cobalt accent
 
 typography: spacious   # executive | compact | spacious
 
