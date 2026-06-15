@@ -2459,8 +2459,8 @@ body.search-open { overflow: hidden; }
   .bento-wide, .bento-ink { grid-column: 1; }
 }
 
-/* LinkedIn pill in nav */
-.nav-linkedin {
+/* LinkedIn pill in nav — .nav .nav-linkedin beats .nav a specificity battle */
+.nav .nav-linkedin {
   font-family: 'DM Mono', monospace;
   font-size: .72rem;
   font-weight: 500;
@@ -2472,38 +2472,38 @@ body.search-open { overflow: hidden; }
   text-decoration: none;
   transition: background .18s ease;
 }
-.nav-linkedin:hover { background: var(--primary-strong) !important; color: #ffffff !important; }
+.nav .nav-linkedin:hover { background: var(--primary-strong) !important; color: #ffffff !important; }
 
-[data-theme="mono"] .nav-linkedin {
+[data-theme="mono"] .nav .nav-linkedin {
   background: #0a0a0a !important;
   color: #ffffff !important;
   border: none;
 }
-[data-theme="mono"] .nav-linkedin:hover { background: #333333 !important; }
+[data-theme="mono"] .nav .nav-linkedin:hover { background: #333333 !important; }
 
 /* Themes with light/bright primaries — dark text for contrast */
-[data-theme="saffron"] .nav-linkedin,
-[data-theme="navy"] .nav-linkedin,
-[data-theme="blueprint"] .nav-linkedin,
-[data-theme="jade"] .nav-linkedin,
-[data-theme="noir"] .nav-linkedin,
-[data-theme="ember"] .nav-linkedin,
-[data-theme="forest"] .nav-linkedin,
-[data-theme="ocean"] .nav-linkedin,
-[data-theme="arctic"] .nav-linkedin,
-[data-theme="plum"] .nav-linkedin {
+[data-theme="saffron"] .nav .nav-linkedin,
+[data-theme="navy"] .nav .nav-linkedin,
+[data-theme="blueprint"] .nav .nav-linkedin,
+[data-theme="jade"] .nav .nav-linkedin,
+[data-theme="noir"] .nav .nav-linkedin,
+[data-theme="ember"] .nav .nav-linkedin,
+[data-theme="forest"] .nav .nav-linkedin,
+[data-theme="ocean"] .nav .nav-linkedin,
+[data-theme="arctic"] .nav .nav-linkedin,
+[data-theme="plum"] .nav .nav-linkedin {
   color: rgba(0,0,0,0.85) !important;
 }
-[data-theme="saffron"] .nav-linkedin:hover,
-[data-theme="navy"] .nav-linkedin:hover,
-[data-theme="blueprint"] .nav-linkedin:hover,
-[data-theme="jade"] .nav-linkedin:hover,
-[data-theme="noir"] .nav-linkedin:hover,
-[data-theme="ember"] .nav-linkedin:hover,
-[data-theme="forest"] .nav-linkedin:hover,
-[data-theme="ocean"] .nav-linkedin:hover,
-[data-theme="arctic"] .nav-linkedin:hover,
-[data-theme="plum"] .nav-linkedin:hover {
+[data-theme="saffron"] .nav .nav-linkedin:hover,
+[data-theme="navy"] .nav .nav-linkedin:hover,
+[data-theme="blueprint"] .nav .nav-linkedin:hover,
+[data-theme="jade"] .nav .nav-linkedin:hover,
+[data-theme="noir"] .nav .nav-linkedin:hover,
+[data-theme="ember"] .nav .nav-linkedin:hover,
+[data-theme="forest"] .nav .nav-linkedin:hover,
+[data-theme="ocean"] .nav .nav-linkedin:hover,
+[data-theme="arctic"] .nav .nav-linkedin:hover,
+[data-theme="plum"] .nav .nav-linkedin:hover {
   color: rgba(0,0,0,0.85) !important;
 }
 
