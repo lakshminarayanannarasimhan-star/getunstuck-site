@@ -88,11 +88,11 @@ author: Lakshmi Narayanan
 
 # All time favorites
 # unstuck_theme: tree          # Light green canvas, deep forest accent
-unstuck_theme: sunset        # Warm amber to rose, editorial
+# unstuck_theme: sunset        # Warm amber to rose, editorial
 # unstuck_theme: mono          # Stripped back, pure black/white
 # unstuck_theme: sky           # Light blue canvas, deep cobalt accent
-# unstuck_theme: rainbow       # Light lavender canvas, deep violet accent (#5a189a)
 # unstuck_theme: sky           # Light blue canvas, deep cobalt accent
+unstuck_theme: rainbow       # Light lavender canvas, deep violet accent (#5a189a)
 
 typography: spacious   # executive | compact | spacious
 
