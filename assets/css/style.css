@@ -2481,6 +2481,32 @@ body.search-open { overflow: hidden; }
 }
 [data-theme="mono"] .nav-linkedin:hover { background: #333333 !important; }
 
+/* Themes with light/bright primaries — dark text for contrast */
+[data-theme="saffron"] .nav-linkedin,
+[data-theme="navy"] .nav-linkedin,
+[data-theme="blueprint"] .nav-linkedin,
+[data-theme="jade"] .nav-linkedin,
+[data-theme="noir"] .nav-linkedin,
+[data-theme="ember"] .nav-linkedin,
+[data-theme="forest"] .nav-linkedin,
+[data-theme="ocean"] .nav-linkedin,
+[data-theme="arctic"] .nav-linkedin,
+[data-theme="plum"] .nav-linkedin {
+  color: rgba(0,0,0,0.85) !important;
+}
+[data-theme="saffron"] .nav-linkedin:hover,
+[data-theme="navy"] .nav-linkedin:hover,
+[data-theme="blueprint"] .nav-linkedin:hover,
+[data-theme="jade"] .nav-linkedin:hover,
+[data-theme="noir"] .nav-linkedin:hover,
+[data-theme="ember"] .nav-linkedin:hover,
+[data-theme="forest"] .nav-linkedin:hover,
+[data-theme="ocean"] .nav-linkedin:hover,
+[data-theme="arctic"] .nav-linkedin:hover,
+[data-theme="plum"] .nav-linkedin:hover {
+  color: rgba(0,0,0,0.85) !important;
+}
+
 /* Mono: live badge — white glass on black primary panel */
 [data-theme="mono"] .series-status.live {
   background: rgba(255,255,255,0.14);
