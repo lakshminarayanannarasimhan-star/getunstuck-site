@@ -625,6 +625,58 @@
   --surface-gradient:    linear-gradient(160deg, #FFFFFF 0%, #F8FAFF 100%);
 }
 
+/* tree — light green canvas, deep forest accent */
+[data-theme="tree"] {
+  --bg:             #F0F9F0;
+  --bg-deep:        #DFF0DF;
+  --surface:        #FAFFF8;
+  --surface-soft:   #FFFFFF;
+  --text:           #0A1A0A;
+  --muted:          #2D5228;
+  --faint:          #5A8A52;
+  --primary:        #007200;
+  --primary-soft:   #E6F5E6;
+  --primary-strong: #006400;
+  --border:         rgba(10,26,10,0.12);
+  --border-soft:    rgba(10,26,10,0.06);
+  --shadow-sm:      0 2px 6px rgba(10,26,10,0.06);
+  --shadow-md:      0 10px 30px rgba(10,26,10,0.09);
+  --shadow-lg:      0 20px 60px rgba(10,26,10,0.12);
+  --hero-gradient:        linear-gradient(135deg, #F0F9F0 0%, #DFF0DF 45%, #D0EAD0 100%);
+  --ink-gradient:         linear-gradient(135deg, #0A1A0A 0%, #142814 45%, #0C200C 100%);
+  --accent-gradient:      linear-gradient(135deg, #DFF0DF 0%, #CCE8CC 100%);
+  --btn-gradient:         linear-gradient(135deg, #008000 0%, #007200 50%, #006400 100%);
+  --btn-gradient-hover:   linear-gradient(135deg, #007200 0%, #006400 100%);
+  --card-hover-gradient:  linear-gradient(135deg, #FAFFF8 0%, #E6F5E6 100%);
+  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #F0F9F0 100%);
+}
+
+/* sky — light blue canvas, deep cobalt accent */
+[data-theme="sky"] {
+  --bg:             #EFF4FF;
+  --bg-deep:        #DDE8FF;
+  --surface:        #F7FAFF;
+  --surface-soft:   #FFFFFF;
+  --text:           #04142E;
+  --muted:          #1A3D7A;
+  --faint:          #4D78CC;
+  --primary:        #0052CC;
+  --primary-soft:   #E6EEFF;
+  --primary-strong: #003D99;
+  --border:         rgba(4,20,46,0.12);
+  --border-soft:    rgba(4,20,46,0.06);
+  --shadow-sm:      0 2px 6px rgba(4,20,46,0.06);
+  --shadow-md:      0 10px 30px rgba(4,20,46,0.09);
+  --shadow-lg:      0 20px 60px rgba(4,20,46,0.12);
+  --hero-gradient:        linear-gradient(135deg, #EFF4FF 0%, #DDE8FF 45%, #CCDAFF 100%);
+  --ink-gradient:         linear-gradient(135deg, #04142E 0%, #071F47 45%, #0A1E40 100%);
+  --accent-gradient:      linear-gradient(135deg, #DDE8FF 0%, #CCDAFF 100%);
+  --btn-gradient:         linear-gradient(135deg, #0066FF 0%, #0052CC 50%, #003D99 100%);
+  --btn-gradient-hover:   linear-gradient(135deg, #0052CC 0%, #003D99 100%);
+  --card-hover-gradient:  linear-gradient(135deg, #F7FAFF 0%, #E6EEFF 100%);
+  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #EFF4FF 100%);
+}
+
 /* ── BOLD / VIVID THEMES ── */
 
 /* saffron — obsidian dark, burnished gold */
