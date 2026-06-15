@@ -4609,23 +4609,23 @@ body.search-open { overflow: hidden; }
   gap: 2px;
 }
 .hp-pub-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 110px 1fr auto;
   align-items: center;
   gap: 1rem;
   padding: .85rem 1rem;
   border-radius: var(--radius-sm);
   background: rgba(255,255,255,.05);
-  border-radius: var(--radius-sm);
   transition: background .15s ease;
 }
 .hp-pub-row:hover { background: rgba(255,255,255,.1); }
 .hp-pub-id {
   font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: rgba(255,255,255,.45);
-  flex-shrink: 0;
-  min-width: 20px;
+  text-align: center;
+  justify-self: center;
 }
 .hp-pub-title {
   font-size: .88rem;
@@ -4639,6 +4639,11 @@ body.search-open { overflow: hidden; }
   color: rgba(255,255,255,.35);
   letter-spacing: .04em;
   margin-top: .15rem;
+}
+.hp-pub-row .series-status {
+  justify-self: center;
+  text-align: center;
+  white-space: nowrap;
 }
 
 /* ── PRACTICE SECTION ── */

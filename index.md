@@ -271,7 +271,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       </div>
       <div class="hp-pubs-series">
         <div class="hp-pub-row">
-          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Horizon</div>
+          <div class="hp-pub-id">Horizon</div>
           <div>
             <div class="hp-pub-title">From Compression to Premium</div>
             <div class="hp-pub-meta">6 episodes · Technology services strategy</div>
@@ -279,7 +279,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In progress</span>
         </div>
         <div class="hp-pub-row">
-          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Frontier</div>
+          <div class="hp-pub-id">Frontier</div>
           <div>
             <div class="hp-pub-title">Graduation, Not Rejection</div>
             <div class="hp-pub-meta">4 parts · Technology services &amp; GCCs</div>
@@ -287,7 +287,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>To write</span>
         </div>
         <div class="hp-pub-row">
-          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Compass</div>
+          <div class="hp-pub-id">Compass</div>
           <div>
             <div class="hp-pub-title">Why Organisations Lose Their Direction</div>
             <div class="hp-pub-meta">9 episodes · Strategy &amp; customer centricity</div>
