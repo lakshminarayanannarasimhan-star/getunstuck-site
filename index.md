@@ -259,7 +259,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     <div class="hp-pubs-grid">
       <div>
         <h2 style="color:#fff;font-size:clamp(1.6rem,2.8vw,2.2rem);margin-bottom:.8rem;">Writing worth reading slowly.</h2>
-        <p style="color:rgba(255,255,255,.55);font-size:.9rem;line-height:1.7;max-width:40ch;margin-bottom:1.4rem;">Five series across leadership systems, technology strategy, and security. Each series is a single argument — not a list of topics.</p>
+        <p style="color:rgba(255,255,255,.55);font-size:.9rem;line-height:1.7;max-width:40ch;margin-bottom:1.4rem;">Six series across leadership systems, technology strategy, and security. Each series is a single argument — not a list of topics.</p>
         <div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.6rem;">
           <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Leadership</span>
           <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Technology Strategy</span>
@@ -309,6 +309,14 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
             <div class="hp-pub-meta">7 articles · Network security as strategy</div>
           </div>
           <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In pipeline</span>
+        </div>
+        <div class="hp-pub-row">
+          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Compass</div>
+          <div>
+            <div class="hp-pub-title">Why Organisations Lose Their Direction</div>
+            <div class="hp-pub-meta">9 episodes · Strategy &amp; customer centricity</div>
+          </div>
+          <span class="series-status ideation" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ideation</span>
         </div>
       </div>
     </div>

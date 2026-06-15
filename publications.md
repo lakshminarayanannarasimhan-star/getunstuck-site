@@ -76,6 +76,18 @@ description: "Writing across leadership systems, technology strategy, and securi
       <div class="series-meta">4 parts · Technology services &amp; GCCs</div>
     </a>
 
+    <a class="series-card" href="/compass/">
+      <div class="series-card-top">
+        <div class="series-id">Compass</div>
+        <span class="series-status ideation">
+          <span class="series-dot"></span>Ideation
+        </span>
+      </div>
+      <h3 class="series-title">Why Organisations Lose Their Direction</h3>
+      <p class="series-desc">Most organisations measure position and call it direction. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
+      <div class="series-meta">9 episodes · Strategy &amp; customer centricity</div>
+    </a>
+
     <a class="series-card" href="#series-d">
       <div class="series-card-top">
         <div class="series-id">The Trust Equation</div>
@@ -154,12 +166,34 @@ description: "Writing across leadership systems, technology strategy, and securi
   </div>
 </section>
 
+<!-- COMPASS — LANDING PAGE LINK -->
+<section class="section-wide" id="compass">
+  <div class="series-section-header">
+    <div>
+      <div class="section-label">Compass</div>
+      <h2>Why Organisations Lose Their Direction.</h2>
+      <p class="prose" style="margin-top:.8rem;">Nine episodes on how direction is lost through reasonable decisions in aggregate — and what it takes to read the needle true. The series installs one distinction: direction is not position. Structurally frozen; moving to draft.</p>
+    </div>
+    <a class="btn-secondary" href="/compass/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+  </div>
+</section>
+
 <!-- IN DEVELOPMENT -->
 <section class="section-wide">
   <div class="section-label">In development</div>
-  <h2>Three series in the pipeline.</h2>
+  <h2>Four series in the pipeline.</h2>
   <p class="prose" style="margin-top:.8rem;">Each series is outlined and structurally frozen before the first article is written. Articles appear here as they are completed.</p>
   <div class="series-grid" style="margin-top:2rem;">
+
+    <a class="series-card" href="/compass/" id="series-compass">
+      <div class="series-card-top">
+        <div class="series-id">Compass</div>
+        <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
+      </div>
+      <h3 class="series-title">Direction is not position.</h3>
+      <p class="series-desc">Nine episodes on why organisations measure position and call it direction — and what it takes to read the needle true. Structure frozen; moving to draft.</p>
+      <div class="series-meta">9 episodes · Strategy &amp; customer centricity</div>
+    </a>
 
     <div class="series-card" id="series-d">
       <div class="series-card-top">

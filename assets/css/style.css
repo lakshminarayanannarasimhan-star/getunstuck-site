@@ -6893,6 +6893,122 @@ body.search-open { overflow: hidden; }
   text-decoration-color: rgba(255,255,255,.2);
 }
 
+/* ── COMPASS series additions ── */
+
+/* Vocabulary grid — 2-col on wide, 1-col on mobile */
+.cp-vocab-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 1.8rem;
+}
+@media (max-width: 640px) { .cp-vocab-grid { grid-template-columns: 1fr; } }
+
+.cp-vocab-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1.3rem;
+}
+.cp-vocab-term {
+  font-family: 'DM Mono', monospace;
+  font-size: .7rem;
+  font-weight: 500;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: .45rem;
+}
+.cp-vocab-def {
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+/* Episode list — 2-col grid */
+.cp-episodes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+@media (max-width: 780px) { .cp-episodes { grid-template-columns: 1fr; } }
+
+.cp-ep {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  opacity: .82;
+  position: relative;
+}
+.cp-ep-flagship {
+  opacity: 1;
+  border-color: var(--primary);
+  border-left-width: 3px;
+}
+
+.cp-ep-head {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  margin-bottom: .2rem;
+}
+.cp-ep-num {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  font-weight: 500;
+  letter-spacing: .06em;
+  color: var(--primary);
+  background: var(--primary-soft);
+  padding: .15rem .45rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.cp-ep-theme {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--faint);
+  flex: 1;
+}
+.cp-ep-title {
+  font-family: 'Playfair Display', serif;
+  font-size: .98rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.25;
+}
+.cp-ep p.cp-ep-thesis {
+  font-size: .82rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+.cp-ep-takeaway {
+  font-size: .75rem;
+  color: var(--faint);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  padding-top: .5rem;
+  margin-top: .2rem;
+  line-height: 1.5;
+}
+.cp-ep-flagship-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--primary);
+  font-weight: 500;
+  margin-top: .2rem;
+}
+
 .hz-ep-left {
   flex-shrink: 0;
   width: 90px;
