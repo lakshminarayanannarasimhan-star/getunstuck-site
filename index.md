@@ -287,6 +287,14 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>To write</span>
         </div>
         <div class="hp-pub-row">
+          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Compass</div>
+          <div>
+            <div class="hp-pub-title">Why Organisations Lose Their Direction</div>
+            <div class="hp-pub-meta">9 episodes · Strategy &amp; customer centricity</div>
+          </div>
+          <span class="series-status ideation" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ideation</span>
+        </div>
+        <div class="hp-pub-row">
           <div class="hp-pub-id">D</div>
           <div>
             <div class="hp-pub-title">The Trust Equation</div>
@@ -309,14 +317,6 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
             <div class="hp-pub-meta">7 articles · Network security as strategy</div>
           </div>
           <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In pipeline</span>
-        </div>
-        <div class="hp-pub-row">
-          <div class="hp-pub-id" style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:500;">Compass</div>
-          <div>
-            <div class="hp-pub-title">Why Organisations Lose Their Direction</div>
-            <div class="hp-pub-meta">9 episodes · Strategy &amp; customer centricity</div>
-          </div>
-          <span class="series-status ideation" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ideation</span>
         </div>
       </div>
     </div>
