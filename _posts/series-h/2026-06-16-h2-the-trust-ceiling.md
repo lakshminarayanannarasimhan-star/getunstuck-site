@@ -78,12 +78,6 @@ This is the misread at the heart of most growth stagnation in mature service rel
 
 The Compression Zone rewards execution. The Expansion Zone rewards leverage. Trust is the last reward the Compression Zone has to offer — and the first asset most firms reach for when trying to enter the Expansion Zone. It does not work, because trust was never the currency on the other side.
 
-```
-COMPRESSION ZONE  ·  Execution  ·  Trust
-─────────────────── THE CROSSING ───────────────────
-EXPANSION ZONE  ·  Influence  ·  Indispensability  ·  Ownership  ·  Growth
-```
-
 ![The Trust Ceiling — from execution to growth leverage]({{ '/assets/img/articles/series-h/h2-trust-ceiling.png' | relative_url }})
 
 ---
