@@ -107,6 +107,9 @@ enable_audio: true     # set to false to hide the audio player on all articles
 url: "https://getunstuck.in"
 baseurl: ""
 
+# Paste the verification code from Google Search Console (Settings → Ownership verification → HTML tag)
+google_site_verification: "O5u7zPWSihGkf0z5rDzsQ81HcbdCcLYyuovnbZiOEzI"
+
 # -------------------------
 # COLLECTIONS
 # -------------------------

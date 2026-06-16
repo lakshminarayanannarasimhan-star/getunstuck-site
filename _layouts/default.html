@@ -10,6 +10,9 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="author" content="Lakshmi Narayanan Narasimhan">
+  {% if site.google_site_verification %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  {% endif %}
   <link rel="canonical" href="{{ site.url }}{{ page.permalink | default: page.url }}">
   <!-- Open Graph & Twitter Cards -->
   {% assign og_title = page.title | append: " | " | append: site.title %}
