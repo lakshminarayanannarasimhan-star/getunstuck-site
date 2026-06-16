@@ -729,6 +729,32 @@
   --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #FFF8F3 100%);
 }
 
+/* smokey_plum — dusty rose canvas, deep wine accent */
+[data-theme="smokey_plum"] {
+  --bg:             #FBF1F1;
+  --bg-deep:        #F0DCDC;
+  --surface:        #FFFFFF;
+  --surface-soft:   #FBF3F3;
+  --text:           #1C0506;
+  --muted:          #6B2528;
+  --faint:          #A85A5C;
+  --primary:        #440D0F;
+  --primary-soft:   #F0DCDD;
+  --primary-strong: #2E0809;
+  --border:         rgba(28,5,6,0.12);
+  --border-soft:    rgba(28,5,6,0.06);
+  --shadow-sm:      0 2px 6px rgba(28,5,6,0.07);
+  --shadow-md:      0 10px 30px rgba(28,5,6,0.10);
+  --shadow-lg:      0 20px 60px rgba(28,5,6,0.14);
+  --hero-gradient:        linear-gradient(135deg, #FBF1F1 0%, #F0DCDC 45%, #E5C5C6 100%);
+  --ink-gradient:         linear-gradient(135deg, #1C0506 0%, #350A0C 45%, #200607 100%);
+  --accent-gradient:      linear-gradient(135deg, #F0DCDC 0%, #E5C5C6 100%);
+  --btn-gradient:         linear-gradient(135deg, #6B1418 0%, #440D0F 50%, #2E0809 100%);
+  --btn-gradient-hover:   linear-gradient(135deg, #440D0F 0%, #2E0809 100%);
+  --card-hover-gradient:  linear-gradient(135deg, #FFFFFF 0%, #F0DCDD 100%);
+  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #FBF1F1 100%);
+}
+
 /* sky — light blue canvas, deep cobalt accent */
 [data-theme="sky"] {
   --bg:             #EFF4FF;

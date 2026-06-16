@@ -94,6 +94,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: rainbow       # Light lavender canvas, deep violet accent (#5a189a)
 # unstuck_theme: abyss         # Deep navy editorial, authoritative (#00296b)
 unstuck_theme: blaze         # Warm off-white canvas, vivid orange accent (#fb6107)
+# unstuck_theme: smokey_plum   # Dusty rose canvas, deep wine accent (#440d0f)
 
 typography: spacious   # executive | compact | spacious
 
