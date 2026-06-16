@@ -2167,59 +2167,53 @@ body.search-open { overflow: hidden; }
 /* ── Drill Pack CTA (TOC sidebar) ── */
 .art-toc-drillpack {
   margin-top: 1.2rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
+  padding: 1rem 1rem 1.1rem;
+  background: var(--primary-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
 }
 .art-toc-drillpack-label {
   font-family: 'DM Mono', monospace;
   font-size: .62rem;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: var(--faint);
-  margin-bottom: .75rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: .6rem;
 }
 .art-toc-drillpack-title {
-  font-family: 'DM Sans', sans-serif;
-  font-size: .78rem;
-  line-height: 1.4;
-  color: var(--muted);
-  margin-bottom: .2rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: .95rem;
+  line-height: 1.35;
+  color: var(--text);
+  margin-bottom: .3rem;
 }
 .art-toc-drillpack-meta {
   font-family: 'DM Sans', sans-serif;
   font-size: .68rem;
-  color: var(--faint);
-  margin-bottom: .4rem;
+  color: var(--muted);
+  margin-bottom: .8rem;
 }
 .art-toc-drillpack-link {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
   font-family: 'DM Sans', sans-serif;
-  font-size: .78rem;
-  line-height: 1.4;
-  color: var(--muted);
+  font-weight: 600;
+  font-size: .8rem;
+  color: #fff;
   text-decoration: none;
-  padding: .28rem .5rem .28rem .4rem;
-  border-left: 2px solid transparent;
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  transition: color .15s, border-color .15s, background .15s;
+  background: var(--btn-gradient, var(--primary));
+  padding: .55rem 1rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s, box-shadow .15s;
 }
 .art-toc-drillpack-link:hover {
-  color: var(--text);
-  background: var(--primary-soft);
-  border-left-color: var(--primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
 }
-
-.drillpack-article blockquote {
-  margin: 1.2rem 0;
-  padding: 0.75rem 1rem;
-  background: var(--faint);
-  border-left: 3px solid var(--primary);
-  font-style: italic;
-  font-size: 0.92rem;
-  color: var(--muted);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-}
-
 
 /* =========================================
    10. POST / ARTICLE LAYOUT

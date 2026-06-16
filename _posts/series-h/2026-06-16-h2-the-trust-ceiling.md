@@ -39,6 +39,12 @@ bibliography:
   - id: ref1
     note: "The Compression Zone / Crossing / Expansion Zone model and the four forms of growth leverage (reach, ecosystem access, speed, investment) are original frameworks drawn from practitioner observation across technology-services engagements over 25 years. They are not adaptations of existing published frameworks."
 
+drill_pack:
+  title: "Drill Pack #2 — The Trust Ceiling"
+  url: /drills/trust-ceiling-pack/
+  count: 10
+  duration: "60–90 min"
+
 whats_next:
   title: "The Indispensability Gap"
   code: "#3"
