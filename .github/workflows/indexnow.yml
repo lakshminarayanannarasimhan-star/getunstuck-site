@@ -1,0 +1,56 @@
+name: IndexNow ping
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_posts/**"
+      - "_drills/**"
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Ping IndexNow for changed content
+        env:
+          INDEXNOW_KEY: "84d06e6fb87bb808d8a900e8df4bdb02"
+          SITE: "https://getunstuck.in"
+        run: |
+          set -e
+
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            BEFORE="HEAD~1"
+          fi
+
+          CHANGED=$(git diff --name-only --diff-filter=ACMR "$BEFORE" "${{ github.sha }}" -- '_posts/**/*.md' '_drills/*.md' || true)
+
+          if [ -z "$CHANGED" ]; then
+            echo "No post/drill changes in this push."
+            exit 0
+          fi
+
+          while IFS= read -r f; do
+            base="$(basename "$f")"
+
+            if [[ "$f" == _posts/* ]]; then
+              y="$(echo "$base" | cut -d- -f1)"
+              m="$(echo "$base" | cut -d- -f2)"
+              d="$(echo "$base" | cut -d- -f3)"
+              slug="$(echo "$base" | cut -d- -f4- | sed 's/\.md$//')"
+              url="$SITE/$y/$m/$d/$slug/"
+            elif [[ "$f" == _drills/* ]]; then
+              slug="$(echo "$base" | sed 's/\.md$//')"
+              url="$SITE/drills/$slug/"
+            else
+              continue
+            fi
+
+            echo "Pinging IndexNow for $url"
+            curl -s -o /dev/null -w "  -> HTTP %{http_code}\n" \
+              "https://api.indexnow.org/indexnow?url=$url&key=$INDEXNOW_KEY"
+          done <<< "$CHANGED"
