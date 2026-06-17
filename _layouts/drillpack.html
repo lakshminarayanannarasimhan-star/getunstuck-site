@@ -3,6 +3,15 @@ layout: default
 ---
 <article class="drillpack-article">
 
+  <nav class="art-breadcrumb">
+    <a href="/">Home</a>
+    <span>›</span>
+    <a href="/drills/">Drills</a>
+    {% if page.series %}<span>›</span><a href="/{{ page.series | downcase }}/">{{ page.series }}</a>{% endif %}
+    <span>›</span>
+    <span>{{ page.title }}</span>
+  </nav>
+
   <div class="eyebrow">
     Drill Pack{% if page.pack_number %} #{{ page.pack_number }}{% endif %}{% if page.series %} · {{ page.series }}{% endif %}
   </div>

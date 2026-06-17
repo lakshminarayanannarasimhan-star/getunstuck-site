@@ -12,7 +12,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
   <div class="hp-hero-inner">
 
     <div class="hp-hero-left">
-      <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">Leadership Operating Systems · Technology Strategy · Author</div>
+      <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">A practitioner library for leaders. No email gate.</div>
       <h1 class="hp-hero-title reveal d2">25 years of building what others theorise about.</h1>
       <p class="hp-hero-sub reveal d3">Most leadership writing is written by people who observe leaders from the outside. This is not that. 25 years of building organisations from the inside — carrying strategy, developing people, making decisions that had real consequences for real careers. Not studied. Not consulted. Carried. Everything on this site is drawn from what that work actually taught.</p>
       <div class="area-tags reveal d4" style="margin-top:1.4rem;">

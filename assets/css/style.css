@@ -5818,6 +5818,47 @@ body.search-open { overflow: hidden; }
   line-height: 1.65;
 }
 
+/* Author Card */
+.art-author-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--surface-gradient);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+}
+.art-author-photo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--border-soft);
+}
+.art-author-body { display: flex; flex-direction: column; gap: 0.35rem; }
+.art-author-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.art-author-bio {
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+.art-author-link {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: var(--primary);
+  text-decoration: none;
+  margin-top: 0.15rem;
+}
+.art-author-link:hover { text-decoration: underline; }
+
 /* What's Next */
 .art-next-card {
   display: flex;
