@@ -1282,11 +1282,11 @@ body:has(.reading-progress) .header {
 }
 
 .brand .logo {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 2.8rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   background: var(--header-logo-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1294,9 +1294,10 @@ body:has(.reading-progress) .header {
 }
 
 .brand .tagline-small {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0.12em;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: var(--header-tagline);
   line-height: 1;
