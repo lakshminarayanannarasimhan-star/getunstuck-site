@@ -121,6 +121,10 @@ collections:
   drills:
     output: true
     permalink: /drills/:name/
+  workbooks:
+    output: false
+  case_studies:
+    output: false
   mentees:
     output: false
 
@@ -165,10 +169,8 @@ exclude:
   - node_modules
   - vendor
   - examples
-  - workbook.md
-  - case_studies.md
-  - the-invisible-backlog.md
-  - the-series.md
+  - pages/the-invisible-backlog.md
+  - pages/the-series.md
 
 # =========================================
 # NOTES
