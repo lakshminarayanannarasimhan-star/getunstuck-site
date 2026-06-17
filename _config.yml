@@ -59,14 +59,9 @@ author: Lakshmi Narayanan
 # unstuck_theme: indigo        # Indigo accent
 # unstuck_theme: emerald       # Emerald accent
 # unstuck_theme: oasis         # Muted purple accent
-# unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
-# unstuck_theme: summer_sunset # Deep rose accent
-# unstuck_theme: adventure     # Sky blue accent
-# unstuck_theme: feast         # Vivid green accent
 # unstuck_theme: ocean_breeze  # Bold rose-red accent
-# unstuck_theme: pumpkin_spice # Warm orange accent
-# unstuck_theme: evergreen     # Forest green accent
+unstuck_theme: evergreen     # Forest green accent
 
 typography: spacious   # executive | compact | spacious
 
