@@ -51,7 +51,7 @@ author: Lakshmi Narayanan
 #
 # ── EDITORIAL / PRINT THEMES ───────────────────────────────────────
 #
-# unstuck_theme: broadsheet    # Newspaper grey, classic editorial
+unstuck_theme: broadsheet    # Newspaper grey, classic editorial
 # unstuck_theme: manuscript    # Aged parchment, sepia, scholarly
 # unstuck_theme: blueprint     # Technical navy, precision sky-blue
 # unstuck_theme: noir          # Cinematic near-black, sepia gold
