@@ -89,12 +89,14 @@ author: Lakshmi Narayanan
 # All time favorites
 # unstuck_theme: tree          # Light green canvas, deep forest accent
 # unstuck_theme: sunset        # Warm amber to rose, editorial
-unstuck_theme: mono          # Stripped back, pure black/white
 # unstuck_theme: sky           # Light blue canvas, deep cobalt accent
 # unstuck_theme: rainbow       # Light lavender canvas, deep violet accent (#5a189a)
 # unstuck_theme: abyss         # Deep navy editorial, authoritative (#00296b)
 # unstuck_theme: blaze         # Warm off-white canvas, vivid orange accent (#fb6107)
 # unstuck_theme: smokey_plum   # Dusty rose canvas, deep wine accent (#440d0f)
+
+# unstuck_theme: mono          # Stripped back, pure black/white
+unstuck_theme: aurora        # Clean white, coral-to-purple gradient
 
 typography: spacious   # executive | compact | spacious
 
