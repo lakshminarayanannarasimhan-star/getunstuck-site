@@ -14,14 +14,15 @@
 - [x] Root directory reorganised — pages/ directory, _workbooks/, _case_studies/ collections
 - [x] Header modernised — Playfair Display logo, no tagline, underline nav, no box-shadow
 - [x] Nav hierarchy — removed Home, reordered, added Leadership OS → CTA pill
-- [x] Added aurora theme (coral → purple gradient)
-- [x] Added sovereign theme (white canvas, olive → electric blue, WIP)
 - [x] Homepage — hero stats above fold, eyebrow updated, start here badge on LOS
 - [x] Homepage — publications cleaned up (Horizon only, 5 more collapsed)
 - [x] Homepage — Books & Drills merged, redundant stat card removed
 - [x] Article pages — author card, subscribe form, drill breadcrumbs
 - [x] Buttondown email subscribe — article footer + /subscribe/ page + nav link
 - [x] Removed contact FAB (redundant — LinkedIn and Subscribe in nav)
+- [x] UX review — high/medium/polish improvements applied
+- [x] Theme cleanup — removed ~25 unused themes; kept mono, aurora, sunrise, flamingo, sovereign, plus editorial/dark/light essentials
+- [x] Added 5 new gradient themes from swatches: sunrise, flamingo, aurora, sovereign (WIP)
 
 ---
 
@@ -37,11 +38,19 @@
 
 ## Pending — site
 
-### This weekend
-- [ ] **Theme cleanup** — narrow to 4 themes, tweak sovereign and aurora, remove unused themes from style.css and _config.yml comments
+### Themes (remaining cleanup)
+Active theme: **mono**. Remaining themes in CSS:
+- Gradient: aurora, sunrise, flamingo, sovereign (WIP)
+- Signature: dojo (root default), mono, slate
+- Dark: midnight, navy, plum, charcoal, forest
+- Light: ivory, chalk, cloud, sky, rainbow
+- Editorial: blueprint, noir, arctic
+- Accent-swap: indigo, emerald, oasis, delight, ocean_breeze, evergreen
+
+Still to decide: keep or remove slate, ivory, chalk, cloud, sky, rainbow, blueprint, noir, arctic, indigo, emerald, oasis, delight, ocean_breeze, evergreen
 
 ### Backlog
-- [ ] **Mentees/coaching page refresh** — /mentees/ page hasn't been updated this session
+- [ ] **Mentees/coaching page refresh** — /mentees/ page hasn't been updated
 - [ ] **Comments via Utterances** — GitHub Issues as comment threads; zero backend, free
 - [ ] **Drill streak tracker** — localStorage counter ("You've done 7 drills this week")
 - [ ] **Animated hero gradient** — CSS @keyframes slow-shifting gradient on .hp-hero
@@ -53,7 +62,6 @@
 ## Done (all time)
 
 ### Site foundation
-- [x] Redesign all 30 themes with distinct tinted canvases
 - [x] Open Graph / Twitter card meta tags + JSON-LD Article schema
 - [x] Reading progress bar (article pages only)
 - [x] Table of contents — auto-generated, sticky sidebar
