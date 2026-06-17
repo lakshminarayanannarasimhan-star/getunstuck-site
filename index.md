@@ -64,42 +64,6 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 </section>
 
 <!-- ═══════════════════════
-     FEATURED ARTICLE
-═══════════════════════ -->
-{% assign featured = site.posts.first %}
-{% if featured %}
-<section class="section-wide" style="padding-top:2.5rem;padding-bottom:2.5rem;" id="featured">
-  <div class="section-label">Featured article</div>
-  <div class="hp-featured-card">
-    <div class="hp-fa-left">
-      <div class="hp-fa-meta">
-        <span class="series-status live"><span class="series-dot"></span>Published</span>
-        <span class="hp-fa-series">{{ featured.series }}</span>
-      </div>
-      <h2 class="hp-fa-title">{{ featured.title }}</h2>
-      <p class="hp-fa-excerpt">{% if featured.tldr %}{{ featured.tldr | truncate: 200 }}{% else %}{{ featured.excerpt | strip_html | truncate: 200 }}{% endif %}</p>
-      <div class="hp-fa-footer">
-        <a class="btn-primary" href="{{ featured.url }}">Read the article</a>
-        <span class="hp-fa-detail">{{ featured.date | date: "%d %b %Y" }}</span>
-      </div>
-    </div>
-    <div class="hp-fa-right">
-      {% if featured.tldr %}
-      <div class="hp-fa-pull">
-        <div class="hp-fa-pull-label">Key insight</div>
-        <p class="hp-fa-pull-text">{{ featured.tldr }}</p>
-      </div>
-      {% endif %}
-      <div class="hp-fa-tags">
-        {% if featured.series %}<span class="area-tag">{{ featured.series }}</span>{% endif %}
-        {% if featured.reading_time %}<span class="area-tag">{{ featured.reading_time }} min read</span>{% endif %}
-      </div>
-    </div>
-  </div>
-</section>
-{% endif %}
-
-<!-- ═══════════════════════
      THE LOS
 ═══════════════════════ -->
 <div class="section-ink" id="los" style="padding-top:clamp(2.5rem,5vw,4.5rem);padding-bottom:clamp(2.5rem,5vw,4.5rem);">
