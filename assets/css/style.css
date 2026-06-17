@@ -4623,6 +4623,14 @@ body.search-open { overflow: hidden; }
   transition: background .15s ease;
 }
 .hp-toc-item:hover { background: rgba(255,255,255,.08); }
+.hp-toc-item--primary {
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: var(--radius-sm);
+  margin-bottom: .25rem;
+}
+.hp-toc-item--primary .hp-toc-name { font-weight: 600; color: #fff; }
+.hp-toc-item--primary:hover { background: rgba(255,255,255,.12); }
 .hp-toc-num {
   font-family: 'DM Mono', monospace;
   font-size: .58rem;
@@ -4963,6 +4971,24 @@ body.search-open { overflow: hidden; }
   transition: background .15s ease;
 }
 .hp-pub-row:hover { background: rgba(255,255,255,.1); }
+.hp-pubs-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .65rem .9rem;
+  margin-top: .25rem;
+  border-top: 1px solid rgba(255,255,255,.08);
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  color: rgba(255,255,255,.4);
+  letter-spacing: .04em;
+}
+.hp-pubs-more a {
+  color: rgba(255,255,255,.65);
+  text-decoration: none;
+  transition: color .15s ease;
+}
+.hp-pubs-more a:hover { color: #fff; }
 .hp-pub-id {
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;

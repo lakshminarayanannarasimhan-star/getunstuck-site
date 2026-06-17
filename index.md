@@ -32,13 +32,13 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
     <div class="hp-hero-right reveal d3">
       <div class="hp-toc">
         <div class="hp-toc-label">On this platform</div>
-        <a class="hp-toc-item" href="#los">
+        <a class="hp-toc-item hp-toc-item--primary" href="#los">
           <span class="hp-toc-num">01</span>
           <div>
             <div class="hp-toc-name">The Leadership Operating System</div>
             <div class="hp-toc-meta">Constitution v1.0 · 34 capabilities · 6 domains</div>
           </div>
-          <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Live</span>
+          <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Start here</span>
         </a>
         <a class="hp-toc-item" href="#books">
           <span class="hp-toc-num">02</span>
@@ -193,22 +193,6 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <div class="hp-ps-line"></div>
           <div class="hp-ps-node" title="#6 Ecosystem">#6</div>
         </div>
-        <div style="height:1px;background:var(--border);margin:1.2rem 0;"></div>
-        <div class="hp-ps-header">
-          <span class="hp-ps-name">The Indispensable Series</span>
-          <span style="font-family:'DM Mono',monospace;font-size:.6rem;color:var(--faint);">5 volumes · After the Handbooks complete</span>
-        </div>
-        <div class="hp-ps-track">
-          <div class="hp-ps-node" title="#1">#1</div>
-          <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#2">#2</div>
-          <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#3">#3</div>
-          <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#4">#4</div>
-          <div class="hp-ps-line"></div>
-          <div class="hp-ps-node" title="#5">#5</div>
-        </div>
       </div>
 
       <div class="hp-pipeline-note">
@@ -249,46 +233,10 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           </div>
           <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In progress</span>
         </a>
-        <a class="hp-pub-row" href="/frontier/">
-          <div class="hp-pub-id">Frontier</div>
-          <div>
-            <div class="hp-pub-title">Graduation, Not Rejection</div>
-            <div class="hp-pub-meta">4 parts · Technology services &amp; GCCs</div>
-          </div>
-          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>To write</span>
-        </a>
-        <a class="hp-pub-row" href="/compass/">
-          <div class="hp-pub-id">Compass</div>
-          <div>
-            <div class="hp-pub-title">Why Organisations Lose Their Direction</div>
-            <div class="hp-pub-meta">9 episodes · Strategy &amp; customer centricity</div>
-          </div>
-          <span class="series-status ideation" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ideation</span>
-        </a>
-        <a class="hp-pub-row" href="/publications/#series-d">
-          <div class="hp-pub-id">D</div>
-          <div>
-            <div class="hp-pub-title">The Trust Equation</div>
-            <div class="hp-pub-meta">Security as a trust problem · Ideation</div>
-          </div>
-          <span class="series-status ideation" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>Ideation</span>
-        </a>
-        <a class="hp-pub-row" href="/publications/#series-a">
-          <div class="hp-pub-id">A</div>
-          <div>
-            <div class="hp-pub-title">Leadership Operating System</div>
-            <div class="hp-pub-meta">4 articles · Leadership systems</div>
-          </div>
-          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In pipeline</span>
-        </a>
-        <a class="hp-pub-row" href="/publications/#series-c">
-          <div class="hp-pub-id">C</div>
-          <div>
-            <div class="hp-pub-title">The Moving Target</div>
-            <div class="hp-pub-meta">7 articles · Network security as strategy</div>
-          </div>
-          <span class="series-status coming" style="font-size:.55rem;padding:.15rem .45rem;flex-shrink:0;"><span class="series-dot"></span>In pipeline</span>
-        </a>
+        <div class="hp-pubs-more">
+          <span>5 more series in development</span>
+          <a href="/publications/">See all →</a>
+        </div>
       </div>
     </div>
   </div>
