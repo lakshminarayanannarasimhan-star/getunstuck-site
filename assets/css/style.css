@@ -1096,70 +1096,7 @@
   --header-logo-gradient: linear-gradient(135deg, #FFD040 0%, #FF7040 50%, #E83830 100%);
 }
 
-/* spearmint — light mint canvas, vivid neon green */
-[data-theme="spearmint"] {
-  --bg:             #E4FFF5;
-  --bg-deep:        #C0FFE8;
-  --surface:        #F4FFFC;
-  --surface-soft:   #EAFFF8;
-  --text:           #003A20;
-  --muted:          #007A40;
-  --faint:          #50C090;
-  --primary:        #00D890;
-  --primary-soft:   #C0FFE8;
-  --primary-strong: #00A870;
-  --border:         rgba(0,58,32,0.12);
-  --border-soft:    rgba(0,58,32,0.06);
-  --shadow-sm:      0 2px 6px rgba(0,216,144,0.1);
-  --shadow-md:      0 10px 30px rgba(0,216,144,0.14);
-  --shadow-lg:      0 20px 60px rgba(0,216,144,0.2);
-  --hero-gradient:        linear-gradient(135deg, #E4FFF5 0%, #C0FFE8 45%, #A0FFD8 100%);
-  --ink-gradient:         linear-gradient(135deg, #001A10 0%, #003A20 50%, #001A10 100%);
-  --accent-gradient:      linear-gradient(135deg, #C0FFE8 0%, #A0FFD8 100%);
-  --btn-gradient:         linear-gradient(135deg, #80FFD0 0%, #00D890 50%, #00A870 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #00D890 0%, #00A870 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #F4FFFC 0%, #E4FFF5 100%);
-  --surface-gradient:     linear-gradient(160deg, #F4FFFC 0%, #EAFFF8 100%);
-  --header-logo-gradient: linear-gradient(135deg, #80FFD0 0%, #00D890 100%);
-}
 
-/* cosmos — deep navy to electric blue */
-[data-theme="cosmos"] {
-  --bg:             #000828;
-  --bg-deep:        #000418;
-  --surface:        #001040;
-  --surface-soft:   #001850;
-  --text:           #E0E8FF;
-  --muted:          #6080CC;
-  --faint:          #2840A0;
-  --primary:        #1840FF;
-  --primary-soft:   rgba(24,64,255,0.15);
-  --primary-strong: #0820CC;
-  --border:         rgba(24,64,255,0.2);
-  --border-soft:    rgba(24,64,255,0.1);
-  --shadow-sm:      0 2px 10px rgba(0,0,0,0.5);
-  --shadow-md:      0 10px 30px rgba(0,0,0,0.65);
-  --shadow-lg:      0 20px 60px rgba(0,0,0,0.8);
-  --hero-gradient:        linear-gradient(135deg, #000828 0%, #000C3C 50%, #001060 100%);
-  --ink-gradient:         linear-gradient(135deg, #000418 0%, #000828 50%, #000418 100%);
-  --accent-gradient:      linear-gradient(135deg, #001040 0%, #001858 100%);
-  --btn-gradient:         linear-gradient(135deg, #000880 0%, #0820CC 50%, #1840FF 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #0820CC 0%, #1840FF 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #001040 0%, #001858 100%);
-  --surface-gradient:     linear-gradient(160deg, #001040 0%, #001450 100%);
-  --header-bg:            color-mix(in srgb, var(--bg) 88%, transparent);
-  --header-backdrop:      blur(20px) saturate(180%);
-  --header-shadow:        0 2px 28px rgba(0,0,0,0.6);
-  --header-border:        rgba(255,255,255,0.06);
-  --header-logo-gradient: linear-gradient(135deg, #2060FF 0%, #1840FF 100%);
-  --header-tagline:       rgba(255,255,255,0.4);
-  --header-nav:           rgba(255,255,255,0.6);
-  --header-nav-active:    #80A0FF;
-  --header-nav-hover-bg:  rgba(255,255,255,0.06);
-  --header-dropdown-bg:   color-mix(in srgb, var(--bg) 97%, black);
-  --header-dropdown-link: rgba(255,255,255,0.72);
-  --header-hamburger:     rgba(255,255,255,0.85);
-}
 
 /* flamingo — white canvas, coral to deep magenta gradient */
 [data-theme="flamingo"] {
@@ -1188,43 +1125,6 @@
   --header-logo-gradient: linear-gradient(135deg, #FF6060 0%, #F03060 50%, #C81880 100%);
 }
 
-/* garnet — deep red to dark maroon */
-[data-theme="garnet"] {
-  --bg:             #1A0008;
-  --bg-deep:        #100005;
-  --surface:        #240010;
-  --surface-soft:   #2C0015;
-  --text:           #FFE8EC;
-  --muted:          #C06070;
-  --faint:          #601020;
-  --primary:        #CC0820;
-  --primary-soft:   rgba(200,8,32,0.18);
-  --primary-strong: #A00018;
-  --border:         rgba(200,8,32,0.2);
-  --border-soft:    rgba(200,8,32,0.1);
-  --shadow-sm:      0 2px 10px rgba(0,0,0,0.5);
-  --shadow-md:      0 10px 30px rgba(0,0,0,0.65);
-  --shadow-lg:      0 20px 60px rgba(0,0,0,0.8);
-  --hero-gradient:        linear-gradient(135deg, #1A0008 0%, #2A0010 50%, #1A0008 100%);
-  --ink-gradient:         linear-gradient(135deg, #100005 0%, #1A0008 50%, #100005 100%);
-  --accent-gradient:      linear-gradient(135deg, #240010 0%, #300015 100%);
-  --btn-gradient:         linear-gradient(135deg, #FF2040 0%, #CC0820 50%, #800010 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #CC0820 0%, #800010 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #240010 0%, #300018 100%);
-  --surface-gradient:     linear-gradient(160deg, #240010 0%, #2A0012 100%);
-  --header-bg:            color-mix(in srgb, var(--bg) 88%, transparent);
-  --header-backdrop:      blur(20px) saturate(180%);
-  --header-shadow:        0 2px 28px rgba(0,0,0,0.6);
-  --header-border:        rgba(255,255,255,0.06);
-  --header-logo-gradient: linear-gradient(135deg, #FF4050 0%, #CC0820 50%, #800010 100%);
-  --header-tagline:       rgba(255,255,255,0.4);
-  --header-nav:           rgba(255,255,255,0.6);
-  --header-nav-active:    #FF8090;
-  --header-nav-hover-bg:  rgba(255,255,255,0.06);
-  --header-dropdown-bg:   color-mix(in srgb, var(--bg) 97%, black);
-  --header-dropdown-link: rgba(255,255,255,0.72);
-  --header-hamburger:     rgba(255,255,255,0.85);
-}
 
 /* =========================================
    3. TYPOGRAPHY SCALES
