@@ -719,39 +719,6 @@
 
 /* ── EDITORIAL / PRINT THEMES ── */
 
-/* broadsheet — classic newspaper, refined grey */
-[data-theme="broadsheet"] {
-  --bg: #F4F3EF; --bg-deep: #E9E8E2;
-  --surface: #FAFAF8; --surface-soft: #FFFFFF;
-  --text: #121110; --muted: #484640; --faint: #989690;
-  --primary: #18140E; --primary-soft: #E6E4DE; --primary-strong: #000000;
-  --border: rgba(18,17,16,0.11); --border-soft: rgba(18,17,16,0.055);
-  --shadow-sm: 0 2px 6px rgba(18,17,16,0.045); --shadow-md: 0 10px 30px rgba(18,17,16,0.075); --shadow-lg: 0 20px 60px rgba(18,17,16,0.1);
-  --hero-gradient:       linear-gradient(135deg, #F4F3EF 0%, #ECEAE4 45%, #F4F3EF 100%);
-  --ink-gradient:        linear-gradient(135deg, #121110 0%, #1E1C18 50%, #121110 100%);
-  --accent-gradient:     linear-gradient(135deg, #E9E8E2 0%, #E2E0D8 100%);
-  --btn-gradient:        linear-gradient(135deg, #363430 0%, #18140E 50%, #080604 100%);
-  --btn-gradient-hover:  linear-gradient(135deg, #18140E 0%, #080604 100%);
-  --card-hover-gradient: linear-gradient(135deg, #FFFFFF 0%, #EEECEA 100%);
-  --surface-gradient:    linear-gradient(160deg, #FAFAF8 0%, #F7F6F2 100%);
-}
-
-/* manuscript — aged parchment, saddle brown */
-[data-theme="manuscript"] {
-  --bg: #F0E8D0; --bg-deep: #E4D8B8;
-  --surface: #F8F0D8; --surface-soft: #FDF8EC;
-  --text: #2A1E08; --muted: #6A5030; --faint: #B09060;
-  --primary: #8B4513; --primary-soft: #F5E8D0; --primary-strong: #6B3510;
-  --border: rgba(42,30,8,0.15); --border-soft: rgba(42,30,8,0.07);
-  --shadow-sm: 0 2px 6px rgba(42,30,8,0.07); --shadow-md: 0 10px 30px rgba(42,30,8,0.1); --shadow-lg: 0 20px 60px rgba(42,30,8,0.14);
-  --hero-gradient:       linear-gradient(135deg, #F0E8D0 0%, #E8DDB8 45%, #F0E8CC 100%);
-  --ink-gradient:        linear-gradient(135deg, #2A1E08 0%, #3D2C10 50%, #2A1808 100%);
-  --accent-gradient:     linear-gradient(135deg, #E4D8B8 0%, #DDD0A8 100%);
-  --btn-gradient:        linear-gradient(135deg, #A85520 0%, #8B4513 50%, #6B3510 100%);
-  --btn-gradient-hover:  linear-gradient(135deg, #8B4513 0%, #6B3510 100%);
-  --card-hover-gradient: linear-gradient(135deg, #F8F0D8 0%, #F0E8C8 100%);
-  --surface-gradient:    linear-gradient(160deg, #F8F0D8 0%, #F5EDD4 100%);
-}
 
 /* blueprint — technical navy, precision sky-blue */
 [data-theme="blueprint"] {
@@ -806,22 +773,6 @@
   --surface-gradient:    linear-gradient(160deg, #072230 0%, #092632 100%);
 }
 
-/* sand — warm dunes, sun-bleached terracotta */
-[data-theme="sand"] {
-  --bg: #F5EAD8; --bg-deep: #ECDFC8;
-  --surface: #FAF4E8; --surface-soft: #FDF9F0;
-  --text: #2A2010; --muted: #7A6848; --faint: #C0A880;
-  --primary: #C0721A; --primary-soft: #FAEEDE; --primary-strong: #A05E0C;
-  --border: rgba(42,32,16,0.12); --border-soft: rgba(42,32,16,0.06);
-  --shadow-sm: 0 2px 6px rgba(42,32,16,0.06); --shadow-md: 0 10px 30px rgba(42,32,16,0.09); --shadow-lg: 0 20px 60px rgba(42,32,16,0.12);
-  --hero-gradient:       linear-gradient(135deg, #F5EAD8 0%, #EDE0C4 45%, #F8EDD8 100%);
-  --ink-gradient:        linear-gradient(135deg, #2A2010 0%, #3A2E18 50%, #2A1E0C 100%);
-  --accent-gradient:     linear-gradient(135deg, #ECDFC8 0%, #E4D5B8 100%);
-  --btn-gradient:        linear-gradient(135deg, #DC8A2C 0%, #C0721A 50%, #A05E0C 100%);
-  --btn-gradient-hover:  linear-gradient(135deg, #C0721A 0%, #A05E0C 100%);
-  --card-hover-gradient: linear-gradient(135deg, #FAF4E8 0%, #F5EED8 100%);
-  --surface-gradient:    linear-gradient(160deg, #FAF4E8 0%, #F8F0E4 100%);
-}
 
 /* ember — dark brown, molten orange firelight */
 [data-theme="ember"] {

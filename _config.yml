@@ -56,17 +56,14 @@ author: Lakshmi Narayanan
 #
 # ── EDITORIAL / PRINT ──────────────────────────────────────────────
 #
-# unstuck_theme: broadsheet    # Newspaper grey, classic editorial
-# unstuck_theme: manuscript    # Aged parchment, sepia, scholarly
 # unstuck_theme: blueprint     # Technical navy, precision sky-blue
 # unstuck_theme: noir          # Cinematic near-black, sepia gold
 # unstuck_theme: arctic        # Ice white, steel blue, cold and clean
-# unstuck_theme: sand          # Warm beige, sun-bleached minimal
 #
 # ── NATURE ─────────────────────────────────────────────────────────
 #
 # unstuck_theme: ocean         # Deep abyssal blue, bioluminescent teal
-# unstuck_theme: ember         # Dark brown, glowing amber, firelight
+unstuck_theme: ember         # Dark brown, glowing amber, firelight
 #
 # ── ACCENT-SWAP (dojo base + colour accent) ────────────────────────
 #
