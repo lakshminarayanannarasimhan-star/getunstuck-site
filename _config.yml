@@ -95,10 +95,9 @@ author: Lakshmi Narayanan
 # unstuck_theme: blaze         # Warm off-white canvas, vivid orange accent (#fb6107)
 # unstuck_theme: smokey_plum   # Dusty rose canvas, deep wine accent (#440d0f)
 
-# unstuck_theme: mono          # Stripped back, pure black/white
+unstuck_theme: mono          # Stripped back, pure black/white
 # unstuck_theme: sovereign     # Dark olive ground, deep navy, electric cobalt
-
-unstuck_theme: aurora        # Clean white, coral-to-purple gradient
+# unstuck_theme: aurora        # Clean white, coral-to-purple gradient
 
 typography: spacious   # executive | compact | spacious
 
