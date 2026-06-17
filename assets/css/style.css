@@ -1244,10 +1244,10 @@ h1, h2, h3, h4 {
 }
 /* suppress the static header accent line on pages that have a progress bar */
 body:has(.reading-progress) .header {
-  border-top-color: transparent;
+  border-top: none;
 }
 
-/* ── HEADER: EDITORIAL — clean surface + accent top line ── */
+/* ── HEADER: EDITORIAL — clean surface ── */
 .header {
   position: sticky;
   top: 0;
@@ -1257,7 +1257,7 @@ body:has(.reading-progress) .header {
   -webkit-backdrop-filter: none;
   box-shadow: 0 1px 0 var(--border);
   border-bottom: none;
-  border-top: 3px solid var(--primary);
+  border-top: none;
 }
 .header::after { display: none; }
 
@@ -1330,9 +1330,34 @@ body:has(.reading-progress) .header {
   white-space: nowrap;
   transition: color .18s ease, background .18s ease;
 }
-.nav a:hover, .nav a[aria-current="page"] {
+.nav a {
+  position: relative;
+}
+.nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 2px; left: 0.75rem; right: 0.75rem;
+  height: 1.5px;
+  background: var(--primary);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.2s ease;
+}
+.nav a:hover {
   color: var(--header-nav-active) !important;
-  background: var(--header-nav-hover-bg);
+  background: none;
+}
+.nav a:hover::after {
+  transform: scaleX(1);
+}
+.nav a[aria-current="page"] {
+  color: var(--header-nav-active) !important;
+  background: none;
+  font-weight: 500;
+}
+.nav a[aria-current="page"]::after {
+  transform: scaleX(1);
+  opacity: 1;
 }
 
 /* ── DROPDOWN ── */

@@ -1,4 +1,13 @@
 (function () {
+  /* ── active nav link ── */
+  var path = window.location.pathname.replace(/\/$/, '') || '/';
+  document.querySelectorAll('.nav a').forEach(function (a) {
+    var href = a.getAttribute('href').replace(/\/$/, '') || '/';
+    if (href === path || (href !== '' && href !== '/' && path.startsWith(href))) {
+      a.setAttribute('aria-current', 'page');
+    }
+  });
+
   /* ── scroll-reveal header ── */
   var header = document.querySelector('.header');
   if (header) {
