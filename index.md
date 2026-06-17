@@ -141,10 +141,10 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 </div>
 
 <!-- ═══════════════════════
-     BOOKS
+     BOOKS & DRILLS
 ═══════════════════════ -->
 <section class="section-wide" id="books">
-  <div class="section-label">Books</div>
+  <div class="section-label">Books &amp; Drills</div>
   <h2>Built incrementally. Each book installs one shift.</h2>
 
   <div class="hp-books-grid">
@@ -196,9 +196,17 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       </div>
 
       <div class="hp-pipeline-note">
-        <div style="font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--primary);margin-bottom:.4rem;">Practice materials</div>
-        <p style="font-size:.82rem;color:var(--muted);line-height:1.6;">Every book comes with drills and a workbook. No price. No gate. No email. The practice circulates freely — always has, always will.</p>
-        <a class="card-link" href="/drills/">The Drills</a>
+        <div style="font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--primary);margin-bottom:.4rem;">Drills <span class="series-status live" style="font-size:.5rem;padding:.12rem .4rem;vertical-align:middle;"><span class="series-dot"></span>Open</span></div>
+        <p style="font-size:.82rem;color:var(--muted);line-height:1.6;">Every drill comes from a real situation — not a textbook. No price. No gate. No email. The practice circulates freely — always has, always will.</p>
+        <div class="area-tags" style="margin-top:.7rem;margin-bottom:.9rem;">
+          <span class="area-tag">Daily drills</span>
+          <span class="area-tag">Weekly review</span>
+          <span class="area-tag">No gate</span>
+        </div>
+        <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
+          <a class="btn-secondary" href="/drills/">The Drills</a>
+          <a class="btn-secondary" href="/workbook/">The Workbook</a>
+        </div>
       </div>
     </div>
 
@@ -242,30 +250,6 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
   </div>
 </div>
 
-<!-- ═══════════════════════
-     DRILLS
-═══════════════════════ -->
-<section class="section-wide" id="practice">
-  <div class="section-label">Drills</div>
-  <h2>Drawn from 25 years of practice.</h2>
-  <div class="hp-practice-card hp-practice-card--full">
-    <div class="hp-pc-icon">◈</div>
-    <div class="hp-pc-label">
-      Drills
-      <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;"><span class="series-dot"></span>Open</span>
-    </div>
-    <p>Every drill in the workbook comes from a real situation — not a textbook. Daily and weekly practice formats designed to install capability, not fill time. No price. No gate. No email required.</p>
-    <div class="area-tags" style="margin-top:.8rem;">
-      <span class="area-tag">Daily drills</span>
-      <span class="area-tag">Weekly review</span>
-      <span class="area-tag">No gate</span>
-    </div>
-    <div style="display:flex;gap:.6rem;margin-top:1.2rem;flex-wrap:wrap;">
-      <a class="btn-secondary" href="/drills/">The Drills</a>
-      <a class="btn-secondary" href="/workbook/">The Workbook</a>
-    </div>
-  </div>
-</section>
 
 <!-- THROUGH-LINE -->
 <div class="section-ink">
