@@ -1609,6 +1609,66 @@ body.search-open { overflow: hidden; }
   color: var(--muted);
 }
 
+/* ── NAV CTA PILL ── */
+.nav .nav-cta {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--surface) !important;
+  background: var(--btn-gradient);
+  padding: 0.4rem 0.85rem;
+  border-radius: 99px;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: opacity .18s ease, transform .18s ease;
+}
+.nav .nav-cta::after { display: none; }
+.nav .nav-cta:hover { opacity: 0.88; transform: translateY(-1px); background: var(--btn-gradient); }
+
+/* ── SEARCH HINT ── */
+.search-hint {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.62rem;
+  color: var(--faint);
+  letter-spacing: 0.04em;
+  margin-left: 4px;
+}
+@media (max-width: 860px) { .search-hint { display: none; } }
+
+/* ── HERO STATS ── */
+.hp-hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+.hp-hero-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.hp-hero-stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+}
+.hp-hero-stat-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+}
+.hp-hero-stat-div {
+  width: 1px;
+  height: 2rem;
+  background: rgba(255,255,255,0.15);
+}
+
 /* ── LINKEDIN PILL ── */
 .nav-linkedin {
   font-family: 'DM Mono', monospace;

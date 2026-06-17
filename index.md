@@ -20,6 +20,13 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Leadership Systems</span>
         <span class="area-tag" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.65);">Security Strategy</span>
       </div>
+      <div class="hp-hero-stats reveal d4">
+        <div class="hp-hero-stat"><span class="hp-hero-stat-num">25+</span><span class="hp-hero-stat-label">Years</span></div>
+        <div class="hp-hero-stat-div"></div>
+        <div class="hp-hero-stat"><span class="hp-hero-stat-num">600+</span><span class="hp-hero-stat-label">Engineers Led</span></div>
+        <div class="hp-hero-stat-div"></div>
+        <div class="hp-hero-stat"><span class="hp-hero-stat-num">$150M+</span><span class="hp-hero-stat-label">Revenue</span></div>
+      </div>
     </div>
 
     <div class="hp-hero-right reveal d3">
