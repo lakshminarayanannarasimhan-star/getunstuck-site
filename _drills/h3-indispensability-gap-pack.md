@@ -16,125 +16,183 @@ permalink: /drills/indispensability-gap-pack/
 
 *Ten exercises. For leadership teams asking why influence has not become participation.*
 
-## The Empty Chair Test
+---
 
-Take your most influential customer relationship — the one where you are most genuinely "in the room."
+**Drill 1 — The Empty Chair Test**
 
-If your firm's chair were empty for the next strategic planning cycle, what would actually be different in the outcome? Not the process. The outcome.
+Choose your most influential customer relationship.
 
-Write the honest answer in two sentences.
+Imagine your firm's chair is empty for the next strategic planning cycle. The customer proceeds without you.
 
-> If the answer describes a slower or less comfortable path to the same destination, you have influence without indispensability. The chair is valued. It is not irreplaceable.
+Answer honestly:
 
-## The GCC Test
+- What changes in the direction they take?
+- What remains the same?
+- What outcome would no longer exist, or would arrive significantly later?
 
-For that same relationship — does the customer have a GCC, or a growing internal capability that is moving toward what you provide?
-
-If given an eighteen-month mandate and the budget your engagement currently represents, could that internal capability deliver what you deliver?
-
-| Capability area | Your firm provides | GCC could replicate in 18 months? |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-
-> Be specific about what would be hardest for them to replicate — and whether that hard part is actually what you currently get paid for, or something else you have not yet made visible.
-
-## The Accelerant Audit
-
-List the last five outcomes your firm is most proud of in this relationship.
-
-For each one — honest answer:
-
-| Outcome | We were the source | We were the accelerant |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-
-> Accelerants are compensated. They are not made partners in what they accelerated. If the right column dominates, the firm has been excellent at speeding up someone else's outcome — not creating one of its own.
-
-## The Cross-Enterprise Audit
-
-Name one thing you know, have access to, or can do — for this customer — specifically because of work you have done with other clients, in other markets, or across your wider business.
-
-Not a process template. Not general experience. Something born of being in many places at once.
-
-Write it in one sentence. If it takes more than one sentence to explain, it is not yet concrete enough to be visible to the customer.
-
-> If you cannot name something specific, your cross-enterprise leverage is not yet visible to the customer — which means, for their purposes, it does not yet exist.
-
-## The Risk Position
-
-In this relationship, what happens to your firm if the outcome fails?
-
-Write the actual consequence — not the loss of future revenue. The consequence that exists now, before the next conversation happens.
-
-- Capital invested that is at risk?
-- Revenue tied to the outcome, not the effort?
-- Reputational stake that is genuinely on the line?
-- Operational or delivery risk you are carrying?
-
-> Name the actual consequence to your firm of failure. If there isn't one beyond the loss of future work, you are not yet carrying risk in a way the customer can feel. And risk the customer cannot feel does not change the nature of what you are.
-
-## The Four Sources Assessment
-
-Rate your position against each source of indispensability for your most important customer:
-
-| Source | Strong | Emerging | Absent |
-|---|---|---|---|
-| Capital at risk — co-invested, outcome-linked, real downside | | | |
-| Cross-enterprise reach — patterns across clients no GCC can hold | | | |
-| Leverage that cannot be replicated — IP, platforms, built over years | | | |
-| Risk absorption — carrying consequence the customer prefers not to | | | |
-
-> A GCC is designed to optimise one enterprise. Everything in the "Strong" column is something a GCC structurally cannot become. Everything in the "Absent" column is where the exposure to internal displacement actually sits.
-
-## The Participation Conversation Test
-
-Have you ever asked, directly or indirectly, for participation — revenue share, co-investment, a stake in the outcome?
-
-If yes — what was the customer's response? Write it exactly as it was given.
-
-If no — what is the reason you have not asked?
-
-> The response to the participation conversation, or the reason it has not happened, tells you more about where the relationship actually sits than any amount of trust-scoring. Warm gratitude is not the same as a structural stake.
-
-## The First Move
-
-Of the four sources of indispensability — capital at risk, cross-enterprise reach, leverage that cannot be replicated, risk absorption — which one is closest to true for this relationship today, even if not yet structured or visible?
-
-Write specifically:
-1. What already exists, even partially
-2. What would need to happen to make it real
-3. What would need to happen to make it visible to the customer
-4. Who owns starting that work — not the ask for participation, but the work that would make participation answer itself
-
-> By when?
-
-## The Substitution Test
-
-In the last twelve months, has anything in this relationship made it harder for the customer to substitute your firm with another?
-
-Not switching costs. Not relationship warmth. Something structural — access that would close, capability that would disappear, outcomes that would become genuinely unavailable.
-
-List what you find. Be specific.
-
-> If the list is empty or describes lock-in rather than irreplaceability, the firm has created dependency, not indispensability. Dependency can be unwound. Indispensability is recognised.
-
-## The Participation Gap
-
-Complete both sentences for your most important customer:
-
-> Our customer values us because _______________________________________________
-
-> Our customer would not achieve the same outcome without us because _______________________________________________
-
-> If the second sentence is difficult to finish, or sounds similar to the first, you have identified the Indispensability Gap precisely. Value and indispensability answer different questions. The gap between your two answers is the distance between where the relationship is and where participation becomes possible.
+*If the destination remains unchanged and only the path changes, you have influence. If the destination itself changes — if markets, decisions, or futures would be different — you may have genuine indispensability. Most firms, on honest reflection, discover they are in the first category.*
 
 ---
 
-*Influence earns a seat at the table. Indispensability earns a share of what the table produces. The distance between them is not closed by asking for more. It is closed by becoming something a GCC cannot become and a faster model cannot replace — present in enterprises plural, not singular, with something genuinely at stake.*
+**Drill 2 — The Outcome Dependency Audit**
+
+List three major customer outcomes your organisation helped shape in the last two years.
+
+For each outcome, answer:
+
+| Outcome | Would exist without us? | Would exist later? | Would not exist? |
+|---|---|---|---|
+| | | | |
+| | | | |
+| | | | |
+
+*Accelerants are compensated. They are not made partners in what they accelerated. If your outcomes sit in the first or second column, you are an accelerant — valuable, but not a condition of the result. The third column is where participation becomes a natural consequence rather than a negotiation.*
+
+---
+
+**Drill 3 — The GCC Test**
+
+For your most important customer relationship — if the customer gave its Global Capability Centre eighteen months, sufficient budget, and executive sponsorship, could it replicate what you provide?
+
+Score each area honestly:
+
+| Capability | Easy to replicate | Difficult | Cannot replicate by design |
+|---|---|---|---|
+| Delivery and operations | | | |
+| Domain knowledge | | | |
+| Market access and new customers | | | |
+| Ecosystem relationships | | | |
+| Cross-enterprise learning | | | |
+| Capital at risk | | | |
+| Risk absorption | | | |
+
+*The future of your business sits in the rightmost column. A GCC is designed to optimise one enterprise. Everything in "cannot replicate by design" belongs to a different structural category — one that no internal team, however well-resourced, can occupy.*
+
+---
+
+**Drill 4 — The Cross-Enterprise Inventory**
+
+List five specific advantages your organisation possesses because you operate across multiple enterprises.
+
+Not processes or methodologies. Actual advantages — market intelligence, ecosystem relationships, comparative benchmarks, cross-industry patterns, partner access that no single-enterprise team could accumulate.
+
+| Advantage | Could the customer build this internally? |
+|---|---|
+| | |
+| | |
+| | |
+| | |
+| | |
+
+*Cross-enterprise leverage is often invisible until explicitly named. The discipline of naming it is also the discipline of testing whether it is real or assumed. If examples are hard to produce, the cross-enterprise position is weaker than it appears.*
+
+---
+
+**Drill 5 — The Replication Test**
+
+Complete this sentence:
+
+> The hardest thing for our customer to replicate about what we provide is: _______________________________________________
+
+Now answer two follow-up questions:
+
+How long would replication realistically take?
+
+What specifically makes it take that long — is it a capability gap, a relationship gap, or a cross-enterprise position that requires being present in multiple organisations simultaneously?
+
+*If replication takes months, you are valuable. If replication takes years because of structural position across enterprises — not merely because of talent or knowledge — you may have genuine indispensability. The source of the difficulty matters as much as the duration.*
+
+---
+
+**Drill 6 — The Source of Participation**
+
+Review every commercial arrangement where economics are shared — revenue sharing, joint ventures, outcome-linked compensation, co-investment structures.
+
+For each one, ask honestly: why did participation become available?
+
+| Relationship | Influence led to it | Indispensability led to it | It was negotiated |
+|---|---|---|---|
+| | | | |
+| | | | |
+| | | | |
+
+*Participation rarely follows persuasion. It follows dependency. If most of your participations sit in the third column — negotiated rather than earned — the foundation is commercial, not structural. Negotiated participation is vulnerable. Earned participation is not.*
+
+---
+
+**Drill 6A — The Pursuit vs Build Test**
+
+In the last twelve months, list the actions your organisation has taken that were intended to earn participation — revenue share, co-investment, outcome-based structures.
+
+Separate them:
+
+**Actions that built indispensability** — putting capital genuinely at risk, demonstrating cross-enterprise reach, absorbing real consequence, creating an outcome that would not otherwise exist.
+
+**Actions that requested participation** — proposals, commercial conversations, presentations about shared value, negotiations for outcome-linked fees.
+
+*Participation is not pursued. It follows. If the second list is longer than the first, you are asking for the reward before building the foundation that makes the reward a consequence. H4 is about what happens next: the move from participation to ownership begins with the same principle — build before asking.*
+
+---
+
+**Drill 7 — The GCC Structural Law**
+
+Complete both statements honestly:
+
+> What a GCC could never provide for our most important customer, no matter how well-resourced or well-led, is: _______________________________________________
+
+> The specific reason a single-enterprise organisation cannot naturally create this is: _______________________________________________
+
+*This drill tests whether the structural law is genuinely understood: a GCC is designed to optimise one enterprise. The Expansion Zone is built on leverage across enterprises. If both sentences are easy to complete with specific answers, you know where your indispensability sits. If they are difficult, the search continues.*
+
+---
+
+**Drill 8 — The Risk Position Audit**
+
+In your most important engagement — what happens to your organisation if the initiative fails?
+
+- Nothing beyond lost future revenue
+- Delayed payments
+- Reputation consequence
+- Capital loss — money already invested is not recovered
+- Shared downside — the firm absorbs a portion of the cost of failure
+
+Now: does the customer know what you are carrying?
+
+*Customers notice risk that is genuinely shared, not risk that is merely described. Indispensability requires that the evidence of risk carried is visible — not hidden in your internal accounts. If the customer does not know what consequence you absorb when outcomes disappoint, the signal has not been sent.*
+
+---
+
+**Drill 9 — The Indispensability Inventory**
+
+Assess your current position against the four sources of indispensability for your most important customer:
+
+| Source | Strong | Moderate | Weak |
+|---|---|---|---|
+| Capital at risk — your own money is committed to the outcome | | | |
+| Cross-enterprise reach — access that exists only because you operate across many clients | | | |
+| Non-replicable leverage — something the customer cannot build internally by design | | | |
+| Risk absorption — genuine downside consequence that you carry when outcomes disappoint | | | |
+
+*Most firms discover they have influence in several areas and indispensability in very few. That is not a failure — it is an accurate reading of where the work is. The inventory tells you which source is closest to strong and therefore which one to build first.*
+
+---
+
+**Drill 10 — The Share Test**
+
+The customer asks:
+
+> Why should we share value with you?
+
+You may not answer with: effort · trust · delivery quality · relationship strength · tenure · years of partnership.
+
+Write your answer in one paragraph.
+
+_______________________________________________
+
+*If the answer is difficult to write, or sounds like the words you just excluded, you have found the Indispensability Gap. Because influence earns a seat — it gives you the conversation. Indispensability earns a share — it gives you the economics. The paragraph you just wrote is the distance between those two positions.*
+
+---
+
+*The central question of H3 is not whether you are influential. The real question is whether the outcome would exist without you. A firm that helps shape an outcome is valuable. A firm that becomes a condition of the outcome becomes indispensable. And participation follows from that distinction — not from asking for it.*
+
+> Influence earns a seat. Indispensability earns a share.
