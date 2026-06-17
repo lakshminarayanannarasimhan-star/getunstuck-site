@@ -269,26 +269,6 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       </div>
     </div>
 
-    <div class="hp-practice-card hp-practice-cred">
-      <div class="hp-pc-label" style="margin-bottom:1rem;">Built in the field</div>
-      <h3>Not theorised. Lived.</h3>
-      <p style="font-size:.88rem;color:var(--muted);line-height:1.7;">Everything here is drawn from 25+ years of hands-on leadership inside deep technology engagements. Battle-tested in real organisations, with real stakes.</p>
-      <div class="stat-strip" style="margin-top:1.2rem;">
-        <div class="stat">
-          <div class="stat-num">25+</div>
-          <div class="stat-label">Years</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">600+</div>
-          <div class="stat-label">Engineers Led</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">$150M+</div>
-          <div class="stat-label">Revenue</div>
-        </div>
-      </div>
-      <a class="card-link" href="/about/">The full story</a>
-    </div>
 
   </div>
 </section>
