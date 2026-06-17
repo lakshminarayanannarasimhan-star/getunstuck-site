@@ -28,8 +28,7 @@ author: Lakshmi Narayanan
 # ── SIGNATURE ──────────────────────────────────────────────────────
 #
 # unstuck_theme: dojo          # Warm paper, ochre · DEFAULT
-# unstuck_theme: mono          # Pure black/white, zero colour
-# unstuck_theme: sunset        # Warm amber to rose, editorial
+unstuck_theme: mono          # Pure black/white, zero colour
 # unstuck_theme: slate         # Cool white, steel blue, executive
 #
 # ── DARK ───────────────────────────────────────────────────────────
@@ -61,7 +60,7 @@ author: Lakshmi Narayanan
 # unstuck_theme: oasis         # Muted purple accent
 # unstuck_theme: delight       # Bright red accent
 # unstuck_theme: ocean_breeze  # Bold rose-red accent
-unstuck_theme: evergreen     # Forest green accent
+# unstuck_theme: evergreen     # Forest green accent
 
 typography: spacious   # executive | compact | spacious
 

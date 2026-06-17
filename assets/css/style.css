@@ -152,32 +152,6 @@
   --surface-gradient:     linear-gradient(160deg, #162018 0%, #192218 100%);
 }
 
-/* ── SUNSET — golden hour editorial, warm terracotta ── */
-[data-theme="sunset"] {
-  --bg:             #FFF7F0;
-  --bg-deep:        #FFE6CC;
-  --surface:        #FFFAF5;
-  --surface-soft:   #FFFFFF;
-  --text:           #1E0C04;
-  --muted:          #7A3C1A;
-  --faint:          #C07848;
-  --primary:        #C94B1E;
-  --primary-soft:   #FAEADE;
-  --primary-strong: #A33B15;
-  --border:         rgba(30,12,4,0.13);
-  --border-soft:    rgba(30,12,4,0.06);
-  --shadow-sm:      0 2px 6px rgba(30,12,4,0.06);
-  --shadow-md:      0 10px 30px rgba(30,12,4,0.10);
-  --shadow-lg:      0 20px 60px rgba(30,12,4,0.14);
-
-  --hero-gradient:        linear-gradient(135deg, #FFF7F0 0%, #FFE8D4 45%, #FFD8B0 100%);
-  --ink-gradient:         linear-gradient(135deg, #1E0C04 0%, #380E08 45%, #2A0606 100%);
-  --accent-gradient:      linear-gradient(135deg, #FFE6CC 0%, #FFD8B8 100%);
-  --btn-gradient:         linear-gradient(135deg, #E8622A 0%, #C94B1E 50%, #A33B15 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #C94B1E 0%, #A33B15 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #FFFAF5 0%, #FFF0E0 100%);
-  --surface-gradient:     linear-gradient(160deg, #FFFAF5 0%, #FFF6EE 100%);
-}
 
 /* ── SLATE — executive light, distinguished navy-blue ── */
 [data-theme="slate"] {
