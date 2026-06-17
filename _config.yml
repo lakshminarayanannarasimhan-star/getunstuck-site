@@ -52,18 +52,13 @@ author: Lakshmi Narayanan
 # unstuck_theme: rainbow       # Light lavender, deep violet
 # unstuck_theme: abyss         # Deep navy editorial, authoritative
 # unstuck_theme: blaze         # Warm off-white, vivid orange
-# unstuck_theme: smokey_plum   # Dusty rose, deep wine
+unstuck_theme: smokey_plum   # Dusty rose, deep wine
 #
 # ── EDITORIAL / PRINT ──────────────────────────────────────────────
 #
 # unstuck_theme: blueprint     # Technical navy, precision sky-blue
 # unstuck_theme: noir          # Cinematic near-black, sepia gold
 # unstuck_theme: arctic        # Ice white, steel blue, cold and clean
-#
-# ── NATURE ─────────────────────────────────────────────────────────
-#
-# unstuck_theme: ocean         # Deep abyssal blue, bioluminescent teal
-unstuck_theme: ember         # Dark brown, glowing amber, firelight
 #
 # ── ACCENT-SWAP (dojo base + colour accent) ────────────────────────
 #

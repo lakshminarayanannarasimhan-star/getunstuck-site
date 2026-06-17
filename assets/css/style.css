@@ -756,40 +756,6 @@
 
 /* ── NATURE THEMES ── */
 
-/* ocean — deep abyssal, bioluminescent teal */
-[data-theme="ocean"] {
-  --bg: #031620; --bg-deep: #020E14;
-  --surface: #072230; --surface-soft: #0C2C3C;
-  --text: #E0F4F8; --muted: #6AB8C8; --faint: #2C7888;
-  --primary: #2DD4BF; --primary-soft: rgba(45,212,191,0.14); --primary-strong: #14B8A6;
-  --border: rgba(45,212,191,0.14); --border-soft: rgba(45,212,191,0.07);
-  --shadow-sm: 0 2px 10px rgba(0,0,0,0.4); --shadow-md: 0 10px 30px rgba(0,0,0,0.5); --shadow-lg: 0 20px 60px rgba(0,0,0,0.6);
-  --hero-gradient:       linear-gradient(135deg, #031620 0%, #051E28 45%, #031420 100%);
-  --ink-gradient:        linear-gradient(135deg, #020E14 0%, #031620 55%, #020C10 100%);
-  --accent-gradient:     linear-gradient(135deg, #072230 0%, #0C2C3C 100%);
-  --btn-gradient:        linear-gradient(135deg, #5EEAD4 0%, #2DD4BF 50%, #14B8A6 100%);
-  --btn-gradient-hover:  linear-gradient(135deg, #2DD4BF 0%, #14B8A6 100%);
-  --card-hover-gradient: linear-gradient(135deg, #072230 0%, #0C2E3E 100%);
-  --surface-gradient:    linear-gradient(160deg, #072230 0%, #092632 100%);
-}
-
-
-/* ember — dark brown, molten orange firelight */
-[data-theme="ember"] {
-  --bg: #180C04; --bg-deep: #100800;
-  --surface: #221408; --surface-soft: #2C1C0C;
-  --text: #FFE8C0; --muted: #C09060; --faint: #705030;
-  --primary: #FB923C; --primary-soft: rgba(251,146,60,0.14); --primary-strong: #EA7316;
-  --border: rgba(251,146,60,0.14); --border-soft: rgba(251,146,60,0.07);
-  --shadow-sm: 0 2px 10px rgba(0,0,0,0.5); --shadow-md: 0 10px 30px rgba(0,0,0,0.6); --shadow-lg: 0 20px 60px rgba(0,0,0,0.7);
-  --hero-gradient:       linear-gradient(135deg, #180C04 0%, #221008 45%, #180A02 100%);
-  --ink-gradient:        linear-gradient(135deg, #100800 0%, #180C04 55%, #0E0600 100%);
-  --accent-gradient:     linear-gradient(135deg, #221408 0%, #2E1C0C 100%);
-  --btn-gradient:        linear-gradient(135deg, #FDBA74 0%, #FB923C 50%, #EA7316 100%);
-  --btn-gradient-hover:  linear-gradient(135deg, #FB923C 0%, #EA7316 100%);
-  --card-hover-gradient: linear-gradient(135deg, #221408 0%, #301C0C 100%);
-  --surface-gradient:    linear-gradient(160deg, #221408 0%, #26160A 100%);
-}
 
 /* arctic — clean ice white, glacier blue */
 [data-theme="arctic"] {
@@ -816,8 +782,7 @@
 [data-theme="midnight"], [data-theme="forest"],
 [data-theme="obsidian"], [data-theme="navy"],
 [data-theme="plum"], [data-theme="charcoal"],
-[data-theme="blueprint"], [data-theme="noir"],
-[data-theme="ocean"], [data-theme="ember"] {
+[data-theme="blueprint"], [data-theme="noir"] {
   --header-logo-gradient: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.78) 55%, #fff 100%);
   --header-tagline:       rgba(255,255,255,0.52);
   --header-nav:           rgba(255,255,255,0.72);
@@ -2580,9 +2545,7 @@ body.search-open { overflow: hidden; }
 [data-theme="navy"] .nav .nav-linkedin,
 [data-theme="blueprint"] .nav .nav-linkedin,
 [data-theme="noir"] .nav .nav-linkedin,
-[data-theme="ember"] .nav .nav-linkedin,
 [data-theme="forest"] .nav .nav-linkedin,
-[data-theme="ocean"] .nav .nav-linkedin,
 [data-theme="arctic"] .nav .nav-linkedin,
 [data-theme="plum"] .nav .nav-linkedin {
   color: rgba(0,0,0,0.85) !important;
@@ -2590,9 +2553,7 @@ body.search-open { overflow: hidden; }
 [data-theme="navy"] .nav .nav-linkedin:hover,
 [data-theme="blueprint"] .nav .nav-linkedin:hover,
 [data-theme="noir"] .nav .nav-linkedin:hover,
-[data-theme="ember"] .nav .nav-linkedin:hover,
 [data-theme="forest"] .nav .nav-linkedin:hover,
-[data-theme="ocean"] .nav .nav-linkedin:hover,
 [data-theme="arctic"] .nav .nav-linkedin:hover,
 [data-theme="plum"] .nav .nav-linkedin:hover {
   color: rgba(0,0,0,0.85) !important;
