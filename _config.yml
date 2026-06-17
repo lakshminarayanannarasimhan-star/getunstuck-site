@@ -97,6 +97,7 @@ author: Lakshmi Narayanan
 
 # unstuck_theme: mono          # Stripped back, pure black/white
 # unstuck_theme: sovereign     # Dark olive ground, deep navy, electric cobalt
+
 unstuck_theme: aurora        # Clean white, coral-to-purple gradient
 
 typography: spacious   # executive | compact | spacious
