@@ -1,74 +1,106 @@
 # Get Unstuck — Improvement Backlog
-
-## Done
-- [x] Redesign all 30 themes with distinct tinted canvases
-- [x] Editorial header (clean surface + accent top stripe)
-- [x] Article share bar (LinkedIn, WhatsApp, copy link)
-- [x] Audio player on articles (Web Speech API, gated via enable_audio in _config.yml)
-- [x] Open Graph / Twitter card meta tags
-- [x] Reading progress bar (article pages only, replaces static header accent line while reading)
-- [x] Table of contents — auto-generated from headings, sticky sidebar for long articles
-- [x] Pull quotes / callout blocks — accent left border blockquote style, two examples in H1
-- [x] Client-side search — Lunr.js modal (Ctrl+K), covers articles + drills, keyboard navigable
-- [x] Related articles — implemented; hidden until series has 2+ articles. Test when H2 is published.
+*Last updated: 2026-06-17*
 
 ---
 
-## Done (quick wins)
-- [x] Back to top button — fixed bottom-left, appears after 400px scroll
-- [x] Dark mode toggle — moon/sun icon in header, persists via localStorage
-- [x] Mark as read — tracks 80% scroll, shows ✓ Read badge on publications page
+## Weekly tracker
 
-## Done (reader experience)
-- [x] Font size control — A−/A+ in article header, persists via localStorage
-- [x] Reading percentage — fixed top-right, appears after 3% scroll
-- [x] Keyboard navigation — ←/→ arrows move between series articles with toast
+### Week of 17 Jun 2026
+- [x] Google Search Console verification + sitemap submission
+- [x] Fix jekyll-sitemap / jekyll-feed not generating (missing plugins: in _config.yml)
+- [x] IndexNow GitHub Action — auto-ping Bing/Yandex on new posts/drills
+- [x] H3 drill pack — replaced with author's original content
+- [x] H4 drill pack — created from uploaded content
+- [x] Root directory reorganised — pages/ directory, _workbooks/, _case_studies/ collections
+- [x] Header modernised — Playfair Display logo, no tagline, underline nav, no box-shadow
+- [x] Nav hierarchy — removed Home, reordered, added Leadership OS → CTA pill
+- [x] Added aurora theme (coral → purple gradient)
+- [x] Added sovereign theme (white canvas, olive → electric blue, WIP)
+- [x] Homepage — hero stats above fold, eyebrow updated, start here badge on LOS
+- [x] Homepage — publications cleaned up (Horizon only, 5 more collapsed)
+- [x] Homepage — Books & Drills merged, redundant stat card removed
+- [x] Article pages — author card, subscribe form, drill breadcrumbs
+- [x] Buttondown email subscribe — article footer + /subscribe/ page + nav link
+- [x] Removed contact FAB (redundant — LinkedIn and Subscribe in nav)
 
-## Done (polish)
-- [x] Page transitions — fade in/out between pages (transitions.js, CSS @keyframes page-in/page-out)
-- [x] Image lightbox — click article images to view full size (lightbox.js, overlay in default.html)
-- [x] Custom 404 page — improved with 6 navigation cards covering all major sections
+---
 
-## Done (reach & distribution)
-- [x] Analytics — GoatCounter (getunstuck.goatcounter.com, script in default.html)
-- [x] OG / Twitter card meta tags — default image + per-article overrides
+## Pending — content
 
-## Done (site cleanup)
-- [x] Remove stub pages (stories, start-here, personal_branding)
-- [x] Exclude unfinished pages from build (workbook, case_studies, the-invisible-backlog, the-series)
-- [x] Remove unused articles collection from _config.yml
-- [x] Exclude examples/ directory from build
-- [x] Series-B test post set to draft
-- [x] Horizon episode cards — visual depth hierarchy (live → next → working → distant → reserve)
+- [ ] **H5 article + drill pack** — next Horizon episode when written
+- [ ] **Case studies** — _case_studies/ collection ready; write first engagement write-up
+- [ ] **Workbook PDF** — _workbooks/ collection ready; compile and publish PDF
+- [ ] **The Invisible Backlog** book landing page — enable when book is published
+- [ ] **The Series** overview page — enable when six-handbook series is defined
 
-## Done (about page)
-- [x] Replace horizontal career timeline with bento grid (cb-card, cb-origin, cb-now)
-- [x] Add qualitative insight lines to each career milestone — the crossing, not just the title
+---
 
-## Pages excluded from build (enable when content is ready)
-- [ ] **workbook.md** → `/workbook/` — PDF of all drills; exclude until PDF exists
-- [ ] **case_studies.md** → `/case_studies/` — real engagement write-ups; exclude until first case is written
-- [ ] **the-invisible-backlog.md** → `/the-invisible-backlog/` — book landing page; exclude until book is published
-- [ ] **the-series.md** → `/the-series/` — six-handbook series overview; exclude until series is defined
-- To re-enable: remove the entry from `exclude:` in `_config.yml`
+## Pending — site
 
-## Backlog
+### This weekend
+- [ ] **Theme cleanup** — narrow to 4 themes, tweak sovereign and aurora, remove unused themes from style.css and _config.yml comments
 
-### High impact, low effort
-- [x] **Scroll-reveal animations** — IntersectionObserver fades cards/sections in as you scroll (~50 lines JS)
-- [x] **Structured data (JSON-LD)** — Article schema in `<head>` on article pages; unlocks rich snippets in Google (author, reading time, publish date)
-- [x] **Custom scrollbar** — CSS-only, 3 lines; small detail, disproportionate polish
-
-### High impact, medium effort
-- [ ] **Email subscribe** — Buttondown (free up to 100, $9/mo after; embed form in article footer and /subscribe/ page)
-- [ ] **Comments via Utterances** — GitHub Issues as comment threads; zero backend, free, clean look; great for thought-provoking articles
-- [ ] **Drill streak tracker** — localStorage counter ("You've done 7 drills this week"); gamification that drives return visits
-
-### Visually stunning, higher effort
-- [ ] **Animated hero gradient** — CSS @keyframes slow-shifting gradient on .hp-hero; subtle but striking
-- [ ] **Card tilt effect** — JS mouse-tracking tilt on hover (~30 lines); very modern feel
-- [ ] **Series progress ring** — SVG circle showing "2 of 6 episodes read" on the Horizon page
-
-### Deferred
+### Backlog
+- [ ] **Mentees/coaching page refresh** — /mentees/ page hasn't been updated this session
+- [ ] **Comments via Utterances** — GitHub Issues as comment threads; zero backend, free
+- [ ] **Drill streak tracker** — localStorage counter ("You've done 7 drills this week")
+- [ ] **Animated hero gradient** — CSS @keyframes slow-shifting gradient on .hp-hero
+- [ ] **Series progress ring** — SVG circle showing "2 of 6 episodes read" on Horizon page
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
-- [ ] **Series landing pages** — create when series has a plan or first article ready (template at examples/series-landing-template.md)
+
+---
+
+## Done (all time)
+
+### Site foundation
+- [x] Redesign all 30 themes with distinct tinted canvases
+- [x] Open Graph / Twitter card meta tags + JSON-LD Article schema
+- [x] Reading progress bar (article pages only)
+- [x] Table of contents — auto-generated, sticky sidebar
+- [x] Client-side search — Lunr.js modal (Ctrl+K)
+- [x] Related articles — hidden until series has 2+ articles
+- [x] Article share bar (LinkedIn, WhatsApp, copy link)
+- [x] Audio player on articles (Web Speech API)
+- [x] Back to top button
+- [x] Dark mode toggle (persists via localStorage)
+- [x] Mark as read (tracks 80% scroll)
+- [x] Font size control A−/A+ (persists via localStorage)
+- [x] Reading percentage indicator
+- [x] Keyboard navigation ←/→ between series articles
+- [x] Page transitions (fade in/out)
+- [x] Image lightbox
+- [x] Custom 404 page
+- [x] Scroll-reveal animations
+- [x] Custom scrollbar
+- [x] Analytics — GoatCounter
+- [x] About page — bento grid career timeline
+
+### SEO & distribution
+- [x] Google Search Console verified + sitemap submitted
+- [x] jekyll-sitemap + jekyll-feed plugins wired correctly
+- [x] IndexNow auto-ping on push (GitHub Action)
+- [x] Buttondown email subscribe (article + /subscribe/ page + nav)
+
+### Header & nav
+- [x] Logo: Playfair Display, no tagline
+- [x] Nav: no Home, reordered by importance, underline hover
+- [x] Nav CTA: Leadership OS → gradient pill
+- [x] Subscribe link in nav
+- [x] Search ⌘K hint in header
+- [x] Active nav link via aria-current (JS)
+- [x] Removed contact FAB
+
+### Homepage
+- [x] Stats (25+/600+/$150M+) in hero above fold
+- [x] LOS as primary "Start here" TOC item
+- [x] Publications: Horizon only, 5 more collapsed
+- [x] Books & Drills merged into one section
+- [x] Removed featured article section
+- [x] Removed redundant stat card
+
+### Content & structure
+- [x] pages/ directory — all pages moved out of root
+- [x] _workbooks/ and _case_studies/ collections set up
+- [x] Author card on article pages
+- [x] Drill + drillpack breadcrumb nav
+- [x] H3 and H4 drill packs published
