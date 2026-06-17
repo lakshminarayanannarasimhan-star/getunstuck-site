@@ -35,7 +35,6 @@ author: Lakshmi Narayanan
 # ── DARK ───────────────────────────────────────────────────────────
 #
 # unstuck_theme: midnight      # Deep ink, electric indigo
-# unstuck_theme: obsidian      # Gunmetal black, warm amber
 # unstuck_theme: navy          # Deep admiralty navy, antique gold
 # unstuck_theme: plum          # Deep aubergine, electric fuchsia
 # unstuck_theme: charcoal      # Warm graphite, emerald accent
@@ -44,15 +43,10 @@ author: Lakshmi Narayanan
 # ── LIGHT ──────────────────────────────────────────────────────────
 #
 # unstuck_theme: ivory         # Warm white, barely-there surfaces
-# unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
 # unstuck_theme: cloud         # Cool white, soft lavender accent
 # unstuck_theme: sky           # Light blue canvas, deep cobalt
-# unstuck_theme: tree          # Light green canvas, deep forest
 # unstuck_theme: rainbow       # Light lavender, deep violet
-# unstuck_theme: abyss         # Deep navy editorial, authoritative
-# unstuck_theme: blaze         # Warm off-white, vivid orange
-unstuck_theme: smokey_plum   # Dusty rose, deep wine
 #
 # ── EDITORIAL / PRINT ──────────────────────────────────────────────
 #

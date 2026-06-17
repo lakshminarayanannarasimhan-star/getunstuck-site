@@ -420,22 +420,6 @@
 
 /* ── DARK THEMES ── */
 
-/* obsidian — gunmetal black, warm amber */
-[data-theme="obsidian"] {
-  --bg: #0A0908; --bg-deep: #050504;
-  --surface: #141210; --surface-soft: #1C1A18;
-  --text: #F5F0E8; --muted: #A09878; --faint: #585450;
-  --primary: #F59E0B; --primary-soft: rgba(245,158,11,0.14); --primary-strong: #D97706;
-  --border: rgba(245,158,11,0.12); --border-soft: rgba(245,158,11,0.06);
-  --shadow-sm: 0 2px 10px rgba(0,0,0,0.55); --shadow-md: 0 10px 30px rgba(0,0,0,0.65); --shadow-lg: 0 20px 60px rgba(0,0,0,0.75);
-  --hero-gradient:       linear-gradient(135deg, #0A0908 0%, #0E0C0A 50%, #0A0806 100%);
-  --ink-gradient:        linear-gradient(135deg, #050504 0%, #0A0908 100%);
-  --accent-gradient:     linear-gradient(135deg, #141210 0%, #1E1A12 100%);
-  --btn-gradient:        linear-gradient(135deg, #FBBF24 0%, #F59E0B 50%, #D97706 100%);
-  --btn-gradient-hover:  linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
-  --card-hover-gradient: linear-gradient(135deg, #141210 0%, #1E1C14 100%);
-  --surface-gradient:    linear-gradient(160deg, #141210 0%, #161412 100%);
-}
 
 /* navy — deep admiralty, antique gold */
 [data-theme="navy"] {
@@ -507,22 +491,6 @@
   --surface-gradient:    linear-gradient(160deg, #FFFFFF 0%, #F9F6F1 100%);
 }
 
-/* linen — Kinfolk cream, terracotta sienna */
-[data-theme="linen"] {
-  --bg: #F6EFE5; --bg-deep: #EDE4D2;
-  --surface: #FCF8F2; --surface-soft: #FEFCF8;
-  --text: #281C10; --muted: #6B5040; --faint: #B09880;
-  --primary: #B8481E; --primary-soft: #F8E8DC; --primary-strong: #963A14;
-  --border: rgba(40,28,16,0.12); --border-soft: rgba(40,28,16,0.06);
-  --shadow-sm: 0 2px 6px rgba(40,28,16,0.06); --shadow-md: 0 10px 30px rgba(40,28,16,0.09); --shadow-lg: 0 20px 60px rgba(40,28,16,0.12);
-  --hero-gradient:       linear-gradient(135deg, #F6EFE5 0%, #EEE0CC 45%, #F6EBD8 100%);
-  --ink-gradient:        linear-gradient(135deg, #281C10 0%, #3C2814 50%, #281408 100%);
-  --accent-gradient:     linear-gradient(135deg, #EDE4D2 0%, #E4D5BC 100%);
-  --btn-gradient:        linear-gradient(135deg, #D05A2C 0%, #B8481E 50%, #963A14 100%);
-  --btn-gradient-hover:  linear-gradient(135deg, #B8481E 0%, #963A14 100%);
-  --card-hover-gradient: linear-gradient(135deg, #FCF8F2 0%, #F5EDE0 100%);
-  --surface-gradient:    linear-gradient(160deg, #FCF8F2 0%, #F9F4EA 100%);
-}
 
 /* chalk — crisp editorial, slate-grey accent */
 [data-theme="chalk"] {
@@ -584,109 +552,6 @@
   --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #F5F0FF 100%);
 }
 
-/* tree — light green canvas, deep forest accent */
-[data-theme="tree"] {
-  --bg:             #F0F9F0;
-  --bg-deep:        #DFF0DF;
-  --surface:        #FAFFF8;
-  --surface-soft:   #FFFFFF;
-  --text:           #0A1A0A;
-  --muted:          #2D5228;
-  --faint:          #5A8A52;
-  --primary:        #007200;
-  --primary-soft:   #E6F5E6;
-  --primary-strong: #006400;
-  --border:         rgba(10,26,10,0.12);
-  --border-soft:    rgba(10,26,10,0.06);
-  --shadow-sm:      0 2px 6px rgba(10,26,10,0.06);
-  --shadow-md:      0 10px 30px rgba(10,26,10,0.09);
-  --shadow-lg:      0 20px 60px rgba(10,26,10,0.12);
-  --hero-gradient:        linear-gradient(135deg, #F0F9F0 0%, #DFF0DF 45%, #D0EAD0 100%);
-  --ink-gradient:         linear-gradient(135deg, #0A1A0A 0%, #142814 45%, #0C200C 100%);
-  --accent-gradient:      linear-gradient(135deg, #DFF0DF 0%, #CCE8CC 100%);
-  --btn-gradient:         linear-gradient(135deg, #008000 0%, #007200 50%, #006400 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #007200 0%, #006400 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #FAFFF8 0%, #E6F5E6 100%);
-  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #F0F9F0 100%);
-}
-
-/* abyss — deep navy editorial, rich and authoritative */
-[data-theme="abyss"] {
-  --bg:             #F2F6FF;
-  --bg-deep:        #E0EAFF;
-  --surface:        #FFFFFF;
-  --surface-soft:   #F7F9FF;
-  --text:           #000E24;
-  --muted:          #153561;
-  --faint:          #3D6BAA;
-  --primary:        #00296B;
-  --primary-soft:   #D9E8FF;
-  --primary-strong: #001B4A;
-  --border:         rgba(0,14,36,0.12);
-  --border-soft:    rgba(0,14,36,0.06);
-  --shadow-sm:      0 2px 6px rgba(0,14,36,0.07);
-  --shadow-md:      0 10px 30px rgba(0,14,36,0.10);
-  --shadow-lg:      0 20px 60px rgba(0,14,36,0.14);
-  --hero-gradient:        linear-gradient(135deg, #F2F6FF 0%, #E0EAFF 45%, #CCDdFF 100%);
-  --ink-gradient:         linear-gradient(135deg, #000E24 0%, #001B45 45%, #000F2E 100%);
-  --accent-gradient:      linear-gradient(135deg, #E0EAFF 0%, #CCDdFF 100%);
-  --btn-gradient:         linear-gradient(135deg, #1445A0 0%, #00296B 50%, #001B4A 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #00296B 0%, #001B4A 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #FFFFFF 0%, #D9E8FF 100%);
-  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #F2F6FF 100%);
-}
-
-/* blaze — warm off-white canvas, vivid orange accent */
-[data-theme="blaze"] {
-  --bg:             #FFF8F3;
-  --bg-deep:        #FFEEDE;
-  --surface:        #FFFFFF;
-  --surface-soft:   #FFF5EE;
-  --text:           #1A0800;
-  --muted:          #7A3010;
-  --faint:          #C85820;
-  --primary:        #FB6107;
-  --primary-soft:   #FFE0CC;
-  --primary-strong: #C44C05;
-  --border:         rgba(26,8,0,0.12);
-  --border-soft:    rgba(26,8,0,0.06);
-  --shadow-sm:      0 2px 6px rgba(26,8,0,0.07);
-  --shadow-md:      0 10px 30px rgba(26,8,0,0.10);
-  --shadow-lg:      0 20px 60px rgba(26,8,0,0.14);
-  --hero-gradient:        linear-gradient(135deg, #FFF8F3 0%, #FFEEDE 45%, #FFE0CC 100%);
-  --ink-gradient:         linear-gradient(135deg, #1A0800 0%, #3A1500 45%, #200A00 100%);
-  --accent-gradient:      linear-gradient(135deg, #FFEEDE 0%, #FFE0CC 100%);
-  --btn-gradient:         linear-gradient(135deg, #FF7A2E 0%, #FB6107 50%, #C44C05 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #FB6107 0%, #C44C05 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #FFFFFF 0%, #FFE0CC 100%);
-  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #FFF8F3 100%);
-}
-
-/* smokey_plum — dusty rose canvas, deep wine accent */
-[data-theme="smokey_plum"] {
-  --bg:             #FBF1F1;
-  --bg-deep:        #F0DCDC;
-  --surface:        #FFFFFF;
-  --surface-soft:   #FBF3F3;
-  --text:           #1C0506;
-  --muted:          #6B2528;
-  --faint:          #A85A5C;
-  --primary:        #440D0F;
-  --primary-soft:   #F0DCDD;
-  --primary-strong: #2E0809;
-  --border:         rgba(28,5,6,0.12);
-  --border-soft:    rgba(28,5,6,0.06);
-  --shadow-sm:      0 2px 6px rgba(28,5,6,0.07);
-  --shadow-md:      0 10px 30px rgba(28,5,6,0.10);
-  --shadow-lg:      0 20px 60px rgba(28,5,6,0.14);
-  --hero-gradient:        linear-gradient(135deg, #FBF1F1 0%, #F0DCDC 45%, #E5C5C6 100%);
-  --ink-gradient:         linear-gradient(135deg, #1C0506 0%, #350A0C 45%, #200607 100%);
-  --accent-gradient:      linear-gradient(135deg, #F0DCDC 0%, #E5C5C6 100%);
-  --btn-gradient:         linear-gradient(135deg, #6B1418 0%, #440D0F 50%, #2E0809 100%);
-  --btn-gradient-hover:   linear-gradient(135deg, #440D0F 0%, #2E0809 100%);
-  --card-hover-gradient:  linear-gradient(135deg, #FFFFFF 0%, #F0DCDD 100%);
-  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #FBF1F1 100%);
-}
 
 /* sky — light blue canvas, deep cobalt accent */
 [data-theme="sky"] {
@@ -780,7 +645,7 @@
    Dark-background themes need white text in the header.
    ========================================= */
 [data-theme="midnight"], [data-theme="forest"],
-[data-theme="obsidian"], [data-theme="navy"],
+[data-theme="navy"],
 [data-theme="plum"], [data-theme="charcoal"],
 [data-theme="blueprint"], [data-theme="noir"] {
   --header-logo-gradient: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.78) 55%, #fff 100%);
