@@ -18,59 +18,60 @@ author: Lakshmi Narayanan
 # Change one line — every page follows.
 # Uncomment the theme you want, comment out the rest.
 #
-# ── SIGNATURE THEMES (full surface + gradient system) ──────────────
+# ── GRADIENT THEMES ────────────────────────────────────────────────
 #
-# unstuck_theme: dojo          # Warm paper, ochre gradient       · DEFAULT
-# unstuck_theme: midnight      # Deep dark, indigo glow
-# unstuck_theme: forest        # Deep green, earthy, grounded
+# unstuck_theme: sunrise       # Warm white, pale yellow → coral-red
+# unstuck_theme: aurora        # White, coral → purple
+# unstuck_theme: flamingo      # White, coral → deep magenta
+# unstuck_theme: sovereign     # White, olive → electric blue (WIP)
+#
+# ── SIGNATURE ──────────────────────────────────────────────────────
+#
+# unstuck_theme: dojo          # Warm paper, ochre · DEFAULT
+# unstuck_theme: mono          # Pure black/white, zero colour
 # unstuck_theme: sunset        # Warm amber to rose, editorial
 # unstuck_theme: slate         # Cool white, steel blue, executive
-# unstuck_theme: mono          # Stripped back, pure black/white
 #
-# ── DARK THEMES ────────────────────────────────────────────────────
+# ── DARK ───────────────────────────────────────────────────────────
 #
-# unstuck_theme: obsidian      # Gunmetal black, warm amber accent
+# unstuck_theme: midnight      # Deep ink, electric indigo
+# unstuck_theme: obsidian      # Gunmetal black, warm amber
 # unstuck_theme: navy          # Deep admiralty navy, antique gold
 # unstuck_theme: plum          # Deep aubergine, electric fuchsia
 # unstuck_theme: charcoal      # Warm graphite, emerald accent
-# unstuck_theme: midnight      # Deep ink, electric indigo (see above)
+# unstuck_theme: forest        # Deep green, earthy, grounded
 #
-# ── LIGHT THEMES ───────────────────────────────────────────────────
+# ── LIGHT ──────────────────────────────────────────────────────────
 #
 # unstuck_theme: ivory         # Warm white, barely-there surfaces
 # unstuck_theme: linen         # Warm cream, terracotta, editorial
 # unstuck_theme: chalk         # Bright white, graphite, zero colour
 # unstuck_theme: cloud         # Cool white, soft lavender accent
+# unstuck_theme: sky           # Light blue canvas, deep cobalt
+# unstuck_theme: tree          # Light green canvas, deep forest
+# unstuck_theme: rainbow       # Light lavender, deep violet
+# unstuck_theme: abyss         # Deep navy editorial, authoritative
+# unstuck_theme: blaze         # Warm off-white, vivid orange
+# unstuck_theme: smokey_plum   # Dusty rose, deep wine
 #
-# ── BOLD / VIVID THEMES ────────────────────────────────────────────
+# ── EDITORIAL / PRINT ──────────────────────────────────────────────
 #
-# unstuck_theme: saffron       # Deep burnt orange, firelike warmth
-# unstuck_theme: cobalt        # Deep sapphire, antique gold accent
-# unstuck_theme: jade          # Deep teal, gold accent
-# unstuck_theme: crimson       # Deep burgundy, antique gold accent
-#
-# ── EDITORIAL / PRINT THEMES ───────────────────────────────────────
-#
-unstuck_theme: broadsheet    # Newspaper grey, classic editorial
+# unstuck_theme: broadsheet    # Newspaper grey, classic editorial
 # unstuck_theme: manuscript    # Aged parchment, sepia, scholarly
 # unstuck_theme: blueprint     # Technical navy, precision sky-blue
 # unstuck_theme: noir          # Cinematic near-black, sepia gold
+# unstuck_theme: arctic        # Ice white, steel blue, cold and clean
+# unstuck_theme: sand          # Warm beige, sun-bleached minimal
 #
-# ── NATURE THEMES ──────────────────────────────────────────────────
+# ── NATURE ─────────────────────────────────────────────────────────
 #
 # unstuck_theme: ocean         # Deep abyssal blue, bioluminescent teal
-# unstuck_theme: sand          # Warm beige, sun-bleached minimal
 # unstuck_theme: ember         # Dark brown, glowing amber, firelight
-
 #
-# ── ACCENT-SWAP THEMES (dojo base + colour accent) ─────────────────
-# These inherit the warm paper surface — only the accent colour changes.
+# ── ACCENT-SWAP (dojo base + colour accent) ────────────────────────
+#
 # unstuck_theme: indigo        # Indigo accent
 # unstuck_theme: emerald       # Emerald accent
-# unstuck_theme: amber         # Amber accent
-# unstuck_theme: rose          # Rose accent
-# unstuck_theme: cyan          # Cyan accent
-# unstuck_theme: violet        # Violet accent
 # unstuck_theme: oasis         # Muted purple accent
 # unstuck_theme: berry         # Berry accent
 # unstuck_theme: delight       # Bright red accent
@@ -80,30 +81,6 @@ unstuck_theme: broadsheet    # Newspaper grey, classic editorial
 # unstuck_theme: ocean_breeze  # Bold rose-red accent
 # unstuck_theme: pumpkin_spice # Warm orange accent
 # unstuck_theme: evergreen     # Forest green accent
-
-# My Favorites
-# unstuck_theme: ivory         # light theme - Warm white, barely-there surfaces
-# unstuck_theme: linen         # Warm cream, terracotta, editorial
-# unstuck_theme: chalk         # Bright white, graphite, zero colour
-
-# All time favorites
-# unstuck_theme: tree          # Light green canvas, deep forest accent
-# unstuck_theme: sunset        # Warm amber to rose, editorial
-# unstuck_theme: sky           # Light blue canvas, deep cobalt accent
-# unstuck_theme: rainbow       # Light lavender canvas, deep violet accent (#5a189a)
-# unstuck_theme: abyss         # Deep navy editorial, authoritative (#00296b)
-# unstuck_theme: blaze         # Warm off-white canvas, vivid orange accent (#fb6107)
-# unstuck_theme: smokey_plum   # Dusty rose canvas, deep wine accent (#440d0f)
-
-
-
-unstuck_theme: sunrise       # Warm white, pale yellow to coral-red gradient
-# unstuck_theme: aurora        # Clean white, coral-to-purple gradient
-# unstuck_theme: mono          # Stripped back, pure black/white
-# unstuck_theme: flamingo      # White canvas, coral to deep magenta gradient
-# unstuck_theme: aurora        # Clean white, coral-to-purple gradient
-# unstuck_theme: sovereign     # White canvas, olive-to-electric-blue gradient (WIP)
-# unstuck_theme: arctic        # Ice white, steel blue, cold and clean
 
 typography: spacious   # executive | compact | spacious
 
