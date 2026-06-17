@@ -1624,8 +1624,19 @@ body.search-open { overflow: hidden; }
   white-space: nowrap;
   transition: opacity .18s ease, transform .18s ease;
 }
-.nav .nav-cta::after { display: none; }
-.nav .nav-cta:hover { opacity: 0.88; transform: translateY(-1px); background: var(--btn-gradient); }
+.nav .nav-cta::after { display: none !important; }
+.nav .nav-cta:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+  background: var(--btn-gradient) !important;
+  color: #fff !important;
+}
+.nav .nav-cta[aria-current="page"] {
+  background: var(--btn-gradient) !important;
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav .nav-cta[aria-current="page"]::after { display: none !important; }
 
 /* ── SEARCH HINT ── */
 .search-hint {
