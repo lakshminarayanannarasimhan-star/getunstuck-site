@@ -4494,6 +4494,7 @@ body.search-open { overflow: hidden; }
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-lg);
+  margin-bottom: clamp(2rem, 4vw, 3.5rem);
 }
 .hp-hero::before {
   content: '';
