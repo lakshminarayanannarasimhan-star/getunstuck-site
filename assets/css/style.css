@@ -5037,6 +5037,11 @@ body.search-open { overflow: hidden; }
 .hp-practice-card:hover { background: var(--card-hover-gradient, var(--surface-soft)); }
 
 .hp-practice-cred { background: var(--bg-deep); }
+.hp-practice-card--full {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-soft);
+  max-width: 640px;
+}
 .hp-practice-cred:hover { background: var(--bg-deep); }
 
 .hp-pc-icon {

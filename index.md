@@ -243,33 +243,27 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 </div>
 
 <!-- ═══════════════════════
-     CASE STUDIES & DRILLS
+     DRILLS
 ═══════════════════════ -->
 <section class="section-wide" id="practice">
-  <div class="section-label">Case Studies &amp; Drills</div>
+  <div class="section-label">Drills</div>
   <h2>Drawn from 25 years of practice.</h2>
-  <div class="hp-practice-grid">
-
-    <div class="hp-practice-card">
-      <div class="hp-pc-icon">◈</div>
-      <div class="hp-pc-label">
-        Drills
-        <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;"><span class="series-dot"></span>Open</span>
-      </div>
-      <h3>The practice is the gift.</h3>
-      <p>Every drill in the workbook comes from a real situation — not a textbook. Daily and weekly practice formats designed to install capability, not fill time. No price. No gate. No email required.</p>
-      <div class="area-tags" style="margin-top:.8rem;">
-        <span class="area-tag">Daily drills</span>
-        <span class="area-tag">Weekly review</span>
-        <span class="area-tag">No gate</span>
-      </div>
-      <div style="display:flex;gap:.6rem;margin-top:1.2rem;flex-wrap:wrap;">
-        <a class="btn-secondary" href="/drills/">The Drills</a>
-        <a class="btn-secondary" href="/workbook/">The Workbook</a>
-      </div>
+  <div class="hp-practice-card hp-practice-card--full">
+    <div class="hp-pc-icon">◈</div>
+    <div class="hp-pc-label">
+      Drills
+      <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;"><span class="series-dot"></span>Open</span>
     </div>
-
-
+    <p>Every drill in the workbook comes from a real situation — not a textbook. Daily and weekly practice formats designed to install capability, not fill time. No price. No gate. No email required.</p>
+    <div class="area-tags" style="margin-top:.8rem;">
+      <span class="area-tag">Daily drills</span>
+      <span class="area-tag">Weekly review</span>
+      <span class="area-tag">No gate</span>
+    </div>
+    <div style="display:flex;gap:.6rem;margin-top:1.2rem;flex-wrap:wrap;">
+      <a class="btn-secondary" href="/drills/">The Drills</a>
+      <a class="btn-secondary" href="/workbook/">The Workbook</a>
+    </div>
   </div>
 </section>
 
