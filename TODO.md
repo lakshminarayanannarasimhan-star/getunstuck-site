@@ -50,10 +50,11 @@ Active theme: **mono**. Remaining themes in CSS:
 Still to decide: keep or remove slate, ivory, chalk, cloud, sky, rainbow, blueprint, noir, arctic, indigo, emerald, oasis, delight, ocean_breeze, evergreen
 
 ### Backlog
+- [ ] **Content grouping** — drills page grouped by series, articles/publications grouped by series and book, books page organised by collection
+- [ ] **Search UX** — empty state shows recent articles, match highlighting in excerpts, result count, hide footer until results appear
 - [ ] **Mentees/coaching page refresh** — /mentees/ page hasn't been updated
 - [ ] **Comments via Utterances** — GitHub Issues as comment threads; zero backend, free
 - [ ] **Drill streak tracker** — localStorage counter ("You've done 7 drills this week")
-- [ ] **Animated hero gradient** — CSS @keyframes slow-shifting gradient on .hp-hero
 - [ ] **Series progress ring** — SVG circle showing "2 of 6 episodes read" on Horizon page
 - [ ] **Print / PDF styles** — deferred; @page margin box browser support inconsistent
 
