@@ -1006,18 +1006,21 @@ body:has(.reading-progress) .header {
 }
 
 .nav-overlay {
-  display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.45);
   z-index: 90;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
 }
+.nav-overlay.open { opacity: 1; pointer-events: auto; }
 
 /* Mobile nav — trigger at 1080px since we have many items */
 @media (max-width: 1080px) {
   .menu-toggle { display: flex; }
   .nav {
-    display: none;
+    display: flex;
     position: fixed;
     top: 88px; right: 0; bottom: 0;
     width: min(300px, 85vw);
@@ -1031,9 +1034,15 @@ body:has(.reading-progress) .header {
     gap: 0.15rem;
     z-index: 100;
     overflow-y: auto;
+    transform: translateX(105%);
+    visibility: hidden;
+    transition: transform .28s cubic-bezier(.4,0,.2,1), visibility 0s linear .28s;
   }
-  .nav.open { display: flex; }
-  .nav-overlay.open { display: block; }
+  .nav.open {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform .28s cubic-bezier(.4,0,.2,1), visibility 0s linear 0s;
+  }
   .nav a { font-size: 0.78rem; padding: 0.6rem 0.8rem; width: 100%; }
   .dropdown {
     position: static; border: none; box-shadow: none;
@@ -1512,8 +1521,9 @@ body.search-open { overflow: hidden; }
 }
 .btn-primary:hover {
   opacity: 0.88;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
   color: var(--surface);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
 }
 
 .btn-secondary, .btn-ghost {
@@ -1533,6 +1543,8 @@ body.search-open { overflow: hidden; }
 .btn-secondary:hover, .btn-ghost:hover {
   border-color: var(--primary);
   color: var(--primary);
+  background: var(--primary-soft);
+  transform: translateY(-1px);
 }
 
 /* --- Cards --- */
@@ -1580,8 +1592,9 @@ body.search-open { overflow: hidden; }
   gap: 0.3rem;
   margin-top: 1rem;
 }
-.card-link::after { content: "→"; }
+.card-link::after { content: "→"; transition: transform .2s ease; display: inline-block; }
 .card-link:hover { color: var(--primary-strong); }
+.card-link:hover::after { transform: translateX(4px); }
 
 /* --- Num / label --- */
 .num {
@@ -1766,7 +1779,9 @@ body.search-open { overflow: hidden; }
 }
 
 .drill-toggle {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
   font-family: 'DM Mono', monospace;
   font-size: 0.72rem;
   letter-spacing: 0.1em;
@@ -1780,17 +1795,19 @@ body.search-open { overflow: hidden; }
   transition: background .18s ease;
   user-select: none;
 }
-.drill-toggle:hover { background: var(--primary-soft); }
+.drill-toggle:hover { background: var(--primary-soft); transform: translateY(-1px); }
 
 .drill-answer {
-  display: none;
-  margin-top: 1rem;
-  padding: 1.4rem 1.6rem;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 0;
+  transition: max-height .35s cubic-bezier(.4,0,.2,1), margin-top .2s ease;
+  padding: 0 1.6rem;
   border-left: 3px solid var(--primary);
   background: var(--surface);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
-.drill-answer.open { display: block; }
+.drill-answer.open { max-height: 3000px; margin-top: 1rem; padding: 1.4rem 1.6rem; }
 
 .drill-nav {
   display: flex;
@@ -2051,6 +2068,15 @@ body.search-open { overflow: hidden; }
   border-top: none;
   background: var(--ink-gradient, var(--text));
   margin-top: 4rem;
+  position: relative;
+}
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--btn-gradient);
+  opacity: 0.6;
 }
 .footer-inner {
   display: flex;
@@ -2071,7 +2097,7 @@ body.search-open { overflow: hidden; }
 }
 .footer-copy strong {
   color: rgba(255,255,255,0.95);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -4156,11 +4182,17 @@ body.search-open { overflow: hidden; }
    27. HOMEPAGE REDESIGN COMPONENTS
    ========================================= */
 
+@keyframes hero-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: .88; }
+}
+
 /* ── HERO ── */
 .hp-hero {
   background: var(--ink-gradient, var(--text));
   padding: clamp(3rem, 7vw, 6rem) 0 clamp(2.5rem, 5vw, 5rem);
   position: relative;
+  animation: hero-pulse 8s ease-in-out infinite;
   overflow: hidden;
   border-radius: var(--radius-lg);
   margin-bottom: clamp(1rem, 2vw, 1.75rem);
@@ -5289,16 +5321,15 @@ body.search-open { overflow: hidden; }
 .art-body ul, .art-body ol { padding-left: 1.4rem; margin-bottom: 1.4rem; }
 .art-body li { margin-bottom: .4rem; }
 .art-body blockquote {
-  border-left: 4px solid var(--primary);
-  padding: 1.1rem 1.4rem;
-  margin: 2rem 0;
-  background: var(--primary-soft);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-left: 3px solid var(--primary);
+  padding: 1.25rem 1.75rem;
+  margin: 2.5rem 0;
+  background: transparent;
   position: relative;
 }
 .art-body blockquote p {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.08rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.18rem;
   font-weight: 500;
   line-height: 1.65;
   color: var(--text);
@@ -5323,8 +5354,12 @@ body.search-open { overflow: hidden; }
 }
 .art-body hr {
   border: none;
-  border-top: 1px solid var(--border);
-  margin: 2.5rem 0;
+  margin: 3rem auto;
+  width: 60px;
+  height: 2px;
+  background: var(--btn-gradient);
+  border-radius: 99px;
+  opacity: 0.5;
 }
 
 /* Pull quote — use > .pull-class in markdown, or add class manually */
