@@ -39,6 +39,9 @@ bibliography:
   - id: ref1
     note: "The Keys Test, the Name Test, and the Ownership Ascent framework (commercial signal, behavioural record, structural accountability) are original diagnostics drawn from practitioner observation across technology-services engagements over 25 years. They are not adaptations of existing published frameworks."
 
+drill_pack_url: /drills/ownership-ascent-pack/
+drill_pack_count: 12
+
 whats_next:
   title: "The Growth Architecture"
   code: "#5"

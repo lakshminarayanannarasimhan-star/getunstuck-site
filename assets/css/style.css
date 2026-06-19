@@ -5903,6 +5903,36 @@ a.pub-series-row:hover { opacity: .85; }
   line-height: 1.65;
 }
 
+/* Drill pack link — article footer */
+.art-drill-pack-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--surface-gradient);
+  border: 1px solid var(--border-soft);
+  border-left: 3px solid var(--primary);
+  border-radius: var(--radius-md);
+  margin-bottom: 1.5rem;
+}
+.art-drill-pack-icon {
+  font-size: 1.2rem;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+.art-drill-pack-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: .2rem;
+}
+.art-drill-pack-desc {
+  font-size: .82rem;
+  color: var(--muted);
+}
+
 /* Subscribe — article footer embed */
 .art-subscribe {
   background: var(--surface-gradient);
