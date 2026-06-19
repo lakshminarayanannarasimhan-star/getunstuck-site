@@ -1398,6 +1398,124 @@ body.search-open { overflow: hidden; }
 }
 .hero-panel .panel-link::after { content: " →"; }
 
+/* ── Publications redesigned hero ── */
+.pub-hero-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 540px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 3rem;
+  box-shadow: var(--shadow-lg);
+}
+@media (max-width: 860px) {
+  .pub-hero-split { grid-template-columns: 1fr; }
+}
+
+/* Left — dark series switcher */
+.pub-series-nav {
+  background: var(--ink-gradient);
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.pub-series-eyebrow {
+  font-family: 'DM Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.35);
+}
+.pub-series-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: .15rem;
+}
+.pub-series-btn {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  padding: .55rem .75rem;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: 'DM Sans', sans-serif;
+  font-size: .88rem;
+  color: rgba(255,255,255,.45);
+  cursor: pointer;
+  text-align: left;
+  transition: background .15s, color .15s;
+  width: 100%;
+}
+.pub-series-btn:hover { background: rgba(255,255,255,.07); color: rgba(255,255,255,.8); }
+.pub-series-btn.active { background: rgba(255,255,255,.11); color: #fff; }
+.pub-series-btn-name { font-family: 'Playfair Display', serif; font-weight: 600; }
+
+.pub-series-detail { display: none; }
+.pub-series-detail.active {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  padding-top: .5rem;
+  border-top: 1px solid rgba(255,255,255,.1);
+  animation: search-modal-in .2s ease;
+}
+.pub-detail-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.35;
+  margin: 0;
+}
+.pub-detail-desc {
+  font-size: .85rem;
+  color: rgba(255,255,255,.6);
+  line-height: 1.65;
+  margin: 0;
+}
+.pub-detail-progress {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .07em;
+  color: rgba(255,255,255,.35);
+}
+.pub-detail-link {
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--primary);
+  text-decoration: none;
+  align-self: flex-start;
+  transition: opacity .15s;
+}
+.pub-detail-link:hover { opacity: .75; }
+
+/* Right — light info panel */
+.pub-info-panel {
+  background: var(--surface);
+  padding: 2rem 2rem 2rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid var(--border-soft);
+}
+.pub-info-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.2;
+  margin: .4rem 0 .75rem;
+}
+.pub-info-sub {
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 0;
+  max-width: 40ch;
+}
+
 /* Approach strip — publications hero left column */
 .pub-approach {
   margin-top: 2rem;

@@ -5,63 +5,142 @@ permalink: /publications/
 description: "Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces."
 ---
 
-<section class="hero">
-  <div class="hero-split">
-    <div>
-      <div class="eyebrow reveal d1">Publications</div>
-      <h1 class="hero-title reveal d2">Writing worth reading slowly.</h1>
-      <p class="hero-sub reveal d3">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
-      <div class="pub-approach reveal d4">
-        <div class="pub-approach-row">
-          <div class="pub-approach-num">01</div>
-          <div>
-            <div class="pub-approach-name">Perspective</div>
-            <div class="pub-approach-desc">Raw knowledge. The argument built from first principles — not commentary on what others have said.</div>
-          </div>
-        </div>
-        <div class="pub-approach-row">
-          <div class="pub-approach-num">02</div>
-          <div>
-            <div class="pub-approach-name">Stress Test</div>
-            <div class="pub-approach-desc">Don't believe what you see. The stress test is where the argument proves its strength — or breaks under challenge.</div>
-          </div>
-        </div>
-        <div class="pub-approach-row">
-          <div class="pub-approach-num">03</div>
-          <div>
-            <div class="pub-approach-name">Diagnostic</div>
-            <div class="pub-approach-desc">Apply in your context. Questions you can run inside your own organisation to see where you stand.</div>
-          </div>
-        </div>
-        <div class="pub-approach-row">
-          <div class="pub-approach-num">04</div>
-          <div>
-            <div class="pub-approach-name">Drills</div>
-            <div class="pub-approach-desc">Installation. A skill practised until it is yours — tough to take away, sticks with you for years.</div>
-          </div>
-        </div>
-      </div>
+<div class="pub-hero-split">
+
+  <!-- LEFT: Dark panel — series switcher -->
+  <div class="pub-series-nav">
+    <div class="pub-series-eyebrow">Series</div>
+
+    <div class="pub-series-tabs">
+      <button class="pub-series-btn active" data-target="horizon">
+        <span class="pub-series-btn-name">Horizon</span>
+        <span class="series-status in-progress" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Live</span>
+      </button>
+      <button class="pub-series-btn" data-target="frontier">
+        <span class="pub-series-btn-name">Frontier</span>
+        <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>To write</span>
+      </button>
+      <button class="pub-series-btn" data-target="compass">
+        <span class="pub-series-btn-name">Compass</span>
+        <span class="series-status ideation" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Ideation</span>
+      </button>
+      <button class="pub-series-btn" data-target="trust">
+        <span class="pub-series-btn-name">The Trust Equation</span>
+        <span class="series-status ideation" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Ideation</span>
+      </button>
+      <button class="pub-series-btn" data-target="los">
+        <span class="pub-series-btn-name">Leadership OS</span>
+        <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Pipeline</span>
+      </button>
+      <button class="pub-series-btn" data-target="moving">
+        <span class="pub-series-btn-name">The Moving Target</span>
+        <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Pipeline</span>
+      </button>
     </div>
-    <div class="hero-panel reveal d3">
-      <div class="panel-label">Featured Series</div>
-      <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.9rem;">
-        <span style="font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;color:var(--primary);">Horizon</span>
-        <span class="series-status in-progress" style="font-size:.6rem;"><span class="series-dot"></span>In progress</span>
-      </div>
-      <h3>From Compression to Premium</h3>
-      <p>How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
-      <div class="pub-audience-label" style="margin-top:1.2rem;">Written for</div>
-      <div class="pub-audience-roles">
+
+    <!-- Series detail panels -->
+    <div class="pub-series-detail active" data-series="horizon">
+      <h3 class="pub-detail-title">From Compression to Premium</h3>
+      <p class="pub-detail-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
+      <div class="pub-audience-roles" style="margin-top:1rem;">
         <span class="pub-role-tag">Executives</span>
         <span class="pub-role-tag">VP · SVP</span>
         <span class="pub-role-tag">Account Leaders</span>
         <span class="pub-role-tag">GCC Heads</span>
       </div>
-      <div style="margin-top:.8rem;font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.08em;color:var(--faint);">4 of 6 episodes published</div>
-      <a class="panel-link" href="/horizon/">Explore the series</a>
+      <div class="pub-detail-progress">4 of 6 episodes published</div>
+      <a class="pub-detail-link" href="/horizon/">Explore the series →</a>
+    </div>
+
+    <div class="pub-series-detail" data-series="frontier">
+      <h3 class="pub-detail-title">Graduation, Not Rejection</h3>
+      <p class="pub-detail-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after.</p>
+      <div class="pub-detail-progress">4 parts · To write</div>
+      <a class="pub-detail-link" href="/frontier/">Series overview →</a>
+    </div>
+
+    <div class="pub-series-detail" data-series="compass">
+      <h3 class="pub-detail-title">Why Organisations Lose Their Direction</h3>
+      <p class="pub-detail-desc">Most organisations measure position and call it direction. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
+      <div class="pub-detail-progress">9 episodes · Ideation</div>
+      <a class="pub-detail-link" href="/compass/">Series overview →</a>
+    </div>
+
+    <div class="pub-series-detail" data-series="trust">
+      <h3 class="pub-detail-title">The Trust Equation</h3>
+      <p class="pub-detail-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction.</p>
+      <div class="pub-detail-progress">Ideation · Security leadership</div>
+    </div>
+
+    <div class="pub-series-detail" data-series="los">
+      <h3 class="pub-detail-title">Leadership Operating System</h3>
+      <p class="pub-detail-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution — what holds when circumstances change.</p>
+      <div class="pub-detail-progress">4 articles · In pipeline</div>
+    </div>
+
+    <div class="pub-series-detail" data-series="moving">
+      <h3 class="pub-detail-title">The Moving Target</h3>
+      <p class="pub-detail-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy — not compliance.</p>
+      <div class="pub-detail-progress">7 articles · In pipeline</div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT: Light panel — hero copy + methodology -->
+  <div class="pub-info-panel">
+    <div class="eyebrow" style="color:var(--muted);">Publications</div>
+    <h1 class="pub-info-title">Writing worth reading slowly.</h1>
+    <p class="pub-info-sub">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
+    <div class="pub-approach">
+      <div class="pub-approach-row">
+        <div class="pub-approach-num">01</div>
+        <div>
+          <div class="pub-approach-name">Perspective</div>
+          <div class="pub-approach-desc">Raw knowledge. The argument built from first principles — not commentary on what others have said.</div>
+        </div>
+      </div>
+      <div class="pub-approach-row">
+        <div class="pub-approach-num">02</div>
+        <div>
+          <div class="pub-approach-name">Stress Test</div>
+          <div class="pub-approach-desc">Don't believe what you see. The stress test is where the argument proves its strength — or breaks under challenge.</div>
+        </div>
+      </div>
+      <div class="pub-approach-row">
+        <div class="pub-approach-num">03</div>
+        <div>
+          <div class="pub-approach-name">Diagnostic</div>
+          <div class="pub-approach-desc">Apply in your context. Questions you can run inside your own organisation to see where you stand.</div>
+        </div>
+      </div>
+      <div class="pub-approach-row">
+        <div class="pub-approach-num">04</div>
+        <div>
+          <div class="pub-approach-name">Drills</div>
+          <div class="pub-approach-desc">Installation. A skill practised until it is yours — tough to take away, sticks with you for years.</div>
+        </div>
+      </div>
     </div>
   </div>
-</section>
+
+</div>
+
+<script>
+(function() {
+  var btns    = document.querySelectorAll('.pub-series-btn');
+  var details = document.querySelectorAll('.pub-series-detail');
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var target = this.dataset.target;
+      btns.forEach(function(b)    { b.classList.remove('active'); });
+      details.forEach(function(d) { d.classList.remove('active'); });
+      this.classList.add('active');
+      var detail = document.querySelector('.pub-series-detail[data-series="' + target + '"]');
+      if (detail) detail.classList.add('active');
+    });
+  });
+})();
+</script>
 
 <!-- SERIES OVERVIEW GRID -->
 <section class="section-wide">
