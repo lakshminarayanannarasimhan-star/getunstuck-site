@@ -398,7 +398,7 @@ description: "Technology services was built to help customers execute. The next 
       <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">Each episode is published directly on this site as it is completed — no gate, no email required. The argument unfolds one piece at a time.</p>
       <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
         <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
-        <a class="btn-secondary" href="/publications/">All publications</a>
+        <a class="btn-secondary" href="/articles/">All articles</a>
       </div>
     </div>
 

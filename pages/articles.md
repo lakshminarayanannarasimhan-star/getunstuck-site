@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Articles
-permalink: /publications/
+permalink: /articles/
 description: "Articles across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — built to install, not just inform."
 ---
 

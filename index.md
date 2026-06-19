@@ -46,7 +46,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
       <div class="hp-toc">
         <div class="hp-toc-label">Choose your path</div>
 
-        <a class="hp-path-dark" href="/publications/">
+        <a class="hp-path-dark" href="/articles/">
           <div class="hp-path-dark-label">Read</div>
           <p class="hp-path-dark-desc">Articles built from first principles. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
           <div class="hp-path-dark-foot">Executives · Managers · Technology leaders <span class="hp-path-dark-arrow">→</span></div>
@@ -230,7 +230,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
           <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Cybersecurity</span>
           <span style="font-family:'DM Mono',monospace;font-size:.65rem;padding:.3rem .7rem;border:1px solid rgba(255,255,255,.35);border-radius:99px;color:rgba(255,255,255,.88);">Management</span>
         </div>
-        <a class="btn-primary" href="/publications/">All publications →</a>
+        <a class="btn-primary" href="/articles/">All articles →</a>
       </div>
       <div class="hp-pubs-series">
         <a class="hp-pub-row" href="/horizon/">
@@ -243,7 +243,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         </a>
         <div class="hp-pubs-more">
           <span>5 more series in development</span>
-          <a href="/publications/">See all →</a>
+          <a href="/articles/">See all →</a>
         </div>
       </div>
     </div>

@@ -261,7 +261,7 @@ description: "Most organisations measure position and call it direction. The cus
       <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">Architecture is frozen. Drafting begins after Frontier closes. E0 is next. Episodes appear on this site as they complete — no gate, no email required.</p>
       <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
         <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
-        <a class="btn-secondary" href="/publications/">All publications</a>
+        <a class="btn-secondary" href="/articles/">All articles</a>
       </div>
     </div>
 

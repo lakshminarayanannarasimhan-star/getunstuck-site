@@ -765,7 +765,7 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
       <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">LOS is built in the open — the Constitution is frozen, the Capability Handbook is in progress, and the curriculum is shaped by practitioner evidence. Follow the work as it develops.</p>
       <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
         <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
-        <a class="btn-secondary" href="/publications/">Read the publications</a>
+        <a class="btn-secondary" href="/articles/">Read the articles</a>
       </div>
     </div>
     <div style="flex:1;min-width:260px;display:flex;gap:1.2rem;align-items:flex-start;">

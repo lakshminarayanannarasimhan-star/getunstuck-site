@@ -285,7 +285,7 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
       <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">Everything here is free to read, free to use, and free to share. If you want to go deeper — on the LOS, on the writing, on working together — the door is open.</p>
       <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
         <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Connect on LinkedIn</a>
-        <a class="btn-secondary" href="/publications/">Read the writing</a>
+        <a class="btn-secondary" href="/articles/">Read the writing</a>
         <a class="btn-secondary" href="/los/">Explore the LOS</a>
       </div>
     </div>
