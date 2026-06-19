@@ -1519,7 +1519,7 @@ body.search-open { overflow: hidden; }
 .pub-hero-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 540px;
+  height: clamp(520px, 62vh, 640px);
   border-radius: var(--radius-lg);
   overflow: hidden;
   margin-bottom: 3rem;
@@ -1536,6 +1536,8 @@ body.search-open { overflow: hidden; }
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .pub-series-eyebrow {
   font-family: 'DM Mono', monospace;
