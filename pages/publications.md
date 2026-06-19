@@ -7,21 +7,39 @@ description: "Writing across leadership systems, technology strategy, and securi
 
 <div class="pub-hero-split">
 
-  <!-- LEFT: Dark panel — editorial manifesto -->
+  <!-- LEFT: Dark panel — three zones -->
   <div class="pub-series-nav pub-manifesto">
-    <div class="pub-series-eyebrow pub-m-a1">The editorial standard</div>
 
-    <p class="pub-manifesto-lead pub-m-a2">Most leadership writing is written to be agreed with.</p>
-
-    <div class="pub-manifesto-principle">
-      <span class="pub-m-line pub-m-a3">Anything not questioned is a gateway to mediocrity.</span>
-      <span class="pub-m-line pub-m-a4">Anything questioned with curiosity is the way to meritocracy.</span>
-      <span class="pub-m-line pub-m-a5">Let us stop expecting that we are always right.</span>
+    <!-- TOP: What's live -->
+    <div class="pub-panel-top pub-m-a1">
+      <div class="pub-series-eyebrow">What's live</div>
+      <a class="pub-live-compact" href="/horizon/">
+        <span class="pub-live-compact-name">Horizon</span>
+        <span class="series-status in-progress" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>In progress</span>
+      </a>
+      <div class="pub-live-compact-meta">4 of 6 episodes published · <a href="/horizon/" class="pub-live-compact-link">Read the series →</a></div>
     </div>
 
-    <p class="pub-manifesto-body pub-m-a6">Every article on this platform is stress-tested before it is drafted — not after. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
+    <!-- MIDDLE: Manifesto -->
+    <div class="pub-panel-mid">
+      <div class="pub-series-eyebrow pub-m-a2">The editorial standard</div>
+      <p class="pub-manifesto-lead pub-m-a3">Most leadership writing is written to be agreed with.</p>
+      <div class="pub-manifesto-principle">
+        <span class="pub-m-line pub-m-a4">Anything not questioned is a gateway to mediocrity.</span>
+        <span class="pub-m-line pub-m-a5">Anything questioned with curiosity is the way to meritocracy.</span>
+        <span class="pub-m-line pub-m-a6">Let us stop expecting that we are always right.</span>
+      </div>
+      <p class="pub-manifesto-body pub-m-a7">Every article on this platform is stress-tested before it is drafted — not after. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
+      <p class="pub-manifesto-close pub-m-a8">The Leadership Operating System defines capability as installed only when it performs, sustains, transfers, and survives absence. Reading is not installation.</p>
+    </div>
 
-    <p class="pub-manifesto-close pub-m-a7">The Leadership Operating System defines capability as installed only when it performs, sustains, transfers, and survives absence. Reading is not installation. This platform is built on that distinction.</p>
+    <!-- BOTTOM: Subscribe -->
+    <div class="pub-panel-bot pub-m-a9">
+      <div class="pub-series-eyebrow">Follow along</div>
+      <p class="pub-panel-bot-desc">Get articles when they publish. No gate. No email required to read the work.</p>
+      <a class="pub-detail-link" href="/subscribe/">Subscribe →</a>
+    </div>
+
   </div>
 
   <!-- RIGHT: Light panel — hero copy + methodology -->
