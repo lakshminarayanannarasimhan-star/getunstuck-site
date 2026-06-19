@@ -45,6 +45,9 @@ drill_pack:
   count: 10
   duration: "60–90 min"
 
+drill_pack_url: /drills/trust-ceiling-pack/
+drill_pack_count: 10
+
 whats_next:
   title: "The Indispensability Gap"
   code: "#3"

@@ -47,6 +47,9 @@ drill_pack:
   count: 10
   duration: "60–90 min"
 
+drill_pack_url: /drills/execution-trap-pack/
+drill_pack_count: 10
+
 # ── WHAT'S NEXT ──────────────────────────────────────
 whats_next:
   title: "The Trust Ceiling"
