@@ -2,7 +2,7 @@
 layout: default
 title: Horizon
 permalink: /horizon/
-description: "How technology services firms escape the race to the bottom and compete on terrain that cannot be commoditised. A six-episode series by Lakshmi Narayanan Narasimhan."
+description: "Technology services was built to help customers execute. The next generation will be built to help customers expand. A six-episode series on the arc from execution to indispensability — and what it takes to cross."
 ---
 
 <!-- ═══════════════════════
@@ -148,12 +148,47 @@ description: "How technology services firms escape the race to the bottom and co
 </section>
 
 <!-- ═══════════════════════
+     VOCABULARY
+═══════════════════════ -->
+<section class="section-wide">
+  <div class="section-label">The vocabulary</div>
+  <h2>Six terms. One argument.</h2>
+  <p class="prose" style="margin-top:.8rem;">The series installs one distinction: execution earns compensation; growth earns the premium. These six terms carry that distinction across every episode.</p>
+  <div class="cp-vocab-grid">
+    <div class="cp-vocab-item">
+      <div class="cp-vocab-term">Compression Zone</div>
+      <div class="cp-vocab-def">The layer of technology services where execution is rewarded. Necessary to operate in — but no longer sufficient to grow from. GenAI compresses it. GCCs internalise it.</div>
+    </div>
+    <div class="cp-vocab-item">
+      <div class="cp-vocab-term">The Trust Ceiling</div>
+      <div class="cp-vocab-def">The highest reward the Compression Zone offers. Revenue grows, renewals continue, and every strategic conversation happens somewhere else. Trust earned is not trust leveraged.</div>
+    </div>
+    <div class="cp-vocab-item">
+      <div class="cp-vocab-term">The Crossing</div>
+      <div class="cp-vocab-def">The boundary where the rules of earning change. What got you trusted will not get you influential. The credential for the next rung is different from the one that earned the current.</div>
+    </div>
+    <div class="cp-vocab-item">
+      <div class="cp-vocab-term">Indispensability</div>
+      <div class="cp-vocab-def">Not claimed — demonstrated. The test: would the customer create the same value without you? A GCC can replace execution. A GCC cannot replace indispensability.</div>
+    </div>
+    <div class="cp-vocab-item">
+      <div class="cp-vocab-term">The GCC Structural Law</div>
+      <div class="cp-vocab-def">A GCC is designed to optimise one enterprise. The Expansion Zone is built on leverage across enterprises. This is the structural reason a GCC cannot replace an indispensable firm — and the reason the GCC eventually becomes a customer for that firm.</div>
+    </div>
+    <div class="cp-vocab-item">
+      <div class="cp-vocab-term">Growth Premium</div>
+      <div class="cp-vocab-def">The reward for firms that multiply opportunities rather than multiply people. Earned not for what the firm delivers but for what becomes possible because it is there.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════
      THE EPISODES
 ═══════════════════════ -->
 <section class="section-wide" id="episodes">
   <div class="section-label">The episodes</div>
   <h2>One argument. Six moves.</h2>
-  <p class="prose" style="margin-top:.8rem;">Each episode names one obstacle, explains the mechanism behind it, and identifies the move that unlocks the next rung. They reward sequential reading — but each is complete in itself.</p>
+  <p class="prose" style="margin-top:.8rem;">Each episode opens on a scene from the executive's chair, names one obstacle, explains the mechanism behind it, and identifies the move that unlocks the next rung. They reward sequential reading — but each is complete in itself.</p>
 
   <div class="hz-episodes">
 
@@ -174,7 +209,9 @@ description: "How technology services firms escape the race to the bottom and co
       <div class="hz-ep-body">
         <div class="hz-ep-title">The Execution Trap</div>
         <div class="hz-ep-question">When did execution stop being enough?</div>
+        <p class="cp-ep-scene">A leadership team that has delivered flawlessly for three years walks into a strategic planning session — and finds the conversation has already happened without them.</p>
         <p class="hz-ep-desc">GenAI compresses the value of execution. GCCs internalise it. Two forces, different mechanisms, same pressure. This episode names both, introduces the six-step progression, and identifies The Crossing — the boundary where the rules of earning change.</p>
+        <div class="cp-ep-takeaway">Execution earns compensation. It no longer earns a future.</div>
         {% assign q1 = ep1.questions_to_ponder | size %}{% assign s1 = ep1.stress_test.points | size %}{% assign d1 = ep1.drill_pack.count | default: 0 %}
         {% if q1 > 0 or s1 > 0 or d1 > 0 %}<div class="hz-ep-meta-strip">{% if q1 > 0 %}<span>{{ q1 }} questions</span>{% endif %}{% if s1 > 0 %}<span>{{ s1 }} stress tests</span>{% endif %}{% if d1 > 0 %}<span>{{ d1 }} drills</span>{% endif %}</div>{% endif %}
         <div class="hz-ep-tags">
@@ -203,7 +240,9 @@ description: "How technology services firms escape the race to the bottom and co
       <div class="hz-ep-body">
         <div class="hz-ep-title">The Trust Ceiling</div>
         <div class="hz-ep-question">Why do trusted firms stop evolving?</div>
+        <p class="cp-ep-scene">The relationship is solid. The account is growing. The client respects you. And yet — you are never in the room when the real decisions are made.</p>
         <p class="hz-ep-desc">Most technology services firms have earned their customers' trust. Trust, however, is not the destination — it is the ceiling. Revenue grows, renewals continue, and every strategic conversation happens somewhere else.</p>
+        <div class="cp-ep-takeaway">Trust earns access. It does not earn a seat.</div>
         {% assign q2 = ep2.questions_to_ponder | size %}{% assign s2 = ep2.stress_test.points | size %}{% assign d2 = ep2.drill_pack.count | default: 0 %}
         {% if q2 > 0 or s2 > 0 or d2 > 0 %}<div class="hz-ep-meta-strip">{% if q2 > 0 %}<span>{{ q2 }} questions</span>{% endif %}{% if s2 > 0 %}<span>{{ s2 }} stress tests</span>{% endif %}{% if d2 > 0 %}<span>{{ d2 }} drills</span>{% endif %}</div>{% endif %}
         <div class="hz-ep-tags">
@@ -232,7 +271,9 @@ description: "How technology services firms escape the race to the bottom and co
       <div class="hz-ep-body">
         <div class="hz-ep-title">The Indispensability Gap</div>
         <div class="hz-ep-question">Would the customer create the same value without you?</div>
+        <p class="cp-ep-scene">The firm has a seat at the table. It is in the room while the thinking is forming. And yet, when the conversation turns to economics — to a genuine stake in what is being built — the answer is polite, warm, and unmistakably no.</p>
         <p class="hz-ep-desc">A GCC can replace execution. A GCC cannot replace indispensability. The indispensability test is simple and brutal — and it is the direct answer to both GenAI and GCC pressure.</p>
+        <div class="cp-ep-takeaway">Influence earns a seat. Indispensability earns a share of what the table produces.</div>
         {% assign q3 = ep3.questions_to_ponder | size %}{% assign s3 = ep3.stress_test.points | size %}{% assign d3 = ep3.drill_pack.count | default: 0 %}
         {% if q3 > 0 or s3 > 0 or d3 > 0 %}<div class="hz-ep-meta-strip">{% if q3 > 0 %}<span>{{ q3 }} questions</span>{% endif %}{% if s3 > 0 %}<span>{{ s3 }} stress tests</span>{% endif %}{% if d3 > 0 %}<span>{{ d3 }} drills</span>{% endif %}</div>{% endif %}
         <div class="hz-ep-tags">
@@ -261,7 +302,9 @@ description: "How technology services firms escape the race to the bottom and co
       <div class="hz-ep-body">
         <div class="hz-ep-title">The Ownership Ascent</div>
         <div class="hz-ep-question">What does it take to move from participation to ownership?</div>
+        <p class="cp-ep-scene">The firm has a revenue-sharing arrangement. Growth arrives. The strategy needs to change. The firm watches those decisions being made from the outside — not because it is distrusted, but because when the moment of real consequence arrived, the customer made the calls alone.</p>
         <p class="hz-ep-desc">Participation and ownership are not the same position. Decision rights follow obligation — not contribution, not trust, not even participation. Two tests reveal where a firm actually stands: the Keys Test, and the Name Test.</p>
+        <div class="cp-ep-takeaway">Participation earns the upside. Ownership earns the obligation.</div>
         {% assign q4 = ep4.questions_to_ponder | size %}{% assign s4 = ep4.stress_test.points | size %}{% assign d4 = ep4.drill_pack.count | default: 0 %}
         {% if q4 > 0 or s4 > 0 or d4 > 0 %}<div class="hz-ep-meta-strip">{% if q4 > 0 %}<span>{{ q4 }} questions</span>{% endif %}{% if s4 > 0 %}<span>{{ s4 }} stress tests</span>{% endif %}{% if d4 > 0 %}<span>{{ d4 }} drills</span>{% endif %}</div>{% endif %}
         <div class="hz-ep-tags">
@@ -290,7 +333,9 @@ description: "How technology services firms escape the race to the bottom and co
       <div class="hz-ep-body">
         <div class="hz-ep-title">The Growth Architecture</div>
         <div class="hz-ep-question">How do you become the kind of firm customers cannot imagine replacing?</div>
+        <p class="cp-ep-scene">A room of executives designing the next generation of their firm — not defending what exists, but building for a world where the GCC owns the Compression Zone and the firm must operate above it entirely.</p>
         <p class="hz-ep-desc">Assume GenAI compresses execution. Assume GCCs own it. What kind of firm wins anyway? This episode maps the architecture of a firm designed for a world where GCCs own the Compression Zone — and the GCC becomes a customer, not a competitor.</p>
+        <div class="cp-ep-takeaway">Design for the world where the GCC is the customer, not the competitor.</div>
         <div class="hz-ep-tags">
           <span class="area-tag">Growth Architecture</span>
           <span class="area-tag">GCC as customer</span>
@@ -313,7 +358,8 @@ description: "How technology services firms escape the race to the bottom and co
       <div class="hz-ep-body">
         <div class="hz-ep-title" style="opacity:.6;">The Growth Premium</div>
         <div class="hz-ep-question" style="opacity:.5;">Why do some firms earn fees while others earn a share of the future?</div>
-        <p class="hz-ep-desc" style="opacity:.5;">Reserve episode. Written only after #1–#5 are published and tested in market. GCCs cannot earn this premium — they are extensions of one enterprise. The Growth Premium belongs to the firm that multiplies opportunities across clients, ecosystems, and markets.</p>
+        <p class="hz-ep-desc" style="opacity:.5;">Reserve episode — written after #1–#5 are published and tested in market. GCCs cannot earn this premium; they are extensions of one enterprise. The Growth Premium belongs to the firm that multiplies opportunities across clients, ecosystems, and markets.</p>
+        <div class="cp-ep-takeaway" style="opacity:.4;">Growth earns the premium. The distance between execution and growth is the argument of this series.</div>
       </div>
       <div class="hz-ep-right"></div>
     </div>
