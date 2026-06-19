@@ -792,6 +792,14 @@ description: "LOS is a lifelong leadership practice system. Not a course. Not a 
   </div>
 </div>
 
+<!-- EDITORIAL STANDARD -->
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">The editorial standard</div>
+    <p class="pull-quote">Anything not questioned is a gateway to mediocrity. <em>Anything questioned with curiosity is the way to meritocracy.</em> Let us stop expecting that we are always right.</p>
+  </div>
+</div>
+
 <!-- ENTRY -->
 <section class="section-wide">
   <div class="layout-sidebar">

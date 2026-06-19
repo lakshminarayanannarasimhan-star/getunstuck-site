@@ -56,7 +56,7 @@ Still to decide: keep or remove slate, ivory, chalk, cloud, sky, rainbow, bluepr
 
 ### Backlog
 - [x] **Publications left panel manifesto** — editorial philosophy installed: LOS installation protocol + governing principle on the dark left panel.
-- [ ] **Surface editorial standard site-wide** — *"Anything not questioned is a gateway to mediocrity. Anything questioned with curiosity is the way to meritocracy."* Should appear in the About page, the LOS page, and as a pull quote somewhere prominent. It is the governing standard of the whole platform.
+- [x] **Surface editorial standard site-wide** — added to About page, LOS page, and Articles left panel (publications manifesto).
 - [ ] **Publications left panel: accordion for 2+ live series** — when a second series publishes, wrap each in a `pub-acc-item`, re-add 4-line accordion JS, default open = newest. Pipeline series never appear here.
 - [ ] **Content grouping** — drills page grouped by series, articles/publications grouped by series and book, books page organised by collection
 - [ ] **Search UX** — empty state shows recent articles, match highlighting in excerpts, result count, hide footer until results appear

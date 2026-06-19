@@ -269,6 +269,14 @@ description: "Lakshmi Narayanan — Technology Executive, Leadership Systems Pra
   </div>
 </section>
 
+<!-- EDITORIAL STANDARD -->
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">The standard</div>
+    <p class="pull-quote">Anything not questioned is a gateway to mediocrity. <em>Anything questioned with curiosity is the way to meritocracy.</em> Let us stop expecting that we are always right.</p>
+  </div>
+</div>
+
 <!-- CTA -->
 <div class="section-ink">
   <div class="bleed-inner">
