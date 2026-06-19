@@ -49,6 +49,11 @@ Active theme: **mono**. Remaining themes in CSS:
 
 Still to decide: keep or remove slate, ivory, chalk, cloud, sky, rainbow, blueprint, noir, arctic, indigo, emerald, oasis, delight, ocean_breeze, evergreen
 
+### Architecture Phase 3 (deferred — needs richer LOS page first)
+- [ ] **Drills under LOS** — move `/drills/` to `/los/drills/`, update `_config.yml` permalink, update all `drill_pack_url` front matter in articles, update drills page link in nav/footer. Only when LOS page has enough content for drills to live inside it naturally.
+- [ ] **LOS page uplift** — needs richer content (domains, capabilities, belt system) before Phase 3 can proceed
+- [ ] **Architecture URL update: sitemap submission** — after Phase 2 went live, submit `/articles/` and `/series/*` URLs to Google Search Console URL Inspection for faster indexing
+
 ### Backlog
 - [x] **Publications left panel manifesto** — editorial philosophy installed: LOS installation protocol + governing principle on the dark left panel.
 - [ ] **Surface editorial standard site-wide** — *"Anything not questioned is a gateway to mediocrity. Anything questioned with curiosity is the way to meritocracy."* Should appear in the About page, the LOS page, and as a pull quote somewhere prominent. It is the governing standard of the whole platform.
