@@ -199,7 +199,7 @@ description: "Writing across leadership systems, technology strategy, and securi
       <h2>From Compression to Premium.</h2>
       <p class="prose" style="margin-top:.8rem;">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes — published as they are ready.</p>
     </div>
-    <a class="btn-secondary" href="/horizon/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+    <a class="btn-primary" href="/horizon/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
   </div>
   <div class="card-grid" style="margin-top:1.8rem;">
     {% for post in hz_posts %}
@@ -224,7 +224,7 @@ description: "Writing across leadership systems, technology strategy, and securi
       <h2>Graduation, Not Rejection.</h2>
       <p class="prose" style="margin-top:.8rem;">A four-part series for the technology services executive asked to help a long-standing client build a GCC. The governing question: what work resists compression? Four parts — The Call Comes, What You Actually Sell, Building Your Own Replacement, The Relationship After the Handover.</p>
     </div>
-    <a class="btn-secondary" href="/frontier/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+    <a class="btn-primary" href="/frontier/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
   </div>
 </section>
 
@@ -236,7 +236,7 @@ description: "Writing across leadership systems, technology strategy, and securi
       <h2>Why Organisations Lose Their Direction.</h2>
       <p class="prose" style="margin-top:.8rem;">Nine episodes on how direction is lost through reasonable decisions in aggregate — and what it takes to read the needle true. The series installs one distinction: direction is not position. Structurally frozen; moving to draft.</p>
     </div>
-    <a class="btn-secondary" href="/compass/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+    <a class="btn-primary" href="/compass/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
   </div>
 </section>
 

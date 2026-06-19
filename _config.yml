@@ -21,14 +21,14 @@ author: Lakshmi Narayanan
 # ── GRADIENT THEMES ────────────────────────────────────────────────
 #
 # unstuck_theme: sunrise       # Warm white, pale yellow → coral-red
-unstuck_theme: aurora        # White, coral → purple
+# unstuck_theme: aurora        # White, coral → purple
 # unstuck_theme: flamingo      # White, coral → deep magenta
 # unstuck_theme: sovereign     # White, olive → electric blue (WIP)
 #
 # ── SIGNATURE ──────────────────────────────────────────────────────
 #
 # unstuck_theme: dojo          # Warm paper, ochre · DEFAULT
-# unstuck_theme: mono          # Pure black/white, zero colour
+unstuck_theme: mono          # Pure black/white, zero colour
 # unstuck_theme: slate         # Cool white, steel blue, executive
 #
 # ── DARK ───────────────────────────────────────────────────────────
