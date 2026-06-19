@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Publications
+title: Articles
 permalink: /publications/
-description: "Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces."
+description: "Articles across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — built to install, not just inform."
 ---
 
 <div class="pub-hero-split">
@@ -63,9 +63,9 @@ description: "Writing across leadership systems, technology strategy, and securi
 
   <!-- RIGHT: Light panel — hero copy + methodology -->
   <div class="pub-info-panel">
-    <div class="eyebrow" style="color:var(--muted);">Publications</div>
+    <div class="eyebrow" style="color:var(--muted);">Articles</div>
     <h1 class="pub-info-title">Writing worth reading slowly.</h1>
-    <p class="pub-info-sub">Writing across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
+    <p class="pub-info-sub">Articles across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — built to install, not just inform.</p>
     <div class="pub-approach">
       <div class="pub-approach-row">
         <div class="pub-approach-num">01</div>
@@ -111,7 +111,7 @@ description: "Writing across leadership systems, technology strategy, and securi
 
 <!-- SERIES OVERVIEW GRID -->
 <section class="section-wide">
-  <div class="section-label">Perspective on Tech, Strategy and Leadership</div>
+  <div class="section-label">All series</div>
   <div class="series-grid">
 
     <a class="series-card" href="/horizon/">
