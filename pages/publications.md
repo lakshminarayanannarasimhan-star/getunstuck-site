@@ -9,15 +9,19 @@ description: "Writing across leadership systems, technology strategy, and securi
 
   <!-- LEFT: Dark panel — editorial manifesto -->
   <div class="pub-series-nav pub-manifesto">
-    <div class="pub-series-eyebrow">The editorial standard</div>
+    <div class="pub-series-eyebrow pub-m-a1">The editorial standard</div>
 
-    <p class="pub-manifesto-lead">Most leadership writing is written to be agreed with.</p>
+    <p class="pub-manifesto-lead pub-m-a2">Most leadership writing is written to be agreed with.</p>
 
-    <p class="pub-manifesto-principle">Anything not questioned is a gateway to mediocrity.<br>Anything questioned with curiosity is the way to meritocracy.</p>
+    <div class="pub-manifesto-principle">
+      <span class="pub-m-line pub-m-a3">Anything not questioned is a gateway to mediocrity.</span>
+      <span class="pub-m-line pub-m-a4">Anything questioned with curiosity is the way to meritocracy.</span>
+      <span class="pub-m-line pub-m-a5">Let us stop expecting that we are always right.</span>
+    </div>
 
-    <p class="pub-manifesto-body">Every article on this platform is stress-tested before it is drafted — not after. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
+    <p class="pub-manifesto-body pub-m-a6">Every article on this platform is stress-tested before it is drafted — not after. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
 
-    <p class="pub-manifesto-close">The Leadership Operating System defines capability as installed only when it performs, sustains, transfers, and survives absence. Reading is not installation. This platform is built on that distinction.</p>
+    <p class="pub-manifesto-close pub-m-a7">The Leadership Operating System defines capability as installed only when it performs, sustains, transfers, and survives absence. Reading is not installation. This platform is built on that distinction.</p>
   </div>
 
   <!-- RIGHT: Light panel — hero copy + methodology -->
