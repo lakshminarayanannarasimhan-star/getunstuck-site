@@ -18,7 +18,7 @@ layout: default
       {% if page.series %}
       <span>›</span>
       {% if page.series_code == "H" %}
-      <a href="/horizon/">{{ page.series }}</a>
+      <a href="/series/horizon/">{{ page.series }}</a>
       {% else %}
       <a href="/publications/#series-{{ page.series_code | downcase }}">{{ page.series }}</a>
       {% endif %}
@@ -71,7 +71,7 @@ layout: default
     </a>
 
     {% if page.series_code == "H" %}
-    <a class="art-ctx-card art-ctx-card-center" href="/horizon/">
+    <a class="art-ctx-card art-ctx-card-center" href="/series/horizon/">
       <span class="art-ctx-text">
         <span class="art-ctx-label">{{ page.series }}</span>
         <span class="art-ctx-sub">Episode {{ page.article_code }} of {{ page.series_total }} · See the full arc</span>

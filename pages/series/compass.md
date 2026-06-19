@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compass
-permalink: /compass/
+permalink: /series/compass/
 description: "Most organisations measure position and call it direction. The customer is true north. COMPASS is a nine-part series about how organisations drift, how they mistake metrics for direction, and how leaders learn to read the signals that matter before the numbers move."
 ---
 

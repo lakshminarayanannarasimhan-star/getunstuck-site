@@ -13,15 +13,15 @@ description: "Articles across leadership systems, technology strategy, and secur
     <!-- TOP: Series at a glance -->
     <div class="pub-panel-top pub-m-a1">
       <div class="pub-series-eyebrow">Six series</div>
-      <a class="pub-series-row" href="/horizon/">
+      <a class="pub-series-row" href="/series/horizon/">
         <span class="pub-series-row-name">Horizon</span>
         <span class="series-status in-progress" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>Live</span>
       </a>
-      <a class="pub-series-row" href="/frontier/">
+      <a class="pub-series-row" href="/series/frontier/">
         <span class="pub-series-row-name">Frontier</span>
         <span class="series-status coming" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>To write</span>
       </a>
-      <a class="pub-series-row" href="/compass/">
+      <a class="pub-series-row" href="/series/compass/">
         <span class="pub-series-row-name">Compass</span>
         <span class="series-status ideation" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>Ideation</span>
       </a>
@@ -114,7 +114,7 @@ description: "Articles across leadership systems, technology strategy, and secur
   <div class="section-label">All series</div>
   <div class="series-grid">
 
-    <a class="series-card" href="/horizon/">
+    <a class="series-card" href="/series/horizon/">
       <div class="series-card-top">
         <div class="series-id">Horizon</div>
         <span class="series-status in-progress">
@@ -126,7 +126,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <div class="series-meta">6 episodes · Technology services strategy</div>
     </a>
 
-    <a class="series-card" href="/frontier/">
+    <a class="series-card" href="/series/frontier/">
       <div class="series-card-top">
         <div class="series-id">Frontier</div>
         <span class="series-status coming">
@@ -138,7 +138,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <div class="series-meta">4 parts · Technology services &amp; GCCs</div>
     </a>
 
-    <a class="series-card" href="/compass/">
+    <a class="series-card" href="/series/compass/">
       <div class="series-card-top">
         <div class="series-id">Compass</div>
         <span class="series-status ideation">
@@ -199,7 +199,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <h2>From Compression to Premium.</h2>
       <p class="prose" style="margin-top:.8rem;">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes — published as they are ready.</p>
     </div>
-    <a class="btn-primary" href="/horizon/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+    <a class="btn-primary" href="/series/horizon/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
   </div>
   <div class="card-grid" style="margin-top:1.8rem;">
     {% for post in hz_posts %}
@@ -224,7 +224,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <h2>Graduation, Not Rejection.</h2>
       <p class="prose" style="margin-top:.8rem;">A four-part series for the technology services executive asked to help a long-standing client build a GCC. The governing question: what work resists compression? Four parts — The Call Comes, What You Actually Sell, Building Your Own Replacement, The Relationship After the Handover.</p>
     </div>
-    <a class="btn-primary" href="/frontier/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+    <a class="btn-primary" href="/series/frontier/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
   </div>
 </section>
 
@@ -236,7 +236,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <h2>Why Organisations Lose Their Direction.</h2>
       <p class="prose" style="margin-top:.8rem;">Nine episodes on how direction is lost through reasonable decisions in aggregate — and what it takes to read the needle true. The series installs one distinction: direction is not position. Structurally frozen; moving to draft.</p>
     </div>
-    <a class="btn-primary" href="/compass/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+    <a class="btn-primary" href="/series/compass/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
   </div>
 </section>
 
@@ -247,7 +247,7 @@ description: "Articles across leadership systems, technology strategy, and secur
   <p class="prose" style="margin-top:.8rem;">Each series is outlined and structurally frozen before the first article is written. Articles appear here as they are completed.</p>
   <div class="series-grid" style="margin-top:2rem;">
 
-    <a class="series-card" href="/compass/" id="series-compass">
+    <a class="series-card" href="/series/compass/" id="series-compass">
       <div class="series-card-top">
         <div class="series-id">Compass</div>
         <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>

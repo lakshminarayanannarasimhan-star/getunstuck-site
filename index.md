@@ -233,7 +233,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <a class="btn-primary" href="/articles/">All articles →</a>
       </div>
       <div class="hp-pubs-series">
-        <a class="hp-pub-row" href="/horizon/">
+        <a class="hp-pub-row" href="/series/horizon/">
           <div class="hp-pub-id">Horizon</div>
           <div>
             <div class="hp-pub-title">From Compression to Premium</div>
