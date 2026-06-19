@@ -251,6 +251,38 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 </div>
 
 
+<!-- ═══════════════════════
+     LATEST ARTICLE
+═══════════════════════ -->
+{% assign latest = site.posts | where: "status", "published" | sort: "date" | last %}
+{% if latest %}
+<section class="section-wide" id="latest">
+  <div class="section-label">Latest from the series</div>
+  <div class="hp-featured-card">
+    <div class="hp-fa-left">
+      <div class="hp-fa-meta">
+        {% if latest.series %}<span class="hp-fa-series">{{ latest.series }} · {{ latest.article_code }}</span>{% endif %}
+        <span class="series-status live"><span class="series-dot"></span>Published</span>
+      </div>
+      <h2 class="hp-fa-title">{{ latest.title }}</h2>
+      <p class="hp-fa-excerpt">{% if latest.tldr %}{{ latest.tldr | truncate: 220 }}{% else %}{{ latest.excerpt | strip_html | truncate: 220 }}{% endif %}</p>
+      <div class="hp-fa-footer">
+        <a class="btn-primary" href="{{ latest.url }}">Read the article</a>
+        <span class="hp-fa-detail">{{ latest.date | date: "%d %b %Y" }} · {{ latest.reading_time }} min read</span>
+      </div>
+    </div>
+    {% if latest.tldr %}
+    <div class="hp-fa-right">
+      <div class="hp-fa-pull">
+        <div class="hp-fa-pull-label">Key insight</div>
+        <p class="hp-fa-pull-text">{{ latest.tldr }}</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
 <!-- THROUGH-LINE -->
 <div class="section-ink">
   <div class="bleed-inner">
