@@ -13,7 +13,7 @@ description: "Writing across leadership systems, technology strategy, and securi
 
     <p class="pub-manifesto-lead">Most leadership writing is written to be agreed with.</p>
 
-    <p class="pub-manifesto-principle">Anything not questioned is a gateway to mediocrity.<br>Anything questioned but failed is the way to meritocracy.</p>
+    <p class="pub-manifesto-principle">Anything not questioned is a gateway to mediocrity.<br>Anything questioned with curiosity is the way to meritocracy.</p>
 
     <p class="pub-manifesto-body">Every article on this platform is stress-tested before it is drafted — not after. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
 
