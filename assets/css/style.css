@@ -737,7 +737,7 @@ h1, h2, h3, h4 {
 .container {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 clamp(1.5rem, 4vw, 3.5rem);
+  padding: clamp(1.5rem, 3vw, 2rem) clamp(1.5rem, 4vw, 3.5rem) 0;
 }
 
 /* Full-bleed wrapper — edge to edge background, content still contained */
