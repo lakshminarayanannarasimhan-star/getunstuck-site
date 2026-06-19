@@ -43,32 +43,6 @@ description: "Technology services was built to help customers execute. The next 
   </div>
 </section>
 
-<!-- ═══════════════════════
-     THE THESIS
-═══════════════════════ -->
-<div class="section-ink hz-thesis-band">
-  <div class="bleed-inner">
-    <div class="hz-thesis-grid">
-      <div>
-        <div class="section-label">The series thesis</div>
-        <p class="pull-quote">Technology services firms were built to help customers execute. <em>The next generation will be built to help customers expand.</em></p>
-      </div>
-      <div class="hz-thesis-right">
-        <div class="hz-thesis-pair">
-          <div class="hz-tp-label">Compression Zone</div>
-          <div class="hz-tp-items">Execution · Trust</div>
-          <div class="hz-tp-earns">Earns: compensation and access</div>
-        </div>
-        <div class="hz-tp-crossing">— The Crossing —</div>
-        <div class="hz-thesis-pair hz-thesis-pair-exp">
-          <div class="hz-tp-label">Expansion Zone</div>
-          <div class="hz-tp-items">Influence · Indispensability · Ownership · Growth</div>
-          <div class="hz-tp-earns">Earns: a seat, participation, control, and the premium</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- ═══════════════════════
      THE FRAMEWORK
@@ -432,6 +406,6 @@ description: "Technology services was built to help customers execute. The next 
 <div class="section-ink">
   <div class="bleed-inner">
     <div class="section-label">The through-line</div>
-    <p class="pull-quote">Execution earns compensation. <em>Growth earns the premium.</em> The distance between them is the argument of this series.</p>
+    <p class="pull-quote">Technology services firms were built to help customers execute. <em>The next generation will be built to help customers expand.</em> Execution earns compensation. Growth earns the premium.</p>
   </div>
 </div>
