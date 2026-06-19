@@ -1,4 +1,13 @@
 (function () {
+  /* ── dropdown nav items (mobile toggle) ── */
+  document.querySelectorAll('.nav-item .has-dropdown').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      var item = this.closest('.nav-item');
+      var open = item.classList.toggle('open');
+      this.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+
   /* ── active nav link ── */
   var path = window.location.pathname.replace(/\/$/, '') || '/';
   document.querySelectorAll('.nav a').forEach(function (a) {

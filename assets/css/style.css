@@ -956,7 +956,31 @@ body:has(.reading-progress) .header {
 
 /* ── DROPDOWN ── */
 .nav-item { position: relative; }
-.nav-item .has-dropdown { cursor: pointer; }
+.nav-item .has-dropdown {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--header-nav) !important;
+  background: none;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  cursor: pointer;
+  position: relative;
+  transition: color .18s ease;
+}
+.nav-item:hover .has-dropdown,
+.nav-item.open .has-dropdown { color: var(--header-nav-active) !important; }
+.nav-dropdown-caret {
+  font-size: .55rem;
+  opacity: 0.6;
+  margin-left: .1rem;
+  vertical-align: middle;
+  transition: transform .2s ease;
+}
+.nav-item.open .nav-dropdown-caret { transform: rotate(180deg); }
 
 .dropdown {
   display: none;
