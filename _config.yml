@@ -15,52 +15,9 @@ author: Lakshmi Narayanan
 # -------------------------
 # THEME
 # -------------------------
-# Change one line — every page follows.
-# Uncomment the theme you want, comment out the rest.
-#
-# ── GRADIENT THEMES ────────────────────────────────────────────────
-#
-# unstuck_theme: sunrise       # Warm white, pale yellow → coral-red
-unstuck_theme: aurora        # White, coral → purple
-# unstuck_theme: flamingo      # White, coral → deep magenta
-# unstuck_theme: sovereign     # White, olive → electric blue (WIP)
-#
-# ── SIGNATURE ──────────────────────────────────────────────────────
-#
-# unstuck_theme: dojo          # Warm paper, ochre · DEFAULT
+# Two themes available — uncomment one:
+unstuck_theme: aurora        # White canvas, coral → purple gradient
 # unstuck_theme: mono          # Pure black/white, zero colour
-# unstuck_theme: slate         # Cool white, steel blue, executive
-#
-# ── DARK ───────────────────────────────────────────────────────────
-#
-# unstuck_theme: midnight      # Deep ink, electric indigo
-# unstuck_theme: navy          # Deep admiralty navy, antique gold
-# unstuck_theme: plum          # Deep aubergine, electric fuchsia
-# unstuck_theme: charcoal      # Warm graphite, emerald accent
-# unstuck_theme: forest        # Deep green, earthy, grounded
-#
-# ── LIGHT ──────────────────────────────────────────────────────────
-#
-# unstuck_theme: ivory         # Warm white, barely-there surfaces
-# unstuck_theme: chalk         # Bright white, graphite, zero colour
-# unstuck_theme: cloud         # Cool white, soft lavender accent
-# unstuck_theme: sky           # Light blue canvas, deep cobalt
-# unstuck_theme: rainbow       # Light lavender, deep violet
-#
-# ── EDITORIAL / PRINT ──────────────────────────────────────────────
-#
-# unstuck_theme: blueprint     # Technical navy, precision sky-blue
-# unstuck_theme: noir          # Cinematic near-black, sepia gold
-# unstuck_theme: arctic        # Ice white, steel blue, cold and clean
-#
-# ── ACCENT-SWAP (dojo base + colour accent) ────────────────────────
-#
-# unstuck_theme: indigo        # Indigo accent
-# unstuck_theme: emerald       # Emerald accent
-# unstuck_theme: oasis         # Muted purple accent
-# unstuck_theme: delight       # Bright red accent
-# unstuck_theme: ocean_breeze  # Bold rose-red accent
-# unstuck_theme: evergreen     # Forest green accent
 
 typography: spacious   # executive | compact | spacious
 
