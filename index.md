@@ -84,6 +84,40 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 </section>
 
 <!-- ═══════════════════════
+     CHOOSE YOUR PATH
+═══════════════════════ -->
+<section class="section-wide hp-paths-section">
+  <div class="section-label">Choose your path</div>
+  <div class="hp-paths">
+
+    <a class="hp-path-card" href="/publications/">
+      <div class="hp-path-num">01</div>
+      <div class="hp-path-label">Read</div>
+      <p class="hp-path-desc">Articles and essays built from first principles. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
+      <div class="hp-path-audience">Executives · Managers · Technology leaders</div>
+      <span class="hp-path-link">Explore articles →</span>
+    </a>
+
+    <a class="hp-path-card" href="/books/">
+      <div class="hp-path-num">02</div>
+      <div class="hp-path-label">Think</div>
+      <p class="hp-path-desc">Books and frameworks that codify ideas into lasting models. The Invisible Backlog installs one shift at a time — no filler, no padding.</p>
+      <div class="hp-path-audience">Leaders building mental models</div>
+      <span class="hp-path-link">Explore books →</span>
+    </a>
+
+    <a class="hp-path-card" href="/los/">
+      <div class="hp-path-num">03</div>
+      <div class="hp-path-label">Practice</div>
+      <p class="hp-path-desc">The Leadership Operating System and its drills. Capability is only installed when it performs, sustains, transfers, and survives absence.</p>
+      <div class="hp-path-audience">Leaders developing capability</div>
+      <span class="hp-path-link">Explore the LOS →</span>
+    </a>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════
      THE LOS
 ═══════════════════════ -->
 <div class="section-ink" id="los" style="padding-top:clamp(2.5rem,5vw,4.5rem);padding-bottom:clamp(2.5rem,5vw,4.5rem);">
