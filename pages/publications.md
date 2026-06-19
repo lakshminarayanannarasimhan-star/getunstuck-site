@@ -71,7 +71,7 @@ description: "Writing across leadership systems, technology strategy, and securi
         <span class="pub-role-tag">Strategy Leads</span>
         <span class="pub-role-tag">Customer Experience Leaders</span>
       </div>
-      <p class="pub-detail-desc">Most organisations measure position and call it direction. Nine episodes on how the needle drifts — and what it takes to read it true. You will leave with a diagnostic for testing whether your organisation is navigating or drifting — and the distinction that makes the difference visible.</p>
+      <p class="pub-detail-desc">Most organisations measure position and call it direction. The customer is true north — and most organisations have stopped looking at it. Nine episodes on how the needle drifts from the customer, and what it takes to read it true again. You will leave with a diagnostic for testing whether your organisation is navigating toward the customer or drifting inward — and the language to make that visible to the people who govern it.</p>
       <div class="pub-detail-progress">9 episodes · Ideation</div>
       <a class="pub-detail-link" href="/compass/">Series overview →</a>
     </div>
