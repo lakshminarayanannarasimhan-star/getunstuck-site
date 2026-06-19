@@ -7312,6 +7312,15 @@ body.search-open { overflow: hidden; }
   color: var(--text);
   line-height: 1.25;
 }
+.cp-ep p.cp-ep-scene {
+  font-size: .78rem;
+  color: var(--faint);
+  line-height: 1.6;
+  font-style: italic;
+  border-left: 2px solid var(--border);
+  padding-left: .75rem;
+  margin: 0;
+}
 .cp-ep p.cp-ep-thesis {
   font-size: .82rem;
   color: var(--muted);

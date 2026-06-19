@@ -2,7 +2,7 @@
 layout: default
 title: Compass
 permalink: /compass/
-description: "A nine-episode series on why organisations lose their direction — and what it takes to read the needle true. For the technology services executive who suspects the dashboard is showing the wrong thing."
+description: "Most organisations measure position and call it direction. The customer is true north. COMPASS is a nine-part series about how organisations drift, how they mistake metrics for direction, and how leaders learn to read the signals that matter before the numbers move."
 ---
 
 <!-- ═══════════════════════
@@ -14,13 +14,13 @@ description: "A nine-episode series on why organisations lose their direction �
     <div class="hz-hero-left">
       <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">Compass · A Series on Direction and Customer Centricity</div>
       <h1 class="hz-hero-title reveal d2">Most organisations measure position and call it direction.</h1>
-      <p class="hz-hero-sub reveal d3">The customer is true north. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
+      <p class="hz-hero-sub reveal d3">The customer is true north. COMPASS is a nine-part series about how organisations drift, how they mistake metrics for direction, and how leaders learn to read the signals that matter before the numbers move.</p>
       <div class="hz-hero-meta reveal d4">
         <span class="hz-meta-item">9 episodes</span>
         <span class="hz-meta-sep">·</span>
-        <span class="hz-meta-item">In planning</span>
+        <span class="hz-meta-item">Architecture frozen</span>
         <span class="hz-meta-sep">·</span>
-        <span class="hz-meta-item">getunstuck.in</span>
+        <span class="hz-meta-item">Drafting after Frontier</span>
       </div>
     </div>
 
@@ -28,13 +28,13 @@ description: "A nine-episode series on why organisations lose their direction �
       <div class="hz-forces">
         <div class="hz-forces-label">The governing law</div>
         <div class="hz-force">
-          <div class="hz-force-name">What an organisation measures, rewards, and tolerates is its compass.</div>
-          <div class="hz-force-desc">Not what it claims. Not what it puts in the deck. What the decisions reveal — in aggregate, over time.</div>
+          <div class="hz-force-name">What an organisation measures, rewards, and tolerates is its compass — and a compass shows direction, not position.</div>
+          <div class="hz-force-desc">Not what it claims. What the decisions reveal, in aggregate, over time. Every metric on the dashboard tells you where you are. Almost nothing tells you where you are pointed. The series turns on that confusion.</div>
         </div>
         <div class="hz-force-sep">↓</div>
         <div class="hz-force">
-          <div class="hz-force-name">A compass shows direction, not position.</div>
-          <div class="hz-force-desc">Every metric tells you where you are. Almost nothing on the dashboard tells you where you are pointed. The series turns on that confusion.</div>
+          <div class="hz-force-name">The second clause is the load-bearing half.</div>
+          <div class="hz-force-desc">Organisations track position — utilisation, margin, revenue, ticket closure — and mistake it for direction: whether they are still pointed at the customer outcome. A healthy set of numbers and a dying account are not a contradiction. They are the normal condition of an organisation reading position and calling it direction.</div>
         </div>
       </div>
     </div>
@@ -110,10 +110,11 @@ description: "A nine-episode series on why organisations lose their direction �
       <div class="cp-ep-head">
         <div class="cp-ep-num">E0</div>
         <div class="cp-ep-theme">Direction</div>
-        <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
+        <span class="series-status in-progress" style="font-size:.55rem;"><span class="series-dot"></span>Next to draft</span>
       </div>
       <div class="cp-ep-title">Every Organisation Has a Compass</div>
-      <p class="cp-ep-thesis">Every organisation follows a compass; the question is what it points to. Organisations eventually become what their compass rewards.</p>
+      <p class="cp-ep-scene">A leadership team that sincerely believes it is customer-first — every deck says so — makes a decision that quietly serves a metric. The room does not notice, because nothing in the room is built to.</p>
+      <p class="cp-ep-thesis">Every organisation follows a compass; the question is what it points to. A compass is not what you claim points you — it is what your measures, rewards, and tolerations point you toward. Organisations eventually become what their compass rewards.</p>
       <div class="cp-ep-takeaway">Show me what an organisation measures, rewards, and tolerates, and I will show you its compass.</div>
       <div class="cp-ep-flagship-tag">The frame</div>
     </div>
@@ -125,7 +126,8 @@ description: "A nine-episode series on why organisations lose their direction �
         <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div class="cp-ep-title">When Companies Lose Their Direction</div>
-      <p class="cp-ep-thesis">Organisations rarely stop caring about customers. They drift — direction lost not by a turn but by a thousand reasonable elevations of the internal over the external.</p>
+      <p class="cp-ep-scene">No single bad decision — a margin call here, a governance gate there — and a year later the customer is third in every room.</p>
+      <p class="cp-ep-thesis">Organisations rarely stop caring about customers. They drift. Direction is lost not by a turn but by a thousand reasonable elevations of the internal over the external. Reasonable in isolation. Fatal in aggregate.</p>
       <div class="cp-ep-takeaway">Most organisations do not lose customers first. They lose direction first.</div>
     </div>
 
@@ -136,7 +138,8 @@ description: "A nine-episode series on why organisations lose their direction �
         <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div class="cp-ep-title">The Customer Is Not Buying What You Sell</div>
-      <p class="cp-ep-thesis">Customers buy progress, not products. The more measurable and concrete the deliverable, the easier it is to mistake the deliverable for the job.</p>
+      <p class="cp-ep-scene">A delivery review where every SLA is green and the client is visibly unhappy. Outputs perfect, outcome missed.</p>
+      <p class="cp-ep-thesis">Customers buy progress, not products. The tangibility trap: the more measurable and concrete the deliverable — resources, tickets, technology — the easier it is to mistake the deliverable for the job. In services, the output is so visible the outcome goes invisible.</p>
       <div class="cp-ep-takeaway">Customers buy progress, not products.</div>
     </div>
 
@@ -147,7 +150,8 @@ description: "A nine-episode series on why organisations lose their direction �
         <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div class="cp-ep-title">Every Customer Has Two Jobs</div>
-      <p class="cp-ep-thesis">Every customer has an explicit job and an implicit job. The second job is personal — risk reduction, standing, looking right to the board — and it often determines whether the first job matters.</p>
+      <p class="cp-ep-scene">A technically flawless proposal loses to a weaker one. The winner solved the buyer's second job — made them safe — without being asked.</p>
+      <p class="cp-ep-thesis">Every customer has an explicit job and an implicit job. The second job is personal — risk reduction, standing, looking right to their board. It is the buyer's job, not the company's stated requirement. And it often determines whether the first job matters.</p>
       <div class="cp-ep-takeaway">The second job often determines whether the first job matters.</div>
     </div>
 
@@ -158,7 +162,8 @@ description: "A nine-episode series on why organisations lose their direction �
         <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div class="cp-ep-title">The Reading</div>
-      <p class="cp-ep-thesis">Trust is not the product; trust is the reading. The customer relationship is the needle, and its trust level tells you whether you are still pointed at true north. Capability creates opportunities; trust tells you whether you are keeping them.</p>
+      <p class="cp-ep-scene">A renewal that happens on a handshake before procurement opens — beside one that dies in procurement despite green metrics. The dashboard could not tell the two apart; the trust level could.</p>
+      <p class="cp-ep-thesis">Trust is not the product; trust is the reading. The customer relationship is the needle, and its trust level tells you whether you are still pointed at true north. Capability creates opportunities. Trust tells you whether you are keeping them.</p>
       <div class="cp-ep-takeaway">Capability creates opportunities; trust tells you whether you are keeping them.</div>
     </div>
 
@@ -169,7 +174,8 @@ description: "A nine-episode series on why organisations lose their direction �
         <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div class="cp-ep-title">The Internal Metrics Trap</div>
-      <p class="cp-ep-thesis">Metrics are essential, but they become substitutes for customer outcomes. The measure becomes the mission — utilisation 95%, survey green, tickets closed on time, relationship gone. The series turns strategic here.</p>
+      <p class="cp-ep-scene">A team hitting every target while the account silently dies — utilisation 95%, survey green, tickets closed on time, relationship gone.</p>
+      <p class="cp-ep-thesis">Metrics are essential, but they become substitutes for customer outcomes. The measure becomes the mission. Position metrics show where you are; almost nothing on the dashboard shows where you are pointed. Goodhart's law, applied to direction.</p>
       <div class="cp-ep-takeaway">A metric becomes dangerous when it becomes more important than the outcome it was created to measure.</div>
       <div class="cp-ep-flagship-tag">Centre of gravity</div>
     </div>
@@ -181,7 +187,8 @@ description: "A nine-episode series on why organisations lose their direction �
         <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div class="cp-ep-title">Why Customers Leave Quietly</div>
-      <p class="cp-ep-thesis">Customers leave gradually. No complaint, no escalation — fewer strategic conversations, more procurement, then gone. The warning lived in engagement quality, not the dashboard. Revenue loss is the last symptom.</p>
+      <p class="cp-ep-scene">The renewal that does not happen. No complaint, no escalation — just fewer strategic conversations, more procurement, then gone. Everyone surprised. The signals were all there.</p>
+      <p class="cp-ep-thesis">Customers leave gradually. Trust erodes long before contracts do. The warning lived in engagement depth, not the dashboard — leading signals visible in who you talk to and how, long before the lagging signals move. Revenue loss is the last symptom. This is the reading.</p>
       <div class="cp-ep-takeaway">Revenue loss is usually the last symptom. Trust loss happened much earlier.</div>
       <div class="cp-ep-flagship-tag">Most shareable</div>
     </div>
@@ -193,7 +200,8 @@ description: "A nine-episode series on why organisations lose their direction �
         <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div class="cp-ep-title">Building a Customer-First Operating System</div>
-      <p class="cp-ep-thesis">Customer-first organisations are not nicer. They are designed differently — decision frameworks, incentive design, governance, and feedback loops that continuously re-point at the customer.</p>
+      <p class="cp-ep-scene">Two firms, same market, same capability — one keeps customers a decade, one churns. The difference is not culture. It is wiring.</p>
+      <p class="cp-ep-thesis">Customer-first organisations are not nicer. They are designed differently. Decision frameworks, incentive design, governance, and feedback loops that continuously re-point at the customer. Customer-centricity is architecture, not attitude.</p>
       <div class="cp-ep-takeaway">Customer-centricity is an operating system, not a slogan.</div>
     </div>
 
@@ -204,7 +212,8 @@ description: "A nine-episode series on why organisations lose their direction �
         <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
       </div>
       <div class="cp-ep-title">True North</div>
-      <p class="cp-ep-thesis">Markets, technology, and strategy change. The customer remains the most reliable reference point — the one fixed point when everything else is up for debate. The compass exists whether or not you read it.</p>
+      <p class="cp-ep-scene">A strategy offsite where everything is up for debate — market, technology, model — and the team needs one thing that does not move to navigate by.</p>
+      <p class="cp-ep-thesis">Markets, technology, and strategy change. The customer outcome remains the most reliable reference point — the one fixed point when everything else is up for debate. The compass exists whether or not you read it. Leadership is the discipline of reading it.</p>
       <div class="cp-ep-takeaway">The purpose of a compass is not to tell you where you are. It tells you whether you are still heading in the right direction.</div>
       <div class="cp-ep-flagship-tag">The series close</div>
     </div>
@@ -249,7 +258,7 @@ description: "A nine-episode series on why organisations lose their direction �
     <div>
       <div class="section-label">Follow the series</div>
       <h2>Episodes publish as they are ready.</h2>
-      <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">The series is structurally frozen and moving to draft. Episodes appear on this site as they are completed — no gate, no email required.</p>
+      <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">Architecture is frozen. Drafting begins after Frontier closes. E0 is next. Episodes appear on this site as they complete — no gate, no email required.</p>
       <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
         <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
         <a class="btn-secondary" href="/publications/">All publications</a>
