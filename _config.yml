@@ -15,9 +15,10 @@ author: Lakshmi Narayanan
 # -------------------------
 # THEME
 # -------------------------
-# Two themes available — uncomment one:
+# Three themes — uncomment one:
 unstuck_theme: aurora        # White canvas, coral → purple gradient
 # unstuck_theme: mono          # Pure black/white, zero colour
+# unstuck_theme: dojo          # Warm paper, ochre · DEFAULT (safe fallback)
 
 typography: spacious   # executive | compact | spacious
 
