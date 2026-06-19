@@ -50,6 +50,9 @@ Active theme: **mono**. Remaining themes in CSS:
 Still to decide: keep or remove slate, ivory, chalk, cloud, sky, rainbow, blueprint, noir, arctic, indigo, emerald, oasis, delight, ocean_breeze, evergreen
 
 ### Backlog
+- [ ] **Publications left panel manifesto** — replace "What's live now" with editorial philosophy: the LOS installation protocol (Article → Diagnostic → Stress Test → Drills), bridged with the governing principle: *"Anything not questioned is a gateway to mediocrity. Anything questioned but failed is the way to meritocracy."* Draft locked; implement when ready.
+- [ ] **Surface editorial standard site-wide** — the meritocracy/mediocrity principle should appear in the About page, the LOS page, and as a pull quote somewhere prominent. It is the governing standard of the whole platform, not just the publications page.
+- [ ] **Publications left panel: accordion for 2+ live series** — when a second series publishes, wrap each in a `pub-acc-item`, re-add 4-line accordion JS, default open = newest. Pipeline series never appear here.
 - [ ] **Content grouping** — drills page grouped by series, articles/publications grouped by series and book, books page organised by collection
 - [ ] **Search UX** — empty state shows recent articles, match highlighting in excerpts, result count, hide footer until results appear
 - [ ] **Mentees/coaching page refresh** — /mentees/ page hasn't been updated
