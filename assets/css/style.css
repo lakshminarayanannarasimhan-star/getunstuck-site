@@ -1477,6 +1477,44 @@ body.search-open { overflow: hidden; }
 }
 .hero-panel .panel-link::after { content: " →"; }
 
+/* ── Publications series accordion ── */
+.pub-accordion { display: flex; flex-direction: column; gap: 0; }
+
+.pub-acc-item { border-bottom: 1px solid rgba(255,255,255,.08); }
+.pub-acc-item:last-child { border-bottom: none; }
+
+.pub-acc-header {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  width: 100%;
+  padding: .65rem .75rem;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: 'DM Sans', sans-serif;
+  font-size: .88rem;
+  color: rgba(255,255,255,.72);
+  cursor: pointer;
+  text-align: left;
+  transition: background .15s, color .15s;
+}
+.pub-acc-header:hover { background: rgba(255,255,255,.07); color: rgba(255,255,255,.92); }
+.pub-acc-item.open .pub-acc-header { color: #fff; background: rgba(255,255,255,.11); border-radius: var(--radius-sm) var(--radius-sm) 0 0; }
+.pub-acc-name { font-family: 'Playfair Display', serif; font-weight: 600; }
+
+.pub-acc-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .35s cubic-bezier(.4,0,.2,1);
+  padding: 0 .75rem;
+}
+.pub-acc-item.open .pub-acc-body {
+  max-height: 600px;
+  padding-bottom: 1rem;
+}
+.pub-acc-body .pub-detail-title { margin-top: .75rem; }
+
 /* ── Publications redesigned hero ── */
 .pub-hero-split {
   display: grid;

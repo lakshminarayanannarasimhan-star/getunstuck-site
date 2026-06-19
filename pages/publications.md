@@ -7,108 +7,119 @@ description: "Writing across leadership systems, technology strategy, and securi
 
 <div class="pub-hero-split">
 
-  <!-- LEFT: Dark panel — series switcher -->
+  <!-- LEFT: Dark panel — series accordion -->
   <div class="pub-series-nav">
     <div class="pub-series-eyebrow">Series</div>
 
-    <div class="pub-series-tabs">
-      <button class="pub-series-btn active" data-target="horizon">
-        <span class="pub-series-btn-name">Horizon</span>
-        <span class="series-status in-progress" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Live</span>
-      </button>
-      <button class="pub-series-btn" data-target="frontier">
-        <span class="pub-series-btn-name">Frontier</span>
-        <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>To write</span>
-      </button>
-      <button class="pub-series-btn" data-target="compass">
-        <span class="pub-series-btn-name">Compass</span>
-        <span class="series-status ideation" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Ideation</span>
-      </button>
-      <button class="pub-series-btn" data-target="trust">
-        <span class="pub-series-btn-name">The Trust Equation</span>
-        <span class="series-status ideation" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Ideation</span>
-      </button>
-      <button class="pub-series-btn" data-target="los">
-        <span class="pub-series-btn-name">Leadership OS</span>
-        <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Pipeline</span>
-      </button>
-      <button class="pub-series-btn" data-target="moving">
-        <span class="pub-series-btn-name">The Moving Target</span>
-        <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Pipeline</span>
-      </button>
-    </div>
+    <div class="pub-accordion">
 
-    <!-- Series detail panels — order: title → audience → blurb → progress → link -->
-    <div class="pub-series-detail active" data-series="horizon">
-      <h3 class="pub-detail-title">From Compression to Premium</h3>
-      <div class="pub-audience-roles">
-        <span class="pub-role-tag">Executives</span>
-        <span class="pub-role-tag">VP · SVP</span>
-        <span class="pub-role-tag">Account Leaders</span>
-        <span class="pub-role-tag">GCC Heads</span>
+      <div class="pub-acc-item open">
+        <button class="pub-acc-header">
+          <span class="pub-acc-name">Horizon</span>
+          <span class="series-status in-progress" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Live</span>
+        </button>
+        <div class="pub-acc-body">
+          <h3 class="pub-detail-title">From Compression to Premium</h3>
+          <div class="pub-audience-roles">
+            <span class="pub-role-tag">Executives</span>
+            <span class="pub-role-tag">VP · SVP</span>
+            <span class="pub-role-tag">Account Leaders</span>
+            <span class="pub-role-tag">GCC Heads</span>
+          </div>
+          <p class="pub-detail-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability. You will leave with a framework for diagnosing where your firm sits on the arc — and the language to explain it to the people who need to move.</p>
+          <div class="pub-detail-progress">4 of 6 episodes published</div>
+          <a class="pub-detail-link" href="/horizon/">Explore the series →</a>
+        </div>
       </div>
-      <p class="pub-detail-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability. You will leave with a framework for diagnosing where your firm sits on the arc — and the language to explain it to the people who need to move.</p>
-      <div class="pub-detail-progress">4 of 6 episodes published</div>
-      <a class="pub-detail-link" href="/horizon/">Explore the series →</a>
-    </div>
 
-    <div class="pub-series-detail" data-series="frontier">
-      <h3 class="pub-detail-title">Graduation, Not Rejection</h3>
-      <div class="pub-audience-roles">
-        <span class="pub-role-tag">Technology Services Executives</span>
-        <span class="pub-role-tag">Account Leaders</span>
-        <span class="pub-role-tag">GCC Sponsors</span>
+      <div class="pub-acc-item">
+        <button class="pub-acc-header">
+          <span class="pub-acc-name">Frontier</span>
+          <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>To write</span>
+        </button>
+        <div class="pub-acc-body">
+          <h3 class="pub-detail-title">Graduation, Not Rejection</h3>
+          <div class="pub-audience-roles">
+            <span class="pub-role-tag">Technology Services Executives</span>
+            <span class="pub-role-tag">Account Leaders</span>
+            <span class="pub-role-tag">GCC Sponsors</span>
+          </div>
+          <p class="pub-detail-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after. You will leave with a reframe that changes the conversation — and a model for building the relationship that survives the handover.</p>
+          <div class="pub-detail-progress">4 parts · To write</div>
+          <a class="pub-detail-link" href="/frontier/">Series overview →</a>
+        </div>
       </div>
-      <p class="pub-detail-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after. You will leave with a reframe that changes the conversation — and a model for building the relationship that survives the handover.</p>
-      <div class="pub-detail-progress">4 parts · To write</div>
-      <a class="pub-detail-link" href="/frontier/">Series overview →</a>
-    </div>
 
-    <div class="pub-series-detail" data-series="compass">
-      <h3 class="pub-detail-title">Why Organisations Lose Their Direction</h3>
-      <div class="pub-audience-roles">
-        <span class="pub-role-tag">CEOs</span>
-        <span class="pub-role-tag">Strategy Leads</span>
-        <span class="pub-role-tag">Customer Experience Leaders</span>
+      <div class="pub-acc-item">
+        <button class="pub-acc-header">
+          <span class="pub-acc-name">Compass</span>
+          <span class="series-status ideation" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Ideation</span>
+        </button>
+        <div class="pub-acc-body">
+          <h3 class="pub-detail-title">Why Organisations Lose Their Direction</h3>
+          <div class="pub-audience-roles">
+            <span class="pub-role-tag">CEOs</span>
+            <span class="pub-role-tag">Strategy Leads</span>
+            <span class="pub-role-tag">Customer Experience Leaders</span>
+          </div>
+          <p class="pub-detail-desc">Most organisations measure position and call it direction. The customer is true north — and most have drifted off it without ever deciding to. Nine episodes on how the needle drifts, and what it takes to read it true again. You will leave with a diagnostic for whether your organisation is navigating toward the customer or drifting inward — and the language to make that visible to the people who govern it.</p>
+          <div class="pub-detail-progress">9 episodes · Ideation</div>
+          <a class="pub-detail-link" href="/compass/">Series overview →</a>
+        </div>
       </div>
-      <p class="pub-detail-desc">Most organisations measure position and call it direction. The customer is true north — and most have drifted off it without ever deciding to. Nine episodes on how the needle drifts, and what it takes to read it true again. You will leave with a diagnostic for whether your organisation is navigating toward the customer or drifting inward — and the language to make that visible to the people who govern it.</p>
-      <div class="pub-detail-progress">9 episodes · Ideation</div>
-      <a class="pub-detail-link" href="/compass/">Series overview →</a>
-    </div>
 
-    <div class="pub-series-detail" data-series="trust">
-      <h3 class="pub-detail-title">The Trust Equation</h3>
-      <div class="pub-audience-roles">
-        <span class="pub-role-tag">CISOs</span>
-        <span class="pub-role-tag">Board Directors</span>
-        <span class="pub-role-tag">Risk Officers</span>
+      <div class="pub-acc-item">
+        <button class="pub-acc-header">
+          <span class="pub-acc-name">The Trust Equation</span>
+          <span class="series-status ideation" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Ideation</span>
+        </button>
+        <div class="pub-acc-body">
+          <h3 class="pub-detail-title">The Trust Equation</h3>
+          <div class="pub-audience-roles">
+            <span class="pub-role-tag">CISOs</span>
+            <span class="pub-role-tag">Board Directors</span>
+            <span class="pub-role-tag">Risk Officers</span>
+          </div>
+          <p class="pub-detail-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction. You will leave with a reframe that makes security legible to boards and executives — not just the people who implement it.</p>
+          <div class="pub-detail-progress">Ideation · Security leadership</div>
+        </div>
       </div>
-      <p class="pub-detail-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction. You will leave with a reframe that makes security legible to boards and executives — not just the people who implement it.</p>
-      <div class="pub-detail-progress">Ideation · Security leadership</div>
-    </div>
 
-    <div class="pub-series-detail" data-series="los">
-      <h3 class="pub-detail-title">Leadership Operating System</h3>
-      <div class="pub-audience-roles">
-        <span class="pub-role-tag">Senior Leaders</span>
-        <span class="pub-role-tag">People Managers</span>
-        <span class="pub-role-tag">New Executives</span>
+      <div class="pub-acc-item">
+        <button class="pub-acc-header">
+          <span class="pub-acc-name">Leadership OS</span>
+          <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Pipeline</span>
+        </button>
+        <div class="pub-acc-body">
+          <h3 class="pub-detail-title">Leadership Operating System</h3>
+          <div class="pub-audience-roles">
+            <span class="pub-role-tag">Senior Leaders</span>
+            <span class="pub-role-tag">People Managers</span>
+            <span class="pub-role-tag">New Executives</span>
+          </div>
+          <p class="pub-detail-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution — what holds when circumstances change. You will leave with an operating model for your own leadership — one that runs below the level of tactics and holds when the environment does not.</p>
+          <div class="pub-detail-progress">4 articles · In pipeline</div>
+        </div>
       </div>
-      <p class="pub-detail-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution — what holds when circumstances change. You will leave with an operating model for your own leadership — one that runs below the level of tactics and holds when the environment does not.</p>
-      <div class="pub-detail-progress">4 articles · In pipeline</div>
-    </div>
 
-    <div class="pub-series-detail" data-series="moving">
-      <h3 class="pub-detail-title">The Moving Target</h3>
-      <div class="pub-audience-roles">
-        <span class="pub-role-tag">Technology Leaders</span>
-        <span class="pub-role-tag">CISOs</span>
-        <span class="pub-role-tag">Security Architects</span>
+      <div class="pub-acc-item">
+        <button class="pub-acc-header">
+          <span class="pub-acc-name">The Moving Target</span>
+          <span class="series-status coming" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>Pipeline</span>
+        </button>
+        <div class="pub-acc-body">
+          <h3 class="pub-detail-title">The Moving Target</h3>
+          <div class="pub-audience-roles">
+            <span class="pub-role-tag">Technology Leaders</span>
+            <span class="pub-role-tag">CISOs</span>
+            <span class="pub-role-tag">Security Architects</span>
+          </div>
+          <p class="pub-detail-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy — not compliance. You will leave with a framework for reading where risk sits after each shift — and the language to make that argument in a room that thinks in terms of controls.</p>
+          <div class="pub-detail-progress">7 articles · In pipeline</div>
+        </div>
       </div>
-      <p class="pub-detail-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy — not compliance. You will leave with a framework for reading where risk sits after each shift — and the language to make that argument in a room that thinks in terms of controls.</p>
-      <div class="pub-detail-progress">7 articles · In pipeline</div>
-    </div>
 
+    </div>
   </div>
 
   <!-- RIGHT: Light panel — hero copy + methodology -->
@@ -152,16 +163,12 @@ description: "Writing across leadership systems, technology strategy, and securi
 
 <script>
 (function() {
-  var btns    = document.querySelectorAll('.pub-series-btn');
-  var details = document.querySelectorAll('.pub-series-detail');
-  btns.forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var target = this.dataset.target;
-      btns.forEach(function(b)    { b.classList.remove('active'); });
-      details.forEach(function(d) { d.classList.remove('active'); });
-      this.classList.add('active');
-      var detail = document.querySelector('.pub-series-detail[data-series="' + target + '"]');
-      if (detail) detail.classList.add('active');
+  var items = document.querySelectorAll('.pub-acc-item');
+  items.forEach(function(item) {
+    item.querySelector('.pub-acc-header').addEventListener('click', function() {
+      var isOpen = item.classList.contains('open');
+      items.forEach(function(i) { i.classList.remove('open'); });
+      if (!isOpen) { item.classList.add('open'); }
     });
   });
 })();
