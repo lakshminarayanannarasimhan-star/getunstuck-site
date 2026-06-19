@@ -39,6 +39,12 @@ bibliography:
   - id: ref1
     note: "The Indispensability Gap framework, the four sources of indispensability (capital at risk, cross-enterprise reach, leverage that cannot be replicated, risk absorption), and the GCC structural law are original frameworks drawn from practitioner observation across technology-services engagements over 25 years. They are not adaptations of existing published frameworks."
 
+drill_pack:
+  title: "Drill Pack #3 — The Indispensability Gap"
+  url: /drills/indispensability-gap-pack/
+  count: 10
+  duration: "60–90 min"
+
 drill_pack_url: /drills/indispensability-gap-pack/
 drill_pack_count: 10
 
