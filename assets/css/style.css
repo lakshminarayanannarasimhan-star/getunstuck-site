@@ -1654,11 +1654,11 @@ body.search-open { overflow: hidden; }
 .pub-hero-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: clamp(520px, 62vh, 640px);
   border-radius: var(--radius-lg);
   overflow: hidden;
   margin-bottom: 3rem;
   box-shadow: var(--shadow-lg);
+  align-items: stretch;
 }
 @media (max-width: 860px) {
   .pub-hero-split { grid-template-columns: 1fr; }
@@ -1756,6 +1756,7 @@ body.search-open { overflow: hidden; }
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow-y: auto;
   border-left: 1px solid var(--border-soft);
 }
 .pub-info-title {

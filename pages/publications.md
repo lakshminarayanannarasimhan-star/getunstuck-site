@@ -17,38 +17,7 @@ description: "Writing across leadership systems, technology strategy, and securi
 
     <p class="pub-manifesto-body">Every article on this platform is stress-tested before it is drafted — not after. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
 
-    <div class="pub-manifesto-protocol">
-      <div class="pub-manifesto-step">
-        <span class="pub-manifesto-step-num">01</span>
-        <div>
-          <div class="pub-manifesto-step-name">Article</div>
-          <div class="pub-manifesto-step-desc">The argument, built from first principles.</div>
-        </div>
-      </div>
-      <div class="pub-manifesto-step">
-        <span class="pub-manifesto-step-num">02</span>
-        <div>
-          <div class="pub-manifesto-step-name">Diagnostic</div>
-          <div class="pub-manifesto-step-desc">Can you see it in your own organisation?</div>
-        </div>
-      </div>
-      <div class="pub-manifesto-step">
-        <span class="pub-manifesto-step-num">03</span>
-        <div>
-          <div class="pub-manifesto-step-name">Stress Test</div>
-          <div class="pub-manifesto-step-desc">Does it survive a serious counter-argument?</div>
-        </div>
-      </div>
-      <div class="pub-manifesto-step">
-        <span class="pub-manifesto-step-num">04</span>
-        <div>
-          <div class="pub-manifesto-step-name">Drills</div>
-          <div class="pub-manifesto-step-desc">Practise until it performs. Reading is not installation.</div>
-        </div>
-      </div>
-    </div>
-
-    <p class="pub-manifesto-close">The Leadership Operating System defines capability as installed only when it performs, sustains, transfers, and survives absence. This platform is built on that distinction.</p>
+    <p class="pub-manifesto-close">The Leadership Operating System defines capability as installed only when it performs, sustains, transfers, and survives absence. Reading is not installation. This platform is built on that distinction.</p>
   </div>
 
   <!-- RIGHT: Light panel — hero copy + methodology -->
