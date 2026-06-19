@@ -177,9 +177,25 @@ description: "Technology services was built to help customers execute. The next 
      THE EPISODES
 ═══════════════════════ -->
 <section class="section-wide" id="episodes">
-  <div class="section-label">The episodes</div>
-  <h2>One argument. Six moves.</h2>
-  <p class="prose" style="margin-top:.8rem;">Each episode opens on a scene from the executive's chair, names one obstacle, explains the mechanism behind it, and identifies the move that unlocks the next rung. They reward sequential reading — but each is complete in itself.</p>
+  <div class="hz-episodes-header">
+    <div>
+      <div class="section-label">The episodes</div>
+      <h2>One argument. Six moves.</h2>
+      <p class="prose" style="margin-top:.8rem;">Each episode opens on a scene from the executive's chair, names one obstacle, explains the mechanism behind it, and identifies the move that unlocks the next rung.</p>
+    </div>
+    <div class="hz-progress-ring-wrap">
+      <svg class="hz-progress-ring" width="80" height="80" viewBox="0 0 80 80">
+        <circle class="hz-ring-bg" cx="40" cy="40" r="32" fill="none" stroke-width="6"/>
+        <circle class="hz-ring-fill" cx="40" cy="40" r="32" fill="none" stroke-width="6"
+          stroke-dasharray="201" stroke-dashoffset="67"
+          stroke-linecap="round" transform="rotate(-90 40 40)"/>
+      </svg>
+      <div class="hz-ring-label">
+        <div class="hz-ring-num" id="hz-read-num">4 <span>of 6</span></div>
+        <div class="hz-ring-sub" id="hz-read-sub">published</div>
+      </div>
+    </div>
+  </div>
 
   <div class="hz-episodes">
 
@@ -426,3 +442,29 @@ description: "Technology services was built to help customers execute. The next 
     <p class="pull-quote">Technology services firms were built to help customers execute. <em>The next generation will be built to help customers expand.</em> Execution earns compensation. Growth earns the premium.</p>
   </div>
 </div>
+
+<script>
+(function() {
+  var articleUrls = [
+    '/2026/06/12/h1-the-execution-trap/',
+    '/2026/06/16/h2-the-trust-ceiling/',
+    '/2026/06/19/h3-the-indispensability-gap/',
+    '/2026/06/23/h4-the-ownership-ascent/'
+  ];
+  var total = 6;
+  var published = 4;
+  try {
+    var read = JSON.parse(localStorage.getItem('unstuck_read') || '{}');
+    var readCount = articleUrls.filter(function(u) { return read[u]; }).length;
+    if (readCount > 0) {
+      var numEl = document.getElementById('hz-read-num');
+      var subEl = document.getElementById('hz-read-sub');
+      if (numEl) numEl.innerHTML = readCount + ' <span>of ' + published + '</span>';
+      if (subEl) subEl.textContent = 'read';
+      /* update ring fill: circumference = 201, offset = 201 * (1 - readCount/total) */
+      var fill = document.querySelector('.hz-ring-fill');
+      if (fill) fill.setAttribute('stroke-dashoffset', Math.round(201 * (1 - readCount / total)));
+    }
+  } catch(e) {}
+})();
+</script>
