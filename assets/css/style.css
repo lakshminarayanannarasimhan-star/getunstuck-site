@@ -957,13 +957,22 @@ body:has(.reading-progress) .header {
 /* ── DROPDOWN ── */
 .nav-item { position: relative; }
 .nav-item .has-dropdown {
+  /* reset button to look identical to .nav a */
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: .2rem;
   font-family: 'DM Mono', monospace;
   font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: var(--header-nav) !important;
   background: none;
   border: none;
+  margin: 0;
   padding: 0.5rem 0.75rem;
   border-radius: var(--radius-sm);
   white-space: nowrap;
@@ -971,13 +980,24 @@ body:has(.reading-progress) .header {
   position: relative;
   transition: color .18s ease;
 }
+/* mirror the sliding underline from .nav a::after */
+.nav-item .has-dropdown::after {
+  content: '';
+  position: absolute;
+  bottom: 2px; left: 0.75rem; right: 0.75rem;
+  height: 1.5px;
+  background: var(--primary);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.2s ease;
+}
 .nav-item:hover .has-dropdown,
 .nav-item.open .has-dropdown { color: var(--header-nav-active) !important; }
+.nav-item:hover .has-dropdown::after,
+.nav-item.open .has-dropdown::after { transform: scaleX(1); }
 .nav-dropdown-caret {
-  font-size: .55rem;
-  opacity: 0.6;
-  margin-left: .1rem;
-  vertical-align: middle;
+  font-size: .5rem;
+  opacity: 0.55;
   transition: transform .2s ease;
 }
 .nav-item.open .nav-dropdown-caret { transform: rotate(180deg); }
