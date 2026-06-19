@@ -7,48 +7,48 @@ description: "Writing across leadership systems, technology strategy, and securi
 
 <div class="pub-hero-split">
 
-  <!-- LEFT: Dark panel — what's live now -->
-  <div class="pub-series-nav">
-    <div class="pub-series-eyebrow">What's live now</div>
+  <!-- LEFT: Dark panel — editorial manifesto -->
+  <div class="pub-series-nav pub-manifesto">
+    <div class="pub-series-eyebrow">The editorial standard</div>
 
-    <div class="pub-live-series">
-      <div class="pub-live-header">
-        <span class="pub-live-name">Horizon</span>
-        <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .5rem;"><span class="series-dot"></span>In progress</span>
-      </div>
-      <p class="pub-live-tagline">From Compression to Premium · Six episodes on the arc from execution to indispensability.</p>
-    </div>
+    <p class="pub-manifesto-lead">Most leadership writing is written to be agreed with.</p>
 
-    <div class="pub-live-episodes">
-      {% assign hz_posts = site.posts | where: "series_code", "H" | sort: "series_position" %}
-      {% for post in hz_posts %}
-        {% if post.status == "published" %}
-        <a class="pub-live-ep pub-live-ep-published" href="{{ post.url }}">
-          <span class="pub-live-ep-num">H{{ post.series_position }}</span>
-          <span class="pub-live-ep-title">{{ post.title }}</span>
-          <span class="pub-live-ep-arrow">→</span>
-        </a>
-        {% else %}
-        <div class="pub-live-ep pub-live-ep-coming">
-          <span class="pub-live-ep-num">H{{ post.series_position }}</span>
-          <span class="pub-live-ep-title">{{ post.title }}</span>
-          <span class="pub-live-ep-status">Coming</span>
+    <p class="pub-manifesto-principle">Anything not questioned is a gateway to mediocrity.<br>Anything questioned but failed is the way to meritocracy.</p>
+
+    <p class="pub-manifesto-body">Every article on this platform is stress-tested before it is drafted — not after. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
+
+    <div class="pub-manifesto-protocol">
+      <div class="pub-manifesto-step">
+        <span class="pub-manifesto-step-num">01</span>
+        <div>
+          <div class="pub-manifesto-step-name">Article</div>
+          <div class="pub-manifesto-step-desc">The argument, built from first principles.</div>
         </div>
-        {% endif %}
-      {% endfor %}
-      <div class="pub-live-ep pub-live-ep-coming" style="opacity:.35;">
-        <span class="pub-live-ep-num">H5</span>
-        <span class="pub-live-ep-title">The Growth Architecture</span>
-        <span class="pub-live-ep-status">Coming</span>
       </div>
-      <div class="pub-live-ep pub-live-ep-coming" style="opacity:.2;">
-        <span class="pub-live-ep-num">H6</span>
-        <span class="pub-live-ep-title">The Growth Premium</span>
-        <span class="pub-live-ep-status">Reserve</span>
+      <div class="pub-manifesto-step">
+        <span class="pub-manifesto-step-num">02</span>
+        <div>
+          <div class="pub-manifesto-step-name">Diagnostic</div>
+          <div class="pub-manifesto-step-desc">Can you see it in your own organisation?</div>
+        </div>
+      </div>
+      <div class="pub-manifesto-step">
+        <span class="pub-manifesto-step-num">03</span>
+        <div>
+          <div class="pub-manifesto-step-name">Stress Test</div>
+          <div class="pub-manifesto-step-desc">Does it survive a serious counter-argument?</div>
+        </div>
+      </div>
+      <div class="pub-manifesto-step">
+        <span class="pub-manifesto-step-num">04</span>
+        <div>
+          <div class="pub-manifesto-step-name">Drills</div>
+          <div class="pub-manifesto-step-desc">Practise until it performs. Reading is not installation.</div>
+        </div>
       </div>
     </div>
 
-    <a class="pub-detail-link" href="/horizon/">Full series overview →</a>
+    <p class="pub-manifesto-close">The Leadership Operating System defines capability as installed only when it performs, sustains, transfers, and survives absence. This platform is built on that distinction.</p>
   </div>
 
   <!-- RIGHT: Light panel — hero copy + methodology -->
