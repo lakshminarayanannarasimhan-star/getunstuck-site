@@ -1501,28 +1501,23 @@ body.search-open { overflow: hidden; }
 .pub-panel-top, .pub-panel-bot { display: flex; flex-direction: column; gap: .35rem; }
 .pub-panel-mid { display: flex; flex-direction: column; gap: .7rem; }
 
-/* Live compact strip */
-.pub-live-compact {
-  display: flex; align-items: center; gap: .5rem;
+/* Series at a glance — compact rows */
+.pub-series-row {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .28rem 0;
   text-decoration: none;
+  transition: opacity .15s;
 }
-.pub-live-compact-name {
-  font-family: 'Playfair Display', serif;
-  font-size: .95rem;
-  font-weight: 600;
-  color: #fff;
+a.pub-series-row:hover { opacity: .85; }
+.pub-series-row-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: .82rem;
+  color: rgba(255,255,255,.8);
+  flex: 1;
 }
-.pub-live-compact-meta {
-  font-family: 'DM Mono', monospace;
-  font-size: .62rem;
-  color: rgba(255,255,255,.4);
-  letter-spacing: .04em;
-}
-.pub-live-compact-link {
-  color: var(--primary);
-  text-decoration: none;
-}
-.pub-live-compact-link:hover { text-decoration: underline; }
+.pub-series-row-dim .pub-series-row-name { color: rgba(255,255,255,.4); }
 .pub-panel-bot-desc {
   font-size: .8rem;
   color: rgba(255,255,255,.45);

@@ -10,14 +10,33 @@ description: "Writing across leadership systems, technology strategy, and securi
   <!-- LEFT: Dark panel — three zones -->
   <div class="pub-series-nav pub-manifesto">
 
-    <!-- TOP: What's live -->
+    <!-- TOP: Series at a glance -->
     <div class="pub-panel-top pub-m-a1">
-      <div class="pub-series-eyebrow">What's live</div>
-      <a class="pub-live-compact" href="/horizon/">
-        <span class="pub-live-compact-name">Horizon</span>
-        <span class="series-status in-progress" style="font-size:.5rem;padding:.1rem .4rem;"><span class="series-dot"></span>In progress</span>
+      <div class="pub-series-eyebrow">Six series</div>
+      <a class="pub-series-row" href="/horizon/">
+        <span class="pub-series-row-name">Horizon</span>
+        <span class="series-status in-progress" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>Live</span>
       </a>
-      <div class="pub-live-compact-meta">4 of 6 episodes published · <a href="/horizon/" class="pub-live-compact-link">Read the series →</a></div>
+      <a class="pub-series-row" href="/frontier/">
+        <span class="pub-series-row-name">Frontier</span>
+        <span class="series-status coming" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>To write</span>
+      </a>
+      <a class="pub-series-row" href="/compass/">
+        <span class="pub-series-row-name">Compass</span>
+        <span class="series-status ideation" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>Ideation</span>
+      </a>
+      <div class="pub-series-row pub-series-row-dim">
+        <span class="pub-series-row-name">The Trust Equation</span>
+        <span class="series-status ideation" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>Ideation</span>
+      </div>
+      <div class="pub-series-row pub-series-row-dim">
+        <span class="pub-series-row-name">Leadership OS</span>
+        <span class="series-status coming" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>Pipeline</span>
+      </div>
+      <div class="pub-series-row pub-series-row-dim">
+        <span class="pub-series-row-name">The Moving Target</span>
+        <span class="series-status coming" style="font-size:.48rem;padding:.1rem .38rem;"><span class="series-dot"></span>Pipeline</span>
+      </div>
     </div>
 
     <!-- MIDDLE: Manifesto -->
