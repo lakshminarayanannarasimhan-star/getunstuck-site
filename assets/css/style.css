@@ -5592,8 +5592,19 @@ a.pub-series-row:hover { opacity: .85; }
   position: sticky;
   top: 110px;
   max-height: calc(100vh - 130px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.art-toc {
+  flex: 1;
   overflow-y: auto;
-  padding-bottom: 2rem;
+  min-height: 0;
+  padding-bottom: .5rem;
+}
+.art-toc-drillpack {
+  flex-shrink: 0;
+  margin-top: auto;
 }
 .art-toc-label {
   font-family: 'DM Mono', monospace;
