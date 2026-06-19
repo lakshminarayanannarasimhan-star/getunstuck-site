@@ -4482,68 +4482,47 @@ a.pub-series-row:hover { opacity: .85; }
    27. HOMEPAGE REDESIGN COMPONENTS
    ========================================= */
 
-/* ── Choose Your Path ── */
-.hp-paths-section { padding-top: clamp(2rem,4vw,3rem); padding-bottom: clamp(2rem,4vw,3rem); }
-.hp-paths {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
-  margin-top: 1.5rem;
-}
-@media (max-width: 860px) { .hp-paths { grid-template-columns: 1fr; } }
-
-.hp-path-card {
+/* ── Hero path cards (dark panel) ── */
+.hp-path-dark {
   display: flex;
   flex-direction: column;
-  gap: .75rem;
-  padding: 1.75rem 1.5rem;
-  background: var(--surface-gradient);
-  border: 1px solid var(--border-soft);
-  border-radius: var(--radius-lg);
+  gap: .35rem;
+  padding: .85rem .75rem;
+  border-radius: var(--radius-sm);
   text-decoration: none;
-  transition: border-color .18s, box-shadow .18s, transform .18s;
+  border-bottom: 1px solid rgba(255,255,255,.07);
+  transition: background .15s;
 }
-.hp-path-card:hover {
-  border-color: var(--primary);
-  box-shadow: var(--shadow-md);
-  transform: translateY(-3px);
-}
-.hp-path-num {
-  font-family: 'DM Mono', monospace;
-  font-size: .6rem;
-  letter-spacing: .1em;
-  color: var(--faint);
-}
-.hp-path-label {
+.hp-path-dark:last-child { border-bottom: none; }
+.hp-path-dark:hover { background: rgba(255,255,255,.07); }
+.hp-path-dark-label {
   font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  color: var(--primary);
+  color: #fff;
   line-height: 1;
 }
-.hp-path-desc {
-  font-size: .88rem;
-  color: var(--muted);
-  line-height: 1.7;
-  flex: 1;
+.hp-path-dark-desc {
+  font-size: .78rem;
+  color: rgba(255,255,255,.5);
+  line-height: 1.6;
   margin: 0;
 }
-.hp-path-audience {
+.hp-path-dark-foot {
   font-family: 'DM Mono', monospace;
   font-size: .6rem;
-  letter-spacing: .07em;
-  color: var(--faint);
-}
-.hp-path-link {
-  font-family: 'DM Mono', monospace;
-  font-size: .68rem;
   letter-spacing: .06em;
-  text-transform: uppercase;
-  color: var(--primary);
-  margin-top: .25rem;
-  transition: letter-spacing .18s;
+  color: rgba(255,255,255,.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .15rem;
 }
-.hp-path-card:hover .hp-path-link { letter-spacing: .1em; }
+.hp-path-dark-arrow {
+  color: var(--primary);
+  transition: transform .15s;
+}
+.hp-path-dark:hover .hp-path-dark-arrow { transform: translateX(3px); }
 
 /* ── New strip ── */
 .hp-new-strip {

@@ -44,75 +44,28 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 
     <div class="hp-hero-right reveal d3">
       <div class="hp-toc">
-        <div class="hp-toc-label">On this platform</div>
-        <a class="hp-toc-item hp-toc-item--primary" href="#los">
-          <span class="hp-toc-num">01</span>
-          <div>
-            <div class="hp-toc-name">The Leadership Operating System</div>
-            <div class="hp-toc-meta">Constitution v1.0 · 34 capabilities · 6 domains</div>
-          </div>
-          <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Start here</span>
+        <div class="hp-toc-label">Choose your path</div>
+
+        <a class="hp-path-dark" href="/publications/">
+          <div class="hp-path-dark-label">Read</div>
+          <p class="hp-path-dark-desc">Articles built from first principles. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
+          <div class="hp-path-dark-foot">Executives · Managers · Technology leaders <span class="hp-path-dark-arrow">→</span></div>
         </a>
-        <a class="hp-toc-item" href="#books">
-          <span class="hp-toc-num">02</span>
-          <div>
-            <div class="hp-toc-name">Books &amp; Workbooks</div>
-            <div class="hp-toc-meta">The Invisible Backlog · Drills · Workbook · No gate</div>
-          </div>
-          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Writing</span>
+
+        <a class="hp-path-dark" href="/books/">
+          <div class="hp-path-dark-label">Think</div>
+          <p class="hp-path-dark-desc">Books that codify ideas into lasting models. One shift per book — no filler, no padding.</p>
+          <div class="hp-path-dark-foot">Leaders building mental models <span class="hp-path-dark-arrow">→</span></div>
         </a>
-        <a class="hp-toc-item" href="#publications">
-          <span class="hp-toc-num">03</span>
-          <div>
-            <div class="hp-toc-name">Publications</div>
-            <div class="hp-toc-meta">Magazines · This site · Leadership · Technology · Security</div>
-          </div>
-          <span class="series-status in-progress" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Active</span>
+
+        <a class="hp-path-dark" href="/los/">
+          <div class="hp-path-dark-label">Practice</div>
+          <p class="hp-path-dark-desc">The LOS and its drills. Capability only installed when it performs, sustains, transfers, and survives absence.</p>
+          <div class="hp-path-dark-foot">Leaders developing capability <span class="hp-path-dark-arrow">→</span></div>
         </a>
-        <a class="hp-toc-item" href="/mentees/">
-          <span class="hp-toc-num">04</span>
-          <div>
-            <div class="hp-toc-name">Coaching</div>
-            <div class="hp-toc-meta">Long-term · Structured · Any experience level</div>
-          </div>
-          <span class="series-status live" style="font-size:.55rem;padding:.15rem .45rem;margin-left:auto;flex-shrink:0;"><span class="series-dot"></span>Open</span>
-        </a>
+
       </div>
     </div>
-
-  </div>
-</section>
-
-<!-- ═══════════════════════
-     CHOOSE YOUR PATH
-═══════════════════════ -->
-<section class="section-wide hp-paths-section">
-  <div class="section-label">Choose your path</div>
-  <div class="hp-paths">
-
-    <a class="hp-path-card" href="/publications/">
-      <div class="hp-path-num">01</div>
-      <div class="hp-path-label">Read</div>
-      <p class="hp-path-desc">Articles and essays built from first principles. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
-      <div class="hp-path-audience">Executives · Managers · Technology leaders</div>
-      <span class="hp-path-link">Explore articles →</span>
-    </a>
-
-    <a class="hp-path-card" href="/books/">
-      <div class="hp-path-num">02</div>
-      <div class="hp-path-label">Think</div>
-      <p class="hp-path-desc">Books and frameworks that codify ideas into lasting models. The Invisible Backlog installs one shift at a time — no filler, no padding.</p>
-      <div class="hp-path-audience">Leaders building mental models</div>
-      <span class="hp-path-link">Explore books →</span>
-    </a>
-
-    <a class="hp-path-card" href="/los/">
-      <div class="hp-path-num">03</div>
-      <div class="hp-path-label">Practice</div>
-      <p class="hp-path-desc">The Leadership Operating System and its drills. Capability is only installed when it performs, sustains, transfers, and survives absence.</p>
-      <div class="hp-path-audience">Leaders developing capability</div>
-      <span class="hp-path-link">Explore the LOS →</span>
-    </a>
 
   </div>
 </section>
