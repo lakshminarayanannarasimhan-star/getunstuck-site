@@ -7016,6 +7016,36 @@ body.search-open { overflow: hidden; }
 }
 
 /* ── LADDER ── */
+/* ── Horizon tabbed context (Arc / Language) ── */
+.hz-context-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0;
+}
+.hz-tab-btn {
+  font-family: 'DM Mono', monospace;
+  font-size: .72rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--faint);
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: .65rem 1.1rem .6rem;
+  cursor: pointer;
+  transition: color .15s, border-color .15s;
+  margin-bottom: -1px;
+}
+.hz-tab-btn:hover { color: var(--muted); }
+.hz-tab-btn.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  font-weight: 500;
+}
+.hz-tab-panel { display: none; }
+.hz-tab-panel.active { display: block; }
+
 .hz-ladder {
   margin-top: 2.5rem;
   display: flex;

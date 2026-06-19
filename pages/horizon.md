@@ -45,116 +45,133 @@ description: "Technology services was built to help customers execute. The next 
 
 
 <!-- ═══════════════════════
-     THE FRAMEWORK
+     THE ARC + THE LANGUAGE (TABBED)
 ═══════════════════════ -->
-<section class="section-wide">
-  <div class="section-label">The framework</div>
-  <h2>Six steps. One sequence. No shortcuts.</h2>
-  <p class="prose" style="margin-top:.8rem;">Each step in the progression requires a different credential — not more of the one that got you to the current level. The firm that recognises itself in this — capable, trusted, present, and still excluded from the conversations that matter — is the firm this series is written for.</p>
+<section class="section-wide hz-context-tabs-section">
 
-  <div class="hz-ladder">
-    <div class="hz-rung hz-rung-compression">
-      <div class="hz-rung-zone">Compression Zone</div>
-      <div class="hz-rung-steps">
-        <div class="hz-step">
-          <div class="hz-step-num">01</div>
-          <div class="hz-step-body">
-            <div class="hz-step-name">Execution</div>
-            <div class="hz-step-earns">earns compensation</div>
-            <p class="hz-step-desc">The entry ticket. The minimum required to be in the conversation. Necessary but no longer sufficient. As GenAI compresses the execution layer, the economics are a floor — not a ceiling.</p>
+  <div class="hz-context-tabs">
+    <button class="hz-tab-btn active" data-tab="arc">The Arc</button>
+    <button class="hz-tab-btn" data-tab="language">The Language</button>
+  </div>
+
+  <!-- TAB: The Arc -->
+  <div class="hz-tab-panel active" data-panel="arc">
+    <p class="prose" style="margin-top:1.2rem;margin-bottom:1.6rem;">Six steps. One sequence. No shortcuts. Each step requires a different credential — not more of the one that got you to the current level.</p>
+    <div class="hz-ladder">
+      <div class="hz-rung hz-rung-compression">
+        <div class="hz-rung-zone">Compression Zone</div>
+        <div class="hz-rung-steps">
+          <div class="hz-step">
+            <div class="hz-step-num">01</div>
+            <div class="hz-step-body">
+              <div class="hz-step-name">Execution</div>
+              <div class="hz-step-earns">earns compensation</div>
+              <p class="hz-step-desc">The entry ticket. The minimum required to be in the conversation. Necessary but no longer sufficient. As GenAI compresses the execution layer, the economics are a floor — not a ceiling.</p>
+            </div>
           </div>
-        </div>
-        <div class="hz-step">
-          <div class="hz-step-num">02</div>
-          <div class="hz-step-body">
-            <div class="hz-step-name">Trust</div>
-            <div class="hz-step-earns">earns access</div>
-            <p class="hz-step-desc">The highest reward the Compression Zone offers — and its ceiling. Revenue grows. Renewals continue. Every strategic conversation happens somewhere else. Trust earned is not trust leveraged.</p>
+          <div class="hz-step">
+            <div class="hz-step-num">02</div>
+            <div class="hz-step-body">
+              <div class="hz-step-name">Trust</div>
+              <div class="hz-step-earns">earns access</div>
+              <p class="hz-step-desc">The highest reward the Compression Zone offers — and its ceiling. Revenue grows. Renewals continue. Every strategic conversation happens somewhere else. Trust earned is not trust leveraged.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="hz-crossing-bar">
-      <div class="hz-crossing-line"></div>
-      <div class="hz-crossing-label">The Crossing</div>
-      <div class="hz-crossing-line"></div>
-    </div>
-
-    <div class="hz-rung hz-rung-expansion">
-      <div class="hz-rung-zone">Expansion Zone</div>
-      <div class="hz-rung-steps">
-        <div class="hz-step">
-          <div class="hz-step-num">03</div>
-          <div class="hz-step-body">
-            <div class="hz-step-name">Influence</div>
-            <div class="hz-step-earns">earns a seat</div>
-            <p class="hz-step-desc">Influence begins before the buying process begins. Earned through growth leverage — the demonstrated capacity to help the client see what they had not identified, reach what they had not considered.</p>
+      <div class="hz-crossing-bar">
+        <div class="hz-crossing-line"></div>
+        <div class="hz-crossing-label">The Crossing</div>
+        <div class="hz-crossing-line"></div>
+      </div>
+      <div class="hz-rung hz-rung-expansion">
+        <div class="hz-rung-zone">Expansion Zone</div>
+        <div class="hz-rung-steps">
+          <div class="hz-step">
+            <div class="hz-step-num">03</div>
+            <div class="hz-step-body">
+              <div class="hz-step-name">Influence</div>
+              <div class="hz-step-earns">earns a seat</div>
+              <p class="hz-step-desc">Influence begins before the buying process begins. Earned through growth leverage — the demonstrated capacity to help the client see what they had not identified, reach what they had not considered.</p>
+            </div>
           </div>
-        </div>
-        <div class="hz-step">
-          <div class="hz-step-num">04</div>
-          <div class="hz-step-body">
-            <div class="hz-step-name">Indispensability</div>
-            <div class="hz-step-earns">earns participation</div>
-            <p class="hz-step-desc">Not claimed — demonstrated. The test is simple: would the customer create the same value without you? A GCC can replace execution. A GCC cannot replace indispensability.</p>
+          <div class="hz-step">
+            <div class="hz-step-num">04</div>
+            <div class="hz-step-body">
+              <div class="hz-step-name">Indispensability</div>
+              <div class="hz-step-earns">earns participation</div>
+              <p class="hz-step-desc">Not claimed — demonstrated. The test: would the customer create the same value without you? A GCC can replace execution. A GCC cannot replace indispensability.</p>
+            </div>
           </div>
-        </div>
-        <div class="hz-step">
-          <div class="hz-step-num">05</div>
-          <div class="hz-step-body">
-            <div class="hz-step-name">Ownership</div>
-            <div class="hz-step-earns">earns control</div>
-            <p class="hz-step-desc">The consequence of being the only one willing to carry what the outcome requires. Control arrives when the client trusts not just the firm's value creation — but its willingness to carry accountability when the outcome fails.</p>
+          <div class="hz-step">
+            <div class="hz-step-num">05</div>
+            <div class="hz-step-body">
+              <div class="hz-step-name">Ownership</div>
+              <div class="hz-step-earns">earns control</div>
+              <p class="hz-step-desc">The consequence of being the only one willing to carry what the outcome requires. Control arrives when the client trusts not just the firm's value creation — but its willingness to carry accountability when the outcome fails.</p>
+            </div>
           </div>
-        </div>
-        <div class="hz-step">
-          <div class="hz-step-num">06</div>
-          <div class="hz-step-body">
-            <div class="hz-step-name">Growth</div>
-            <div class="hz-step-earns">earns the premium</div>
-            <p class="hz-step-desc">Rewarded not for what the firm delivers but for what becomes possible because it is there. The next unit of scale. Not multiplying people to meet demand — multiplying opportunities.</p>
+          <div class="hz-step">
+            <div class="hz-step-num">06</div>
+            <div class="hz-step-body">
+              <div class="hz-step-name">Growth</div>
+              <div class="hz-step-earns">earns the premium</div>
+              <p class="hz-step-desc">Rewarded not for what the firm delivers but for what becomes possible because it is there. The next unit of scale. Not multiplying people to meet demand — multiplying opportunities.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
 
-<!-- ═══════════════════════
-     VOCABULARY
-═══════════════════════ -->
-<section class="section-wide">
-  <div class="section-label">The vocabulary</div>
-  <h2>Six terms. One argument.</h2>
-  <p class="prose" style="margin-top:.8rem;">The series installs one distinction: execution earns compensation; growth earns the premium. These six terms carry that distinction across every episode.</p>
-  <div class="cp-vocab-grid">
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Compression Zone</div>
-      <div class="cp-vocab-def">The layer of technology services where execution is rewarded. Necessary to operate in — but no longer sufficient to grow from. GenAI compresses it. GCCs internalise it.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">The Trust Ceiling</div>
-      <div class="cp-vocab-def">The highest reward the Compression Zone offers. Revenue grows, renewals continue, and every strategic conversation happens somewhere else. Trust earned is not trust leveraged.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">The Crossing</div>
-      <div class="cp-vocab-def">The boundary where the rules of earning change. What got you trusted will not get you influential. The credential for the next rung is different from the one that earned the current.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Indispensability</div>
-      <div class="cp-vocab-def">Not claimed — demonstrated. The test: would the customer create the same value without you? A GCC can replace execution. A GCC cannot replace indispensability.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">The GCC Structural Law</div>
-      <div class="cp-vocab-def">A GCC is designed to optimise one enterprise. The Expansion Zone is built on leverage across enterprises. This is the structural reason a GCC cannot replace an indispensable firm — and the reason the GCC eventually becomes a customer for that firm.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Growth Premium</div>
-      <div class="cp-vocab-def">The reward for firms that multiply opportunities rather than multiply people. Earned not for what the firm delivers but for what becomes possible because it is there.</div>
+  <!-- TAB: The Language -->
+  <div class="hz-tab-panel" data-panel="language">
+    <p class="prose" style="margin-top:1.2rem;margin-bottom:1.6rem;">Six terms carry one distinction across every episode: execution earns compensation; growth earns the premium.</p>
+    <div class="cp-vocab-grid">
+      <div class="cp-vocab-item">
+        <div class="cp-vocab-term">Compression Zone</div>
+        <div class="cp-vocab-def">The layer of technology services where execution is rewarded. Necessary to operate in — but no longer sufficient to grow from. GenAI compresses it. GCCs internalise it.</div>
+      </div>
+      <div class="cp-vocab-item">
+        <div class="cp-vocab-term">The Trust Ceiling</div>
+        <div class="cp-vocab-def">The highest reward the Compression Zone offers. Revenue grows, renewals continue, and every strategic conversation happens somewhere else. Trust earned is not trust leveraged.</div>
+      </div>
+      <div class="cp-vocab-item">
+        <div class="cp-vocab-term">The Crossing</div>
+        <div class="cp-vocab-def">The boundary where the rules of earning change. What got you trusted will not get you influential. The credential for the next rung is different from the one that earned the current.</div>
+      </div>
+      <div class="cp-vocab-item">
+        <div class="cp-vocab-term">Indispensability</div>
+        <div class="cp-vocab-def">Not claimed — demonstrated. The test: would the customer create the same value without you? A GCC can replace execution. A GCC cannot replace indispensability.</div>
+      </div>
+      <div class="cp-vocab-item">
+        <div class="cp-vocab-term">The GCC Structural Law</div>
+        <div class="cp-vocab-def">A GCC is designed to optimise one enterprise. The Expansion Zone is built on leverage across enterprises. This is why a GCC cannot replace an indispensable firm — and why the GCC eventually becomes a customer for that firm.</div>
+      </div>
+      <div class="cp-vocab-item">
+        <div class="cp-vocab-term">Growth Premium</div>
+        <div class="cp-vocab-def">The reward for firms that multiply opportunities rather than multiply people. Earned not for what the firm delivers but for what becomes possible because it is there.</div>
+      </div>
     </div>
   </div>
+
 </section>
+
+<script>
+(function() {
+  var btns   = document.querySelectorAll('.hz-tab-btn');
+  var panels = document.querySelectorAll('.hz-tab-panel');
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var target = this.dataset.tab;
+      btns.forEach(function(b)   { b.classList.remove('active'); });
+      panels.forEach(function(p) { p.classList.remove('active'); });
+      this.classList.add('active');
+      document.querySelector('.hz-tab-panel[data-panel="' + target + '"]').classList.add('active');
+    });
+  });
+})();
+</script>
 
 <!-- ═══════════════════════
      THE EPISODES
