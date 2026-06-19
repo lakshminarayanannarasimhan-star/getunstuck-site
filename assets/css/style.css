@@ -1521,13 +1521,13 @@ body.search-open { overflow: hidden; }
   border-radius: var(--radius-sm);
   font-family: 'DM Sans', sans-serif;
   font-size: .88rem;
-  color: rgba(255,255,255,.45);
+  color: rgba(255,255,255,.72);
   cursor: pointer;
   text-align: left;
   transition: background .15s, color .15s;
   width: 100%;
 }
-.pub-series-btn:hover { background: rgba(255,255,255,.07); color: rgba(255,255,255,.8); }
+.pub-series-btn:hover { background: rgba(255,255,255,.07); color: rgba(255,255,255,.92); }
 .pub-series-btn.active { background: rgba(255,255,255,.11); color: #fff; }
 .pub-series-btn-name { font-family: 'Playfair Display', serif; font-weight: 600; }
 

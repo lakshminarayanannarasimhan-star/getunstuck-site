@@ -47,7 +47,7 @@ description: "Writing across leadership systems, technology strategy, and securi
         <span class="pub-role-tag">Account Leaders</span>
         <span class="pub-role-tag">GCC Heads</span>
       </div>
-      <p class="pub-detail-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
+      <p class="pub-detail-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability. You will leave with a framework for diagnosing where your firm sits on the arc — and the language to explain it to the people who need to move.</p>
       <div class="pub-detail-progress">4 of 6 episodes published</div>
       <a class="pub-detail-link" href="/horizon/">Explore the series →</a>
     </div>
@@ -59,7 +59,7 @@ description: "Writing across leadership systems, technology strategy, and securi
         <span class="pub-role-tag">Account Leaders</span>
         <span class="pub-role-tag">GCC Sponsors</span>
       </div>
-      <p class="pub-detail-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after.</p>
+      <p class="pub-detail-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after. You will leave with a reframe that changes the conversation — and a model for building the relationship that survives the handover.</p>
       <div class="pub-detail-progress">4 parts · To write</div>
       <a class="pub-detail-link" href="/frontier/">Series overview →</a>
     </div>
@@ -71,7 +71,7 @@ description: "Writing across leadership systems, technology strategy, and securi
         <span class="pub-role-tag">Strategy Leads</span>
         <span class="pub-role-tag">Customer Experience Leaders</span>
       </div>
-      <p class="pub-detail-desc">Most organisations measure position and call it direction. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
+      <p class="pub-detail-desc">Most organisations measure position and call it direction. Nine episodes on how the needle drifts — and what it takes to read it true. You will leave with a diagnostic for testing whether your organisation is navigating or drifting — and the distinction that makes the difference visible.</p>
       <div class="pub-detail-progress">9 episodes · Ideation</div>
       <a class="pub-detail-link" href="/compass/">Series overview →</a>
     </div>
@@ -83,7 +83,7 @@ description: "Writing across leadership systems, technology strategy, and securi
         <span class="pub-role-tag">Board Directors</span>
         <span class="pub-role-tag">Risk Officers</span>
       </div>
-      <p class="pub-detail-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction.</p>
+      <p class="pub-detail-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction. You will leave with a reframe that makes security legible to boards and executives — not just the people who implement it.</p>
       <div class="pub-detail-progress">Ideation · Security leadership</div>
     </div>
 
@@ -94,7 +94,7 @@ description: "Writing across leadership systems, technology strategy, and securi
         <span class="pub-role-tag">People Managers</span>
         <span class="pub-role-tag">New Executives</span>
       </div>
-      <p class="pub-detail-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution — what holds when circumstances change.</p>
+      <p class="pub-detail-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution — what holds when circumstances change. You will leave with an operating model for your own leadership — one that runs below the level of tactics and holds when the environment does not.</p>
       <div class="pub-detail-progress">4 articles · In pipeline</div>
     </div>
 
@@ -105,7 +105,7 @@ description: "Writing across leadership systems, technology strategy, and securi
         <span class="pub-role-tag">CISOs</span>
         <span class="pub-role-tag">Security Architects</span>
       </div>
-      <p class="pub-detail-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy — not compliance.</p>
+      <p class="pub-detail-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy — not compliance. You will leave with a framework for reading where risk sits after each shift — and the language to make that argument in a room that thinks in terms of controls.</p>
       <div class="pub-detail-progress">7 articles · In pipeline</div>
     </div>
 
