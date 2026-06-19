@@ -265,7 +265,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 
 
 <!-- THROUGH-LINE -->
-<div class="section-ink">
+<div class="section-ink" style="margin-top:1.5rem;">
   <div class="bleed-inner">
     <div class="section-label">The through-line</div>
     <p class="pull-quote">Tools change. <em>Systems endure.</em> Every book, article, and engagement is built on that one idea.</p>
