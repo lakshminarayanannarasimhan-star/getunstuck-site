@@ -186,18 +186,6 @@ layout: default
     </div>
   </div>
 
-  <!-- DRILL PACK -->
-  {% if page.drill_pack_url %}
-  <div class="art-drill-pack-link">
-    <div class="art-drill-pack-icon">◈</div>
-    <div>
-      <div class="art-drill-pack-label">Practice this article</div>
-      <div class="art-drill-pack-desc">{{ page.drill_pack_count }} exercises drawn from this article's argument. No gate.</div>
-    </div>
-    <a class="btn-secondary" href="{{ page.drill_pack_url }}">The Drill Pack →</a>
-  </div>
-  {% endif %}
-
   <!-- SUBSCRIBE -->
   <section class="art-section art-subscribe">
     <div class="art-subscribe-inner">
@@ -261,6 +249,20 @@ layout: default
     <div class="art-cite">
       <div class="art-cite-label">Cite this article</div>
       <p class="art-cite-text">Narasimhan, L. N. ({{ page.date | date: "%Y" }}). <em>{{ page.title }}</em>. <em>{{ page.series }}</em>. getunstuck.in. Retrieved from {{ site.url }}{{ page.url }}</p>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- DRILL PACK -->
+  {% if page.drill_pack_url %}
+  <section class="art-section art-drill-pack">
+    <div class="art-drill-pack-link">
+      <div class="art-drill-pack-icon">◈</div>
+      <div>
+        <div class="art-drill-pack-label">Practice this article</div>
+        <div class="art-drill-pack-desc">{{ page.drill_pack_count }} exercises drawn from this article's argument — no price, no gate.</div>
+      </div>
+      <a class="btn-primary" href="{{ page.drill_pack_url }}">The Drill Pack →</a>
     </div>
   </section>
   {% endif %}
