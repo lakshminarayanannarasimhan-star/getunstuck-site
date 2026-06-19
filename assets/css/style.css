@@ -1535,11 +1535,13 @@ body.search-open { overflow: hidden; }
 .pub-series-detail.active {
   display: flex;
   flex-direction: column;
-  gap: .6rem;
+  gap: .55rem;
   padding-top: .5rem;
   border-top: 1px solid rgba(255,255,255,.1);
   animation: search-modal-in .2s ease;
 }
+/* audience tags inside dark panel */
+.pub-series-detail .pub-audience-roles { margin-top: 0; }
 .pub-detail-title {
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;

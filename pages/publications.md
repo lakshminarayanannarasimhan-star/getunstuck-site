@@ -38,22 +38,27 @@ description: "Writing across leadership systems, technology strategy, and securi
       </button>
     </div>
 
-    <!-- Series detail panels -->
+    <!-- Series detail panels — order: title → audience → blurb → progress → link -->
     <div class="pub-series-detail active" data-series="horizon">
       <h3 class="pub-detail-title">From Compression to Premium</h3>
-      <p class="pub-detail-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
-      <div class="pub-audience-roles" style="margin-top:1rem;">
+      <div class="pub-audience-roles">
         <span class="pub-role-tag">Executives</span>
         <span class="pub-role-tag">VP · SVP</span>
         <span class="pub-role-tag">Account Leaders</span>
         <span class="pub-role-tag">GCC Heads</span>
       </div>
+      <p class="pub-detail-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
       <div class="pub-detail-progress">4 of 6 episodes published</div>
       <a class="pub-detail-link" href="/horizon/">Explore the series →</a>
     </div>
 
     <div class="pub-series-detail" data-series="frontier">
       <h3 class="pub-detail-title">Graduation, Not Rejection</h3>
+      <div class="pub-audience-roles">
+        <span class="pub-role-tag">Technology Services Executives</span>
+        <span class="pub-role-tag">Account Leaders</span>
+        <span class="pub-role-tag">GCC Sponsors</span>
+      </div>
       <p class="pub-detail-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after.</p>
       <div class="pub-detail-progress">4 parts · To write</div>
       <a class="pub-detail-link" href="/frontier/">Series overview →</a>
@@ -61,6 +66,11 @@ description: "Writing across leadership systems, technology strategy, and securi
 
     <div class="pub-series-detail" data-series="compass">
       <h3 class="pub-detail-title">Why Organisations Lose Their Direction</h3>
+      <div class="pub-audience-roles">
+        <span class="pub-role-tag">CEOs</span>
+        <span class="pub-role-tag">Strategy Leads</span>
+        <span class="pub-role-tag">Customer Experience Leaders</span>
+      </div>
       <p class="pub-detail-desc">Most organisations measure position and call it direction. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
       <div class="pub-detail-progress">9 episodes · Ideation</div>
       <a class="pub-detail-link" href="/compass/">Series overview →</a>
@@ -68,18 +78,33 @@ description: "Writing across leadership systems, technology strategy, and securi
 
     <div class="pub-series-detail" data-series="trust">
       <h3 class="pub-detail-title">The Trust Equation</h3>
+      <div class="pub-audience-roles">
+        <span class="pub-role-tag">CISOs</span>
+        <span class="pub-role-tag">Board Directors</span>
+        <span class="pub-role-tag">Risk Officers</span>
+      </div>
       <p class="pub-detail-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction.</p>
       <div class="pub-detail-progress">Ideation · Security leadership</div>
     </div>
 
     <div class="pub-series-detail" data-series="los">
       <h3 class="pub-detail-title">Leadership Operating System</h3>
+      <div class="pub-audience-roles">
+        <span class="pub-role-tag">Senior Leaders</span>
+        <span class="pub-role-tag">People Managers</span>
+        <span class="pub-role-tag">New Executives</span>
+      </div>
       <p class="pub-detail-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution — what holds when circumstances change.</p>
       <div class="pub-detail-progress">4 articles · In pipeline</div>
     </div>
 
     <div class="pub-series-detail" data-series="moving">
       <h3 class="pub-detail-title">The Moving Target</h3>
+      <div class="pub-audience-roles">
+        <span class="pub-role-tag">Technology Leaders</span>
+        <span class="pub-role-tag">CISOs</span>
+        <span class="pub-role-tag">Security Architects</span>
+      </div>
       <p class="pub-detail-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy — not compliance.</p>
       <div class="pub-detail-progress">7 articles · In pipeline</div>
     </div>
