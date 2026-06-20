@@ -30,24 +30,9 @@ description: "Articles across leadership systems, technology strategy, and secur
 
   <!-- RIGHT: What changes — outcome language -->
   <div class="pub-info-panel pub-info-panel--outcome">
-    <div class="eyebrow" style="color:var(--muted);">Articles</div>
+    <div class="eyebrow" style="color:var(--muted);">Leadership · Technology Strategy · Systems</div>
     <h1 class="pub-info-title">The gap between knowing and doing is not a knowledge problem.</h1>
     <p class="pub-info-sub">Most leadership writing stops after the argument. This platform is built for the next step — not just knowing what to think, but being able to do something different.</p>
-
-    <div class="pub-outcomes">
-      <div class="pub-outcome-row">
-        <div class="pub-outcome-after">After the article</div>
-        <div class="pub-outcome-get">An argument you can use — not just agree with.</div>
-      </div>
-      <div class="pub-outcome-row">
-        <div class="pub-outcome-after">After the diagnostic</div>
-        <div class="pub-outcome-get">Where you actually stand — not where you hope.</div>
-      </div>
-      <div class="pub-outcome-row">
-        <div class="pub-outcome-after">After the drills</div>
-        <div class="pub-outcome-get">A capability installed. It performs, sustains, transfers.</div>
-      </div>
-    </div>
 
     <div class="pub-proof-strip">
       <div class="pub-proof-item"><span>4</span> articles published</div>
@@ -134,6 +119,25 @@ description: "Articles across leadership systems, technology strategy, and secur
   </div>
 </section>
 {% endif %}
+
+<!-- WHAT CHANGES -->
+<section class="section-wide">
+  <div class="section-label">What changes</div>
+  <div class="pub-outcomes pub-outcomes--standalone">
+    <div class="pub-outcome-row">
+      <div class="pub-outcome-after">After the article</div>
+      <div class="pub-outcome-get">An argument you can use — not just agree with.</div>
+    </div>
+    <div class="pub-outcome-row">
+      <div class="pub-outcome-after">After the diagnostic</div>
+      <div class="pub-outcome-get">Where you actually stand — not where you hope.</div>
+    </div>
+    <div class="pub-outcome-row">
+      <div class="pub-outcome-after">After the drills</div>
+      <div class="pub-outcome-get">A capability installed. It performs, sustains, transfers.</div>
+    </div>
+  </div>
+</section>
 
 <!-- THE ARC -->
 {% assign published_posts = hz_posts | where: "status", "published" %}

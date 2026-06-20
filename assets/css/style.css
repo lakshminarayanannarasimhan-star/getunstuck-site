@@ -4114,6 +4114,19 @@ a.pub-series-row:hover { opacity: .85; }
 }
 .pub-proof-div { width: 1px; height: 1.2rem; background: var(--border); }
 
+/* ── Articles: standalone outcomes section ── */
+.pub-outcomes--standalone {
+  margin-top: 1rem;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.pub-outcomes--standalone .pub-outcome-row {
+  padding: .85rem 1.25rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+.pub-outcomes--standalone .pub-outcome-row:last-child { border-bottom: none; }
+
 /* ── Articles: series overview rows ── */
 .art-series-overview { padding-top: 1.5rem; padding-bottom: 1.5rem; }
 .art-series-rows {
