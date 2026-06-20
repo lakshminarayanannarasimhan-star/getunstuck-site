@@ -1865,19 +1865,66 @@ a.pub-series-row:hover { opacity: .85; }
   text-transform: uppercase;
   color: var(--primary);
 }
+.law-card-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.25;
+}
 .law-card-statement {
+  font-size: .82rem;
+  color: var(--muted);
+  line-height: 1.55;
+  font-style: italic;
+}
+.law-card-origin {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .06em;
+  color: var(--faint);
+  margin-top: auto;
+  padding-top: .5rem;
+}
+
+/* Laws pillars — four domains */
+.laws-pillars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+@media (max-width: 860px) { .laws-pillars { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .laws-pillars { grid-template-columns: 1fr; } }
+.laws-pillar {
+  padding: 1.25rem;
+  background: var(--surface-gradient);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+}
+.laws-pillar strong {
+  display: block;
   font-family: 'Playfair Display', serif;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--text);
-  line-height: 1.4;
+  color: var(--primary);
+  margin-bottom: .4rem;
 }
-.law-card-origin {
-  font-size: .75rem;
-  color: var(--faint);
-  font-style: italic;
-  margin-top: auto;
-  padding-top: .5rem;
+.laws-pillar p {
+  font-size: .85rem;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* hz-tp-crossing override for Laws page */
+.hz-tp-crossing {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  letter-spacing: .08em;
+  color: rgba(255,255,255,.35);
+  text-align: center;
+  padding: .35rem 0;
 }
 .law-body { max-width: 680px; }
 .law-related-list {

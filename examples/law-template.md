@@ -2,10 +2,11 @@
 layout: law
 title: "Law #X — [Law Name]"
 law_number:
+law_name: "[Law Name]"
 series: []
 tags: []
 status: draft
-description: ""
+description: "[One-line statement of the law]"
 ---
 
 ## Statement

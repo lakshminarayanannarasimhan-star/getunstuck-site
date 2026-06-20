@@ -22,13 +22,37 @@ description: "A growing library of compressed insights — recurring patterns ob
   </div>
 </section>
 
-<!-- WHY LAWS EXIST -->
+<!-- WHAT YOU'LL FIND HERE -->
+<section class="section-wide">
+  <div class="section-label">What you'll find here</div>
+  <div class="laws-pillars">
+    <div class="laws-pillar">
+      <strong>Strategy</strong>
+      <p>How value moves.</p>
+    </div>
+    <div class="laws-pillar">
+      <strong>Systems</strong>
+      <p>How constraints shape outcomes.</p>
+    </div>
+    <div class="laws-pillar">
+      <strong>Leadership</strong>
+      <p>How people and organisations behave.</p>
+    </div>
+    <div class="laws-pillar">
+      <strong>Growth</strong>
+      <p>How advantage is created and lost.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT A LAW IS -->
 <div class="section-ink">
   <div class="bleed-inner">
     <div class="hz-thesis-grid">
       <div>
         <div class="section-label">What a law is</div>
         <p class="pull-quote">A law is a compressed insight. <em>An idea reduced to its essential form.</em></p>
+        <p style="color:rgba(255,255,255,.55);font-size:.92rem;line-height:1.7;margin-top:1rem;">Laws are discovered, not invented.</p>
       </div>
       <div class="hz-thesis-right">
         <div class="hz-thesis-pair">
@@ -36,7 +60,7 @@ description: "A growing library of compressed insights — recurring patterns ob
           <div class="hz-tp-items">Explore a single problem in depth</div>
           <div class="hz-tp-earns">Becomes an example over time</div>
         </div>
-        <div class="hz-tp-crossing">— Distil into —</div>
+        <div class="hz-tp-crossing">Becomes</div>
         <div class="hz-thesis-pair hz-thesis-pair-exp">
           <div class="hz-tp-label">Laws</div>
           <div class="hz-tp-items">Capture the pattern that remained</div>
@@ -46,6 +70,35 @@ description: "A growing library of compressed insights — recurring patterns ob
     </div>
   </div>
 </div>
+
+<!-- THE LAWS -->
+{% assign all_laws = site.laws | sort: "law_number" %}
+{% if all_laws.size > 0 %}
+<section class="section-wide">
+  <div class="section-label">The laws</div>
+  <h2>{{ all_laws.size }} law{% if all_laws.size != 1 %}s{% endif %} in the library.</h2>
+  <div class="laws-grid" style="margin-top:1.8rem;">
+    {% for law in all_laws %}
+    <a class="law-card" href="{{ law.url }}">
+      <div class="law-card-num">Law #{{ law.law_number }}</div>
+      {% if law.law_name %}<div class="law-card-name">{{ law.law_name }}</div>{% endif %}
+      <div class="law-card-statement">{{ law.description }}</div>
+      {% if law.series %}
+      <div class="law-card-origin">
+        {% if law.series.first %}{{ law.series | join: " · " }}{% else %}{{ law.series }}{% endif %}
+      </div>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% else %}
+<section class="section-wide">
+  <div class="section-label">The laws</div>
+  <h2>The library is being built.</h2>
+  <p class="prose" style="margin-top:.8rem;">Laws emerge from articles. The first laws are being extracted and will appear here as they are formalised. Each article on this site contains at least one law — compressed and named.</p>
+</section>
+{% endif %}
 
 <!-- HOW TO USE -->
 <section class="section-wide">
@@ -77,65 +130,9 @@ description: "A growing library of compressed insights — recurring patterns ob
   </div>
 </section>
 
-<!-- THE LAWS -->
-{% assign all_laws = site.laws | sort: "law_number" %}
-{% if all_laws.size > 0 %}
-<section class="section-wide">
-  <div class="section-label">The laws</div>
-  <h2>{{ all_laws.size }} law{% if all_laws.size != 1 %}s{% endif %} in the library.</h2>
-  <div class="laws-grid" style="margin-top:1.8rem;">
-    {% for law in all_laws %}
-    <a class="law-card" href="{{ law.url }}">
-      <div class="law-card-num">Law {{ law.law_number }}</div>
-      <div class="law-card-statement">{{ law.statement }}</div>
-      {% if law.origin %}<div class="law-card-origin">{{ law.origin }}</div>{% endif %}
-    </a>
-    {% endfor %}
-  </div>
-</section>
-{% else %}
-<section class="section-wide">
-  <div class="section-label">The laws</div>
-  <h2>The library is being built.</h2>
-  <p class="prose" style="margin-top:.8rem;">Laws emerge from articles. The first laws are being extracted and will appear here as they are formalised. Each article on this site contains at least one law — compressed and named.</p>
-</section>
-{% endif %}
-
-<!-- THE STRUCTURE -->
-<section class="section-wide">
-  <div class="section-label">The structure of each law</div>
-  <h2>Six fields. One pattern.</h2>
-  <div class="cp-vocab-grid" style="margin-top:1.5rem;">
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Statement</div>
-      <div class="cp-vocab-def">The law expressed in its shortest form.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Observation</div>
-      <div class="cp-vocab-def">What the law describes.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Pattern</div>
-      <div class="cp-vocab-def">How the law repeatedly appears in real systems.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Implication</div>
-      <div class="cp-vocab-def">Why the law matters.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Origin</div>
-      <div class="cp-vocab-def">The article, framework, or experience from which the law emerged.</div>
-    </div>
-    <div class="cp-vocab-item">
-      <div class="cp-vocab-term">Related Laws</div>
-      <div class="cp-vocab-def">Other laws that connect to or extend the idea.</div>
-    </div>
-  </div>
-</section>
-
 <div class="section-ink">
   <div class="bleed-inner">
     <div class="section-label">The long-term goal</div>
-    <p class="pull-quote">Articles explore ideas. Field guides diagnose them. Drills train them. <em>Laws distil them.</em></p>
+    <p class="pull-quote">Articles explore ideas. Drills train them. <em>Laws distil them.</em></p>
   </div>
 </div>
