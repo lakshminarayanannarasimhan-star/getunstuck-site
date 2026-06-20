@@ -54,6 +54,20 @@ Still to decide: keep or remove slate, ivory, chalk, cloud, sky, rainbow, bluepr
 - [ ] **LOS page uplift** — needs richer content (domains, capabilities, belt system) before Phase 3 can proceed
 - [ ] **Architecture URL update: sitemap submission** — after Phase 2 went live, submit `/articles/` and `/series/*` URLs to Google Search Console URL Inspection for faster indexing
 
+### Laws Library — write and publish one by one
+- [ ] **Law #1** — The Law of Constraint Migration
+- [ ] **Law #2** — The Law of Scarcity Premium
+- [ ] **Law #3** — The Law of Value Migration
+- [ ] **Law #4** — The Law of Abundance
+- [ ] **Law #5** — The Law of Capability Diffusion
+- [ ] **Law #6** — The Law of Scale Consumption
+- [ ] **Law #7** — The Law of Strategic Position
+- [ ] **Law #8** — The Law of Future Constraints
+- [ ] **Law #9** — The Law of Constraint Removal
+- [ ] **Law #10** — The Reliability Law
+- [ ] **Law #11** — The Trust Ceiling
+- [ ] **Law #12** — The Law of Compression
+
 ### Backlog
 - [x] **Publications left panel manifesto** — editorial philosophy installed: LOS installation protocol + governing principle on the dark left panel.
 - [x] **Surface editorial standard site-wide** — added to About page, LOS page, and Articles left panel (publications manifesto).
