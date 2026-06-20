@@ -43,6 +43,9 @@ google_site_verification: "O5u7zPWSihGkf0z5rDzsQ81HcbdCcLYyuovnbZiOEzI"
 # -------------------------
 
 collections:
+  laws:
+    output: true
+    permalink: /laws/:name/
   drills:
     output: true
     permalink: /drills/:name/
@@ -58,6 +61,11 @@ collections:
 # -------------------------
 
 defaults:
+  - scope:
+      path: ""
+      type: "laws"
+    values:
+      layout: "law"
   - scope:
       path: ""
       type: "drills"

@@ -1713,7 +1713,75 @@ a.pub-series-row:hover { opacity: .85; }
 
 /* =========================================
    9. DRILL LAYOUT
+   =========================================
+
+/* =========================================
+   8b. LAWS LAYOUT
    ========================================= */
+
+.laws-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+.law-card {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  padding: 1.5rem;
+  background: var(--surface-gradient);
+  border: 1px solid var(--border-soft);
+  border-left: 3px solid var(--primary);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: border-color .18s, box-shadow .18s, transform .15s;
+}
+.law-card:hover {
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.law-card-num {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.law-card-statement {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.4;
+}
+.law-card-origin {
+  font-size: .75rem;
+  color: var(--faint);
+  font-style: italic;
+  margin-top: auto;
+  padding-top: .5rem;
+}
+.law-body { max-width: 680px; }
+.law-related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.law-related-list li {
+  font-size: .88rem;
+  color: var(--muted);
+}
+.law-related-list a { color: var(--primary); text-decoration: none; }
+.law-related-list a:hover { text-decoration: underline; }
+.law-nav {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-soft);
+} */
 
 .drill-article {
   max-width: var(--measure);

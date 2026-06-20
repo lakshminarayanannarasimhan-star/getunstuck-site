@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="art-wrap">
+
+  <header class="art-header">
+    <nav class="art-breadcrumb">
+      <a href="/">Home</a>
+      <span>›</span>
+      <a href="/laws/">Laws</a>
+      <span>›</span>
+      <span>Law {{ page.law_number }}</span>
+    </nav>
+
+    <div class="art-meta-row">
+      {% if page.law_number %}<span class="art-series-badge">Law {{ page.law_number }}</span>{% endif %}
+      {% if page.domain %}<span class="art-reading-time">{{ page.domain }}</span>{% endif %}
+    </div>
+
+    <h1 class="art-title">{{ page.statement }}</h1>
+    {% if page.subtitle %}<p class="art-subtitle">{{ page.subtitle }}</p>{% endif %}
+  </header>
+
+  <div class="law-body">
+
+    {% if page.observation %}
+    <section class="art-section">
+      <div class="art-section-label">Observation</div>
+      <p class="prose">{{ page.observation }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.pattern %}
+    <section class="art-section">
+      <div class="art-section-label">Pattern</div>
+      <p class="prose">{{ page.pattern }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.implication %}
+    <section class="art-section">
+      <div class="art-section-label">Implication</div>
+      <p class="prose">{{ page.implication }}</p>
+    </section>
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.origin %}
+    <section class="art-section">
+      <div class="art-section-label">Origin</div>
+      <p class="prose">{{ page.origin }}</p>
+    </section>
+    {% endif %}
+
+    {% if page.related_laws %}
+    <section class="art-section">
+      <div class="art-section-label">Related Laws</div>
+      <ul class="law-related-list">
+        {% for related in page.related_laws %}
+        <li>
+          {% if related.url %}<a href="{{ related.url }}">{% endif %}
+          Law {{ related.number }} — {{ related.statement }}
+          {% if related.url %}</a>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+  </div>
+
+  <div class="law-nav">
+    <a class="btn-ghost" href="/laws/">← All Laws</a>
+  </div>
+
+</div>
