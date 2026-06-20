@@ -1922,15 +1922,17 @@ a.pub-series-row:hover { opacity: .85; }
   font-family: 'DM Sans', sans-serif;
   font-weight: 600;
   font-size: .8rem;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   background: var(--btn-gradient, var(--primary));
   padding: .55rem 1rem;
   border-radius: 999px;
   box-shadow: var(--shadow-sm);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.35);
   transition: transform .15s, box-shadow .15s;
 }
 .art-toc-drillpack-link:hover {
+  color: #fff !important;
   transform: translateY(-1px);
   box-shadow: var(--shadow-md);
 }
