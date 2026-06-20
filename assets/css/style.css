@@ -4044,6 +4044,76 @@ a.pub-series-row:hover { opacity: .85; }
 }
 .hp-path-dark:hover .hp-path-dark-arrow { transform: translateX(3px); }
 
+/* ── Articles hero: taller split + centred manifesto ── */
+.pub-hero-split--tall { min-height: 580px; }
+
+.pub-manifesto--centered {
+  justify-content: center;
+  gap: 0;
+}
+.pub-manifesto-hero-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.pub-manifesto-principle--large .pub-m-line {
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+/* ── Articles hero: outcome right panel ── */
+.pub-info-panel--outcome { justify-content: flex-start; padding-top: 2.5rem; }
+.pub-outcomes {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 1.4rem;
+  border-top: 1px solid var(--border-soft);
+}
+.pub-outcome-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: .75rem;
+  padding: .85rem 0;
+  border-bottom: 1px solid var(--border-soft);
+  align-items: start;
+}
+.pub-outcome-after {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--primary);
+  padding-top: .1rem;
+}
+.pub-outcome-get {
+  font-size: .85rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.pub-proof-strip {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-soft);
+}
+.pub-proof-item {
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  letter-spacing: .05em;
+  color: var(--faint);
+}
+.pub-proof-item span {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-right: .2rem;
+}
+.pub-proof-div { width: 1px; height: 1.2rem; background: var(--border); }
+
 /* ── Articles page: Start Here card ── */
 .art-start-here {
   display: grid;
