@@ -37,15 +37,15 @@ description: "Articles across leadership systems, technology strategy, and secur
     <div class="pub-outcomes">
       <div class="pub-outcome-row">
         <div class="pub-outcome-after">After the article</div>
-        <div class="pub-outcome-get">You have an argument you can use — tested against its strongest counter, not just asserted.</div>
+        <div class="pub-outcome-get">An argument you can use — not just agree with.</div>
       </div>
       <div class="pub-outcome-row">
         <div class="pub-outcome-after">After the diagnostic</div>
-        <div class="pub-outcome-get">You know where your organisation actually stands — not where you hope it does.</div>
+        <div class="pub-outcome-get">Where you actually stand — not where you hope.</div>
       </div>
       <div class="pub-outcome-row">
         <div class="pub-outcome-after">After the drills</div>
-        <div class="pub-outcome-get">You can do it. Not just explain it. The capability is installed — it performs, sustains, transfers.</div>
+        <div class="pub-outcome-get">A capability installed. It performs, sustains, transfers.</div>
       </div>
     </div>
 
@@ -59,6 +59,43 @@ description: "Articles across leadership systems, technology strategy, and secur
   </div>
 
 </div>
+
+<!-- SERIES OVERVIEW — body of work signal -->
+<section class="section-wide art-series-overview">
+  <div class="section-label">Six series · One platform</div>
+  <ul class="art-series-rows">
+    <li>
+      <a href="/series/horizon/" class="art-series-name">Horizon</a>
+      <span class="art-series-tagline">Technology services in the age of GenAI and GCCs</span>
+      <span class="series-status in-progress" style="font-size:.55rem;"><span class="series-dot"></span>In progress</span>
+    </li>
+    <li>
+      <a href="/series/frontier/" class="art-series-name">Frontier</a>
+      <span class="art-series-tagline">Graduation, not rejection</span>
+      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
+    </li>
+    <li>
+      <a href="/series/compass/" class="art-series-name">Compass</a>
+      <span class="art-series-tagline">The customer is true north</span>
+      <span class="series-status ideation" style="font-size:.55rem;"><span class="series-dot"></span>Ideation</span>
+    </li>
+    <li>
+      <span class="art-series-name">The Trust Equation</span>
+      <span class="art-series-tagline">Security is a trust problem</span>
+      <span class="series-status ideation" style="font-size:.55rem;"><span class="series-dot"></span>Ideation</span>
+    </li>
+    <li>
+      <span class="art-series-name">Leadership OS</span>
+      <span class="art-series-tagline">The system underneath execution</span>
+      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>Pipeline</span>
+    </li>
+    <li>
+      <span class="art-series-name">The Moving Target</span>
+      <span class="art-series-tagline">Network security as technology strategy</span>
+      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>Pipeline</span>
+    </li>
+  </ul>
+</section>
 
 <!-- START HERE ANCHOR -->
 <div id="start-here"></div>
@@ -128,39 +165,6 @@ description: "Articles across leadership systems, technology strategy, and secur
 </section>
 {% endif %}
 
-<!-- WHAT'S COMING -->
-<section class="section-wide">
-  <div class="section-label">What's coming</div>
-  <h2>Five more series in development.</h2>
-  <p class="prose" style="margin-top:.8rem;">Each series is structurally frozen before the first article is written. Architecture first, prose second — the same standard applied to Horizon.</p>
-  <ul class="art-coming-list">
-    <li>
-      <a href="/series/frontier/" class="art-coming-name">Frontier</a>
-      <span class="art-coming-desc">Graduation, Not Rejection · Technology services &amp; GCCs</span>
-      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
-    </li>
-    <li>
-      <a href="/series/compass/" class="art-coming-name">Compass</a>
-      <span class="art-coming-desc">Why Organisations Lose Their Direction · Strategy &amp; customer centricity</span>
-      <span class="series-status ideation" style="font-size:.55rem;"><span class="series-dot"></span>Ideation</span>
-    </li>
-    <li>
-      <span class="art-coming-name">The Trust Equation</span>
-      <span class="art-coming-desc">Security is a trust problem · Security leadership &amp; boards</span>
-      <span class="series-status ideation" style="font-size:.55rem;"><span class="series-dot"></span>Ideation</span>
-    </li>
-    <li>
-      <span class="art-coming-name">Leadership OS</span>
-      <span class="art-coming-desc">The system underneath execution · Leadership systems</span>
-      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>Pipeline</span>
-    </li>
-    <li>
-      <span class="art-coming-name">The Moving Target</span>
-      <span class="art-coming-desc">Network security as technology strategy</span>
-      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>Pipeline</span>
-    </li>
-  </ul>
-</section>
 
 <div class="section-ink">
   <div class="bleed-inner">
