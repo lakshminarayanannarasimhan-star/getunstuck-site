@@ -4044,6 +4044,65 @@ a.pub-series-row:hover { opacity: .85; }
 }
 .hp-path-dark:hover .hp-path-dark-arrow { transform: translateX(3px); }
 
+/* ── Articles hero: cycle diagram ── */
+.art-cycle {
+  margin: 1.4rem 0 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.art-cycle-row {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+}
+.art-cycle-row--reverse { flex-direction: row-reverse; }
+.art-cycle-node {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  font-weight: 500;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  padding: .35rem .7rem;
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  color: var(--muted);
+  background: var(--surface-soft);
+  white-space: nowrap;
+  transition: border-color .15s, color .15s;
+}
+.art-cycle-node--start {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--primary-soft);
+}
+.art-cycle-node--outcome {
+  border-color: var(--primary);
+  color: var(--surface);
+  background: var(--btn-gradient);
+  font-weight: 600;
+}
+.art-cycle-arrow {
+  font-size: .7rem;
+  color: var(--faint);
+  flex-shrink: 0;
+}
+.art-cycle-bend {
+  display: flex;
+  justify-content: space-between;
+  padding: .1rem .35rem;
+}
+.art-cycle-bend-left {
+  font-size: .85rem;
+  color: var(--primary);
+  opacity: .6;
+}
+.art-cycle-bend-right {
+  font-size: .85rem;
+  color: var(--faint);
+  padding-right: .35rem;
+}
+
 /* ── Articles hero: large proof stats ── */
 .pub-proof-large {
   display: flex;

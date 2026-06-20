@@ -36,6 +36,27 @@ description: "Articles across leadership systems, technology strategy, and secur
     <h1 class="pub-info-title">The gap between knowing and doing is not a knowledge problem.</h1>
     <p class="pub-info-sub">Most leadership writing stops after the argument. This platform is built for the next step.</p>
 
+    <div class="art-cycle">
+      <div class="art-cycle-row">
+        <div class="art-cycle-node art-cycle-node--start">Read</div>
+        <div class="art-cycle-arrow">→</div>
+        <div class="art-cycle-node">Practice</div>
+        <div class="art-cycle-arrow">→</div>
+        <div class="art-cycle-node">Apply</div>
+      </div>
+      <div class="art-cycle-bend">
+        <div class="art-cycle-bend-left">↺</div>
+        <div class="art-cycle-bend-right">↓</div>
+      </div>
+      <div class="art-cycle-row art-cycle-row--reverse">
+        <div class="art-cycle-node art-cycle-node--outcome">Results</div>
+        <div class="art-cycle-arrow">←</div>
+        <div class="art-cycle-node">Feedback</div>
+        <div class="art-cycle-arrow">←</div>
+        <div class="art-cycle-node">Reflect</div>
+      </div>
+    </div>
+
     <div class="pub-proof-large">
       <div class="pub-proof-large-item">
         <div class="pub-proof-large-num">4</div>
