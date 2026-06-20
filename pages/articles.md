@@ -20,12 +20,24 @@ description: "Articles across leadership systems, technology strategy, and secur
         <p>The drills are what survived practice.</p>
       </div>
 
-      <div class="pub-std-couplet pub-m-a4">
-        <span>Read for the idea.</span>
-        <span>Do the work for the result.</span>
+      <div class="pub-std-ladder pub-m-a4">
+        <div class="pub-std-rung">
+          <span class="pub-std-rung-label">Articles</span>
+          <span class="pub-std-rung-desc">make points.</span>
+        </div>
+        <div class="pub-std-rung">
+          <span class="pub-std-rung-label">Series</span>
+          <span class="pub-std-rung-desc">build a lens.</span>
+        </div>
+        <div class="pub-std-rung">
+          <span class="pub-std-rung-label">Drills</span>
+          <span class="pub-std-rung-desc">give the installation.</span>
+        </div>
       </div>
 
-      <a class="btn-primary pub-m-a5" href="#start-here" style="align-self:flex-start;margin-top:1.75rem;">Start reading →</a>
+      <p class="pub-std-guarantee pub-m-a5">Transformation guaranteed.</p>
+
+      <a class="btn-primary pub-m-a6" href="#start-here" style="align-self:flex-start;margin-top:1.75rem;">Start reading →</a>
     </div>
 
   </div>
