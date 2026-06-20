@@ -144,6 +144,33 @@
    ========================================= */
 
 
+/* blossom — white canvas, hot pink #F40076 → soft lavender #DF98FA */
+[data-theme="blossom"] {
+  --bg:             #FFF5FF;
+  --bg-deep:        #FFE8FF;
+  --surface:        #FFFFFF;
+  --surface-soft:   #FFF8FF;
+  --text:           #1A0428;
+  --muted:          #8A2880;
+  --faint:          #C08AC8;
+  --primary:        #E82080;
+  --primary-soft:   #FFE0F4;
+  --primary-strong: #C00068;
+  --border:         rgba(26,4,40,0.11);
+  --border-soft:    rgba(26,4,40,0.055);
+  --shadow-sm:      0 2px 6px rgba(232,32,128,0.09);
+  --shadow-md:      0 10px 30px rgba(232,32,128,0.13);
+  --shadow-lg:      0 20px 60px rgba(232,32,128,0.18);
+  --hero-gradient:        linear-gradient(135deg, #FFF5FF 0%, #FFE0F8 45%, #F0D0FF 100%);
+  --ink-gradient:         linear-gradient(135deg, #1A0428 0%, #2C0840 50%, #1A0428 100%);
+  --accent-gradient:      linear-gradient(135deg, #FFE8FF 0%, #F0D0FF 100%);
+  --btn-gradient:         linear-gradient(135deg, #F40076 0%, #C040B8 50%, #DF98FA 100%);
+  --btn-gradient-hover:   linear-gradient(135deg, #C00068 0%, #A030A0 100%);
+  --card-hover-gradient:  linear-gradient(135deg, #FFFFFF 0%, #FFE8FF 100%);
+  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #FFF5FF 100%);
+  --header-logo-gradient: linear-gradient(135deg, #F40076 0%, #C040B8 50%, #DF98FA 100%);
+}
+
 /* scarlet — white canvas, coral #F14658 → vivid crimson #DC2537 */
 [data-theme="scarlet"] {
   --bg:             #FFF8F8;
