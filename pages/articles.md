@@ -13,73 +13,107 @@ description: "Articles across leadership systems, technology strategy, and secur
     <div class="pub-manifesto-hero-block">
       <div class="pub-series-eyebrow pub-m-a1" style="margin-bottom:1.5rem;">The standard</div>
 
-      <p class="pub-manifesto-lead pub-m-a2">Most leadership writing is written to be agreed with.</p>
-
       <div class="pub-manifesto-principle pub-manifesto-principle--large">
-        <span class="pub-m-line pub-m-a3">Anything not questioned is a gateway to mediocrity.</span>
-        <span class="pub-m-line pub-m-a4">Anything questioned with curiosity is the way to meritocracy.</span>
-        <span class="pub-m-line pub-m-a5">Let us stop expecting that we are always right.</span>
+        <span class="pub-m-line pub-m-a2">Anything not questioned is a gateway to mediocrity.</span>
+        <span class="pub-m-line pub-m-a3">Anything questioned with curiosity is the way to meritocracy.</span>
+        <span class="pub-m-line pub-m-a4">Let us stop expecting that we are always right.</span>
       </div>
 
-      <p class="pub-manifesto-body pub-m-a6" style="margin-top:1.5rem;">Every article here is stress-tested before it is drafted. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
-
-      <a class="btn-primary pub-m-a7" href="#start-here" style="align-self:flex-start;margin-top:1.75rem;">Start reading →</a>
+      <a class="btn-primary pub-m-a5" href="#start-here" style="align-self:flex-start;margin-top:1.75rem;">Start reading →</a>
     </div>
 
   </div>
 
-  <!-- RIGHT: What changes — outcome language -->
+  <!-- RIGHT: Domain + headline + large proof -->
   <div class="pub-info-panel pub-info-panel--outcome">
     <div class="eyebrow" style="color:var(--muted);">Leadership · Technology Strategy · Systems</div>
     <h1 class="pub-info-title">The gap between knowing and doing is not a knowledge problem.</h1>
-    <p class="pub-info-sub">Most leadership writing stops after the argument. This platform is built for the next step — not just knowing what to think, but being able to do something different.</p>
+    <p class="pub-info-sub">Most leadership writing stops after the argument. This platform is built for the next step.</p>
 
-    <div class="pub-proof-strip">
-      <div class="pub-proof-item"><span>4</span> articles published</div>
-      <div class="pub-proof-div"></div>
-      <div class="pub-proof-item"><span>40+</span> drill exercises</div>
-      <div class="pub-proof-div"></div>
-      <div class="pub-proof-item"><span>0</span> email gates</div>
+    <div class="pub-proof-large">
+      <div class="pub-proof-large-item">
+        <div class="pub-proof-large-num">4</div>
+        <div class="pub-proof-large-label">Published essays</div>
+      </div>
+      <div class="pub-proof-large-item">
+        <div class="pub-proof-large-num">40+</div>
+        <div class="pub-proof-large-label">Drills</div>
+      </div>
+      <div class="pub-proof-large-item">
+        <div class="pub-proof-large-num">6</div>
+        <div class="pub-proof-large-label">Series planned</div>
+      </div>
     </div>
   </div>
 
 </div>
 
-<!-- SERIES OVERVIEW — body of work signal -->
-<section class="section-wide art-series-overview">
+<!-- SERIES GRID — visual cards, ecosystem visible -->
+<section class="section-wide">
   <div class="section-label">Six series · One platform</div>
-  <ul class="art-series-rows">
-    <li>
-      <a href="/series/horizon/" class="art-series-name">Horizon</a>
-      <span class="art-series-tagline">Technology services in the age of GenAI and GCCs</span>
-      <span class="series-status in-progress" style="font-size:.55rem;"><span class="series-dot"></span>In progress</span>
-    </li>
-    <li>
-      <a href="/series/frontier/" class="art-series-name">Frontier</a>
-      <span class="art-series-tagline">Graduation, not rejection</span>
-      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
-    </li>
-    <li>
-      <a href="/series/compass/" class="art-series-name">Compass</a>
-      <span class="art-series-tagline">The customer is true north</span>
-      <span class="series-status ideation" style="font-size:.55rem;"><span class="series-dot"></span>Ideation</span>
-    </li>
-    <li>
-      <span class="art-series-name">The Trust Equation</span>
-      <span class="art-series-tagline">Security is a trust problem</span>
-      <span class="series-status ideation" style="font-size:.55rem;"><span class="series-dot"></span>Ideation</span>
-    </li>
-    <li>
-      <span class="art-series-name">Leadership OS</span>
-      <span class="art-series-tagline">The system underneath execution</span>
-      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>Pipeline</span>
-    </li>
-    <li>
-      <span class="art-series-name">The Moving Target</span>
-      <span class="art-series-tagline">Network security as technology strategy</span>
-      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>Pipeline</span>
-    </li>
-  </ul>
+  <div class="series-grid" style="margin-top:1.5rem;">
+
+    <a class="series-card" href="/series/horizon/">
+      <div class="series-card-top">
+        <div class="series-id">Horizon</div>
+        <span class="series-status in-progress"><span class="series-dot"></span>In progress</span>
+      </div>
+      <h3 class="series-title">From Compression to Premium</h3>
+      <p class="series-desc">Technology services in the age of GenAI and GCCs. Six episodes on the arc from execution to indispensability.</p>
+      <div class="series-meta">6 episodes · 4 published</div>
+    </a>
+
+    <a class="series-card" href="/series/frontier/">
+      <div class="series-card-top">
+        <div class="series-id">Frontier</div>
+        <span class="series-status coming"><span class="series-dot"></span>To write</span>
+      </div>
+      <h3 class="series-title">Graduation, Not Rejection</h3>
+      <p class="series-desc">When a client asks you to build a GCC, they are not leaving — they are graduating.</p>
+      <div class="series-meta">4 parts · Technology services</div>
+    </a>
+
+    <a class="series-card" href="/series/compass/">
+      <div class="series-card-top">
+        <div class="series-id">Compass</div>
+        <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
+      </div>
+      <h3 class="series-title">Why Organisations Lose Their Direction</h3>
+      <p class="series-desc">The customer is true north. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
+      <div class="series-meta">9 episodes · Strategy</div>
+    </a>
+
+    <div class="series-card">
+      <div class="series-card-top">
+        <div class="series-id">The Trust Equation</div>
+        <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
+      </div>
+      <h3 class="series-title">Security is a trust problem.</h3>
+      <p class="series-desc">Most security programmes are built as if the customer does not exist.</p>
+      <div class="series-meta">Security leadership · Boards</div>
+    </div>
+
+    <div class="series-card">
+      <div class="series-card-top">
+        <div class="series-id">Leadership OS</div>
+        <span class="series-status coming"><span class="series-dot"></span>Pipeline</span>
+      </div>
+      <h3 class="series-title">The system underneath execution.</h3>
+      <p class="series-desc">How leaders build systems, not just habits. Four articles on what holds when circumstances change.</p>
+      <div class="series-meta">4 articles · Leadership systems</div>
+    </div>
+
+    <div class="series-card">
+      <div class="series-card-top">
+        <div class="series-id">The Moving Target</div>
+        <span class="series-status coming"><span class="series-dot"></span>Pipeline</span>
+      </div>
+      <h3 class="series-title">Security does not sit still.</h3>
+      <p class="series-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as strategy.</p>
+      <div class="series-meta">7 articles · Technology strategy</div>
+    </div>
+
+  </div>
 </section>
 
 <!-- START HERE ANCHOR -->
