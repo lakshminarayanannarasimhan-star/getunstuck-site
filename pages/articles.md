@@ -193,24 +193,6 @@ description: "Articles across leadership systems, technology strategy, and secur
 </section>
 {% endif %}
 
-<!-- WHAT CHANGES -->
-<section class="section-wide">
-  <div class="section-label">What changes</div>
-  <div class="pub-outcomes pub-outcomes--standalone">
-    <div class="pub-outcome-row">
-      <div class="pub-outcome-after">After the article</div>
-      <div class="pub-outcome-get">An argument you can use — not just agree with.</div>
-    </div>
-    <div class="pub-outcome-row">
-      <div class="pub-outcome-after">After the diagnostic</div>
-      <div class="pub-outcome-get">Where you actually stand — not where you hope.</div>
-    </div>
-    <div class="pub-outcome-row">
-      <div class="pub-outcome-after">After the drills</div>
-      <div class="pub-outcome-get">A capability installed. It performs, sustains, transfers.</div>
-    </div>
-  </div>
-</section>
 
 <!-- THE ARC -->
 {% assign published_posts = hz_posts | where: "status", "published" %}
