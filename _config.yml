@@ -16,8 +16,8 @@ author: Lakshmi Narayanan
 # THEME
 # -------------------------
 # Four themes — uncomment one:
-unstuck_theme: aurora        # White canvas, coral → purple gradient
-# unstuck_theme: cerise        # White canvas, electric crimson → deep maroon
+# unstuck_theme: aurora        # White canvas, coral → purple gradient
+unstuck_theme: cerise        # White canvas, electric crimson → deep maroon
 # unstuck_theme: mono          # Pure black/white, zero colour
 # unstuck_theme: dojo          # Warm paper, ochre · DEFAULT (safe fallback)
 
