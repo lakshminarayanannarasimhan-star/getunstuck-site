@@ -144,6 +144,60 @@
    ========================================= */
 
 
+/* scarlet — white canvas, coral #F14658 → vivid crimson #DC2537 */
+[data-theme="scarlet"] {
+  --bg:             #FFF8F8;
+  --bg-deep:        #FFEEED;
+  --surface:        #FFFFFF;
+  --surface-soft:   #FFF5F4;
+  --text:           #1A0404;
+  --muted:          #8B1A20;
+  --faint:          #C07880;
+  --primary:        #E83040;
+  --primary-soft:   #FFEAEC;
+  --primary-strong: #C01828;
+  --border:         rgba(26,4,4,0.11);
+  --border-soft:    rgba(26,4,4,0.055);
+  --shadow-sm:      0 2px 6px rgba(220,37,55,0.09);
+  --shadow-md:      0 10px 30px rgba(220,37,55,0.13);
+  --shadow-lg:      0 20px 60px rgba(220,37,55,0.18);
+  --hero-gradient:        linear-gradient(135deg, #FFF8F8 0%, #FFE8EA 45%, #FFD8DC 100%);
+  --ink-gradient:         linear-gradient(135deg, #1A0404 0%, #2A0808 50%, #1A0404 100%);
+  --accent-gradient:      linear-gradient(135deg, #FFEEED 0%, #FFD8DC 100%);
+  --btn-gradient:         linear-gradient(135deg, #F14658 0%, #E83040 50%, #DC2537 100%);
+  --btn-gradient-hover:   linear-gradient(135deg, #E83040 0%, #C01828 100%);
+  --card-hover-gradient:  linear-gradient(135deg, #FFFFFF 0%, #FFEAEC 100%);
+  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #FFF8F8 100%);
+  --header-logo-gradient: linear-gradient(135deg, #F14658 0%, #DC2537 100%);
+}
+
+/* eclipse — white canvas, deep purple #402662 → electric violet #3900A6 */
+[data-theme="eclipse"] {
+  --bg:             #F8F5FF;
+  --bg-deep:        #EEE8FF;
+  --surface:        #FFFFFF;
+  --surface-soft:   #FAF7FF;
+  --text:           #120828;
+  --muted:          #4A1878;
+  --faint:          #9070C0;
+  --primary:        #5020A0;
+  --primary-soft:   #EEE0FF;
+  --primary-strong: #3900A6;
+  --border:         rgba(18,8,40,0.11);
+  --border-soft:    rgba(18,8,40,0.055);
+  --shadow-sm:      0 2px 6px rgba(57,0,166,0.09);
+  --shadow-md:      0 10px 30px rgba(57,0,166,0.13);
+  --shadow-lg:      0 20px 60px rgba(57,0,166,0.18);
+  --hero-gradient:        linear-gradient(135deg, #F8F5FF 0%, #EEE0FF 45%, #E0CCFF 100%);
+  --ink-gradient:         linear-gradient(135deg, #120828 0%, #280848 50%, #120828 100%);
+  --accent-gradient:      linear-gradient(135deg, #EEE8FF 0%, #E0D0FF 100%);
+  --btn-gradient:         linear-gradient(135deg, #402662 0%, #5020A0 50%, #3900A6 100%);
+  --btn-gradient-hover:   linear-gradient(135deg, #5020A0 0%, #3900A6 100%);
+  --card-hover-gradient:  linear-gradient(135deg, #FFFFFF 0%, #EEE0FF 100%);
+  --surface-gradient:     linear-gradient(160deg, #FFFFFF 0%, #F8F5FF 100%);
+  --header-logo-gradient: linear-gradient(135deg, #402662 0%, #5020A0 50%, #3900A6 100%);
+}
+
 /* cerise — white canvas, electric crimson #F40076 → deep maroon #342711 */
 [data-theme="cerise"] {
   --bg:             #FFFAF8;
