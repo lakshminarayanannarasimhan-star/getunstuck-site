@@ -1719,6 +1719,123 @@ a.pub-series-row:hover { opacity: .85; }
    8b. LAWS LAYOUT
    ========================================= */
 
+/* ── Law body sections ── */
+.law-wrap { max-width: 860px; }
+.law-body { margin-top: 2rem; }
+
+/* Section headings */
+.law-body h2 {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin: 2.5rem 0 .75rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-soft);
+}
+.law-body h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+
+/* Statement — large italic Playfair */
+.law-body h2:first-of-type + p em,
+.law-body h2:first-of-type + blockquote {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
+  font-style: italic;
+  color: var(--text);
+  line-height: 1.5;
+  display: block;
+  border-left: 3px solid var(--primary);
+  padding-left: 1rem;
+  margin: 0;
+}
+
+/* In One Sentence — slightly elevated */
+.law-body em {
+  color: var(--text);
+  font-style: italic;
+}
+
+/* The Pattern — code block styled as visual flow */
+.law-body pre {
+  background: var(--ink-gradient);
+  border-radius: var(--radius-md);
+  padding: 1.5rem 2rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+.law-body pre code {
+  font-family: 'DM Mono', monospace;
+  font-size: .85rem;
+  color: rgba(255,255,255,.85);
+  line-height: 2;
+  background: none;
+  padding: 0;
+}
+
+/* Implications — 2×2 grid for the four h3s */
+.law-body h2 + p + h3,
+.law-body h2 + h3 { margin-top: 1rem; }
+
+.law-body h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 1.25rem 0 .4rem;
+}
+
+/* Stress Test — distinct background */
+.law-body hr {
+  border: none;
+  border-top: 1px solid var(--border-soft);
+  margin: 2rem 0;
+}
+
+/* Questions — styled list */
+.law-body ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin: .75rem 0;
+}
+.law-body ul li {
+  padding: .55rem .9rem;
+  background: var(--surface-soft);
+  border-left: 2px solid var(--border);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: .88rem;
+  color: var(--muted);
+}
+.law-body ul li::before { content: none; }
+
+/* Revision history table */
+.law-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .82rem;
+  margin: 1rem 0;
+}
+.law-body th {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--faint);
+  padding: .5rem .75rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+.law-body td {
+  padding: .55rem .75rem;
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--muted);
+}
+.law-body tr:last-child td { border-bottom: none; }
+
 .laws-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
