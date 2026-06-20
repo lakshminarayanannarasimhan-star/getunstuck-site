@@ -13,10 +13,16 @@ description: "Articles across leadership systems, technology strategy, and secur
     <div class="pub-manifesto-hero-block">
       <div class="pub-series-eyebrow pub-m-a1" style="margin-bottom:1.5rem;">The standard</div>
 
-      <div class="pub-manifesto-principle pub-manifesto-principle--large">
-        <span class="pub-m-line pub-m-a2">Anything not questioned is a gateway to mediocrity.</span>
-        <span class="pub-m-line pub-m-a3">Anything questioned with curiosity is the way to meritocracy.</span>
-        <span class="pub-m-line pub-m-a4">Let us stop expecting that we are always right.</span>
+      <p class="pub-std-lead pub-m-a2">I failed at most of what I write about.</p>
+
+      <div class="pub-std-body pub-m-a3">
+        <p>The articles are what survived self-criticism.</p>
+        <p>The drills are what survived practice.</p>
+      </div>
+
+      <div class="pub-std-couplet pub-m-a4">
+        <span>Read for the idea.</span>
+        <span>Do the work for the result.</span>
       </div>
 
       <a class="btn-primary pub-m-a5" href="#start-here" style="align-self:flex-start;margin-top:1.75rem;">Start reading →</a>
