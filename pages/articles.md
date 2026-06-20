@@ -100,102 +100,13 @@ description: "Articles across leadership systems, technology strategy, and secur
 
 </div>
 
-<script>
-(function() {
-  // publications page — no accordion JS needed
-  (function(){
-    });
-  });
-})();
-</script>
-
-<!-- SERIES OVERVIEW GRID -->
-<section class="section-wide">
-  <div class="section-label">All series</div>
-  <div class="series-grid">
-
-    <a class="series-card" href="/series/horizon/">
-      <div class="series-card-top">
-        <div class="series-id">Horizon</div>
-        <span class="series-status in-progress">
-          <span class="series-dot"></span>In progress
-        </span>
-      </div>
-      <h3 class="series-title">From Compression to Premium</h3>
-      <p class="series-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability — and what it takes to cross.</p>
-      <div class="series-meta">6 episodes · Technology services strategy</div>
-    </a>
-
-    <a class="series-card" href="/series/frontier/">
-      <div class="series-card-top">
-        <div class="series-id">Frontier</div>
-        <span class="series-status coming">
-          <span class="series-dot"></span>To write
-        </span>
-      </div>
-      <h3 class="series-title">Graduation, Not Rejection</h3>
-      <p class="series-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after the handover.</p>
-      <div class="series-meta">4 parts · Technology services &amp; GCCs</div>
-    </a>
-
-    <a class="series-card" href="/series/compass/">
-      <div class="series-card-top">
-        <div class="series-id">Compass</div>
-        <span class="series-status ideation">
-          <span class="series-dot"></span>Ideation
-        </span>
-      </div>
-      <h3 class="series-title">Why Organisations Lose Their Direction</h3>
-      <p class="series-desc">Most organisations measure position and call it direction. The customer is true north. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
-      <div class="series-meta">9 episodes · Strategy &amp; customer centricity</div>
-    </a>
-
-    <a class="series-card" href="#series-d">
-      <div class="series-card-top">
-        <div class="series-id">The Trust Equation</div>
-        <span class="series-status ideation">
-          <span class="series-dot"></span>Ideation
-        </span>
-      </div>
-      <h3 class="series-title">The Trust Equation</h3>
-      <p class="series-desc">Security is not a technology problem. It is a trust problem — and most organisations are built to miss that distinction.</p>
-      <div class="series-meta">Security leadership · Boards · Compliance</div>
-    </a>
-
-    <a class="series-card" href="#series-a">
-      <div class="series-card-top">
-        <div class="series-id">Leadership OS</div>
-        <span class="series-status coming">
-          <span class="series-dot"></span>In pipeline
-        </span>
-      </div>
-      <h3 class="series-title">Leadership Operating System</h3>
-      <p class="series-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution.</p>
-      <div class="series-meta">4 articles · In pipeline</div>
-    </a>
-
-    <a class="series-card" href="#series-c">
-      <div class="series-card-top">
-        <div class="series-id">The Moving Target</div>
-        <span class="series-status coming">
-          <span class="series-dot"></span>In pipeline
-        </span>
-      </div>
-      <h3 class="series-title">The Moving Target</h3>
-      <p class="series-desc">Network security as technology strategy. Risk is not static — every technology shift redistributes where it concentrates.</p>
-      <div class="series-meta">7 articles · In pipeline</div>
-    </a>
-
-  </div>
-</section>
-
-<!-- HORIZON — PUBLISHED EPISODES -->
+<!-- LIVE NOW: HORIZON EPISODES -->
 {% assign hz_posts = site.posts | where: "series_code", "H" | sort: "series_position" %}
 {% if hz_posts.size > 0 %}
 <section class="section-wide" id="horizon">
   <div class="series-section-header">
     <div>
-      <div class="section-label">Horizon</div>
+      <div class="section-label">Horizon · Live now</div>
       <h2>From Compression to Premium.</h2>
       <p class="prose" style="margin-top:.8rem;">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes — published as they are ready.</p>
     </div>
@@ -203,6 +114,7 @@ description: "Articles across leadership systems, technology strategy, and secur
   </div>
   <div class="card-grid" style="margin-top:1.8rem;">
     {% for post in hz_posts %}
+    {% if post.status == "published" %}
     <div class="card" data-read-url="{{ post.url }}">
       <div class="num">Episode {{ post.series_position }} &nbsp;·&nbsp; {{ post.date | date: "%d %b %Y" }}</div>
       <h3 style="margin-top:.3rem;font-size:1.1rem;">
@@ -211,53 +123,50 @@ description: "Articles across leadership systems, technology strategy, and secur
       <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{% if post.tldr %}{{ post.tldr | truncate: 140 }}{% else %}{{ post.excerpt | strip_html | truncate: 140 }}{% endif %}</p>
       <a class="card-link" href="{{ post.url }}">Read</a>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>
 {% endif %}
 
-<!-- FRONTIER — LANDING PAGE LINK -->
-<section class="section-wide" id="frontier">
-  <div class="series-section-header">
-    <div>
-      <div class="section-label">Frontier</div>
-      <h2>Graduation, Not Rejection.</h2>
-      <p class="prose" style="margin-top:.8rem;">A four-part series for the technology services executive asked to help a long-standing client build a GCC. The governing question: what work resists compression? Four parts — The Call Comes, What You Actually Sell, Building Your Own Replacement, The Relationship After the Handover.</p>
-    </div>
-    <a class="btn-primary" href="/series/frontier/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
-  </div>
-</section>
-
-<!-- COMPASS — LANDING PAGE LINK -->
-<section class="section-wide" id="compass">
-  <div class="series-section-header">
-    <div>
-      <div class="section-label">Compass</div>
-      <h2>Why Organisations Lose Their Direction.</h2>
-      <p class="prose" style="margin-top:.8rem;">Nine episodes on how direction is lost through reasonable decisions in aggregate — and what it takes to read the needle true. The series installs one distinction: direction is not position. Structurally frozen; moving to draft.</p>
-    </div>
-    <a class="btn-primary" href="/series/compass/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
-  </div>
-</section>
-
-<!-- IN DEVELOPMENT -->
+<!-- ALL SERIES -->
 <section class="section-wide">
-  <div class="section-label">In development</div>
-  <h2>Four series in the pipeline.</h2>
-  <p class="prose" style="margin-top:.8rem;">Each series is outlined and structurally frozen before the first article is written. Articles appear here as they are completed.</p>
+  <div class="section-label">All series</div>
+  <h2>Six arguments. One platform.</h2>
+  <p class="prose" style="margin-top:.8rem;">Each series is structurally frozen before the first article is written. Episodes appear as they are completed — no gate, no email required.</p>
   <div class="series-grid" style="margin-top:2rem;">
 
-    <a class="series-card" href="/series/compass/" id="series-compass">
+    <a class="series-card" href="/series/horizon/">
+      <div class="series-card-top">
+        <div class="series-id">Horizon</div>
+        <span class="series-status in-progress"><span class="series-dot"></span>In progress</span>
+      </div>
+      <h3 class="series-title">From Compression to Premium</h3>
+      <p class="series-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
+      <div class="series-meta">6 episodes · Technology services strategy</div>
+    </a>
+
+    <a class="series-card" href="/series/frontier/">
+      <div class="series-card-top">
+        <div class="series-id">Frontier</div>
+        <span class="series-status coming"><span class="series-dot"></span>To write</span>
+      </div>
+      <h3 class="series-title">Graduation, Not Rejection</h3>
+      <p class="series-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after.</p>
+      <div class="series-meta">4 parts · Technology services &amp; GCCs</div>
+    </a>
+
+    <a class="series-card" href="/series/compass/">
       <div class="series-card-top">
         <div class="series-id">Compass</div>
         <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
       </div>
-      <h3 class="series-title">Direction is not position.</h3>
-      <p class="series-desc">Nine episodes on why organisations measure position and call it direction — and what it takes to read the needle true. Structure frozen; moving to draft.</p>
+      <h3 class="series-title">Why Organisations Lose Their Direction</h3>
+      <p class="series-desc">Most organisations measure position and call it direction. The customer is true north. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
       <div class="series-meta">9 episodes · Strategy &amp; customer centricity</div>
     </a>
 
-    <div class="series-card" id="series-d">
+    <div class="series-card">
       <div class="series-card-top">
         <div class="series-id">The Trust Equation</div>
         <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
@@ -267,7 +176,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <div class="series-meta">Security leadership · Boards · Compliance</div>
     </div>
 
-    <div class="series-card" id="series-a">
+    <div class="series-card">
       <div class="series-card-top">
         <div class="series-id">Leadership OS</div>
         <span class="series-status coming"><span class="series-dot"></span>In pipeline</span>
@@ -277,25 +186,27 @@ description: "Articles across leadership systems, technology strategy, and secur
       <div class="series-meta">4 articles · Leadership systems</div>
     </div>
 
-    <div class="series-card" id="series-c">
+    <div class="series-card">
       <div class="series-card-top">
         <div class="series-id">The Moving Target</div>
         <span class="series-status coming"><span class="series-dot"></span>In pipeline</span>
       </div>
       <h3 class="series-title">Security does not sit still.</h3>
-      <p class="series-desc">Every technology shift — cloud, API, edge, AI — moves the boundary of who holds risk. Seven articles on network security as technology strategy, not compliance.</p>
+      <p class="series-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy — not compliance.</p>
       <div class="series-meta">7 articles · Technology strategy</div>
     </div>
 
   </div>
 </section>
 
-<!-- ALL WRITING -->
+<!-- ALL PUBLISHED ARTICLES -->
+{% assign all_posts = site.posts | where: "status", "published" | sort: "date" | reverse %}
+{% if all_posts.size > 0 %}
 <section class="section-wide">
-  <div class="section-label">All published writing</div>
-  <h2>Articles</h2>
+  <div class="section-label">All published articles</div>
+  <h2>{{ all_posts.size }} article{% if all_posts.size != 1 %}s{% endif %} published.</h2>
   <div class="card-grid" style="margin-top:1.8rem;">
-    {% for post in site.posts %}
+    {% for post in all_posts %}
     <div class="card" data-read-url="{{ post.url }}">
       <div class="num">{{ post.date | date: "%d %b %Y" }}{% if post.series %} · {{ post.series }}{% endif %}</div>
       <h3 style="margin-top:.3rem;font-size:1.1rem;">
@@ -307,6 +218,7 @@ description: "Articles across leadership systems, technology strategy, and secur
     {% endfor %}
   </div>
 </section>
+{% endif %}
 
 <div class="section-ink">
   <div class="bleed-inner">
