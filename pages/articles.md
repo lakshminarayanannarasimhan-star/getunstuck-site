@@ -7,10 +7,8 @@ description: "Articles across leadership systems, technology strategy, and secur
 
 <div class="pub-hero-split">
 
-  <!-- LEFT: Dark panel — three zones -->
+  <!-- LEFT: Dark panel -->
   <div class="pub-series-nav pub-manifesto">
-
-    <!-- TOP: Series at a glance -->
     <div class="pub-panel-top pub-m-a1">
       <div class="pub-series-eyebrow">Six series</div>
       <a class="pub-series-row" href="/series/horizon/">
@@ -39,7 +37,6 @@ description: "Articles across leadership systems, technology strategy, and secur
       </div>
     </div>
 
-    <!-- MIDDLE: Manifesto -->
     <div class="pub-panel-mid">
       <div class="pub-series-eyebrow pub-m-a2">The editorial standard</div>
       <p class="pub-manifesto-lead pub-m-a3">Most leadership writing is written to be agreed with.</p>
@@ -48,51 +45,48 @@ description: "Articles across leadership systems, technology strategy, and secur
         <span class="pub-m-line pub-m-a5">Anything questioned with curiosity is the way to meritocracy.</span>
         <span class="pub-m-line pub-m-a6">Let us stop expecting that we are always right.</span>
       </div>
-      <p class="pub-manifesto-body pub-m-a7">Every article on this platform is stress-tested before it is drafted — not after. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
-      <p class="pub-manifesto-close pub-m-a8">The Leadership Operating System defines capability as installed only when it performs, sustains, transfers, and survives absence. Reading is not installation.</p>
+      <p class="pub-manifesto-body pub-m-a7">Every article is stress-tested before it is drafted. The counter-argument comes first. If the thesis cannot survive it, the article does not exist. What you read here has been questioned. It held.</p>
     </div>
 
-    <!-- BOTTOM: Subscribe -->
     <div class="pub-panel-bot pub-m-a9">
       <div class="pub-series-eyebrow">Follow along</div>
       <p class="pub-panel-bot-desc">Get articles when they publish. No gate. No email required to read the work.</p>
       <a class="pub-detail-link" href="/subscribe/">Subscribe →</a>
     </div>
-
   </div>
 
-  <!-- RIGHT: Light panel — hero copy + methodology -->
+  <!-- RIGHT: Methodology with concrete examples -->
   <div class="pub-info-panel">
     <div class="eyebrow" style="color:var(--muted);">Articles</div>
     <h1 class="pub-info-title">Writing worth reading slowly.</h1>
-    <p class="pub-info-sub">Articles across leadership systems, technology strategy, and security. Each series is a single argument delivered across multiple pieces — built to install, not just inform.</p>
+    <p class="pub-info-sub">Each series is a single argument delivered across multiple pieces. Every article follows the same four-part structure — not as a formula, but as a standard.</p>
     <div class="pub-approach">
       <div class="pub-approach-row">
         <div class="pub-approach-num">01</div>
         <div>
           <div class="pub-approach-name">Perspective</div>
-          <div class="pub-approach-desc">Raw knowledge. The argument built from first principles — not commentary on what others have said.</div>
+          <div class="pub-approach-desc">The argument, built from first principles. In H1: <em>execution earned compensation. It no longer earns a future.</em></div>
         </div>
       </div>
       <div class="pub-approach-row">
         <div class="pub-approach-num">02</div>
         <div>
           <div class="pub-approach-name">Stress Test</div>
-          <div class="pub-approach-desc">Don't believe what you see. The stress test is where the argument proves its strength — or breaks under challenge.</div>
+          <div class="pub-approach-desc">The strongest counter-argument, before drafting. In H1: <em>"Why not just hire GenAI talent and cut the people?"</em></div>
         </div>
       </div>
       <div class="pub-approach-row">
         <div class="pub-approach-num">03</div>
         <div>
           <div class="pub-approach-name">Diagnostic</div>
-          <div class="pub-approach-desc">Apply in your context. Questions you can run inside your own organisation to see where you stand.</div>
+          <div class="pub-approach-desc">Applied to your context. In H1: <em>when did you last shape a conversation before the brief was written?</em></div>
         </div>
       </div>
       <div class="pub-approach-row">
         <div class="pub-approach-num">04</div>
         <div>
           <div class="pub-approach-name">Drills</div>
-          <div class="pub-approach-desc">Installation. A skill practised until it is yours — tough to take away, sticks with you for years.</div>
+          <div class="pub-approach-desc">Installation — not reading. In H1: <em>10 exercises. The first asks what would actually change if your firm's chair were empty.</em></div>
         </div>
       </div>
     </div>
@@ -100,125 +94,104 @@ description: "Articles across leadership systems, technology strategy, and secur
 
 </div>
 
-<!-- LIVE NOW: HORIZON EPISODES -->
+<!-- NEW STRIP -->
+{% assign latest = site.posts | where: "status", "published" | sort: "date" | last %}
+{% if latest %}
+<a class="hp-new-strip" href="{{ latest.url }}">
+  <span class="hp-new-badge">New</span>
+  {% if latest.series %}<span class="hp-new-series">{{ latest.series }} · {{ latest.article_code }}</span><span class="hp-new-sep">·</span>{% endif %}
+  <span class="hp-new-title">{{ latest.title }}</span>
+  <span class="hp-new-arrow">Read →</span>
+</a>
+{% endif %}
+
+<!-- START HERE -->
 {% assign hz_posts = site.posts | where: "series_code", "H" | sort: "series_position" %}
-{% if hz_posts.size > 0 %}
-<section class="section-wide" id="horizon">
-  <div class="series-section-header">
-    <div>
-      <div class="section-label">Horizon · Live now</div>
-      <h2>From Compression to Premium.</h2>
-      <p class="prose" style="margin-top:.8rem;">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes — published as they are ready.</p>
+{% assign h1 = hz_posts | where: "series_position", 1 | first %}
+{% if h1 %}
+<section class="section-wide">
+  <div class="section-label">Start here</div>
+  <div class="art-start-here">
+    <div class="art-start-here-left">
+      <div class="art-start-badge">Best first read</div>
+      <h2 class="art-start-title">{{ h1.title }}</h2>
+      <p class="art-start-desc">{{ h1.tldr }}</p>
+      <div class="art-start-footer">
+        <a class="btn-primary" href="{{ h1.url }}">Read H1 →</a>
+        {% if h1.drill_pack_url %}<a class="btn-secondary" href="{{ h1.drill_pack_url }}">{{ h1.drill_pack_count }} drills →</a>{% endif %}
+      </div>
     </div>
-    <a class="btn-primary" href="/series/horizon/" style="align-self:flex-start;white-space:nowrap;">Series overview →</a>
+    <div class="art-start-right">
+      <div class="art-start-meta-label">Why start here</div>
+      <p class="art-start-meta">H1 introduces the two forces reshaping technology services — GenAI and GCCs — and the six-step progression that defines the rest of the series. Every subsequent article builds on this frame. Read it first.</p>
+    </div>
   </div>
-  <div class="card-grid" style="margin-top:1.8rem;">
+</section>
+{% endif %}
+
+<!-- THE ARC -->
+{% assign published_posts = hz_posts | where: "status", "published" %}
+{% if published_posts.size > 1 %}
+<section class="section-wide">
+  <div class="section-label">The arc · Horizon</div>
+  <h2>One argument. Read in sequence.</h2>
+  <p class="prose" style="margin-top:.8rem;">Each episode names one obstacle, explains the mechanism, and identifies the move that unlocks the next rung. They reward sequential reading — but each is complete in itself.</p>
+  <div class="art-arc">
     {% for post in hz_posts %}
     {% if post.status == "published" %}
-    <div class="card" data-read-url="{{ post.url }}">
-      <div class="num">Episode {{ post.series_position }} &nbsp;·&nbsp; {{ post.date | date: "%d %b %Y" }}</div>
-      <h3 style="margin-top:.3rem;font-size:1.1rem;">
-        <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">{{ post.title }}</a>
-      </h3>
-      <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{% if post.tldr %}{{ post.tldr | truncate: 140 }}{% else %}{{ post.excerpt | strip_html | truncate: 140 }}{% endif %}</p>
-      <a class="card-link" href="{{ post.url }}">Read</a>
+    <div class="art-arc-item" data-read-url="{{ post.url }}">
+      <div class="art-arc-num">0{{ post.series_position }}</div>
+      <div class="art-arc-body">
+        <div class="art-arc-title">{{ post.title }}</div>
+        <p class="art-arc-idea">{{ post.tldr | truncate: 120 }}</p>
+        <div class="art-arc-links">
+          <a href="{{ post.url }}">Read →</a>
+          {% if post.drill_pack_url %}<a href="{{ post.drill_pack_url }}" class="art-arc-drill">{{ post.drill_pack_count }} drills</a>{% endif %}
+        </div>
+      </div>
     </div>
     {% endif %}
     {% endfor %}
   </div>
-</section>
-{% endif %}
-
-<!-- ALL SERIES -->
-<section class="section-wide">
-  <div class="section-label">All series</div>
-  <h2>Six arguments. One platform.</h2>
-  <p class="prose" style="margin-top:.8rem;">Each series is structurally frozen before the first article is written. Episodes appear as they are completed — no gate, no email required.</p>
-  <div class="series-grid" style="margin-top:2rem;">
-
-    <a class="series-card" href="/series/horizon/">
-      <div class="series-card-top">
-        <div class="series-id">Horizon</div>
-        <span class="series-status in-progress"><span class="series-dot"></span>In progress</span>
-      </div>
-      <h3 class="series-title">From Compression to Premium</h3>
-      <p class="series-desc">How technology services firms escape the Compression Zone and earn the Growth Premium. Six episodes on the arc from execution to indispensability.</p>
-      <div class="series-meta">6 episodes · Technology services strategy</div>
-    </a>
-
-    <a class="series-card" href="/series/frontier/">
-      <div class="series-card-top">
-        <div class="series-id">Frontier</div>
-        <span class="series-status coming"><span class="series-dot"></span>To write</span>
-      </div>
-      <h3 class="series-title">Graduation, Not Rejection</h3>
-      <p class="series-desc">When a client asks you to build a GCC, they are not leaving — they are graduating. Four parts on the reframe, the asset, the trap, and what the relationship becomes after.</p>
-      <div class="series-meta">4 parts · Technology services &amp; GCCs</div>
-    </a>
-
-    <a class="series-card" href="/series/compass/">
-      <div class="series-card-top">
-        <div class="series-id">Compass</div>
-        <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
-      </div>
-      <h3 class="series-title">Why Organisations Lose Their Direction</h3>
-      <p class="series-desc">Most organisations measure position and call it direction. The customer is true north. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
-      <div class="series-meta">9 episodes · Strategy &amp; customer centricity</div>
-    </a>
-
-    <div class="series-card">
-      <div class="series-card-top">
-        <div class="series-id">The Trust Equation</div>
-        <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
-      </div>
-      <h3 class="series-title">Security is a trust problem.</h3>
-      <p class="series-desc">Most security programmes are built as if the customer does not exist. This series names the structural problem and gives practitioners the language to make it visible to the people who govern it.</p>
-      <div class="series-meta">Security leadership · Boards · Compliance</div>
-    </div>
-
-    <div class="series-card">
-      <div class="series-card-top">
-        <div class="series-id">Leadership OS</div>
-        <span class="series-status coming"><span class="series-dot"></span>In pipeline</span>
-      </div>
-      <h3 class="series-title">The system underneath execution.</h3>
-      <p class="series-desc">How leaders build systems, not just habits. Four articles on the operating layer beneath execution — what holds when circumstances change.</p>
-      <div class="series-meta">4 articles · Leadership systems</div>
-    </div>
-
-    <div class="series-card">
-      <div class="series-card-top">
-        <div class="series-id">The Moving Target</div>
-        <span class="series-status coming"><span class="series-dot"></span>In pipeline</span>
-      </div>
-      <h3 class="series-title">Security does not sit still.</h3>
-      <p class="series-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy — not compliance.</p>
-      <div class="series-meta">7 articles · Technology strategy</div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ALL PUBLISHED ARTICLES -->
-{% assign all_posts = site.posts | where: "status", "published" | sort: "date" | reverse %}
-{% if all_posts.size > 0 %}
-<section class="section-wide">
-  <div class="section-label">All published articles</div>
-  <h2>{{ all_posts.size }} article{% if all_posts.size != 1 %}s{% endif %} published.</h2>
-  <div class="card-grid" style="margin-top:1.8rem;">
-    {% for post in all_posts %}
-    <div class="card" data-read-url="{{ post.url }}">
-      <div class="num">{{ post.date | date: "%d %b %Y" }}{% if post.series %} · {{ post.series }}{% endif %}</div>
-      <h3 style="margin-top:.3rem;font-size:1.1rem;">
-        <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">{{ post.title }}</a>
-      </h3>
-      <p style="font-size:.9rem;color:var(--muted);margin-top:.4rem;">{% if post.tldr %}{{ post.tldr | truncate: 140 }}{% else %}{{ post.excerpt | strip_html | truncate: 140 }}{% endif %}</p>
-      <a class="card-link" href="{{ post.url }}">Read</a>
-    </div>
-    {% endfor %}
+  <div style="margin-top:1.5rem;">
+    <a class="btn-secondary" href="/series/horizon/">Full series overview →</a>
   </div>
 </section>
 {% endif %}
+
+<!-- WHAT'S COMING -->
+<section class="section-wide">
+  <div class="section-label">What's coming</div>
+  <h2>Five more series in development.</h2>
+  <p class="prose" style="margin-top:.8rem;">Each series is structurally frozen before the first article is written. Architecture first, prose second — the same standard applied to Horizon.</p>
+  <ul class="art-coming-list">
+    <li>
+      <a href="/series/frontier/" class="art-coming-name">Frontier</a>
+      <span class="art-coming-desc">Graduation, Not Rejection · Technology services &amp; GCCs</span>
+      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>To write</span>
+    </li>
+    <li>
+      <a href="/series/compass/" class="art-coming-name">Compass</a>
+      <span class="art-coming-desc">Why Organisations Lose Their Direction · Strategy &amp; customer centricity</span>
+      <span class="series-status ideation" style="font-size:.55rem;"><span class="series-dot"></span>Ideation</span>
+    </li>
+    <li>
+      <span class="art-coming-name">The Trust Equation</span>
+      <span class="art-coming-desc">Security is a trust problem · Security leadership &amp; boards</span>
+      <span class="series-status ideation" style="font-size:.55rem;"><span class="series-dot"></span>Ideation</span>
+    </li>
+    <li>
+      <span class="art-coming-name">Leadership OS</span>
+      <span class="art-coming-desc">The system underneath execution · Leadership systems</span>
+      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>Pipeline</span>
+    </li>
+    <li>
+      <span class="art-coming-name">The Moving Target</span>
+      <span class="art-coming-desc">Network security as technology strategy</span>
+      <span class="series-status coming" style="font-size:.55rem;"><span class="series-dot"></span>Pipeline</span>
+    </li>
+  </ul>
+</section>
 
 <div class="section-ink">
   <div class="bleed-inner">
@@ -226,13 +199,3 @@ description: "Articles across leadership systems, technology strategy, and secur
     <p class="pull-quote">Each series is a single argument. <em>The articles are the proof, not the product.</em></p>
   </div>
 </div>
-
-<!-- LINKEDIN -->
-<section class="section-wide">
-  <div class="section-label">LinkedIn</div>
-  <h2>Thinking in public.</h2>
-  <p class="prose" style="margin-top:.8rem;">Short-form thinking on leadership, systems, and the practice of building organisations that hold. Published on a regular cadence — written to be useful, not to perform.</p>
-  <div class="hero-actions" style="margin-top:1.5rem;">
-    <a class="btn-primary" href="https://www.linkedin.com/in/lakshminarayanann/" target="_blank" rel="noopener">Follow on LinkedIn</a>
-  </div>
-</section>
