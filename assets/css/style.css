@@ -7661,6 +7661,240 @@ a.art-coming-name:hover { color: var(--primary); }
 }
 
 /* ── EPISODES ── */
+/* ── Gravity series page ── */
+
+/* Hero — five movers staggered */
+.grav-movers {
+  display: flex;
+  flex-direction: column;
+  gap: .1rem;
+  margin: 1.5rem 0 1.25rem;
+}
+.grav-movers span {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: rgba(255,255,255,.75);
+  line-height: 1.4;
+}
+.grav-metaphor {
+  font-size: .92rem;
+  color: rgba(255,255,255,.45);
+  line-height: 1.7;
+  font-style: italic;
+  max-width: 44ch;
+  margin: 0;
+}
+
+/* The question band */
+.grav-question-band { text-align: center; }
+.grav-question { display: flex; flex-direction: column; align-items: center; gap: .4rem; }
+.grav-question-not, .grav-question-but {
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.3);
+}
+.grav-question-q1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  color: rgba(255,255,255,.45);
+  font-style: italic;
+  margin: 0;
+}
+.grav-question-q2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.5rem, 4vw, 2.4rem);
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* Why section — contrasts */
+.grav-contrasts { display: flex; flex-direction: column; gap: 1.1rem; margin-top: 1.5rem; }
+.grav-contrast { display: flex; flex-direction: column; gap: .15rem; }
+.grav-contrast-a {
+  font-family: 'DM Sans', sans-serif;
+  font-size: .92rem;
+  color: var(--muted);
+}
+.grav-contrast-sep {
+  font-family: 'Playfair Display', serif;
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--text);
+  padding-left: 1rem;
+  border-left: 2px solid var(--primary);
+}
+.grav-why-close {
+  font-size: .9rem;
+  color: var(--muted);
+  line-height: 1.75;
+  margin-top: 2rem;
+  max-width: 56ch;
+}
+
+/* Central idea — invisible things */
+.grav-central-lead {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 .75rem;
+}
+.grav-central-body {
+  font-size: .92rem;
+  color: rgba(255,255,255,.6);
+  line-height: 1.75;
+  max-width: 52ch;
+  margin: 0 0 1.5rem;
+}
+.grav-invisible {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  margin-bottom: 1.75rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(255,255,255,.15);
+}
+.grav-invisible span {
+  font-family: 'DM Sans', sans-serif;
+  font-size: .88rem;
+  color: rgba(255,255,255,.5);
+  font-style: italic;
+}
+.grav-nothing {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 .25rem;
+}
+.grav-point {
+  font-family: 'DM Mono', monospace;
+  font-size: .78rem;
+  letter-spacing: .08em;
+  color: var(--primary);
+  margin: 0;
+}
+
+/* Canonical law */
+.grav-law {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin: 1.5rem 0 1.25rem;
+}
+.grav-law-line {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.3;
+}
+.grav-law-line--mid { color: var(--primary); }
+.grav-law-line--end { color: var(--muted); }
+.grav-canon-note {
+  font-family: 'DM Mono', monospace;
+  font-size: .68rem;
+  letter-spacing: .08em;
+  color: var(--faint);
+  margin: 0;
+}
+
+/* Topics — five items */
+.grav-topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.grav-topic {
+  padding: 1.25rem;
+  background: var(--surface-gradient);
+  border: 1px solid var(--border-soft);
+  border-top: 2px solid var(--primary);
+  border-radius: var(--radius-md);
+}
+.grav-topic-name {
+  font-family: 'Playfair Display', serif;
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: .4rem;
+}
+.grav-topic-desc { font-size: .8rem; color: var(--muted); line-height: 1.6; }
+
+/* Platform map */
+.grav-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .75rem;
+  margin: 1.5rem 0;
+}
+.grav-map-center { text-align: center; }
+.grav-map-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(255,255,255,.8);
+}
+.grav-map-name--gravity { font-size: 1.4rem; color: #fff; }
+.grav-map-role {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.35);
+  margin-top: .2rem;
+}
+.grav-map-branches { display: flex; gap: 3rem; justify-content: center; }
+.grav-map-branch { display: flex; flex-direction: column; align-items: center; gap: .3rem; }
+.grav-map-line {
+  width: 1px;
+  height: 1.5rem;
+  background: rgba(255,255,255,.2);
+}
+.grav-platform-body {
+  font-size: .88rem;
+  color: rgba(255,255,255,.5);
+  line-height: 1.75;
+  max-width: 56ch;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Close */
+.grav-close-body {
+  font-size: .95rem;
+  color: var(--muted);
+  line-height: 1.75;
+  max-width: 52ch;
+  margin: .75rem 0 0;
+}
+.grav-close-nots {
+  font-family: 'DM Mono', monospace;
+  font-size: .7rem;
+  letter-spacing: .07em;
+  color: var(--faint);
+  margin-top: .75rem;
+}
+
+/* The final line */
+.grav-final {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  font-style: italic;
+  color: rgba(255,255,255,.85);
+  line-height: 1.6;
+  max-width: 52ch;
+  margin: 0 auto;
+}
+
 /* ── Discovery manifesto page ── */
 .disc-beliefs {
   display: flex;

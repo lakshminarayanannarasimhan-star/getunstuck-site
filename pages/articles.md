@@ -122,15 +122,15 @@ description: "Articles across leadership systems, technology strategy, and secur
       <div class="series-meta">9 episodes · Strategy</div>
     </a>
 
-    <div class="series-card">
+    <a class="series-card" href="/series/gravity/">
       <div class="series-card-top">
         <div class="series-id">Gravity</div>
-        <span class="series-status coming"><span class="series-dot"></span>To create</span>
+        <span class="series-status coming"><span class="series-dot"></span>Coming</span>
       </div>
-      <h3 class="series-title">Coming.</h3>
-      <p class="series-desc">In development.</p>
-      <div class="series-meta">Series · Pipeline</div>
-    </div>
+      <h3 class="series-title">A Theory of Value</h3>
+      <p class="series-desc">Value is never seen directly. We only know it exists by watching what moves toward it.</p>
+      <div class="series-meta">Essays · Value · Strategy · Technology</div>
+    </a>
 
     <a class="series-card" href="/series/discovery/">
       <div class="series-card-top">
