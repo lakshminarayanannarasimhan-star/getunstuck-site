@@ -152,6 +152,16 @@ description: "Articles across leadership systems, technology strategy, and secur
       <div class="series-meta">7 articles · Technology strategy</div>
     </div>
 
+    <a class="series-card" href="/series/discovery/">
+      <div class="series-card-top">
+        <div class="series-id">Discovery</div>
+        <span class="series-status coming"><span class="series-dot"></span>2027</span>
+      </div>
+      <h3 class="series-title">The discipline of seeing before solving.</h3>
+      <p class="series-desc">Most organisations have no shortage of solutions. They have a shortage of discovery. Thirteen episodes on staying observation-driven.</p>
+      <div class="series-meta">13 episodes · Strategy · Leadership</div>
+    </a>
+
   </div>
 </section>
 
