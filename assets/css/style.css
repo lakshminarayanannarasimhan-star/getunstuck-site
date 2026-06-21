@@ -7661,6 +7661,40 @@ a.art-coming-name:hover { color: var(--primary); }
 }
 
 /* ── EPISODES ── */
+/* ── Discovery manifesto page ── */
+.disc-beliefs {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(255,255,255,.15);
+}
+.disc-beliefs p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: .92rem;
+  color: rgba(255,255,255,.65);
+  line-height: 1.5;
+  margin: 0;
+}
+.disc-practice {
+  font-family: 'DM Mono', monospace;
+  font-size: .72rem;
+  letter-spacing: .07em;
+  color: rgba(255,255,255,.4);
+  margin-top: 1.5rem;
+  font-style: italic;
+}
+.disc-closing {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 52ch;
+  margin: 0 auto;
+}
+
 /* ── Discovery Loop ── */
 .disc-loop {
   display: flex;
