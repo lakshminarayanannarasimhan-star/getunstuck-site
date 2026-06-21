@@ -7696,12 +7696,41 @@ a.art-coming-name:hover { color: var(--primary); }
 }
 
 /* ── Discovery Loop ── */
+.disc-loop-outer {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 1.75rem;
+  margin-right: 2.5rem;
+}
+/* Right-side return bracket */
+.disc-loop-outer::before {
+  content: '';
+  position: absolute;
+  right: -28px;
+  top: 16px;
+  bottom: 16px;
+  width: 20px;
+  border: 1.5px solid var(--primary);
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  opacity: .45;
+}
+/* Up arrow at top of bracket */
+.disc-loop-outer::after {
+  content: '↑';
+  position: absolute;
+  right: -22px;
+  top: 4px;
+  font-size: .65rem;
+  color: var(--primary);
+  opacity: .7;
+}
 .disc-loop {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0;
-  margin-top: 1.75rem;
   padding-left: .5rem;
 }
 .disc-loop-node {
