@@ -79,7 +79,7 @@ description: "Articles across leadership systems, technology strategy, and secur
         <div class="pub-proof-large-label">Drills</div>
       </div>
       <div class="pub-proof-large-item">
-        <div class="pub-proof-large-num">6</div>
+        <div class="pub-proof-large-num">8</div>
         <div class="pub-proof-large-label">Series planned</div>
       </div>
     </div>
@@ -89,7 +89,7 @@ description: "Articles across leadership systems, technology strategy, and secur
 
 <!-- SERIES GRID — visual cards, ecosystem visible -->
 <section class="section-wide">
-  <div class="section-label">Six series · One platform</div>
+  <div class="section-label">Eight series · One platform</div>
   <div class="series-grid" style="margin-top:1.5rem;">
 
     <a class="series-card" href="/series/horizon/">
@@ -124,6 +124,26 @@ description: "Articles across leadership systems, technology strategy, and secur
 
     <div class="series-card">
       <div class="series-card-top">
+        <div class="series-id">Gravity</div>
+        <span class="series-status coming"><span class="series-dot"></span>To create</span>
+      </div>
+      <h3 class="series-title">Coming.</h3>
+      <p class="series-desc">In development.</p>
+      <div class="series-meta">Series · Pipeline</div>
+    </div>
+
+    <a class="series-card" href="/series/discovery/">
+      <div class="series-card-top">
+        <div class="series-id">Discovery</div>
+        <span class="series-status coming"><span class="series-dot"></span>2027</span>
+      </div>
+      <h3 class="series-title">The discipline of seeing before solving.</h3>
+      <p class="series-desc">Most organisations have no shortage of solutions. They have a shortage of discovery. Thirteen episodes on staying observation-driven.</p>
+      <div class="series-meta">13 episodes · Strategy · Leadership</div>
+    </a>
+
+    <div class="series-card">
+      <div class="series-card-top">
         <div class="series-id">The Trust Equation</div>
         <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
       </div>
@@ -151,16 +171,6 @@ description: "Articles across leadership systems, technology strategy, and secur
       <p class="series-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as strategy.</p>
       <div class="series-meta">7 articles · Technology strategy</div>
     </div>
-
-    <a class="series-card" href="/series/discovery/">
-      <div class="series-card-top">
-        <div class="series-id">Discovery</div>
-        <span class="series-status coming"><span class="series-dot"></span>2027</span>
-      </div>
-      <h3 class="series-title">The discipline of seeing before solving.</h3>
-      <p class="series-desc">Most organisations have no shortage of solutions. They have a shortage of discovery. Thirteen episodes on staying observation-driven.</p>
-      <div class="series-meta">13 episodes · Strategy · Leadership</div>
-    </a>
 
   </div>
 </section>
