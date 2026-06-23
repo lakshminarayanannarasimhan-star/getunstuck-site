@@ -79,19 +79,21 @@ description: "Articles across leadership systems, technology strategy, and secur
         <div class="pub-proof-large-label">Drills</div>
       </div>
       <div class="pub-proof-large-item">
-        <div class="pub-proof-large-num">8</div>
-        <div class="pub-proof-large-label">Series planned</div>
+        <div class="pub-proof-large-num">4</div>
+        <div class="pub-proof-large-label">Themes</div>
       </div>
     </div>
   </div>
 
 </div>
 
-<!-- SERIES GRID — visual cards, ecosystem visible -->
-<section class="section-wide">
-  <div class="section-label">Eight series · One platform</div>
-  <div class="series-grid" style="margin-top:1.5rem;">
-
+<!-- ── BUSINESS AND STRATEGY ── -->
+<section class="section-wide art-theme-section">
+  <div class="art-theme-header">
+    <div class="art-theme-label">Business and Strategy</div>
+    <p class="art-theme-desc">How value is created, how organisations lose direction, and what it takes to grow in an era of structural change.</p>
+  </div>
+  <div class="series-grid">
     <a class="series-card" href="/series/horizon/">
       <div class="series-card-top">
         <div class="series-id">Horizon</div>
@@ -101,17 +103,15 @@ description: "Articles across leadership systems, technology strategy, and secur
       <p class="series-desc">Technology services in the age of GenAI and GCCs. Six episodes on the arc from execution to indispensability.</p>
       <div class="series-meta">6 episodes · 4 published</div>
     </a>
-
-    <a class="series-card" href="/series/frontier/">
+    <a class="series-card" href="/series/gravity/">
       <div class="series-card-top">
-        <div class="series-id">Frontier</div>
-        <span class="series-status coming"><span class="series-dot"></span>To write</span>
+        <div class="series-id">Gravity</div>
+        <span class="series-status coming"><span class="series-dot"></span>Coming</span>
       </div>
-      <h3 class="series-title">Graduation, Not Rejection</h3>
-      <p class="series-desc">When a client asks you to build a GCC, they are not leaving — they are graduating.</p>
-      <div class="series-meta">4 parts · Technology services</div>
+      <h3 class="series-title">A Theory of Value</h3>
+      <p class="series-desc">Value is never seen directly. We only know it exists by watching what moves toward it.</p>
+      <div class="series-meta">Essays · Value · Strategy</div>
     </a>
-
     <a class="series-card" href="/series/compass/">
       <div class="series-card-top">
         <div class="series-id">Compass</div>
@@ -121,17 +121,72 @@ description: "Articles across leadership systems, technology strategy, and secur
       <p class="series-desc">The customer is true north. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
       <div class="series-meta">9 episodes · Strategy</div>
     </a>
-
-    <a class="series-card" href="/series/gravity/">
+    <a class="series-card" href="/series/frontier/">
       <div class="series-card-top">
-        <div class="series-id">Gravity</div>
-        <span class="series-status coming"><span class="series-dot"></span>Coming</span>
+        <div class="series-id">Frontier</div>
+        <span class="series-status coming"><span class="series-dot"></span>To write</span>
       </div>
-      <h3 class="series-title">A Theory of Value</h3>
-      <p class="series-desc">Value is never seen directly. We only know it exists by watching what moves toward it.</p>
-      <div class="series-meta">Essays · Value · Strategy · Technology</div>
+      <h3 class="series-title">Graduation, Not Rejection</h3>
+      <p class="series-desc">When a client asks you to build a GCC, they are not leaving — they are graduating.</p>
+      <div class="series-meta">4 parts · Technology services</div>
     </a>
+  </div>
+</section>
 
+<!-- ── TECHNOLOGY AND STRATEGY ── -->
+<section class="section-wide art-theme-section">
+  <div class="art-theme-header">
+    <div class="art-theme-label">Technology and Strategy</div>
+    <p class="art-theme-desc">Security, trust, and risk as strategic problems — not technical ones.</p>
+  </div>
+  <div class="series-grid">
+    <div class="series-card">
+      <div class="series-card-top">
+        <div class="series-id">The Trust Equation</div>
+        <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
+      </div>
+      <h3 class="series-title">Security is a trust problem.</h3>
+      <p class="series-desc">Most security programmes are built as if the customer does not exist. This series names the structural problem.</p>
+      <div class="series-meta">Security leadership · Boards</div>
+    </div>
+    <div class="series-card">
+      <div class="series-card-top">
+        <div class="series-id">The Moving Target</div>
+        <span class="series-status coming"><span class="series-dot"></span>Pipeline</span>
+      </div>
+      <h3 class="series-title">Security does not sit still.</h3>
+      <p class="series-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as technology strategy.</p>
+      <div class="series-meta">7 articles · Technology strategy</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── LEADERSHIP ── -->
+<section class="section-wide art-theme-section">
+  <div class="art-theme-header">
+    <div class="art-theme-label">Leadership</div>
+    <p class="art-theme-desc">How leaders build systems rather than habits — and what holds when circumstances change.</p>
+  </div>
+  <div class="series-grid">
+    <a class="series-card" href="/los/">
+      <div class="series-card-top">
+        <div class="series-id">Leadership OS</div>
+        <span class="series-status live"><span class="series-dot"></span>Live</span>
+      </div>
+      <h3 class="series-title">The Leadership Operating System</h3>
+      <p class="series-desc">A lifelong practice system. 34 capabilities across 6 domains. Capability counted as installed only when it performs, sustains, transfers, and survives absence.</p>
+      <div class="series-meta">34 capabilities · 6 domains · 8 belts</div>
+    </a>
+  </div>
+</section>
+
+<!-- ── THINKING AND MENTAL MODELS ── -->
+<section class="section-wide art-theme-section">
+  <div class="art-theme-header">
+    <div class="art-theme-label">Thinking &amp; Mental Models</div>
+    <p class="art-theme-desc">The discipline of observation before conclusion — how to see before solving.</p>
+  </div>
+  <div class="series-grid">
     <a class="series-card" href="/series/discovery/">
       <div class="series-card-top">
         <div class="series-id">Discovery</div>
@@ -139,39 +194,8 @@ description: "Articles across leadership systems, technology strategy, and secur
       </div>
       <h3 class="series-title">The discipline of seeing before solving.</h3>
       <p class="series-desc">Most organisations have no shortage of solutions. They have a shortage of discovery. Thirteen episodes on staying observation-driven.</p>
-      <div class="series-meta">13 episodes · Strategy · Leadership</div>
+      <div class="series-meta">13 episodes · Methodology</div>
     </a>
-
-    <div class="series-card">
-      <div class="series-card-top">
-        <div class="series-id">The Trust Equation</div>
-        <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
-      </div>
-      <h3 class="series-title">Security is a trust problem.</h3>
-      <p class="series-desc">Most security programmes are built as if the customer does not exist.</p>
-      <div class="series-meta">Security leadership · Boards</div>
-    </div>
-
-    <div class="series-card">
-      <div class="series-card-top">
-        <div class="series-id">Leadership OS</div>
-        <span class="series-status coming"><span class="series-dot"></span>Pipeline</span>
-      </div>
-      <h3 class="series-title">The system underneath execution.</h3>
-      <p class="series-desc">How leaders build systems, not just habits. Four articles on what holds when circumstances change.</p>
-      <div class="series-meta">4 articles · Leadership systems</div>
-    </div>
-
-    <div class="series-card">
-      <div class="series-card-top">
-        <div class="series-id">The Moving Target</div>
-        <span class="series-status coming"><span class="series-dot"></span>Pipeline</span>
-      </div>
-      <h3 class="series-title">Security does not sit still.</h3>
-      <p class="series-desc">Every technology shift redistributes where risk concentrates. Seven articles on network security as strategy.</p>
-      <div class="series-meta">7 articles · Technology strategy</div>
-    </div>
-
   </div>
 </section>
 

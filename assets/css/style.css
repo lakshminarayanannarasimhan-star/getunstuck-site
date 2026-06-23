@@ -4633,6 +4633,24 @@ a.pub-series-row:hover { opacity: .85; }
 }
 .pub-outcomes--standalone .pub-outcome-row:last-child { border-bottom: none; }
 
+/* ── Articles: themed sections ── */
+.art-theme-section { padding-top: clamp(2rem,4vw,3rem); }
+.art-theme-section + .art-theme-section { border-top: 1px solid var(--border-soft); }
+.art-theme-header { margin-bottom: 1.5rem; }
+.art-theme-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: .4rem;
+}
+.art-theme-desc {
+  font-size: .85rem;
+  color: var(--faint);
+  line-height: 1.6;
+  max-width: 56ch;
+}
+
 /* ── Articles: series overview rows ── */
 .art-series-overview { padding-top: 1.5rem; padding-bottom: 1.5rem; }
 .art-series-rows {
