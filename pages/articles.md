@@ -48,26 +48,24 @@ description: "Articles across leadership systems, technology strategy, and secur
     <h1 class="pub-info-title">The gap between knowing and doing is not a knowledge problem.</h1>
     <p class="pub-info-sub">Most leadership writing stops after the argument. This platform is built for the next step.</p>
 
-    <div class="art-cycle">
-      <div class="art-cycle-row">
-        <div class="art-cycle-node art-cycle-node--start">Read</div>
-        <div class="art-cycle-arrow">→</div>
-        <div class="art-cycle-node">Practice</div>
-        <div class="art-cycle-arrow">→</div>
-        <div class="art-cycle-node">Apply</div>
-      </div>
-      <div class="art-cycle-bend">
-        <div class="art-cycle-bend-left">↺</div>
-        <div class="art-cycle-bend-right">↓</div>
-      </div>
-      <div class="art-cycle-row art-cycle-row--reverse">
-        <div class="art-cycle-node art-cycle-node--outcome">Results</div>
-        <div class="art-cycle-arrow">←</div>
-        <div class="art-cycle-node">Feedback</div>
-        <div class="art-cycle-arrow">←</div>
-        <div class="art-cycle-node">Reflect</div>
-      </div>
-    </div>
+    <nav class="art-theme-nav">
+      <a class="art-theme-nav-item" href="#business-strategy">
+        <span class="art-theme-nav-name">Business and Strategy</span>
+        <span class="art-theme-nav-count">4 series</span>
+      </a>
+      <a class="art-theme-nav-item" href="#technology-strategy">
+        <span class="art-theme-nav-name">Technology and Strategy</span>
+        <span class="art-theme-nav-count">2 series</span>
+      </a>
+      <a class="art-theme-nav-item" href="#leadership">
+        <span class="art-theme-nav-name">Leadership</span>
+        <span class="art-theme-nav-count">1 series</span>
+      </a>
+      <a class="art-theme-nav-item" href="#thinking-models">
+        <span class="art-theme-nav-name">Thinking &amp; Mental Models</span>
+        <span class="art-theme-nav-count">1 series</span>
+      </a>
+    </nav>
 
     <div class="pub-proof-large">
       <div class="pub-proof-large-item">
@@ -88,7 +86,7 @@ description: "Articles across leadership systems, technology strategy, and secur
 </div>
 
 <!-- ── BUSINESS AND STRATEGY ── -->
-<section class="section-wide art-theme-section">
+<section class="section-wide art-theme-section" id="business-strategy">
   <div class="art-theme-header">
     <div class="art-theme-label">Business and Strategy</div>
     <p class="art-theme-desc">How value is created, how organisations lose direction, and what it takes to grow in an era of structural change.</p>
@@ -134,7 +132,7 @@ description: "Articles across leadership systems, technology strategy, and secur
 </section>
 
 <!-- ── TECHNOLOGY AND STRATEGY ── -->
-<section class="section-wide art-theme-section">
+<section class="section-wide art-theme-section" id="technology-strategy">
   <div class="art-theme-header">
     <div class="art-theme-label">Technology and Strategy</div>
     <p class="art-theme-desc">Security, trust, and risk as strategic problems — not technical ones.</p>
@@ -162,7 +160,7 @@ description: "Articles across leadership systems, technology strategy, and secur
 </section>
 
 <!-- ── LEADERSHIP ── -->
-<section class="section-wide art-theme-section">
+<section class="section-wide art-theme-section" id="leadership">
   <div class="art-theme-header">
     <div class="art-theme-label">Leadership</div>
     <p class="art-theme-desc">How leaders build systems rather than habits — and what holds when circumstances change.</p>
@@ -181,7 +179,7 @@ description: "Articles across leadership systems, technology strategy, and secur
 </section>
 
 <!-- ── THINKING AND MENTAL MODELS ── -->
-<section class="section-wide art-theme-section">
+<section class="section-wide art-theme-section" id="thinking-models">
   <div class="art-theme-header">
     <div class="art-theme-label">Thinking &amp; Mental Models</div>
     <p class="art-theme-desc">The discipline of observation before conclusion — how to see before solving.</p>

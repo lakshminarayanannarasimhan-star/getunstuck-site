@@ -44,24 +44,30 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 
     <div class="hp-hero-right reveal d3">
       <div class="hp-toc">
-        <div class="hp-toc-label">Choose your path</div>
+        <div class="hp-toc-label">Four themes · Eight series</div>
 
-        <a class="hp-path-dark" href="/articles/">
-          <div class="hp-path-dark-label">Read</div>
-          <p class="hp-path-dark-desc">Articles built from first principles. Each series is a single argument delivered across multiple pieces — not a list of topics.</p>
-          <div class="hp-path-dark-foot">Executives · Managers · Technology leaders <span class="hp-path-dark-arrow">→</span></div>
+        <a class="hp-path-dark" href="/articles/#business-strategy">
+          <div class="hp-path-dark-label">Business and Strategy</div>
+          <p class="hp-path-dark-desc">How value is created, how organisations lose direction, and what it takes to grow in an era of structural change.</p>
+          <div class="hp-path-dark-foot">Horizon · Gravity · Compass · Frontier <span class="hp-path-dark-arrow">→</span></div>
         </a>
 
-        <a class="hp-path-dark" href="/books/">
-          <div class="hp-path-dark-label">Think</div>
-          <p class="hp-path-dark-desc">Books that codify ideas into lasting models. One shift per book — no filler, no padding.</p>
-          <div class="hp-path-dark-foot">Leaders building mental models <span class="hp-path-dark-arrow">→</span></div>
+        <a class="hp-path-dark" href="/articles/#technology-strategy">
+          <div class="hp-path-dark-label">Technology and Strategy</div>
+          <p class="hp-path-dark-desc">Security, trust, and risk as strategic problems — not technical ones.</p>
+          <div class="hp-path-dark-foot">The Trust Equation · The Moving Target <span class="hp-path-dark-arrow">→</span></div>
         </a>
 
         <a class="hp-path-dark" href="/los/">
-          <div class="hp-path-dark-label">Practice</div>
-          <p class="hp-path-dark-desc">The LOS and its drills. Capability only installed when it performs, sustains, transfers, and survives absence.</p>
-          <div class="hp-path-dark-foot">Leaders developing capability <span class="hp-path-dark-arrow">→</span></div>
+          <div class="hp-path-dark-label">Leadership</div>
+          <p class="hp-path-dark-desc">How leaders build systems rather than habits — and what holds when circumstances change.</p>
+          <div class="hp-path-dark-foot">Leadership OS <span class="hp-path-dark-arrow">→</span></div>
+        </a>
+
+        <a class="hp-path-dark" href="/articles/#thinking-models">
+          <div class="hp-path-dark-label">Thinking &amp; Mental Models</div>
+          <p class="hp-path-dark-desc">The discipline of observation before conclusion — how to see before solving.</p>
+          <div class="hp-path-dark-foot">Discovery <span class="hp-path-dark-arrow">→</span></div>
         </a>
 
       </div>
