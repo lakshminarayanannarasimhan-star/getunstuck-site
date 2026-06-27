@@ -1,0 +1,157 @@
+---
+layout: default
+---
+
+<div class="theory-wrap">
+
+  <!-- THEORY HEADER -->
+  <header class="theory-header">
+    <nav class="art-breadcrumb">
+      <a href="/">Home</a>
+      <span>›</span>
+      <a href="/theories/">Theories</a>
+      <span>›</span>
+      <span>{{ page.title }}</span>
+    </nav>
+
+    <div class="theory-meta-row">
+      <span class="theory-badge">
+        {% if page.maturity == "theory" %}Theory
+        {% elsif page.maturity == "emerging" %}Emerging Theory
+        {% else %}Theory{% endif %}
+      </span>
+      {% if page.domain %}
+      {% for d in page.domain %}
+      <span class="art-genre">{{ d }}</span>
+      {% endfor %}
+      {% endif %}
+      {% if page.theory_version %}
+      <span class="theory-version">v{{ page.theory_version }}</span>
+      {% endif %}
+    </div>
+
+    <h1 class="theory-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="theory-subtitle">{{ page.subtitle }}</p>{% endif %}
+  </header>
+
+  <!-- SECTION 1: GOVERNING QUESTION -->
+  {% if page.governing_question %}
+  <section class="theory-section theory-section--question">
+    <div class="theory-section-label">Governing Question</div>
+    <p class="theory-question">{{ page.governing_question }}</p>
+  </section>
+  {% endif %}
+
+  <!-- SECTION 2: THE MECHANISM -->
+  {% if page.mechanism %}
+  <section class="theory-section">
+    <div class="theory-section-label">The Mechanism</div>
+    <p class="theory-mechanism-intro">{{ page.mechanism.intro }}</p>
+    {% if page.mechanism.steps %}
+    <div class="theory-mechanism-steps">
+      {% for step in page.mechanism.steps %}
+      <div class="theory-step">{{ step }}</div>
+      {% unless forloop.last %}<div class="theory-step-arrow">↓</div>{% endunless %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if page.mechanism.note %}
+    <p class="theory-mechanism-note">{{ page.mechanism.note }}</p>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  <!-- SECTION 3: FIRST PRINCIPLES -->
+  {% if page.first_principles %}
+  <section class="theory-section">
+    <div class="theory-section-label">First Principles</div>
+    <ul class="theory-principles">
+      {% for principle in page.first_principles %}
+      <li class="theory-principle">{{ principle }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <!-- SECTION 4: DISTINCTIONS -->
+  {% if page.distinctions %}
+  <section class="theory-section">
+    <div class="theory-section-label">Distinctions</div>
+    <div class="theory-distinctions">
+      {% for d in page.distinctions %}
+      <div class="theory-distinction">
+        <span class="theory-distinction-a">{{ d.a }}</span>
+        <span class="theory-distinction-sep">≠</span>
+        <span class="theory-distinction-b">{{ d.b }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- SECTION 5: LAWS -->
+  {% if page.related_laws %}
+  <section class="theory-section">
+    <div class="theory-section-label">Laws</div>
+    <p class="theory-laws-intro">Compressed forms of this theory — see the <a href="/laws/">Laws Library</a>.</p>
+    <ul class="theory-laws-list">
+      {% for law in page.related_laws %}
+      <li>
+        {% if law.url %}<a href="{{ law.url }}">{% endif %}
+        Law #{{ law.number }} — {{ law.statement }}
+        {% if law.url %}</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <!-- SECTION 6: OPEN QUESTIONS -->
+  {% if page.open_questions %}
+  <section class="theory-section theory-section--questions">
+    <div class="theory-section-label">Open Questions</div>
+    <p class="theory-oq-intro">What this theory does not yet answer.</p>
+    <ul class="theory-oq-list">
+      {% for q in page.open_questions %}
+      <li>{{ q }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <!-- EVOLUTION (optional) -->
+  {% if page.evolution %}
+  <section class="theory-section theory-section--evolution">
+    <div class="theory-section-label">Evolution</div>
+    <p class="theory-evolution-note">This theory is not finished. The versions below trace how it has developed.</p>
+    <div class="theory-evolution-timeline">
+      {% for v in page.evolution %}
+      <div class="theory-ev-item">
+        <div class="theory-ev-version">v{{ v.version }}</div>
+        <div class="theory-ev-body">
+          <div class="theory-ev-statement">{{ v.statement }}</div>
+          {% if v.note %}<div class="theory-ev-note">{{ v.note }}</div>{% endif %}
+        </div>
+      </div>
+      {% unless forloop.last %}<div class="theory-ev-connector">↓</div>{% endunless %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- BODY CONTENT (any additional markdown) -->
+  {% if content != "" %}
+  <div class="theory-body">
+    {{ content }}
+  </div>
+  {% endif %}
+
+  <!-- APPLICATIONS LINK -->
+  <div class="theory-nav">
+    <a class="btn-secondary" href="/theories/">← All Theories</a>
+    {% if page.applications_url %}
+    <a class="btn-primary" href="{{ page.applications_url }}">See Applications →</a>
+    {% endif %}
+  </div>
+
+</div>

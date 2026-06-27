@@ -1719,6 +1719,139 @@ a.pub-series-row:hover { opacity: .85; }
    8b. LAWS LAYOUT
    ========================================= */
 
+/* ── Theory layout ── */
+.theory-wrap { max-width: 780px; }
+
+.theory-header { margin-bottom: 2.5rem; }
+.theory-meta-row { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.theory-badge {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .2rem .65rem;
+  border-radius: 99px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.theory-version {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  color: var(--faint);
+  letter-spacing: .06em;
+}
+.theory-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 .5rem;
+  color: var(--text);
+}
+.theory-subtitle { font-size: 1rem; color: var(--muted); line-height: 1.6; margin: 0; }
+
+/* Sections */
+.theory-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+.theory-section:last-of-type { border-bottom: none; }
+.theory-section-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+/* Section 1: Governing Question */
+.theory-question {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: 600;
+  font-style: italic;
+  color: var(--text);
+  line-height: 1.4;
+  margin: 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--primary);
+}
+
+/* Section 2: Mechanism */
+.theory-mechanism-intro { font-size: .92rem; color: var(--muted); line-height: 1.7; margin: 0 0 1.5rem; }
+.theory-mechanism-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  margin: 0 0 1.25rem;
+}
+.theory-step {
+  font-family: 'DM Mono', monospace;
+  font-size: .78rem;
+  letter-spacing: .06em;
+  padding: .45rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  color: var(--muted);
+  background: var(--surface-soft);
+}
+.theory-step-arrow { font-size: .7rem; color: var(--faint); padding: .15rem 1rem; }
+.theory-mechanism-note { font-size: .82rem; color: var(--faint); font-style: italic; margin: 0; }
+
+/* Section 3: First Principles */
+.theory-principles { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .6rem; }
+.theory-principle {
+  padding: .65rem 1rem;
+  background: var(--surface-soft);
+  border-left: 2px solid var(--primary);
+  font-size: .88rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* Section 4: Distinctions */
+.theory-distinctions { display: flex; flex-direction: column; gap: .75rem; }
+.theory-distinction { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.theory-distinction-a, .theory-distinction-b {
+  font-family: 'Playfair Display', serif;
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.theory-distinction-b { color: var(--muted); }
+.theory-distinction-sep { font-size: 1.1rem; color: var(--primary); font-weight: 600; }
+
+/* Section 5: Laws */
+.theory-laws-intro { font-size: .85rem; color: var(--muted); margin: 0 0 .75rem; }
+.theory-laws-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .4rem; }
+.theory-laws-list li { font-size: .88rem; color: var(--muted); }
+.theory-laws-list a { color: var(--primary); text-decoration: none; }
+.theory-laws-list a:hover { text-decoration: underline; }
+
+/* Section 6: Open Questions */
+.theory-oq-intro { font-size: .85rem; color: var(--faint); margin: 0 0 .75rem; font-style: italic; }
+.theory-oq-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .5rem; }
+.theory-oq-list li { font-size: .88rem; color: var(--muted); padding-left: 1rem; border-left: 1px solid var(--border); }
+
+/* Evolution */
+.theory-section--evolution { background: var(--surface-soft); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft) !important; }
+.theory-evolution-note { font-size: .82rem; color: var(--faint); font-style: italic; margin: 0 0 1.25rem; }
+.theory-evolution-timeline { display: flex; flex-direction: column; gap: 0; }
+.theory-ev-item { display: flex; align-items: flex-start; gap: 1rem; }
+.theory-ev-version { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .08em; color: var(--primary); flex-shrink: 0; padding-top: .1rem; width: 32px; }
+.theory-ev-statement { font-size: .88rem; font-weight: 500; color: var(--text); }
+.theory-ev-note { font-size: .78rem; color: var(--faint); margin-top: .2rem; }
+.theory-ev-connector { font-size: .7rem; color: var(--faint); padding: .15rem 0 .15rem 2rem; }
+
+/* Body + Nav */
+.theory-body { margin-top: 2rem; }
+.theory-nav { display: flex; gap: 1rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+
 /* ── Law body sections ── */
 .law-wrap { max-width: 860px; }
 .law-body { margin-top: 2rem; }
