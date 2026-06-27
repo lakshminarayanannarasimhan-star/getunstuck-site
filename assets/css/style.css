@@ -1719,6 +1719,38 @@ a.pub-series-row:hover { opacity: .85; }
    8b. LAWS LAYOUT
    ========================================= */
 
+/* ── The Standard page ── */
+.standard-section { display: flex; flex-direction: column; gap: 0; max-width: 720px; }
+.standard-rule {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 1.25rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+.standard-rule:last-child { border-bottom: none; }
+.standard-rule-num {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .1em;
+  color: var(--primary);
+  padding-top: .2rem;
+}
+.standard-rule-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: .5rem;
+  line-height: 1.35;
+}
+.standard-rule-desc {
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.75;
+  margin: 0;
+}
+
 /* ── Distinctions page ── */
 .dist-grid {
   display: grid;
