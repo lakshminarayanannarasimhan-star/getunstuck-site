@@ -8,6 +8,8 @@ series_code: H
 article_code: H4
 series_position: 4
 series_total: 6
+artifact_type: application
+parent_theory: horizon
 status: published
 reading_time: 10
 image: /assets/img/articles/series-h/h4-ownership-ascent.png

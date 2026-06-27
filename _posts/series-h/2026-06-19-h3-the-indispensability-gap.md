@@ -8,6 +8,8 @@ series_code: H
 article_code: H3
 series_position: 3
 series_total: 6
+artifact_type: application
+parent_theory: horizon
 status: published
 reading_time: 10
 image: /assets/img/articles/series-h/h3-indispensability-gap.png

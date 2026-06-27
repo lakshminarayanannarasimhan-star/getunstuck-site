@@ -8,6 +8,8 @@ series_code: H
 article_code: H1
 series_position: 1
 series_total: 6
+artifact_type: application
+parent_theory: horizon
 status: published
 reading_time: 10
 excerpt: "There is a question that has started appearing in client conversations that did not appear five years ago. It sounds simple. It is not."

@@ -8,6 +8,8 @@ series_code: H
 article_code: H2
 series_position: 2
 series_total: 6
+artifact_type: application
+parent_theory: horizon
 status: published
 reading_time: 9
 image: /assets/img/articles/series-h/h2-trust-ceiling.png
