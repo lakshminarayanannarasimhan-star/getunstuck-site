@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Gravity
-permalink: /series/gravity/
+permalink: /theories/gravity/
+redirect_from:
+  - /theories/gravity/
 description: "Value is never seen directly. We only know it exists by watching what moves toward it. Gravity is a theory of value — what it is, how it behaves, and why the most valuable things often emit no signal at all."
 ---
 

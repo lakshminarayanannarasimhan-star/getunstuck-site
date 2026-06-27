@@ -44,7 +44,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
 
     <div class="hp-hero-right reveal d3">
       <div class="hp-toc">
-        <div class="hp-toc-label">Four themes · Eight series</div>
+        <div class="hp-toc-label">Four themes · Eight theories</div>
 
         <a class="hp-path-dark" href="/articles/#business-strategy">
           <div class="hp-path-dark-label">Business and Strategy</div>
@@ -239,7 +239,7 @@ description: "Leadership practitioner, author, and writer. 25 years building sys
         <a class="btn-primary" href="/articles/">All articles →</a>
       </div>
       <div class="hp-pubs-series">
-        <a class="hp-pub-row" href="/series/horizon/">
+        <a class="hp-pub-row" href="/theories/horizon/">
           <div class="hp-pub-id">Horizon</div>
           <div>
             <div class="hp-pub-title">From Compression to Premium</div>

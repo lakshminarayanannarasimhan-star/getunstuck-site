@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Discovery
-permalink: /series/discovery/
+permalink: /theories/discovery/
+redirect_from:
+  - /theories/discovery/
 description: "Discovery is a long-term research project exploring observation, questions, framing, constraints and strategic diagnosis. Publication begins when the practice is stronger than the opinion."
 ---
 

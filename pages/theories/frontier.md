@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Frontier
-permalink: /series/frontier/
+permalink: /theories/frontier/
+redirect_from:
+  - /theories/frontier/
 description: "A four-part series for the technology services executive asked to help a long-standing client build a GCC — and who must decide what that request means for the relationship, the revenue, and the work."
 ---
 

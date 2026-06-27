@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Horizon
-permalink: /series/horizon/
+permalink: /theories/horizon/
+redirect_from:
+  - /theories/horizon/
 description: "Technology services was built to help customers execute. The next generation will be built to help customers expand. A six-episode series on the arc from execution to indispensability — and what it takes to cross."
 ---
 

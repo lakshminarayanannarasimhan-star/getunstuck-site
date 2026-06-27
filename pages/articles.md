@@ -92,7 +92,7 @@ description: "Articles across leadership systems, technology strategy, and secur
     <p class="art-theme-desc">How value is created, how organisations lose direction, and what it takes to grow in an era of structural change.</p>
   </div>
   <div class="series-grid">
-    <a class="series-card" href="/series/horizon/">
+    <a class="series-card" href="/theories/horizon/">
       <div class="series-card-top">
         <div class="series-id">Horizon</div>
         <span class="series-status in-progress"><span class="series-dot"></span>In progress</span>
@@ -101,7 +101,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <p class="series-desc">Technology services in the age of GenAI and GCCs. Six episodes on the arc from execution to indispensability.</p>
       <div class="series-meta">6 episodes · 4 published</div>
     </a>
-    <a class="series-card" href="/series/gravity/">
+    <a class="series-card" href="/theories/gravity/">
       <div class="series-card-top">
         <div class="series-id">Gravity</div>
         <span class="series-status coming"><span class="series-dot"></span>Coming</span>
@@ -110,7 +110,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <p class="series-desc">Value is never seen directly. We only know it exists by watching what moves toward it.</p>
       <div class="series-meta">Essays · Value · Strategy</div>
     </a>
-    <a class="series-card" href="/series/compass/">
+    <a class="series-card" href="/theories/compass/">
       <div class="series-card-top">
         <div class="series-id">Compass</div>
         <span class="series-status ideation"><span class="series-dot"></span>Ideation</span>
@@ -119,7 +119,7 @@ description: "Articles across leadership systems, technology strategy, and secur
       <p class="series-desc">The customer is true north. Nine episodes on how the needle drifts — and what it takes to read it true.</p>
       <div class="series-meta">9 episodes · Strategy</div>
     </a>
-    <a class="series-card" href="/series/frontier/">
+    <a class="series-card" href="/theories/frontier/">
       <div class="series-card-top">
         <div class="series-id">Frontier</div>
         <span class="series-status coming"><span class="series-dot"></span>To write</span>
@@ -185,7 +185,7 @@ description: "Articles across leadership systems, technology strategy, and secur
     <p class="art-theme-desc">The discipline of observation before conclusion — how to see before solving.</p>
   </div>
   <div class="series-grid">
-    <a class="series-card" href="/series/discovery/">
+    <a class="series-card" href="/theories/discovery/">
       <div class="series-card-top">
         <div class="series-id">Discovery</div>
         <span class="series-status coming"><span class="series-dot"></span>2027</span>
@@ -261,7 +261,7 @@ description: "Articles across leadership systems, technology strategy, and secur
     {% endfor %}
   </div>
   <div style="margin-top:1.5rem;">
-    <a class="btn-secondary" href="/series/horizon/">Full series overview →</a>
+    <a class="btn-secondary" href="/theories/horizon/">Full series overview →</a>
   </div>
 </section>
 {% endif %}
