@@ -1719,6 +1719,46 @@ a.pub-series-row:hover { opacity: .85; }
    8b. LAWS LAYOUT
    ========================================= */
 
+/* ── Start Here page ── */
+.sh-section { padding-top: clamp(2rem,4vw,3rem); padding-bottom: clamp(2rem,4vw,3rem); border-bottom: 1px solid var(--border-soft); }
+.sh-section:last-of-type { border-bottom: none; }
+.sh-block { display: grid; grid-template-columns: 48px 1fr; gap: 1.5rem; max-width: 800px; }
+@media (max-width: 600px) { .sh-block { grid-template-columns: 1fr; } }
+.sh-num { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .12em; color: var(--primary); padding-top: .4rem; }
+.sh-heading { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 600; color: var(--text); margin-bottom: .75rem; }
+.sh-body { font-size: .9rem; color: var(--muted); line-height: 1.75; margin-bottom: .75rem; }
+.sh-body:last-child { margin-bottom: 0; }
+
+.sh-theories { display: flex; flex-direction: column; gap: .5rem; margin-top: 1.25rem; }
+.sh-theory {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: .65rem .9rem;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: border-color .15s, background .15s;
+}
+.sh-theory:hover { border-color: var(--primary); background: var(--primary-soft); }
+.sh-theory--emerging { opacity: .75; }
+.sh-theory-name { font-family: 'Playfair Display', serif; font-size: .92rem; font-weight: 600; color: var(--text); flex-shrink: 0; min-width: 80px; }
+.sh-theory-q { font-size: .82rem; color: var(--muted); flex: 1; line-height: 1.4; }
+.sh-theory-badge { font-family: 'DM Mono', monospace; font-size: .58rem; letter-spacing: .07em; color: var(--faint); flex-shrink: 0; }
+
+.sh-artifacts { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.25rem; }
+.sh-artifact { padding: 1rem; background: var(--surface-soft); border-radius: var(--radius-sm); border: 1px solid var(--border-soft); }
+.sh-artifact-name { font-family: 'Playfair Display', serif; font-size: .92rem; font-weight: 600; color: var(--text); margin-bottom: .35rem; }
+.sh-artifact-job { font-size: .78rem; color: var(--muted); line-height: 1.55; margin-bottom: .5rem; }
+.sh-artifact-link { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .07em; color: var(--primary); text-decoration: none; }
+.sh-artifact-link:hover { text-decoration: underline; }
+
+.sh-paths { display: flex; flex-direction: column; gap: .75rem; margin-top: 1.25rem; }
+.sh-path { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.sh-path-q { font-size: .88rem; color: var(--muted); flex: 1; }
+.sh-path-link { font-family: 'DM Mono', monospace; font-size: .68rem; letter-spacing: .07em; text-transform: uppercase; color: var(--primary); text-decoration: none; flex-shrink: 0; }
+.sh-path-link:hover { text-decoration: underline; }
+
 /* ── The Standard page ── */
 .standard-section { display: flex; flex-direction: column; gap: 0; max-width: 720px; }
 .standard-rule {
