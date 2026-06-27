@@ -1719,6 +1719,54 @@ a.pub-series-row:hover { opacity: .85; }
    8b. LAWS LAYOUT
    ========================================= */
 
+/* ── Theories index page ── */
+.theories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 0;
+}
+.theory-index-card {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1.5rem;
+  background: var(--surface-gradient);
+  border: 1px solid var(--border-soft);
+  border-top: 2px solid var(--primary);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: box-shadow .18s, transform .15s;
+}
+.theory-index-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.theory-index-card--emerging { border-top-color: var(--faint); }
+.theory-index-meta { display: flex; align-items: center; gap: .5rem; }
+.theory-index-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.theory-index-question {
+  font-size: .85rem;
+  color: var(--muted);
+  line-height: 1.6;
+  flex: 1;
+}
+.theory-index-domains {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .08em;
+  color: var(--faint);
+  text-transform: uppercase;
+}
+.theory-index-applications {
+  font-family: 'DM Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .06em;
+  color: var(--primary);
+}
+
 /* ── Theory layout ── */
 .theory-wrap { max-width: 780px; }
 
