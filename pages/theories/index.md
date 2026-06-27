@@ -69,9 +69,26 @@ description: "Five theories of executive reasoning. Each explains a fundamental 
 ═══════════════════════ -->
 <div class="section-ink">
   <div class="bleed-inner">
-    <div class="section-label">The test</div>
-    <p class="pull-quote">If yes, it is a theory. <em>If no, it is an application.</em></p>
-    <p style="color:rgba(255,255,255,.5);font-size:.9rem;margin-top:.75rem;max-width:52ch;line-height:1.7;">Can this explain reality outside the domain where it was first observed? Gravity was first seen in technology services. It now explains airports, luxury watches, universities, and pharma. The domain of origin is the first evidence — not the boundary of the theory.</p>
+    <div class="hz-thesis-grid">
+      <div>
+        <div class="section-label">The test</div>
+        <p class="pull-quote">Can this explain reality outside the domain where it was first observed? <em>If yes, it is a theory. If no, it is an application.</em></p>
+        <p style="color:rgba(255,255,255,.5);font-size:.88rem;margin-top:.9rem;max-width:44ch;line-height:1.75;">Gravity was first seen in technology services. It now explains airports, luxury watches, universities, and pharma. The domain of origin is the first evidence — not the boundary of the theory.</p>
+      </div>
+      <div class="hz-thesis-right">
+        <div class="hz-thesis-pair">
+          <div class="hz-tp-label">Theory</div>
+          <div class="hz-tp-items">Mechanism survives domain translation</div>
+          <div class="hz-tp-earns">Explains Kodak, Netflix, airports, and pharma with the same model</div>
+        </div>
+        <div class="hz-tp-crossing">— versus —</div>
+        <div class="hz-thesis-pair hz-thesis-pair-exp">
+          <div class="hz-tp-label">Application</div>
+          <div class="hz-tp-items">Mechanism requires domain context</div>
+          <div class="hz-tp-earns">Demonstrates what the theory looks like in technology services specifically</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
