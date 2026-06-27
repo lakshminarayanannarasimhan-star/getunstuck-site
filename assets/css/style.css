@@ -2035,10 +2035,42 @@ a.pub-series-row:hover { opacity: .85; }
 }
 
 /* ── Theory layout ── */
-.theory-wrap { max-width: 780px; }
 
-.theory-header { margin-bottom: 2.5rem; }
-.theory-meta-row { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin-bottom: 1rem; }
+/* Dark opening zone */
+.theory-opening {
+  background: var(--ink-gradient);
+  padding: clamp(3rem,6vw,5rem) clamp(1.5rem,4vw,3.5rem) clamp(2.5rem,5vw,4rem);
+  margin-left: calc(clamp(1.5rem,4vw,3.5rem) * -1);
+  margin-right: calc(clamp(1.5rem,4vw,3.5rem) * -1);
+  margin-top: calc(clamp(1.5rem,3vw,2rem) * -1);
+  margin-bottom: 0;
+}
+.theory-opening-inner { max-width: 780px; margin: 0 auto; }
+
+.theory-breadcrumb { margin-bottom: 1.5rem; }
+.theory-breadcrumb a, .theory-breadcrumb span { color: rgba(255,255,255,.4) !important; }
+.theory-breadcrumb a:hover { color: rgba(255,255,255,.75) !important; }
+
+.theory-opening-meta {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+.theory-domain-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.35);
+}
+.theory-version-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .06em;
+  color: rgba(255,255,255,.25);
+}
 .theory-badge {
   font-family: 'DM Mono', monospace;
   font-size: .6rem;
@@ -2047,30 +2079,39 @@ a.pub-series-row:hover { opacity: .85; }
   text-transform: uppercase;
   padding: .2rem .65rem;
   border-radius: 99px;
-  background: var(--primary-soft);
-  color: var(--primary);
-  border: 1px solid var(--primary);
+  background: rgba(255,255,255,.08);
+  color: rgba(255,255,255,.7);
+  border: 1px solid rgba(255,255,255,.2);
 }
-.theory-version {
-  font-family: 'DM Mono', monospace;
-  font-size: .6rem;
-  color: var(--faint);
-  letter-spacing: .06em;
-}
-.theory-title {
+.theory-opening-name {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-size: clamp(2.5rem, 6vw, 4rem);
   font-weight: 600;
-  line-height: 1.15;
-  margin: 0 0 .5rem;
-  color: var(--text);
+  color: #fff;
+  line-height: 1.05;
+  margin: 0 0 1.5rem;
 }
-.theory-subtitle { font-size: 1rem; color: var(--muted); line-height: 1.6; margin: 0; }
+.theory-opening-question {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.2rem, 3vw, 1.7rem);
+  font-style: italic;
+  color: var(--primary);
+  line-height: 1.45;
+  margin: 0;
+  max-width: 62ch;
+}
+
+/* Body */
+.theory-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
 
 /* Sections */
 .theory-section {
-  margin-bottom: 2.5rem;
-  padding-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
   border-bottom: 1px solid var(--border-soft);
 }
 .theory-section:last-of-type { border-bottom: none; }
@@ -2080,88 +2121,143 @@ a.pub-series-row:hover { opacity: .85; }
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--primary);
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
-/* Section 1: Governing Question */
-.theory-question {
-  font-family: 'Playfair Display', serif;
-  font-size: clamp(1.3rem, 3vw, 1.8rem);
-  font-weight: 600;
-  font-style: italic;
-  color: var(--text);
-  line-height: 1.4;
-  margin: 0;
-  padding-left: 1.25rem;
-  border-left: 3px solid var(--primary);
+/* Section 2: Mechanism — numbered flow */
+.theory-mechanism-intro { font-size: .92rem; color: var(--muted); line-height: 1.75; margin: 0 0 1.75rem; }
+.theory-mechanism-flow { display: flex; flex-direction: column; gap: 0; margin: 0 0 1.5rem; }
+.theory-flow-step {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  gap: .75rem;
+  align-items: baseline;
+  padding: .85rem 0;
+  border-bottom: 1px solid var(--border-soft);
 }
-
-/* Section 2: Mechanism */
-.theory-mechanism-intro { font-size: .92rem; color: var(--muted); line-height: 1.7; margin: 0 0 1.5rem; }
-.theory-mechanism-steps {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0;
-  margin: 0 0 1.25rem;
-}
-.theory-step {
+.theory-flow-step:last-child { border-bottom: none; }
+.theory-flow-num {
   font-family: 'DM Mono', monospace;
-  font-size: .78rem;
-  letter-spacing: .06em;
-  padding: .45rem 1rem;
-  border: 1px solid var(--border);
-  border-radius: 99px;
-  color: var(--muted);
-  background: var(--surface-soft);
+  font-size: .6rem;
+  letter-spacing: .08em;
+  color: var(--primary);
+  padding-top: .1rem;
 }
-.theory-step-arrow { font-size: .7rem; color: var(--faint); padding: .15rem 1rem; }
-.theory-mechanism-note { font-size: .82rem; color: var(--faint); font-style: italic; margin: 0; }
-
-/* Section 3: First Principles */
-.theory-principles { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .6rem; }
-.theory-principle {
-  padding: .65rem 1rem;
+.theory-flow-text { font-size: .9rem; color: var(--text); line-height: 1.55; }
+.theory-flow-connector { height: 0; } /* spacing handled by border */
+.theory-mechanism-note {
+  font-size: .84rem;
+  color: var(--faint);
+  font-style: italic;
+  margin: 0;
+  padding: 1rem 1.25rem;
   background: var(--surface-soft);
-  border-left: 2px solid var(--primary);
-  font-size: .88rem;
-  color: var(--text);
-  line-height: 1.5;
+  border-radius: var(--radius-sm);
+  border-left: 2px solid var(--border);
 }
 
-/* Section 4: Distinctions */
-.theory-distinctions { display: flex; flex-direction: column; gap: .75rem; }
-.theory-distinction { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+/* Section 3: First Principles — large numbered */
+.theory-principles-list { display: flex; flex-direction: column; gap: 0; }
+.theory-principle-item {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--border-soft);
+  align-items: baseline;
+}
+.theory-principle-item:last-child { border-bottom: none; }
+.theory-principle-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  opacity: .25;
+  line-height: 1;
+  transition: opacity .15s;
+}
+.theory-principle-item:hover .theory-principle-num { opacity: 1; }
+.theory-principle-text { font-size: .9rem; color: var(--text); line-height: 1.65; margin: 0; }
+
+/* Section 4: Distinctions — cards */
+.theory-distinctions-grid { display: flex; flex-direction: column; gap: .5rem; }
+.theory-distinction-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--surface-soft);
+  border-radius: var(--radius-sm);
+  flex-wrap: wrap;
+}
 .theory-distinction-a, .theory-distinction-b {
   font-family: 'Playfair Display', serif;
-  font-size: .95rem;
+  font-size: .98rem;
   font-weight: 600;
-  color: var(--text);
 }
+.theory-distinction-a { color: var(--text); }
 .theory-distinction-b { color: var(--muted); }
-.theory-distinction-sep { font-size: 1.1rem; color: var(--primary); font-weight: 600; }
+.theory-distinction-neq { font-size: 1.2rem; font-weight: 700; color: var(--primary); flex-shrink: 0; }
 
 /* Section 5: Laws */
-.theory-laws-intro { font-size: .85rem; color: var(--muted); margin: 0 0 .75rem; }
-.theory-laws-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .4rem; }
-.theory-laws-list li { font-size: .88rem; color: var(--muted); }
-.theory-laws-list a { color: var(--primary); text-decoration: none; }
-.theory-laws-list a:hover { text-decoration: underline; }
+.theory-laws-grid { display: flex; flex-direction: column; gap: 0; margin-bottom: .75rem; }
+.theory-law-item {
+  display: grid;
+  grid-template-columns: 68px 1fr;
+  gap: .75rem;
+  padding: .9rem 0;
+  border-bottom: 1px solid var(--border-soft);
+  align-items: baseline;
+}
+.theory-law-item:last-child { border-bottom: none; }
+.theory-law-num {
+  font-family: 'DM Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .08em;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+.theory-law-statement { font-size: .88rem; color: var(--muted); line-height: 1.55; margin: 0; }
+.theory-law-statement a { color: var(--primary); text-decoration: none; }
+.theory-law-statement a:hover { text-decoration: underline; }
+.theory-laws-footer { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .07em; color: var(--faint); margin: 0; }
+.theory-laws-footer a { color: var(--primary); text-decoration: none; }
 
 /* Section 6: Open Questions */
-.theory-oq-intro { font-size: .85rem; color: var(--faint); margin: 0 0 .75rem; font-style: italic; }
-.theory-oq-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .5rem; }
-.theory-oq-list li { font-size: .88rem; color: var(--muted); padding-left: 1rem; border-left: 1px solid var(--border); }
+.theory-section--oq .theory-section-label { margin-bottom: .5rem; }
+.theory-oq-intro { font-size: .82rem; color: var(--faint); font-style: italic; margin: 0 0 1.5rem; }
+.theory-oq-list { display: flex; flex-direction: column; gap: .75rem; }
+.theory-oq-item { display: flex; align-items: flex-start; gap: 1rem; }
+.theory-oq-mark {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary);
+  opacity: .3;
+  flex-shrink: 0;
+  line-height: 1;
+  width: 20px;
+  text-align: center;
+}
+.theory-oq-text { font-size: .9rem; color: var(--muted); line-height: 1.6; margin: 0; font-style: italic; }
 
 /* Evolution */
-.theory-section--evolution { background: var(--surface-soft); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft) !important; }
-.theory-evolution-note { font-size: .82rem; color: var(--faint); font-style: italic; margin: 0 0 1.25rem; }
-.theory-evolution-timeline { display: flex; flex-direction: column; gap: 0; }
-.theory-ev-item { display: flex; align-items: flex-start; gap: 1rem; }
-.theory-ev-version { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .08em; color: var(--primary); flex-shrink: 0; padding-top: .1rem; width: 32px; }
-.theory-ev-statement { font-size: .88rem; font-weight: 500; color: var(--text); }
-.theory-ev-note { font-size: .78rem; color: var(--faint); margin-top: .2rem; }
-.theory-ev-connector { font-size: .7rem; color: var(--faint); padding: .15rem 0 .15rem 2rem; }
+.theory-section--evolution { background: var(--surface-soft); border-radius: var(--radius-md); padding: 1.75rem; border: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft) !important; }
+.theory-evolution-note { font-size: .82rem; color: var(--faint); font-style: italic; margin: 0 0 1.5rem; }
+.theory-evolution-list { display: flex; flex-direction: column; gap: 1.25rem; }
+.theory-ev-entry { display: grid; grid-template-columns: 44px 1fr; gap: 1rem; align-items: start; }
+.theory-ev-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .1em;
+  color: var(--primary);
+  background: var(--primary-soft);
+  padding: .2rem .45rem;
+  border-radius: 99px;
+  text-align: center;
+}
+.theory-ev-stmt { font-size: .9rem; font-weight: 500; color: var(--text); line-height: 1.5; margin: 0 0 .35rem; }
+.theory-ev-note { font-size: .8rem; color: var(--faint); line-height: 1.6; margin: 0; }
 
 /* Body + Nav */
 .theory-body { margin-top: 2rem; }
