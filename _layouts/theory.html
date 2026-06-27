@@ -2,160 +2,238 @@
 layout: default
 ---
 
-<!-- ── DARK OPENING: Name + Governing Question ── -->
-<div class="theory-opening">
-  <div class="theory-opening-inner">
+<!-- ═══════════════════════
+     HERO — Name + Governing Question
+═══════════════════════ -->
+<section class="hz-hero">
+  <div class="hz-hero-inner">
 
-    <nav class="art-breadcrumb theory-breadcrumb">
-      <a href="/">Home</a>
-      <span>›</span>
-      <a href="/theories/">Theories</a>
-      <span>›</span>
-      <span>{{ page.title }}</span>
-    </nav>
-
-    <div class="theory-opening-meta">
-      <span class="theory-badge">
-        {% if page.maturity == "theory" %}Theory
-        {% elsif page.maturity == "emerging" %}Emerging Theory
-        {% else %}Theory{% endif %}
-      </span>
-      {% if page.domain %}{% for d in page.domain %}<span class="theory-domain-tag">{{ d }}</span>{% endfor %}{% endif %}
-      {% if page.theory_version %}<span class="theory-version-tag">v{{ page.theory_version }}</span>{% endif %}
+    <div class="hz-hero-left">
+      <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">
+        {% if page.maturity == "theory" %}Theory{% else %}Emerging Theory{% endif %}
+        {% if page.domain %}· {% for d in page.domain %}{{ d }}{% unless forloop.last %} · {% endunless %}{% endfor %}{% endif %}
+      </div>
+      <h1 class="hz-hero-title reveal d2">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="hz-hero-sub reveal d3">{{ page.description }}</p>
+      {% endif %}
+      <div class="hz-hero-meta reveal d4">
+        {% if page.theory_version %}<span class="hz-meta-item">v{{ page.theory_version }}</span><span class="hz-meta-sep">·</span>{% endif %}
+        {% if page.maturity == "theory" %}
+        <span class="hz-meta-item">Mature theory</span>
+        {% else %}
+        <span class="hz-meta-item">Emerging theory</span>
+        {% endif %}
+        <span class="hz-meta-sep">·</span>
+        <span class="hz-meta-item">getunstuck.in</span>
+      </div>
     </div>
 
-    <h1 class="theory-opening-name">{{ page.title }}</h1>
-
     {% if page.governing_question %}
-    <p class="theory-opening-question">{{ page.governing_question }}</p>
+    <div class="hz-hero-right reveal d3">
+      <div class="hz-forces">
+        <div class="hz-forces-label">Governing Question</div>
+        <div class="hz-force">
+          <div class="hz-force-name">{{ page.governing_question }}</div>
+        </div>
+        {% if page.mechanism %}
+        <div class="hz-force-sep">↓</div>
+        <div class="hz-force">
+          <div class="hz-force-name" style="font-size:.88rem;font-weight:400;">The Mechanism</div>
+          <div class="hz-force-desc">{{ page.mechanism.intro | truncate: 160 }}</div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
     {% endif %}
 
   </div>
+</section>
+
+<!-- ═══════════════════════
+     THE MECHANISM — Thesis Band
+═══════════════════════ -->
+{% if page.mechanism %}
+<div class="section-ink hz-thesis-band">
+  <div class="bleed-inner">
+    <div class="hz-thesis-grid">
+      <div>
+        <div class="section-label">The Mechanism</div>
+        <p class="pull-quote">{{ page.mechanism.intro }}</p>
+        {% if page.mechanism.note %}
+        <p style="color:rgba(255,255,255,.5);font-size:.88rem;line-height:1.7;margin-top:1rem;max-width:44ch;">{{ page.mechanism.note }}</p>
+        {% endif %}
+      </div>
+      {% if page.mechanism.steps %}
+      <div class="hz-thesis-right">
+        {% for step in page.mechanism.steps %}
+        <div class="hz-thesis-pair {% if forloop.last %}hz-thesis-pair-exp{% endif %}">
+          <div class="hz-tp-label">{{ forloop.index }}</div>
+          <div class="hz-tp-items">{{ step }}</div>
+        </div>
+        {% unless forloop.last %}
+        <div class="hz-tp-crossing" style="font-size:.75rem;padding:.2rem 0;">↓</div>
+        {% endunless %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
 </div>
+{% endif %}
 
-<!-- ── LIGHT BODY ── -->
-<div class="theory-wrap">
-
-  <!-- SECTION 2: THE MECHANISM -->
-  {% if page.mechanism %}
-  <section class="theory-section">
-    <div class="theory-section-label">The Mechanism</div>
-    <p class="theory-mechanism-intro">{{ page.mechanism.intro }}</p>
-    {% if page.mechanism.steps %}
-    <div class="theory-mechanism-flow">
-      {% for step in page.mechanism.steps %}
-      <div class="theory-flow-step">
-        <div class="theory-flow-num">0{{ forloop.index }}</div>
-        <div class="theory-flow-text">{{ step }}</div>
-      </div>
-      {% unless forloop.last %}
-      <div class="theory-flow-connector"></div>
-      {% endunless %}
-      {% endfor %}
+<!-- ═══════════════════════
+     FIRST PRINCIPLES
+═══════════════════════ -->
+{% if page.first_principles %}
+<section class="section-wide">
+  <div class="section-label">First Principles</div>
+  <h2>Independent of industry. Independent of time.</h2>
+  <p class="prose" style="margin-top:.8rem;">These principles hold across domains. They are not observations about one industry — they are the recurring patterns that the theory has identified as enduring.</p>
+  <div class="cp-vocab-grid" style="margin-top:1.75rem;">
+    {% for principle in page.first_principles %}
+    <div class="cp-vocab-item">
+      <div class="cp-vocab-term">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</div>
+      <div class="cp-vocab-def">{{ principle }}</div>
     </div>
-    {% endif %}
-    {% if page.mechanism.note %}
-    <p class="theory-mechanism-note">{{ page.mechanism.note }}</p>
-    {% endif %}
-  </section>
-  {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
-  <!-- SECTION 3: FIRST PRINCIPLES -->
-  {% if page.first_principles %}
-  <section class="theory-section">
-    <div class="theory-section-label">First Principles</div>
-    <div class="theory-principles-list">
-      {% for principle in page.first_principles %}
-      <div class="theory-principle-item">
-        <div class="theory-principle-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</div>
-        <p class="theory-principle-text">{{ principle }}</p>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
-  <!-- SECTION 4: DISTINCTIONS -->
-  {% if page.distinctions %}
-  <section class="theory-section">
-    <div class="theory-section-label">Distinctions</div>
-    <div class="theory-distinctions-grid">
+<!-- ═══════════════════════
+     DISTINCTIONS
+═══════════════════════ -->
+{% if page.distinctions %}
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">Distinctions</div>
+    <h2 style="color:#fff;margin-bottom:1.75rem;">What this theory separates.</h2>
+    <div class="theory-dist-list">
       {% for d in page.distinctions %}
-      <div class="theory-distinction-card">
-        <span class="theory-distinction-a">{{ d.a }}</span>
-        <span class="theory-distinction-neq">≠</span>
-        <span class="theory-distinction-b">{{ d.b }}</span>
+      <div class="theory-dist-row">
+        <span class="theory-dist-a">{{ d.a }}</span>
+        <span class="theory-dist-neq">≠</span>
+        <span class="theory-dist-b">{{ d.b }}</span>
       </div>
       {% endfor %}
     </div>
-  </section>
-  {% endif %}
+  </div>
+</div>
+{% endif %}
 
-  <!-- SECTION 5: LAWS -->
-  {% if page.related_laws %}
-  <section class="theory-section">
-    <div class="theory-section-label">Laws derived from this theory</div>
-    <div class="theory-laws-grid">
-      {% for law in page.related_laws %}
-      <div class="theory-law-item">
-        <div class="theory-law-num">Law #{{ law.number }}</div>
-        <p class="theory-law-statement">
-          {% if law.url %}<a href="{{ law.url }}">{{ law.statement }}</a>
-          {% else %}{{ law.statement }}{% endif %}
-        </p>
+<!-- ═══════════════════════
+     LAWS
+═══════════════════════ -->
+{% if page.related_laws %}
+<section class="section-wide">
+  <div class="section-label">Laws derived from this theory</div>
+  <h2>The compressed form.</h2>
+  <p class="prose" style="margin-top:.8rem;">Each law is a first principle reduced to its most portable form — the insight carried without the argument. Full library at <a href="/laws/">Laws</a>.</p>
+  <div class="cp-vocab-grid" style="margin-top:1.75rem;">
+    {% for law in page.related_laws %}
+    <div class="cp-vocab-item">
+      <div class="cp-vocab-term">Law #{{ law.number }}</div>
+      <div class="cp-vocab-def">
+        {% if law.url %}<a href="{{ law.url }}" style="color:inherit;text-decoration:none;">{{ law.statement }}</a>
+        {% else %}{{ law.statement }}{% endif %}
       </div>
-      {% endfor %}
     </div>
-    <p class="theory-laws-footer">Full library → <a href="/laws/">Laws</a></p>
-  </section>
-  {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
-  <!-- SECTION 6: OPEN QUESTIONS -->
-  {% if page.open_questions %}
-  <section class="theory-section theory-section--oq">
-    <div class="theory-section-label">Open Questions</div>
-    <p class="theory-oq-intro">What this theory does not yet answer.</p>
-    <div class="theory-oq-list">
-      {% for q in page.open_questions %}
-      <div class="theory-oq-item">
-        <span class="theory-oq-mark">?</span>
-        <p class="theory-oq-text">{{ q }}</p>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
+<!-- ═══════════════════════
+     OPEN QUESTIONS
+═══════════════════════ -->
+{% if page.open_questions %}
+<section class="section-wide" id="open-questions">
+  <div class="section-label">Open Questions</div>
+  <h2>What this theory does not yet answer.</h2>
+  <p class="prose" style="margin-top:.8rem;">A theory that cannot name its own limits is a doctrine. These questions remain open — they are the frontier where the theory is still developing.</p>
+  <ol class="art-question-list" style="margin-top:1.5rem;">
+    {% for q in page.open_questions %}
+    <li class="art-question">{{ q }}</li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
 
-  <!-- EVOLUTION -->
-  {% if page.evolution %}
-  <section class="theory-section theory-section--evolution">
-    <div class="theory-section-label">Evolution</div>
-    <p class="theory-evolution-note">This theory is not finished. The versions below trace how it has developed — not as version history, but as intellectual evolution.</p>
-    <div class="theory-evolution-list">
+<!-- ═══════════════════════
+     EVOLUTION
+═══════════════════════ -->
+{% if page.evolution %}
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">Evolution</div>
+    <h2 style="color:#fff;margin-bottom:.5rem;">This theory is not finished.</h2>
+    <p style="color:rgba(255,255,255,.5);font-size:.9rem;margin-bottom:2rem;max-width:48ch;line-height:1.7;">The versions below trace how the thinking has developed — not as version history, but as intellectual evolution. Theories that cannot show their development are claiming they arrived complete.</p>
+    <div class="hz-episodes theory-ev-list">
       {% for v in page.evolution %}
-      <div class="theory-ev-entry">
-        <div class="theory-ev-tag">v{{ v.version }}</div>
-        <div class="theory-ev-content">
-          <p class="theory-ev-stmt">{{ v.statement }}</p>
-          {% if v.note %}<p class="theory-ev-note">{{ v.note }}</p>{% endif %}
+      <div class="theory-ev-entry-rich">
+        <div class="theory-ev-left">
+          <div class="theory-ev-pill">v{{ v.version }}</div>
+        </div>
+        <div class="theory-ev-body-rich">
+          <div class="theory-ev-stmt-rich">{{ v.statement }}</div>
+          {% if v.note %}<p class="theory-ev-note-rich">{{ v.note }}</p>{% endif %}
         </div>
       </div>
       {% endfor %}
     </div>
-  </section>
-  {% endif %}
-
-  <!-- BODY CONTENT -->
-  {% if content != "" %}
-  <div class="theory-body">{{ content }}</div>
-  {% endif %}
-
-  <!-- NAV -->
-  <div class="theory-nav">
-    <a class="btn-secondary" href="/theories/">← All Theories</a>
-    {% if page.applications_url %}
-    <a class="btn-primary" href="{{ page.applications_url }}">See Applications →</a>
-    {% endif %}
   </div>
+</div>
+{% endif %}
 
+<!-- ═══════════════════════
+     BODY CONTENT
+═══════════════════════ -->
+{% if content != "" %}
+<section class="section-wide">
+  <div class="theory-body">{{ content }}</div>
+</section>
+{% endif %}
+
+<!-- ═══════════════════════
+     APPLICATIONS + NAV
+═══════════════════════ -->
+<section class="section-wide">
+  <div class="hz-follow-grid">
+    <div>
+      <div class="section-label">Applications</div>
+      <h2>
+        {% if page.applications_url %}Where this theory has been applied.
+        {% else %}Applications coming.{% endif %}
+      </h2>
+      <p style="font-size:.92rem;color:var(--muted);line-height:1.7;margin-top:.8rem;max-width:48ch;">
+        {% if page.applications_url %}Each application demonstrates the theory in a specific domain. The domain is the evidence — not the theory itself.
+        {% else %}This theory is still developing. Applications will be published as the theory matures and is tested against specific domains.{% endif %}
+      </p>
+      <div style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap;">
+        {% if page.applications_url %}<a class="btn-primary" href="{{ page.applications_url }}">See Applications →</a>{% endif %}
+        <a class="btn-secondary" href="/theories/">← All Theories</a>
+      </div>
+    </div>
+    <div class="hz-author-strip">
+      <div class="hz-author-photo">
+        <img src="/assets/img/lakshmi.jpg" alt="Lakshmi Narayanan Narasimhan"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="hz-author-initials" style="display:none;">LN</div>
+      </div>
+      <div>
+        <div class="hz-author-name">Lakshmi Narayanan Narasimhan</div>
+        <div class="hz-author-title">Technology Executive · Leadership Practitioner · Author</div>
+        <p style="font-size:.85rem;color:var(--muted);line-height:1.65;margin-top:.5rem;">25+ years of building organisations from the inside. These theories are drawn from the work — not from observation of it.</p>
+        <a class="card-link" href="/about/">Full story</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-ink">
+  <div class="bleed-inner">
+    <div class="section-label">The standard</div>
+    <p class="pull-quote">Theories explain. Applications demonstrate. <em>Laws compress. Books synthesise.</em></p>
+  </div>
 </div>

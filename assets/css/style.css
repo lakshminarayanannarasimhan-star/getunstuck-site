@@ -2034,9 +2034,71 @@ a.pub-series-row:hover { opacity: .85; }
   color: var(--primary);
 }
 
-/* ── Theory layout ── */
+/* ── Theory layout — rich visual version ── */
 
-/* Dark opening zone */
+/* Distinctions in dark band */
+.theory-dist-list { display: flex; flex-direction: column; gap: 1rem; }
+.theory-dist-row {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.theory-dist-row:last-child { border-bottom: none; padding-bottom: 0; }
+.theory-dist-a, .theory-dist-b {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(.95rem, 2vw, 1.15rem);
+  font-weight: 600;
+}
+.theory-dist-a { color: #fff; }
+.theory-dist-b { color: rgba(255,255,255,.45); }
+.theory-dist-neq { font-size: 1.3rem; font-weight: 700; color: var(--primary); flex-shrink: 0; }
+
+/* Evolution in dark band */
+.theory-ev-list { display: flex; flex-direction: column; gap: 1.25rem; }
+.theory-ev-entry-rich { display: grid; grid-template-columns: 56px 1fr; gap: 1.25rem; align-items: start; }
+.theory-ev-pill {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .25rem .6rem;
+  border-radius: 99px;
+  background: rgba(255,255,255,.08);
+  color: var(--primary);
+  border: 1px solid rgba(255,255,255,.15);
+  text-align: center;
+  white-space: nowrap;
+}
+.theory-ev-stmt-rich {
+  font-family: 'Playfair Display', serif;
+  font-size: .98rem;
+  font-weight: 600;
+  color: rgba(255,255,255,.85);
+  line-height: 1.45;
+  margin-bottom: .4rem;
+}
+.theory-ev-note-rich {
+  font-size: .82rem;
+  color: rgba(255,255,255,.45);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* cp-vocab-term used as number */
+.cp-vocab-item .cp-vocab-term {
+  font-family: 'DM Mono', monospace;
+  font-size: .65rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+}
+
+/* Theory body */
+.theory-body { font-size: .92rem; color: var(--muted); line-height: 1.75; }
+
+/* Dark opening zone — kept for backward compat */
 .theory-opening {
   background: var(--ink-gradient);
   padding: clamp(3rem,6vw,5rem) clamp(1.5rem,4vw,3.5rem) clamp(2.5rem,5vw,4rem);
