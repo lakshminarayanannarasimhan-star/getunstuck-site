@@ -1,191 +1,93 @@
 ---
-layout: default
-title: Gravity
+layout: theory
+title: "Gravity"
 permalink: /theories/gravity/
 redirect_from:
-  - /theories/gravity/
-description: "Value is never seen directly. We only know it exists by watching what moves toward it. Gravity is a theory of value — what it is, how it behaves, and why the most valuable things often emit no signal at all."
+  - /series/gravity/
+artifact_type: theory
+maturity: theory
+theory_version: "0.4"
+domain: [Strategy, Economics, Value]
+description: "Value behaves like mass. It creates invisible fields that shape choices, attract resources, and change trajectories. The most valuable things often emit no signal at all."
+
+# Section 1 — Governing Question
+governing_question: "Why does value command a premium — and how do we know value exists?"
+
+# Section 2 — The Mechanism
+mechanism:
+  intro: "Value is never observed directly. Like gravity, it is known only through its effects — what moves toward it, what orbits it, what cannot escape it. The mechanism has three stages, each a distinct capability. Most organisations excel at one and are weak at the next."
+  steps:
+    - "Creation — value is made to exist (trajectory change)"
+    - "Perception — value is rendered visible (recognition layer)"
+    - "Capture — value is converted and held (economic realisation)"
+  note: "A startup that creates but is not understood fails at perception. A security team that creates but cannot demonstrate loses its budget. A consultancy that perceives and captures well on mediocre creation is temporarily successful. Each failure mode is a different stage of the mechanism."
+
+# Section 3 — First Principles
+first_principles:
+  - "Effort is an input. Value is an outcome."
+  - "Customers do not buy technology. They buy the removal of constraints."
+  - "Importance is not the same as scarcity. Something can be critical and command little premium if it is abundant."
+  - "One-time value impresses. Repeatable value compounds."
+  - "You never see gravity. You only see what falls."
+  - "Light attracts attention. Mass attracts everything."
+  - "Value does not push. It curves the landscape, and choices roll toward it."
+  - "The same value carried by less mass is worth more — density determines margin."
+  - "Capabilities built over years disappear from balance sheets but determine the future."
+  - "What looks like value creation is often potential released — latent mass unlocked, not new mass made."
+
+# Section 4 — Distinctions
+distinctions:
+  - a: "Effort"
+    b: "Value"
+  - a: "Importance"
+    b: "Scarcity"
+  - a: "Created value"
+    b: "Perceived value"
+  - a: "Visible value (what happened)"
+    b: "Dark matter (what didn't)"
+  - a: "Position"
+    b: "Trajectory"
+  - a: "Attracting attention"
+    b: "Attracting mass"
+
+# Section 5 — Laws
+related_laws:
+  - number: 1
+    statement: "Scarcity migrates. Value follows scarcity. Strategy is the ability to see where scarcity is moving before others do."
+  - number: 2
+    statement: "Importance creates need. Scarcity creates premium."
+  - number: 3
+    statement: "When scarcity moves, value moves with it."
+  - number: 4
+    statement: "Abundance destroys premium but not importance."
+  - number: 5
+    statement: "Every successful capability eventually diffuses."
+  - number: 6
+    statement: "Scale consumes the scarcity that created it."
+  - number: 9
+    statement: "Customers do not buy technology. Customers buy the removal of constraints."
+
+# Section 6 — Open Questions
+open_questions:
+  - "Can value be created from nothing — or is it always latent potential released?"
+  - "Does dark matter (invisible value) decay over time, or is it preserved indefinitely?"
+  - "Can a firm deliberately create scarcity, or does scarcity always emerge from external constraints?"
+  - "Is perception separable from creation — or does how something is made always constrain how it is seen?"
+  - "What is the minimum unit of value? Can value be quantised, or is it continuous?"
+  - "When two sources of scarcity coexist, which commands the higher premium — and does the answer change over time?"
+
+# Evolution
+evolution:
+  - version: "0.1"
+    statement: "Value = Scarcity"
+    note: "Initial framing: if something is scarce, it is valuable. Necessary but insufficient — it does not explain why abundant things can still be valuable, or why scarce things can fail to capture premium."
+  - version: "0.2"
+    statement: "Premium follows scarcity. When scarcity moves, premium moves."
+    note: "Migration added: value is not static. The basis of premium shifts as scarcity shifts. This explains why yesterday's differentiator becomes tomorrow's expectation."
+  - version: "0.3"
+    statement: "Creation makes value exist. Perception makes it count. Capture makes it yours."
+    note: "The canonical law: three distinct stages, each a separate capability. Most organisations fail at the handoff between stages, not within them."
+  - version: "0.4"
+    statement: "The most valuable things often emit no signal at all. Dark matter shapes everything."
+    note: "The dark matter extension: value held in prevented outcomes, maintained trust, preserved optionality. Enormous mass, zero emission. The measurement system cannot register it; the loss of it is catastrophic."
 ---
-
-<!-- ═══════════════════════
-     HERO
-═══════════════════════ -->
-<section class="hz-hero grav-hero">
-  <div class="hz-hero-inner">
-    <div class="hz-hero-left">
-      <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">Gravity · A Theory of Value</div>
-      <h1 class="hz-hero-title reveal d2">Value is never seen directly.</h1>
-      <p class="hz-hero-sub reveal d3">We only know it exists by watching what moves toward it.</p>
-
-      <div class="grav-movers reveal d4">
-        <span>Customers.</span>
-        <span>Capital.</span>
-        <span>Talent.</span>
-        <span>Attention.</span>
-        <span>Trust.</span>
-      </div>
-
-      <p class="grav-metaphor reveal d5">Like gravity, value bends the world without ever becoming visible.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════════════
-     THE QUESTION
-═══════════════════════ -->
-<div class="section-ink grav-question-band">
-  <div class="bleed-inner">
-    <div class="grav-question">
-      <p class="grav-question-not">Not</p>
-      <p class="grav-question-q1">What is value?</p>
-      <p class="grav-question-but">but</p>
-      <p class="grav-question-q2">How do we know value exists?</p>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════════════════
-     WHY THIS SERIES
-═══════════════════════ -->
-<section class="section-wide grav-why">
-  <div class="section-label">Why this series</div>
-  <div class="grav-contrasts">
-    <div class="grav-contrast">
-      <span class="grav-contrast-a">Organisations measure effort.</span>
-      <span class="grav-contrast-sep">Markets reward outcomes.</span>
-    </div>
-    <div class="grav-contrast">
-      <span class="grav-contrast-a">Teams celebrate heroics.</span>
-      <span class="grav-contrast-sep">Prevention goes unnoticed.</span>
-    </div>
-    <div class="grav-contrast">
-      <span class="grav-contrast-a">Products compete on features.</span>
-      <span class="grav-contrast-sep">Customers pay to escape constraints.</span>
-    </div>
-    <div class="grav-contrast">
-      <span class="grav-contrast-a">Capabilities built over years disappear from balance sheets.</span>
-      <span class="grav-contrast-sep">They determine the future.</span>
-    </div>
-  </div>
-  <p class="grav-why-close">We have excellent theories of finance, marketing, and strategy. We have surprisingly few coherent theories of value itself. Gravity is an attempt to build one.</p>
-</section>
-
-<!-- ═══════════════════════
-     THE CENTRAL IDEA
-═══════════════════════ -->
-<div class="section-ink grav-central">
-  <div class="bleed-inner">
-    <div class="section-label">The central idea</div>
-    <p class="grav-central-lead">Value behaves like mass.</p>
-    <p class="grav-central-body">It creates invisible fields that shape choices, attract resources, and change trajectories. The most valuable things often emit no signal at all.</p>
-
-    <div class="grav-invisible">
-      <span>A security breach prevented.</span>
-      <span>A trusted brand.</span>
-      <span>A developer platform.</span>
-      <span>Institutional knowledge.</span>
-      <span>An architecture that never fails.</span>
-    </div>
-
-    <p class="grav-nothing">Nothing happened.</p>
-    <p class="grav-point">That is exactly the point.</p>
-  </div>
-</div>
-
-<!-- ═══════════════════════
-     CANONICAL LAW
-═══════════════════════ -->
-<section class="section-wide grav-canon">
-  <div class="section-label">The canonical law</div>
-  <div class="grav-law">
-    <p class="grav-law-line">Creation makes value exist.</p>
-    <p class="grav-law-line grav-law-line--mid">Perception makes it count.</p>
-    <p class="grav-law-line grav-law-line--end">Capture makes it yours.</p>
-  </div>
-  <p class="grav-canon-note">Most organisations excel at only one of these.</p>
-</section>
-
-<!-- ═══════════════════════
-     WHAT THE SERIES EXPLORES
-═══════════════════════ -->
-<section class="section-wide">
-  <div class="section-label">What the series explores</div>
-  <div class="grav-topics">
-
-    <div class="grav-topic">
-      <div class="grav-topic-name">Dark Matter</div>
-      <div class="grav-topic-desc">The invisible value that shapes everything. Enormous mass, no emission.</div>
-    </div>
-
-    <div class="grav-topic">
-      <div class="grav-topic-name">Stored Value</div>
-      <div class="grav-topic-desc">Capabilities that quietly determine future outcomes — potential before it falls into revenue.</div>
-    </div>
-
-    <div class="grav-topic">
-      <div class="grav-topic-name">Curvature</div>
-      <div class="grav-topic-desc">Why value changes the landscape instead of forcing decisions. Nobody is compelled. The terrain slopes.</div>
-    </div>
-
-    <div class="grav-topic">
-      <div class="grav-topic-name">Migration</div>
-      <div class="grav-topic-desc">How value moves across industries and why entire ecosystems reorganise around it.</div>
-    </div>
-
-    <div class="grav-topic">
-      <div class="grav-topic-name">Lock-in</div>
-      <div class="grav-topic-desc">Why some systems become impossible to escape. Past a certain depth, the well keeps what falls in.</div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ═══════════════════════
-     PLATFORM MAP
-═══════════════════════ -->
-<div class="section-ink grav-platform">
-  <div class="bleed-inner">
-    <div class="section-label">Part of the Get Unstuck platform</div>
-    <div class="grav-map">
-      <div class="grav-map-center">
-        <div class="grav-map-name grav-map-name--gravity">Gravity</div>
-        <div class="grav-map-role">Theory of Value</div>
-      </div>
-      <div class="grav-map-branches">
-        <div class="grav-map-branch">
-          <div class="grav-map-line"></div>
-          <div class="grav-map-name">Compass</div>
-          <div class="grav-map-role">Whose value matters?</div>
-        </div>
-        <div class="grav-map-branch">
-          <div class="grav-map-line"></div>
-          <div class="grav-map-name">Horizon</div>
-          <div class="grav-map-role">Where value moves next?</div>
-        </div>
-      </div>
-    </div>
-    <p class="grav-platform-body">Gravity provides the foundation. Compass explores customer value. Horizon explores strategic movement. Together they form a practical operating system for thinking about business, technology, and leadership.</p>
-  </div>
-</div>
-
-<!-- ═══════════════════════
-     CLOSE
-═══════════════════════ -->
-<section class="section-wide grav-close">
-  <div class="section-label">Coming</div>
-  <p class="grav-close-body">A series of essays on value, strategy, technology, platforms, trust, security, AI, and organisational design.</p>
-  <p class="grav-close-nots">No productivity hacks. No management clichés. Just better ways of seeing.</p>
-  <div style="margin-top:1.5rem;display:flex;gap:.8rem;flex-wrap:wrap;">
-    <a class="btn-primary" href="/subscribe/">Subscribe for updates</a>
-    <a class="btn-secondary" href="/articles/">All series</a>
-  </div>
-</section>
-
-<!-- ═══════════════════════
-     CLOSING PULL QUOTE
-═══════════════════════ -->
-<div class="section-ink">
-  <div class="bleed-inner" style="text-align:center;padding-top:clamp(3rem,6vw,5rem);padding-bottom:clamp(3rem,6vw,5rem);">
-    <p class="grav-final">The most valuable things in an organisation are often the ones that never happen.</p>
-  </div>
-</div>
