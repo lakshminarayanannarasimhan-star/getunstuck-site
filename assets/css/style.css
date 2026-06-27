@@ -1719,6 +1719,56 @@ a.pub-series-row:hover { opacity: .85; }
    8b. LAWS LAYOUT
    ========================================= */
 
+/* ── Distinctions page ── */
+.dist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+.dist-card {
+  padding: 1.5rem;
+  background: var(--surface-gradient);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+.dist-pair {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
+.dist-term {
+  font-family: 'Playfair Display', serif;
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.dist-term--b { color: var(--muted); }
+.dist-neq {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.dist-body {
+  font-size: .83rem;
+  color: var(--muted);
+  line-height: 1.7;
+  flex: 1;
+  margin: 0;
+}
+.dist-source {
+  font-family: 'DM Mono', monospace;
+  font-size: .6rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.dist-source a { color: var(--primary); text-decoration: none; }
+.dist-source a:hover { text-decoration: underline; }
+
 /* ── Theories index page ── */
 .theories-grid {
   display: grid;
