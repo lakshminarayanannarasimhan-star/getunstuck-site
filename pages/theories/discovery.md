@@ -1,40 +1,81 @@
 ---
-layout: default
-title: Discovery
+layout: theory
+title: "Discovery"
 permalink: /theories/discovery/
 redirect_from:
-  - /theories/discovery/
-description: "Discovery is a long-term research project exploring observation, questions, framing, constraints and strategic diagnosis. Publication begins when the practice is stronger than the opinion."
+  - /series/discovery/
+artifact_type: theory
+maturity: theory
+theory_version: "0.2"
+domain: [Observation, Diagnosis, Epistemology]
+description: "Why do organisations fail to see reality? Discovery is the discipline of staying observation-driven — before strategy, before diagnosis, before execution."
+
+# Section 1 — Governing Question
+governing_question: "Why do organisations fail to see reality — and what does it take to stay observation-driven?"
+
+# Section 2 — The Mechanism
+mechanism:
+  intro: "Organisations do not stop caring about reality. They drift from observation-driven to opinion-driven, authority-driven, and experience-driven. The Discovery Loop is not a diagnostic tool. It is the permanent model — a cycle that ends in re-observation, not execution."
+  steps:
+    - "Observe — what can be verified"
+    - "Question — what the observation implies"
+    - "Hypothesis — multiple explanations before committing to one"
+    - "Eliminate — ruling out, not ruling in"
+    - "Constraint — name what binds before naming solutions"
+    - "Frame — a better frame creates better decisions"
+    - "Decide — only as good as the interpretation that preceded it"
+    - "Observe again — the loop restarts"
+  note: "The most common failure: organisations jump Observation → Decision, skipping Interpretation entirely. Confident, fast, and wrong. The three-term distinction — Observation → Interpretation → Decision — is the Loop compressed."
+
+# Section 3 — First Principles
+first_principles:
+  - "The quality of execution cannot exceed the quality of diagnosis."
+  - "The stated problem is rarely the actual problem."
+  - "Better questions create better decisions."
+  - "Observation precedes interpretation. Interpretation precedes decision."
+  - "Constraints explain systems — name what binds before naming solutions."
+  - "Every diagnosis remains provisional until challenged."
+  - "Evidence beats confidence."
+  - "Stay longer in diagnosis than feels comfortable."
+  - "Narratives are not reality."
+  - "The observer is part of the system. Your assumptions are an input."
+
+# Section 4 — Distinctions
+distinctions:
+  - a: "Observation"
+    b: "Interpretation"
+  - a: "Interpretation"
+    b: "Decision"
+  - a: "The stated problem"
+    b: "The actual problem"
+  - a: "Symptom"
+    b: "Constraint"
+  - a: "Constraint"
+    b: "Cause"
+  - a: "Ruling in"
+    b: "Ruling out (elimination)"
+
+# Section 5 — Laws
+related_laws: []
+
+# Section 6 — Open Questions
+open_questions:
+  - "Is there a point at which enough observation is complete — or is observation always provisional?"
+  - "How does the Loop apply when the observer cannot be separated from the system being observed?"
+  - "Can the discipline be institutionalised, or is it always personal?"
+  - "What determines how long to stay in each node of the Loop before advancing?"
+  - "Is the Loop universal — does it apply in the same form across medicine, military, investing, and organisations?"
+
+# Evolution
+evolution:
+  - version: "0.1"
+    statement: "Discovery is a discipline: the ability to find the actual problem beneath the stated problem."
+    note: "Initial framing: most organisations solve the wrong problem because they accept the problem as stated. Discovery is the practice of going one level deeper before acting."
+  - version: "0.2"
+    statement: "Why do organisations fail to see reality? The answer is structural: they drift from observation-driven to opinion-, authority-, and experience-driven. Discovery is the discipline of staying observation-driven."
+    note: "The theory escaped the problem-finding frame. It is now a theory of how organisations maintain (or lose) epistemic health. The Discovery Loop is the permanent model; the Observation/Interpretation/Decision triad is the Loop compressed."
+
+# Status note
 ---
 
-<section class="hz-hero">
-  <div class="hz-hero-inner">
-    <div class="hz-hero-left" style="max-width:640px;">
-      <div class="eyebrow reveal d1" style="color:rgba(255,255,255,.45);">Discovery</div>
-      <h1 class="hz-hero-title reveal d2">Most organisations have no shortage of solutions. They have a shortage of discovery.</h1>
-      <p class="hz-hero-sub reveal d3">Discovery is a long-term research project exploring observation, questions, framing, constraints and strategic diagnosis. It is being built through hundreds of executive scenarios, real customer conversations, organisational patterns and field notes.</p>
-      <p class="hz-hero-sub reveal d4" style="margin-top:1rem;">No articles have been published yet. The work is still discovering itself.</p>
-    </div>
-  </div>
-</section>
-
-<div class="section-ink">
-  <div class="bleed-inner">
-    <div class="section-label">Discovery Manifesto</div>
-    <p class="pull-quote">Discovery is built on one belief: <em>the quality of execution cannot exceed the quality of diagnosis.</em></p>
-    <div class="disc-beliefs">
-      <p>Better questions create better decisions.</p>
-      <p>Observation precedes interpretation.</p>
-      <p>Constraints explain systems.</p>
-      <p>Narratives are not reality.</p>
-      <p>Every diagnosis remains provisional.</p>
-      <p>The stated problem is rarely the actual problem.</p>
-    </div>
-    <p class="disc-practice">Discovery is not being written. It is being practiced.</p>
-  </div>
-</div>
-
-<section class="section-wide" style="max-width:640px;margin-left:auto;margin-right:auto;text-align:center;padding-top:clamp(3rem,6vw,5rem);padding-bottom:clamp(3rem,6vw,5rem);">
-  <p class="disc-closing">Some ideas are written when they are understood. Discovery will be published only when it has been observed enough times that it no longer feels like an opinion.</p>
-  <a class="btn-secondary" href="/subscribe/" style="margin-top:1.5rem;display:inline-block;">Subscribe for updates</a>
-</section>
+*Discovery is being built through sustained field practice before drafting begins. See the [Discovery landing page](/theories/discovery/about/) for current status.*
