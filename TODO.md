@@ -54,6 +54,128 @@ Still to decide: keep or remove slate, ivory, chalk, cloud, sky, rainbow, bluepr
 - [ ] **LOS page uplift** — needs richer content (domains, capabilities, belt system) before Phase 3 can proceed
 - [ ] **Architecture URL update: sitemap submission** — after Phase 2 went live, submit `/articles/` and `/series/*` URLs to Google Search Console URL Inspection for faster indexing
 
+### EPIC A — Knowledge Architecture (foundational, do first)
+
+**Governing principle:** Every artifact has one intellectual responsibility. The site is organised around the evolution of understanding, not around content or publishing format.
+
+**Artifact taxonomy:**
+- Theory → Explains (decades)
+- Application → Demonstrates (years)
+- Evidence → Supports (continuous)
+- Laboratory → Tests (continuous)
+- Distinction → Clarifies (decades)
+- Law → Compresses (decades)
+- Book → Integrates (years)
+
+#### A1 — URL restructure: /series/ → /theories/
+- [ ] Move `pages/series/horizon.md` → `pages/theories/horizon.md`, permalink `/theories/horizon/`
+- [ ] Move `pages/series/compass.md` → `pages/theories/compass.md`, permalink `/theories/compass/`
+- [ ] Move `pages/series/frontier.md` → `pages/theories/frontier.md`, permalink `/theories/frontier/`
+- [ ] Move `pages/series/gravity.md` → `pages/theories/gravity.md`, permalink `/theories/gravity/`
+- [ ] Move `pages/series/discovery.md` → `pages/theories/discovery.md`, permalink `/theories/discovery/`
+- [ ] Add Jekyll redirects from all `/series/*` → `/theories/*` so existing links don't break
+- [ ] Update all internal links referencing `/series/horizon/`, `/series/compass/` etc.
+- [ ] Submit new `/theories/*` URLs to Google Search Console
+
+#### A2 — Theory layout template
+- [ ] Create `_layouts/theory.html` with six mandatory sections:
+  1. Governing Question (one question, timeless)
+  2. The Mechanism (model only — no industries, no anecdotes)
+  3. First Principles (5–10 industry-independent rules)
+  4. Distinctions (concept ≠ concept, built into the theory)
+  5. Laws (compressed form, linked to Laws Library)
+  6. Open Questions (what the theory does not yet answer)
+- [ ] Add Evolution section: v0.1 → v0.2 → v0.3 (intellectual evolution, not version history)
+- [ ] No episode cards, no audience section, no author — stripped to mechanism only
+- [ ] Create `examples/theory-template.md` as starter file
+
+#### A3 — Front matter metadata for knowledge graph
+- [ ] Add `artifact_type: theory | application | evidence | laboratory | distinction | law | book` field
+- [ ] Add `parent_theory: [gravity, horizon, compass]` field to applications and evidence
+- [ ] Add `theory_version: 0.x` field to theory pages
+- [ ] Update `_config.yml` defaults for new `_theories/` collection (if using collection rather than pages)
+
+#### A4 — Rewrite Gravity as first complete Theory page
+- [ ] Governing question: "Why does value command a premium?"
+- [ ] Mechanism: Creation → Perception → Capture (the canonical law as the model)
+- [ ] First principles: Scarcity creates premium. Premium migrates when scarcity migrates. etc.
+- [ ] Distinctions: Effort ≠ Value, Importance ≠ Scarcity, etc.
+- [ ] Laws: Link to Gravity-derived laws (#1–#9 from Laws Library)
+- [ ] Open Questions: Can value be created from zero? Does dark matter have a half-life?
+- [ ] Evolution: v0.1 value = scarcity → v0.2 premium follows scarcity → v0.3 three states
+- [ ] No articles. No episode cards. Timeless only.
+
+#### A5 — Rewrite Horizon as Theory page
+- [ ] Governing question: "How does the basis of competition change over time?"
+- [ ] Mechanism: Abundance → Scarcity Migration → Evaluation Criteria Shift → Premium Migration → Competitive Reordering
+- [ ] First principles: Execution becomes abundant before executives notice. Evaluation changes before financials reflect it. etc.
+- [ ] Distinctions: Execution ≠ Differentiation, Current Value ≠ Future Value
+- [ ] Laws: Link to Horizon-derived laws (#10–#12)
+- [ ] Open Questions: Can value migrate backwards? Can two scarcities coexist?
+- [ ] Evolution: v0.1 execution → trust → v0.2 trust ceiling → v0.3 indispensability arc
+- [ ] Maturity badge: Emerging Theory
+
+#### A6 — Rewrite Compass, Frontier, Discovery as Theory pages
+- [ ] Compass: Governing question "How should executives choose under uncertainty?" — Emerging Theory
+- [ ] Frontier: Governing question "How do entirely new strategic positions emerge?" — Emerging Theory
+- [ ] Discovery: Governing question "Why do organisations fail to see reality?" — Theory (already minimal, update to six-section template)
+
+#### A7 — Applications layer
+- [ ] Add `artifact_type: application` and `parent_theory: horizon` to H1–H4 front matter
+- [ ] Update Horizon theory page to link to "Applications of Horizon" section (not embed episode cards)
+- [ ] Build `pages/theories/horizon/applications.md` or section listing applications
+
+#### A8 — Navigation restructure
+- [ ] Replace "Articles" in nav with "Theories" (linking to `/theories/` index page)
+- [ ] Create `/theories/` index page listing all five theories with maturity badges
+- [ ] Update homepage hero right panel to reflect Theories taxonomy
+- [ ] Update articles page to reflect Theories vs Applications distinction
+
+---
+
+### EPIC B — New Pages (Phase 1 of identity strengthening)
+
+#### B1 — Distinctions page
+- [ ] Create `pages/distinctions.md` at `/distinctions/`
+- [ ] Initial set: Great Product ≠ Customer Relevance, Operational Health ≠ Strategic Health, Effort ≠ Value, Execution ≠ Differentiation, Current Value ≠ Future Value, Series ≠ Theory, Application ≠ Article
+- [ ] Each distinction links to the theory that generated it
+- [ ] Add to nav or accessible from Theories index
+
+#### B2 — The Standard page
+- [ ] Create `pages/standard.md` at `/standard/`
+- [ ] Content: intellectual operating rules — We separate observations from interpretations. We test theories across industries. We distinguish evidence from opinion. We prefer mechanisms over anecdotes. We revise our theories when reality changes.
+- [ ] Not a manifesto. Not an about page. The intellectual contract.
+- [ ] Link from footer and About page
+
+#### B3 — Start Here page
+- [ ] Create `pages/start-here.md` at `/start-here/`
+- [ ] Content: Why Get Unstuck exists · The five theories · The taxonomy (Theory/Application/Lab/Law/Book) · Reading order · Expected transformation
+- [ ] Add to nav or homepage
+- [ ] One page. Onboarding only.
+
+---
+
+### EPIC C — Theory content (write in order of maturity)
+
+#### C1 — Write Theory: Gravity (first, most mature)
+As per A4 above — full six-section theory page.
+
+#### C2 — Write Theory: Horizon
+As per A5 above — full six-section theory page.
+
+#### C3 — Write Theories: Compass, Frontier, Discovery
+As per A6 above.
+
+---
+
+### EPIC D — Laboratory (deferred — needs experiments before building)
+- [ ] Rename drills to "Experiments" in the Laboratory context
+- [ ] Each experiment knows: `tests_theory:`, `prediction:`, `what_to_observe:`
+- [ ] Build Laboratory section under each theory: `/theories/horizon/laboratory/`
+- [ ] Prerequisite: at least 10 polished experiments per theory before surfacing
+
+---
+
 ### Laws Library — write and publish one by one
 - [ ] **Law #1** — The Law of Constraint Migration
 - [ ] **Law #2** — The Law of Scarcity Premium
