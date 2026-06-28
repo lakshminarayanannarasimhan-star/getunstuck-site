@@ -213,39 +213,66 @@ description: "Five theories of executive reasoning. Each explains a fundamental 
 </section>
 
 <!-- ═══════════════════════
-     THE RELATIONSHIP
+     THE RELATIONSHIP — Chain Visualization
 ═══════════════════════ -->
-<div class="section-ink">
-  <div class="bleed-inner">
-    <div class="section-label">How the theories relate</div>
-    <div class="theories-rel">
-      <div class="theories-rel-foundation">
-        <div class="theories-rel-name">Discovery</div>
-        <div class="theories-rel-role">How to see</div>
-      </div>
-      <div class="theories-rel-arrow-down">↓</div>
-      <div class="theories-rel-center">
-        <div class="theories-rel-name theories-rel-name--primary">Gravity</div>
-        <div class="theories-rel-role">What value is</div>
-      </div>
-      <div class="theories-rel-branches">
-        <div class="theories-rel-branch">
-          <div class="theories-rel-arrow">↙</div>
-          <div class="theories-rel-name theories-rel-name--small">Horizon</div>
-          <div class="theories-rel-role">Where value moves</div>
+<section class="section-wide">
+  <div class="section-label">How the theories relate</div>
+  <h2>Five theories. Three chains.</h2>
+  <p class="prose" style="margin-top:.8rem;margin-bottom:2rem;">Each theory depends on what comes before it. Discovery enables seeing. Gravity explains what is seen. Horizon, Compass, and Frontier apply the value theory to three different strategic questions.</p>
+
+  <div class="theory-chains">
+
+    <div class="theory-chain">
+      <div class="theory-chain-label">Epistemic<br>Foundation</div>
+      <div class="theory-chain-content">
+        <div class="theory-chain-flow">
+          <a class="theory-chain-node theory-chain-node--primary" href="/theories/discovery/">Discovery</a>
+          <span class="theory-chain-arrow">→</span>
+          <span class="theory-chain-enables">enables all observation downstream</span>
         </div>
-        <div class="theories-rel-branch">
-          <div class="theories-rel-arrow">↓</div>
-          <div class="theories-rel-name theories-rel-name--small">Compass</div>
-          <div class="theories-rel-role">Whose value matters</div>
-        </div>
-        <div class="theories-rel-branch">
-          <div class="theories-rel-arrow">↘</div>
-          <div class="theories-rel-name theories-rel-name--small">Frontier</div>
-          <div class="theories-rel-role">Where positions form</div>
-        </div>
+        <p class="theory-chain-note">Without Discovery, every theory risks mistaking interpretation for observation — and opinion for evidence.</p>
       </div>
     </div>
-    <p style="color:rgba(255,255,255,.4);font-size:.8rem;margin-top:1.5rem;font-family:'DM Mono',monospace;letter-spacing:.04em;">Discovery is the epistemic foundation — how to see before any theory can be applied. Gravity is the value foundation — what value is and how it behaves. Horizon, Compass, and Frontier apply the value theory to three different strategic questions.</p>
+
+    <div class="theory-chain">
+      <div class="theory-chain-label">Value<br>Foundation</div>
+      <div class="theory-chain-content">
+        <div class="theory-chain-flow">
+          <a class="theory-chain-node theory-chain-node--primary" href="/theories/gravity/">Gravity</a>
+          <span class="theory-chain-arrow">→</span>
+          <span class="theory-chain-enables">underpins all three applications</span>
+        </div>
+        <p class="theory-chain-note">Without Gravity, Horizon, Compass, and Frontier lack a theory of what value is — and why it moves.</p>
+      </div>
+    </div>
+
+    <div class="theory-chain">
+      <div class="theory-chain-label">Application<br>Layer</div>
+      <div class="theory-chain-content">
+        <div class="theory-chain-flow">
+          <a class="theory-chain-node theory-chain-node--primary" href="/theories/gravity/">Gravity</a>
+          <span class="theory-chain-arrow">→</span>
+          <a class="theory-chain-node" href="/theories/horizon/">Horizon</a>
+          <span class="theory-chain-arrow">→</span>
+          <a class="theory-chain-node" href="/theories/compass/">Compass</a>
+          <span class="theory-chain-arrow">→</span>
+          <a class="theory-chain-node" href="/theories/frontier/">Frontier</a>
+        </div>
+        <p class="theory-chain-note">Where does value migrate? · Whose value matters? · Where do new positions emerge?</p>
+      </div>
+    </div>
+
+    <div class="theory-chain theory-chain--foundation">
+      <div class="theory-chain-label">Foundational<br>Throughout</div>
+      <div class="theory-chain-content">
+        <div class="theory-chain-flow">
+          <a class="theory-chain-node theory-chain-node--primary" href="/theories/discovery/">Discovery</a>
+          <span class="theory-chain-plus">+</span>
+          <a class="theory-chain-node theory-chain-node--primary" href="/theories/gravity/">Gravity</a>
+        </div>
+        <p class="theory-chain-note"><em>When either is absent, every application downstream lacks its root — the theories work but the thinking doesn't hold.</em></p>
+      </div>
+    </div>
+
   </div>
-</div>
+</section>

@@ -2034,6 +2034,105 @@ a.pub-series-row:hover { opacity: .85; }
   color: var(--primary);
 }
 
+/* ── Theory chains visualization ── */
+.theory-chains {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.theory-chain {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+.theory-chain:last-child { border-bottom: none; }
+.theory-chain--foundation {
+  background: var(--primary-soft);
+}
+@media (max-width: 640px) { .theory-chain { grid-template-columns: 1fr; } }
+
+.theory-chain-label {
+  font-family: 'DM Mono', monospace;
+  font-size: .58rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  padding: 1.25rem 1rem 1.25rem 1.25rem;
+  border-right: 1px solid var(--border-soft);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+.theory-chain--foundation .theory-chain-label { border-right-color: var(--primary); opacity: .7; }
+
+.theory-chain-content {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+.theory-chain-flow {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+.theory-chain-node {
+  font-family: 'Playfair Display', serif;
+  font-size: .9rem;
+  font-weight: 600;
+  padding: .3rem .85rem;
+  border-radius: 99px;
+  border: 1.5px solid var(--border);
+  color: var(--text);
+  background: var(--surface);
+  text-decoration: none;
+  transition: border-color .15s, background .15s;
+  white-space: nowrap;
+}
+a.theory-chain-node:hover {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+.theory-chain-node--primary {
+  background: var(--btn-gradient) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+a.theory-chain-node--primary:hover { opacity: .88; }
+.theory-chain-arrow {
+  font-size: .85rem;
+  color: var(--faint);
+  flex-shrink: 0;
+}
+.theory-chain-plus {
+  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 600;
+  flex-shrink: 0;
+  padding: 0 .25rem;
+}
+.theory-chain-enables {
+  font-family: 'DM Sans', sans-serif;
+  font-size: .78rem;
+  color: var(--faint);
+  font-style: italic;
+}
+.theory-chain-note {
+  font-family: 'DM Sans', sans-serif;
+  font-size: .78rem;
+  color: var(--faint);
+  line-height: 1.6;
+  margin: 0;
+}
+.theory-chain--foundation .theory-chain-note { color: var(--primary); }
+
 /* ── Theory layout — rich visual version ── */
 
 /* Distinctions in dark band */
