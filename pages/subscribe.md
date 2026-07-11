@@ -14,11 +14,20 @@ description: "Practitioner notes on leadership, strategy, and the systems that m
   <form action="https://buttondown.com/api/emails/embed-subscribe/lakshmi_narayanan" method="post" class="subscribe-page-form">
     <label for="bd-email" style="font-family:'DM Mono',monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.5rem;">Email address</label>
     <div class="subscribe-page-row">
-      <input type="email" name="email" id="bd-email" placeholder="you@example.com" required>
+      <input type="email" name="email" id="bd-email" placeholder="clarity@starts.now" required>
       <button type="submit">Subscribe →</button>
     </div>
   </form>
 
-  <p style="font-size:.78rem;color:var(--faint);margin-top:1.2rem;line-height:1.6;">No spam. No frequency commitment. Unsubscribe at any time. The practice materials on this site always remain free — this is just a way to be notified when something new is published.</p>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:1.5rem;">
+    <div style="border:1px solid var(--border-soft,rgba(0,0,0,.1));border-radius:8px;padding:1rem 1.1rem;">
+      <div style="font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-bottom:.45rem;">Privacy promise</div>
+      <p style="font-size:.8rem;color:var(--muted);line-height:1.65;margin:0;">Your email is yours. Never shared, never sold. One click to leave — no questions asked.</p>
+    </div>
+    <div style="border:1px solid var(--border-soft,rgba(0,0,0,.1));border-radius:8px;padding:1rem 1.1rem;">
+      <div style="font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-bottom:.45rem;">Learning promise</div>
+      <p style="font-size:.8rem;color:var(--muted);line-height:1.65;margin:0;">Nothing is sent to fill a calendar. Every email passes the same standard as this site: observation over opinion, mechanism over anecdote.</p>
+    </div>
+  </div>
 
 </div>
